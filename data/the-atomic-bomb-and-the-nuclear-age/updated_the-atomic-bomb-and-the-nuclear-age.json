@@ -1,0 +1,2282 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Science and Technology"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Postwar United States (1945 to early 1970s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-9"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Amy Rudersdorf"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2018-06-13",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2018-06-13",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the Atomic Bomb and the Nuclear Age it started.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/48",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cDr. J. Robert Oppenheimer, atomic physicist and head of the Manhattan Project,\u201d Digital Public Library of America, https://dp.la/item/0b0b00eb264391e323e67541570c6370."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/49",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Cornell University via ArtStor."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cCyclotron,\u201d Digital Public Library of America, https://dp.la/item/f4195e84dbc6066aaf378c71e179599b."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/50",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201c\u2018Trinity\u2019 explosion at Los Alamos, Alamogordo, New Mexico,\u201d Digital Public Library of America, https://dp.la/item/8b47935c636a0624671121831591800d."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/51",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEyewitness Account of the Trinity Explosion,\u201d Digital Public Library of America, https://dp.la/item/18d5fdc8103daa3f0579ef09c104b501. "
+                  }
+               ]
+            }
+         ],
+         "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/52",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cCable, Secretary of War Henry Stimson to President Truman,\u201d Digital Public Library of America, https://dp.la/item/18e97d0320f25e877aca92e04080f5f9."
+                  }
+               ]
+            }
+         ],
+         "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/53",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2018-06-13",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2018-06-13",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Utah - J. Willard Marriott Library via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Tierney, Lennox, \u201cHiroshima Peace Memorial Park,\u201d Digital Public Library of America, https://dp.la/item/0b4511b1dc394dd72019175ac019b629."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+         "text": "The memorial is a skeleton of a building at ground zero that remained standing after the bomb called \u201cLittle Boy\u201d was dropped on the city on August 6, 1945.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/54",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Air and Space Museum via the Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBoeing B-29 Superfortress \u2018Enola Gay\u2019,\u201d Digital Public Library of America, https://dp.la/item/4ba1f8c11c9c14314ea253015e6c15d8."
+                  }
+               ]
+            }
+         ],
+         "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/55",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WGBH Open Vault via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEffect of Atomic Bomb on Hiroshima and Nagasaki,\u201d Digital Public Library of America, https://dp.la/item/1a7102b3eea481f5496a2268aa6957e8."
+                  }
+               ]
+            }
+         ],
+         "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/56",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WGBH Open Vault via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Mauer, Raymond J., \u201cDuck and Cover,\u201d Digital Public Library of America, https://dp.la/item/32e16b83d82a58e335ee6374695b04fd."
+                  }
+               ]
+            }
+         ],
+         "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/57",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Los Angeles Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMembers of Non-Violent Action Against Nuclear Weapons picket in downtown Los Angeles,\u201d Digital Public Library of America, https://dp.la/item/831ce6f31c37ab66d037d219e5a7a39e."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/58",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cHow to build a fallout shelter,\u201d Digital Public Library of America, https://dp.la/item/5c39427367972fafa5176618f782262f."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/59",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-19",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cCuban Missile Crisis Meetings Off the Record Meeting on Cuba,\u201d Digital Public Library of America, https://dp.la/item/976507b8990b89bb66d3d6238d46e36a."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/60",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cTreaty Banning Nuclear Weapon Tests,\u201d Digital Public Library of America, https://dp.la/item/eff4143cc94c9f59bcccd84d64c74591."
+                  }
+               ]
+            }
+         ],
+         "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/61",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/62",
+               "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The State Historical Society of Missouri via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Fitzpatrick, Daniel Robert, \u201cFar From a Happy Parade,\u201d Digital Public Library of America, https://dp.la/item/cb388b3b9dbf409a17eafcfe9f7ffe9a."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/62",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/48",
+               "name": "A photograph of Dr. J. Robert Oppenheimer, head of the Manhattan Project, who is often referred to as the \u201cfather of the atomic bomb.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_01_0b0b00eb264391e323e67541570c6370_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/49",
+               "name": "A 1950 photograph of the cyclotron, an early particle accelerator invented by Ernest Lawrence, which was used to develop an atomic bomb.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_02_f4195e84dbc6066aaf378c71e179599b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/50",
+               "name": "A photograph of the first atomic bomb to be tested, \u201cTrinity,\u201d which was detonated on July 16, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_03_8b47935c636a0624671121831591800d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/51",
+               "name": "The text of an eyewitness account of the Trinity bomb test, 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_04_18d5fdc8103daa3f0579ef09c104b501_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/52",
+               "name": "President Harry S. Truman\u2019s written approval, in late July 1945, to drop the atomic bombs on Nagasaki and Hiroshima, Japan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_05_18e97d0320f25e877aca92e04080f5f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/53",
+               "name": "A 1959 photograph of the Hiroshima Peace Memorial.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_06_df1842213a53fe63ec48b474786a8a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/54",
+               "name": "The \u201cEnola Gay\u201d was the Boeing B-29 bomber that dropped the atomic bomb on Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_07_4ba1f8c11c9c14314ea253015e6c15d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/55",
+               "name": "A film showing the destruction of the atomic bomb in Hiroshima.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_08_1a7102b3eea481f5496a2268aa6957e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/56",
+               "name": "This 1955 civil defense film, \u201cDuck and Cover,\u201d teaches children how to respond to an atomic attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_09_32e16b83d82a58e335ee6374695b04fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/57",
+               "name": "A photograph of members of Non-Violent Action Against Nuclear Weapons picketing in downtown Los Angeles on June 5, 1958.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_10_4359c2ceffe980eabe1437cfa2e54183_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/58",
+               "name": "A photograph of a fallout shelter, built in the backyard for personal use to keep people safe during nuclear attack.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_11_5c39427367972fafa5176618f782262f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/59",
+               "name": "An excerpt from the transcript of a top-secret government meeting about the possibility of Soviet nuclear weapons in Cuba, October 16, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_12_976507b8990b89bb66d3d6238d46e36a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/60",
+               "name": "The Limited Test Ban Treaty banning nuclear weapon tests between the US, Great Britain, and the Soviet Union, signed August 5, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_13_eff4143cc94c9f59bcccd84d64c74591_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/61",
+               "name": "A 1953 cartoon of a hydrogen bomb leading the Earth off the edge of a cliff.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_14_cb388b3b9dbf409a17eafcfe9f7ffe9a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The State Historical Society of Missouri via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Fitzpatrick, Daniel Robert, \u201cAnd Now the Super-Duper!,\u201d Digital Public Library of America, https://dp.la/item/58b86399eec343fa324e724ff97dafe6."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1950 cartoon of Death recording atomic and hydrogen bomb victims in his book.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_15_58b86399eec343fa324e724ff97dafe6_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-atomic-bomb-and-the-nuclear-age",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-11-19",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-11-19",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the [photograph of the first atomic bomb](http://dp.la/primary-source-sets/sources/50), the [eyewitness account of the Trinity bomb test](http://dp.la/primary-source-sets/sources/51), and the [film showing the destruction of the atomic bomb](http://dp.la/primary-source-sets/sources/55), describe the scale of destruction caused by the detonation of the atomic bomb. \r\n\r\n2. What is the main message of the [1955 civil defense film](http://dp.la/primary-source-sets/sources/56)? What strategies do the filmmakers use to appeal to children? \r\n\r\n3. Using the evidence in the [photograph of members of Non-Violent Action Against Nuclear Weapons](http://dp.la/primary-source-sets/sources/57), the [1953 cartoon of a hydrogen bomb](http://dp.la/primary-source-sets/sources/61), and the [1950 cartoon of Death](http://dp.la/primary-source-sets/sources/62), what were some of the arguments against the atomic bomb and nuclear armament?\r\n\r\n4. Why was the [Limited Test Ban Treaty](http://dp.la/primary-source-sets/sources/60) important? What national interests for the US, Britain, and the Soviet Union would it have protected?\r\n\r\n5. Using the items in this set, what connections can you draw between the development of the atomic bomb during the nuclear age and present-day nuclear talks?"
+            },
+            {
+               "name": "Activity",
+               "text": "Organize students into two groups to research and then debate the pros and cons of using the atomic bombs dropped on Japan during World War II. Students should use items in this set to support their claims. For an extra level of engagement, have students search through Digital Public Library of America to find additional items for their arguments. "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+            "@type": "CreativeWork",
+            "name": "The Atomic Bomb and the Nuclear Age"
+         },
+         "name": "Teaching Guide: Exploring the Atomic Bomb and the Nuclear Age"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [The Atomic Bomb and the End of World War II](http://nsarchive.gwu.edu/NSAEBB/NSAEBB162/index.htm), The National Security Archive. \r\n\r\n2. [Bombing of Hiroshima and Nagasaki](http://www.history.com/topics/world-war-ii/bombing-of-hiroshima-and-nagasaki), History.com. \r\n\r\n3. [The Decision to Drop the Atomic Bomb](http://www.trumanlibrary.org/whistlestop/study_collections/bomb/large/index.php), Harry S. Truman Library and Museum. \r\n\r\n4. [Cuban Missile Crisis](http://www.jfklibrary.org/JFK/JFK-in-History/Cuban-Missile-Crisis.aspx), John F. Kennedy Library and Museum. \r\n\r\n5. [Documents relating to American Foreign Policy: the Cuban Missile Crisis](https://www.mtholyoke.edu/acad/intrel/cuba.htm), Mount Holyoke College. "
+      },
+      {
+         "name": "Overview",
+         "text": "The detonation of the first atomic bomb in July 1945 started the Atomic Age, an era in which the fear of nuclear attack and the promise of nuclear power pervaded American culture. Less than a month later, two atomic bombs were dropped on Japan, killing at least 129,000 Japanese, and precipitating the end of World War II in the Pacific. The bombs caused some to see the possibilities for harnessing the power of atomic energy for good, while many feared the further development of atomic energy for war. The Cold War of the 1950s and 1960s between the US and the Soviet Union was largely forged by this fear of nuclear war. Each nation raced to develop more and more powerful bombs pointed at one another\u2019s shores. The resources here, including letters, photographs, official documents, and film, represent various aspects and visions of the Atomic Age. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+         "name": "There is No Cure for Polio",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/space-race",
+         "name": "Space Race",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-yellow-fever-epidemic-of-1878",
+         "name": "The Yellow Fever Epidemic of 1878",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-columbian-exchange",
+         "name": "The Columbian Exchange",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/pop-art-in-the-us",
+         "name": "Pop Art in the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-invention-of-the-telephone",
+         "name": "The Invention of the Telephone",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/electrifying-america",
+         "name": "Electrifying America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/postwar-rise-of-the-suburbs",
+         "name": "Postwar Rise of the Suburbs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-impact-of-television-on-news-media",
+         "name": "The Impact of Television on News Media",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "The Atomic Bomb and the Nuclear Age",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d.jpg",
+   "typicalAgeRange": "11-18"
+}

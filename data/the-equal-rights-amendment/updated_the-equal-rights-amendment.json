@@ -1,0 +1,1990 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Contemporary United States (1968 to the present)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-state-era-10"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Social Movements"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Women"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Law and Government"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      },
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Samantha Gibson"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2020-07-22",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the Equal Rights Amendment.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cAlice Paul,\u201d Digital Public Library of America, https://dp.la/item/37799c8593bdf9c5bb387608f29ac535."
+                  }
+               ]
+            }
+         ],
+         "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cRepresentative Martha Griffiths's Discharge Petition for the Equal Rights Amendment,\u201d Digital Public Library of America, https://dp.la/item/accc680d44afbc3bd41a541bfbc10a87."
+                  }
+               ]
+            }
+         ],
+         "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2017-08-31",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2017-08-31",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Georgia Capitol Museum via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEqual Rights Amendment,\u201d Digital Public Library of America, https://dp.la/item/b9afa3d1e72e1cde5458f84350b3d0e1."
+                  }
+               ]
+            }
+         ],
+         "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The State Historical Society of Missouri via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Engelhardt, Tom, \u201cEqual Rights Amendment,\u201d Digital Public Library of America, https://dp.la/item/cf21b08a4f8d69a7f3b2d14ce975b531."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cThe equal rights amendment : questions and answers,\u201d Digital Public Library of America, https://dp.la/item/acf11f5d375ae822f4700a9f4ad0c92c."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Carolina Political Collections via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Palmer, Salley Kate, \u201cEqual Rights Amendment,\u201d Digital Public Library of America, https://dp.la/item/e5c375f9c0e73a9861d6ba0655d4cfe5."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Minnesota via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "United States Commission on Civil Rights, excerpt from \u201cStatement on the equal rights amendment,\u201d Digital Public Library of America, https://dp.la/item/75f37238a66c3f54aa5907763d2276e1."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The Portal to Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Jordan, Barbara, \u201cExtension of the time limit for ratification of the Equal Rights Amendment,\u201d Digital Public Library of America, https://dp.la/item/f4b93adb07d34febc3e2bbcd6ba27465."
+                  }
+               ]
+            }
+         ],
+         "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+         "text": "When Congress passed the Equal Rights Amendment in 1972, it set a seven-year deadline for ratification by the states. In the spring of 1978, as the deadline approached, Representative Barbara Jordan of Texas was one of the congressional leaders advocating for a three-year extension in order to allow more time for the remaining required states to approve the amendment.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Georgia State University Libraries, Special Collections via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Deal, Steve, \u201cSupporters and opposition observe as the Georgia Senate votes on ratification of the Equal Rights Amendment, Atlanta, Georgia, January 21, 1980,\u201d Digital Public Library of America, https://dp.la/item/8c4e32ff1fe7a3a5c6ed614100f6d845."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_10_22edc18381dd45d1f1c301fac232d3cb.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_10_22edc18381dd45d1f1c301fac232d3cb.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_10_22edc18381dd45d1f1c301fac232d3cb.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of North Texas Archives via The Portal to Texas History.\r\n"
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201c[News Clip: ERA Rally],\u201d Digital Public Library of America, https://dp.la/item/22edc18381dd45d1f1c301fac232d3cb."
+                  }
+               ]
+            }
+         ],
+         "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Carolina Political Collections via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Palmer, Salley Kate, \u201cEqual Rights Amendment,\u201d Digital Public Library of America, https://dp.la/item/740cddbd5234d594a2082a1781c07543."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-06-27",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+               "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Los Angeles Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Chinn, Paul, \u201cMayor Bradley speaks at NOW rally,\u201d Digital Public Library of America, https://dp.la/item/fbe381165dc346f685d286057f102935."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1211",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1199",
+               "name": "A portrait of suffragist Alice Paul, who first introduced the Equal Rights Amendment, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_01_37799c8593bdf9c5bb387608f29ac535_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1200",
+               "name": "Representative Martha Griffiths\u2019s petition for a congressional committee to consider an Equal Rights Amendment, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_02_accc680d44afbc3bd41a541bfbc10a87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1201",
+               "name": "An \u201cUppity Women Unite\u201d button in support of the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_03_45db8bf5a51385ce2950b017cc305307_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1202",
+               "name": "A 1973 cartoon by Tom Engelhardt showing a man holding the Equal Rights Amendment while rolling pins and frying pans are thrown at him.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_04_cf21b08a4f8d69a7f3b2d14ce975b531_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1203",
+               "name": "An excerpt from a pamphlet titled \u201cThe Equal Rights Amendment: Questions and Answers,\u201d produced by the Michigan Women\u2019s Commission, 1973.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_05_acf11f5d375ae822f4700a9f4ad0c92c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1204",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing shifting gender roles in relation to the Equal Rights Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_06_f8cd1e14e6b51297807cf4e0ec078720_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1205",
+               "name": "An excerpt from a statement on the Equal Rights Amendment by the US Commission on Civil Rights, 1978.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_07_75f37238a66c3f54aa5907763d2276e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1206",
+               "name": "A statement by Representative Barbara Jordan on May 18, 1978, requesting an extension of the 1979 deadline for ERA ratification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_08_f4b93adb07d34febc3e2bbcd6ba27465_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1207",
+               "name": "A photograph of supporters and opponents of the Equal Rights Amendment observing as the Georgia Senate voted on it, January 21, 1980.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1208",
+               "name": "A video clip of news footage of an Equal Rights Amendment rally in Fort Worth, Texas, 1981."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1209",
+               "name": "A 1982 cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment and gender stereotypes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_11_740cddbd5234d594a2082a1781c07543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1210",
+               "name": "A photograph of Los Angeles mayor Tom Bradley speaking at a NOW rally for the Equal Rights Amendment, 1982.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_12_ff88e4e83973cb753f7a5ff84a1ecb44_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_13_05a0b6020238ee3dea7433d6cc33be10.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_13_05a0b6020238ee3dea7433d6cc33be10.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_13_05a0b6020238ee3dea7433d6cc33be10.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Public Radio via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPhyllis Schlafly on women's role in society,\u201d Digital Public Library of America, https://dp.la/item/ab9551ef4229656598a4b9326273f72f."
+                  }
+               ]
+            }
+         ],
+         "name": "An audio clip of Phyllis Schlafly, an opponent of the Equal Rights Amendment, speaking about women\u2019s role in society, 1972."
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-equal-rights-amendment",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the sources in this set, describe the justifications used to oppose to the Equal Rights Amendment. \r\n2. Examine the [button](http://dp.la/primary-source-sets/sources/1201). What does the word \u201cuppity\u201d mean? What does it suggest in the context of the ERA? How were supporters of the ERA changing the connotation of the word \u201cuppity\u201d?\r\n3. Consider the [cartoon by Tom Engelhardt](http://dp.la/primary-source-sets/sources/1202), the [cartoon by Kate Salley Palmer satirizing shifting gender roles](http://dp.la/primary-source-sets/sources/1204), and the [cartoon by Kate Salley Palmer satirizing opponents of the Equal Rights Amendment](http://dp.la/primary-source-sets/sources/1209). Who were the audiences for these cartoons? How does each cartoon comment on the ERA? What makes the political cartoon an effective medium for this commentary?\r\n4. Use [Martha Griffiths\u2019s petition](http://dp.la/primary-source-sets/sources/1200), the [Michigan Women\u2019s Commission pamphlet](http://dp.la/primary-source-sets/sources/1203), and the [statement by Representative Barbara Jordan](http://dp.la/primary-source-sets/sources/1206) to describe the ratification process and its obstacles for ERA supporters.\r\n5. Consider the [photograph of supporters and opponents](http://dp.la/primary-source-sets/sources/1207), the [footage of an Equal Rights Amendment rally](http://dp.la/primary-source-sets/sources/1208), the [photograph of Tom Bradley](http://dp.la/primary-source-sets/sources/1210), and the [clip of Phyllis Schlafly](http://dp.la/primary-source-sets/sources/1211). What do these sources suggest about who actively supported the ERA and who actively opposed it? \r\n6. Closely read the [statement by the US Commission on Civil Rights](http://dp.la/primary-source-sets/sources/1205). For what historical reasons does this report support the passage of the ERA?\r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "Although the Equal Rights Amendment failed to receive the necessary number of state ratifications and was not adopted, the issues it represents remain important to many contemporary feminists. Review the information in the [statement by the US Commission on Civil Rights](http://dp.la/primary-source-sets/sources/1205) and ask students to do research to update its findings with contemporary information and statistics about marriage and divorce laws, women\u2019s pay and sex-based discrimination in the workforce, specific protection for women in criminal law, and women\u2019s equality in education. With this new research, ask students to draft individual letters to their Congressional representative outlining their findings and making a case for the ERA\u2019s contemporary relevance or irrelevance. If students favor a new, updated version of the ERA, encourage them to propose broad changes in the letter."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+            "@type": "CreativeWork",
+            "name": "The Equal Rights Amendment"
+         },
+         "name": "Teaching Guide: Exploring the Equal Rights Amendment"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Martha Griffiths and the Equal Rights Amendment](https://www.archives.gov/legislative/features/griffiths/), the National Archives and Records Administration. \r\n2. [The Long Road to Equality: What Women Won from the ERA Ratification Effort](https://memory.loc.gov/ammem/awhhtml/aw03e/aw03e.html), American Women, the Library of Congress. \r\n3. [The History Behind the Equal Rights Amendment](http://www.equalrightsamendment.org/history.htm), equalrightsamendment.org. \r\n4. Ravitz, Jessica, \u201c[The New Women Warriors: Reviving the Fight for Equal Rights](http://www.cnn.com/2015/04/02/us/new-womens-equal-rights-movement/),\u201d CNN. \r\n5. Mergel, Sarah Katherine, \u201c[From Victory to Defeat: The Equal Rights Amendment](http://werehistory.org/women/),\u201d We\u2019re History. "
+      },
+      {
+         "name": "Overview",
+         "text": "First written by suffragist Alice Paul in 1923, the Equal Rights Amendment was a proposed amendment to the US Constitution that would guarantee equal rights for women and give Congress the power to enforce legal equality between men and women. The amendment was introduced for consideration in every congressional session between 1923 and 1970 without ever being presented for a vote (except in 1946, when it was defeated in the Senate). \r\n\r\nDuring the 1960s, second-wave feminism gained momentum and a new generation of activists addressed a broad range of obstacles to women\u2019s rights and equality in the home and workplace. Representative Martha Griffiths sponsored the Equal Rights Amendment for congressional consideration in 1970. Two years later, the amendment passed in the House of Representatives and the Senate and was submitted to state legislatures, three-fourths of which needed to ratify the amendment in order for it to become part of the Constitution. \r\n\r\nThe National Organization for Women (NOW), established in 1966, was one of the organizations that took a leading role in this movement and the campaign for the passage of the Equal Rights Amendment. While many states ratified the amendment right away, it also ignited sharp debate, including among women and feminists. As the amendment approached its ratification deadline in 1979, thirty of the thirty-eight required states had ratified it and Congress granted an extension of the deadline until 1982. Despite years of protest and advocacy by NOW and other organizations, no additional states ratified the amendment during the extension period and the amendment was not adopted. This primary source set uses photographs, ephemera, political cartoons, video clips, and other documents to explore the women\u2019s rights activism inspired by the Equal Rights Amendment. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/rise-of-conservatism-in-the-1980s",
+         "name": "Rise of Conservatism in the 1980s",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-temperance-movement",
+         "name": "Women and the Temperance Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+         "name": "ACT UP and the AIDS Crisis",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-rise-of-italian-fascism-and-its-influence-on-europe",
+         "name": "The Rise of Italian Fascism and Its Influence on Europe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+         "name": "John Brown's Raid on Harper\u2019s Ferry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-boston-tea-party",
+         "name": "The Boston Tea Party",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/settlement-houses-in-the-progressive-era",
+         "name": "Settlement Houses in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-maya-angelou",
+         "name": "The Poetry of Maya Angelou",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/patronage-and-populism-the-politics-of-the-gilded-age",
+         "name": "Patronage and Populism: The Politics of the Gilded Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+         "name": "Women in the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beginnings-of-the-american-red-cross",
+         "name": "Beginnings of the American Red Cross",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/attacks-on-american-soil-pearl-harbor-and-september-11",
+         "name": "Attacks on American Soil: Pearl Harbor and September 11",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beloved-by-toni-morrison",
+         "name": "*Beloved* by Toni Morrison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/creating-the-us-constitution",
+         "name": "Creating the US Constitution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+         "name": "Secession of the Southern States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-deal",
+         "name": "The New Deal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/shays-rebellion",
+         "name": "Shays' Rebellion",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-woman-warrior-by-maxine-hong-kingston",
+         "name": "*The Woman Warrior* by Maxine Hong Kingston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+         "name": "Road to Revolution: 1763-1776",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-ii-women-on-the-home-front",
+         "name": "World War II: Women on the Home Front",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "The Equal Rights Amendment",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

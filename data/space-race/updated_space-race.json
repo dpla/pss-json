@@ -1,0 +1,2328 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/space-race",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Science and Technology"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Postwar United States (1945 to early 1970s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-9"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Scott County High School, Georgetown, Kentucky"
+         },
+         "name": "James Walsh"
+      }
+   ],
+   "dateCreated": "2018-02-22",
+   "dateModified": "2018-02-28",
+   "dct:created": "2018-02-22",
+   "dct:modified": "2018-02-28",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the Space Race between the United States and the Soviet Union during the Cold War.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WSB-TV, Walter J. Brown Media Archives and Peabody Awards Collection via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "WSB-TV, \u201cLodge in speech comments on Eisenhower\u2019s original \u2018Open Skies\u2019 proposal to U.N.\u201d Digital Public Library of America, https://dp.la/item/22ac696206689574d7545418b5eb41a0. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+         "text": "Senator Lodge describes the proposed Open Skies program, which was intended to de-escalate the Cold War and provide more transparency for technological and military developments. The Open Skies program would have allowed reconnaissance operations to have open access to the skies above both the US and USSR. The Soviet Union rejected this plan, which contributed to the launch of the Space Race.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "space-race_02_6d0e3820e335f075016c4bc9e44d6b9a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The State Historical Society of Missouri via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Fitzpatrick, Daniel Robert, \u201cAnother Race We Can Lose,\u201d Digital Public Library of America, https://dp.la/item/6d0e3820e335f075016c4bc9e44d6b9a. "
+                  }
+               ]
+            }
+         ],
+         "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+         "text": "This political cartoon from a St. Louis newspaper sums up America\u2019s despair over the successful Soviet launch of Sputnik, the first satellite to orbit the earth. This cartoon alludes to the warming relations between the Soviet Union and India, a formerly neutral country in the Cold War. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "space-race_03_b27700816694c62a099050865d56222e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cLaika, the Sputnik dog,\u201d Digital Public Library of America, https://dp.la/item/b27700816694c62a099050865d56222e."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+         "text": "Within a month of the launch of Sputnik, the first satellite, Soviets launched a second satellite, Sputnik 2. This satellite had a dog named Laika onboard to test the effects of space on a living organism. At the time, Soviets reported that they euthanized Laika after days in orbit before she ran out of oxygen. However, more recent reports revealed that the dog died within a few hours of the launch from overheating.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WSB-TV, Walter J. Brown Media Archives and Peabody Awards Collection via Digital Library of America."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "WSB-TV, \u201cMan on the U.S. and Soviets Space Race,\u201d Digital Public Libary of America, https://dp.la/item/832e56a849a36dcfdd0b2edf46adbc1f. "
+                  }
+               ]
+            }
+         ],
+         "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+         "text": "This man alludes to the Soviet rejection of Open Skies in 1955 and their advancement in missile development. This clip was made months after the Sputnik satellite launches when Americans were reeling from this apparent Cold War setback.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-28",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "space-race_05_ec9defa3f41f7682c5b61254c8a0a442.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Air and Space Museum via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSatellite, Explorer I,\u201d Digital Public Library of America, https://dp.la/item/ec9defa3f41f7682c5b61254c8a0a442."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+         "text": "Explorer I was launched on January 31, 1958, four months after the Soviet Union launched the Sputnik satellite. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "space-race_06_326d34bbd40b7b7b02c520a703eab125.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cPenetrating the Iron Curtain: resolving the missile gap with technology,\u201d Digital Public Library of America, https://dp.la/item/326d34bbd40b7b7b02c520a703eab125. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+         "text": "This excerpt features part of an academic paper about the missile gap, or imbalance of missiles and missile technology, between the two superpowers, the US and USSR. The paper also addresses the perceived imbalance of Intercontinental Ballistic Missiles between the Soviets and Americans. This segment of the paper describes the espionage involved in the Space Race and how US satellites were used to take photographs of Soviet technology.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WSB-TV, Walter J. Brown Media Archives and Peabody Awards Collection via Public Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "WSB-TV, \u201cSeries of of WSB-TV newsfilm clips of an unidentified United States Air Force general discussing American missile technology,\u201d Digital Public Library of America, https://dp.la/item/f67976ea6c052527b1dac177e5e3ad30. "
+                  }
+               ]
+            }
+         ],
+         "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+         "text": " In this brief television news clip, a US Air Force general makes a connection between America\u2019s space program, the Space Race, and military technology and objectives. The speaker suggests that space and rocket technology could be used to transport both people and \u201cthings\u201d into orbit.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The State Historical Society of Missouri via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Engelhardt, Tom, \u201cPropoganda Orbit,\u201d Digital Public Library of America, https://dp.la/item/5c4ae41508c0cdbde2d08ee9cba5114e. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+         "text": "On April 12, 1961, Soviet cosmonaut Yuri Gagarin became the first man in space when he completed a 108-minute orbital flight. The Soviets used this success to their advantage, and Gagarin became a worldwide celebrity. The cartoonist reflects the American public\u2019s concern over yet another Soviet first: humans in space.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "space-race_09_0f7032c62e1cb4b6939694b0a808124c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Kennedy, John F., excerpt from \u201cPress copy of Special Message by the President on Urgent National Needs, 25 May 1961,\u201d Digital Public Library of America, https://dp.la/item/0f7032c62e1cb4b6939694b0a808124c. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+         "text": "In this excerpt, President John F. Kennedy outlines why the space program is vital to national interests, what its benefits will be, how many national resources it deserves, and its expected results, including a bold prediction of moon exploration. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WGBH via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSpace Setback: New Missile Blows Up,\u201d Digital Public Library of America, https://dp.la/item/d4269e50bf67df13829ed56639b1e6aa. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+         "text": "Following Yuri Gagarin\u2019s successful orbit in 1961 and President John F. Kennedy\u2019s ambitious plans for investment in space exploration, the American space program suffered a setback when the unmanned Centaur rocket exploded after takeoff on May 8, 1962. The Centaur was the rocket, or booster, that was designed to propel satellites and other spacecraft into orbit. The explosion was caused by a defect that resulted in the combustion of the sensitive hydrogen fuel system. As the voice-over suggests, even failures were learning opportunities. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of San Diego Air and Space Museum Library and Archives via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cF-0051A The Flight of Apollo 11,\u201d Digital Public Library of America, https://dp.la/item/53b01d4d297ff645bafa2bf99c069f89.\r\n\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+         "text": "After some setbacks and second place finishes to the Soviets, the United States successfully became the first nation to land a man on the moon. Astronauts Neil Armstrong and Buzz Aldrin stepped foot on the moon on July 20, 1969, and astronaut Michael Collins piloted the command module.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "space-race_12_cc7ee672ae0aae74c763df01ddf86178.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Air and Space Museum via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cModel, Rocket, Launch Vehicle, Soviet Lunar, N-1: 1/48\u201d Digital Public Library of America, https://dp.la/item/cc7ee672ae0aae74c763df01ddf86178.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+         "text": "The Soviets intended to use this rocket and capsule to send humans to the moon. The program lacked funding and, after four failed attempts, the program was abandoned in 1974. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "space-race_13_aac42a4493f190ee7a6a32aaa3164f61.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Department of Defense, \u201cSoviet space program costs. Courtesy of Soviet Military Power, 1984. Photo No. 44, page 47,\u201d Digital Public Library of America, https://dp.la/item/aac42a4493f190ee7a6a32aaa3164f61. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+         "text": "This chart of costs illustrates the increasing difficulty the Soviets had with keeping up in the Space Race. This spike coincided with increasing political and social upheaval within the Soviet Union, and the chart ends just five years before the end of the Soviet Union itself. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+               "name": "A 1998 diagram of the International Space Station and the countries involved.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UNT Archives via The Portal of Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "KXAS-TV, \u201cNews Clip: Summit pkg,\u201d Digital Public Library of America, https://dp.la/item/adb4d686ef58aeefb95c7d3befa0aca4. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+         "text": "In the midst of defense escalation during the early 1980s, the administration of President Ronald Reagan introduced SDI, the Strategic Defense Initiative. This news clip shows an animated demonstration of how it might work and an explanation of its importance to the negotiations between the US and USSR.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1717",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1703",
+               "name": "An excerpt from a speech by Senator Henry Cabot Lodge, Jr. about President Eisenhower\u2019s \u201cOpen Skies\u201d proposal to the United Nations, 1962.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_01_21513c51c2a26223116b5a2066d5c663_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1704",
+               "name": "A 1957 American political cartoon titled \u201cAnother Race We Can Lose.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_02_6d0e3820e335f075016c4bc9e44d6b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1705",
+               "name": "A 1959 cigarette company trading card featuring Laika, the Sputnik dog.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_03a_b27700816694c62a099050865d56222e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1706",
+               "name": "A 1958 news clip of an American official discussing the Soviet space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_04_832e56a849a36dcfdd0b2edf46adbc1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1707",
+               "name": "A 1961 model of Explorer I, the first American satellite to orbit the earth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05_ec9defa3f41f7682c5b61254c8a0a442_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1708",
+               "name": "An excerpt from an academic paper about the Cold War missile gap between the US and USSR, 2011.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_06_326d34bbd40b7b7b02c520a703eab125_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1709",
+               "name": "A 1960 news clip of a US Air Force general discussing American missile technology and manned space flight.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_07_f301ab7b1419837863c23fca68553457_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1710",
+               "name": "A 1961 American political cartoon published after cosmonaut Yuri Gagarin became the first human in space.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_08_5c4ae41508c0cdbde2d08ee9cba5114e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1711",
+               "name": "An excerpt from a May 1961 speech by President John F. Kennedy on urgent national needs, including the space program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_09_0f7032c62e1cb4b6939694b0a808124c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1712",
+               "name": "A 1962 news clip of the hydrogen-powered American Centaur missile exploding after take-off.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_10_d4269e50bf67df13829ed56639b1e6aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1713",
+               "name": "An excerpt from footage of the Apollo 11 lunar landing, 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_11_53b01d4d297ff645bafa2bf99c069f89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1714",
+               "name": "A model of the Soviet N-1 rocket, designed for a moon landing mission, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_12_cc7ee672ae0aae74c763df01ddf86178_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1715",
+               "name": "A 1984 United States Department of Defense chart of Soviet space program costs.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_13_aac42a4493f190ee7a6a32aaa3164f61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1716",
+               "name": "A 1988 news clip that includes a description of the Strategic Defense Initiative.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_14_adb4d686ef58aeefb95c7d3befa0aca4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "space-race_15_fca6a3733f1209f9d8e2ce61324fe076.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Air and Space Museum Archives via Smithsonian Institution. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "National Aeronautics and Space Administration (NASA), \u201cInternational Space Station, 1998,\u201d Digital Public Library of America, https://dp.la/item/fca6a3733f1209f9d8e2ce61324fe076. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A 1998 diagram of the International Space Station and the countries involved.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_rep.jpg",
+         "text": "Following the Cold War, several national space programs, including NASA and a Russian agency, joined efforts to have a permanently inhabited research facility in space. This image displays each country\u2019s contribution to the International Space Station. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_15_fca6a3733f1209f9d8e2ce61324fe076_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-space-race",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Scott County High School, Georgetown, Kentucky"
+               },
+               "name": "James Walsh"
+            }
+         ],
+         "dateCreated": "2018-02-22",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-22",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Based on the explanation of the \u201cOpen Skies\u201d policy in the [speech by Senator Lodge](https://dp.la/primary-source-sets/space-race/sources/1703), if the Soviet Union had adopted more transparency, how might the Space Race, or the Cold War itself, have changed?\r\n2. What impact did the launch of Sputnik have in the United States, as reflected in the \u201c[Another Race We Can Lose](https://dp.la/primary-source-sets/space-race/sources/1704)\u201d cartoon? How do you think Americans felt about a second Soviet satellite launch so quickly after Sputnik I and the inclusion of a dog based on the [trading card featuring Laika](https://dp.la/primary-source-sets/space-race/sources/1705)?\r\n3. Using the account by the American official in the [1958 news clip](https://dp.la/primary-source-sets/space-race/sources/1706), how did the early Soviet success impact the United States and push its space program?\r\n4. How did Space Race espionage efforts benefit from satellite technology, like the [Explorer I](https://dp.la/primary-source-sets/space-race/sources/1707) and the Corona program described in the [paper about the missile gap between the US and USSR](https://dp.la/primary-source-sets/space-race/sources/1708)? What role did espionage, or spying, have in the Space Race? \r\n5. Given the reflection by the Air Force general in the [1960 news clip](https://dp.la/primary-source-sets/space-race/sources/1709), what connection did the Space Race have to the nuclear arms race? What do you think the general meant when he said that rocket technology could be used to propel \u201cthings\u201d into orbit?\r\n6. Based on the [1961 political cartoon featuring Yuri Gagarin](https://dp.la/primary-source-sets/space-race/sources/1710) and the [excerpt from President Kennedy\u2019s speech](https://dp.la/primary-source-sets/space-race/sources/1711), what role did the success of Yuri Gagarin\u2019s flight have in influencing American policy? Based on the [excerpt from President Kennedy\u2019s speech](https://dp.la/primary-source-sets/space-race/sources/1711) about urgent national needs, what was the United States prepared to spend? Where did they intend to go? What reasons does Kennedy give for investment in the space program?\r\n7. Compare and contrast the [1962 news clip of the Centaur explosion](https://dp.la/primary-source-sets/space-race/sources/1712) with the [1969 footage of the Apollo 11 lunar landing](https://dp.la/primary-source-sets/space-race/sources/1713). How did previous setbacks make the moon landing possible? Describe the activities and tasks of the astronauts once on the moon. What stands out to you about the moon footage?\r\n8. Given the Soviet Union\u2019s early successes in the Space Race, what do the [model of the Soviet N-1 rocket](https://dp.la/primary-source-sets/space-race/sources/1714) and the [chart of Soviet space program costs](https://dp.la/primary-source-sets/space-race/sources/1715) tell you about the costs of the Space Race for the Soviet Union? Based on your prior knowledge or outside research, what else was taking place politically, economically, and socially in the Soviet Union during the 1970s and 1980s?\r\n9. How might the Strategic Defense Initiative described in the [1988 news clip](https://dp.la/primary-source-sets/space-race/sources/1716) demonstrate a shift from prior motivations behind the Cold War Space Race?\r\n10. How does the [diagram of the International Space Station](https://dp.la/primary-source-sets/space-race/sources/1717) demonstrate a post-Cold War world? In what ways does the International Space Station represent a change in space research compared to the 1950s?"
+            },
+            {
+               "name": "Activity",
+               "text": "Ask students to use the sources in this set and [others from DPLA](https://dp.la/search?utf8=%E2%9C%93&q=space+race) to identify materials that show multiple, contrasting perspectives on the Space Race. Students might look for political cartoons, propaganda posters, and other sources that represent both American and Soviet perspectives on the Space Race. Students will analyze their selected sources in the context of the Cold War and present their findings to the class in the format of their choice, which might include a slide presentation, a gallery walk, a written argument, etc. "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/space-race",
+            "@type": "CreativeWork",
+            "name": "Space Race"
+         },
+         "name": "Teaching Guide: Exploring the Space Race"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Race to the Moon](https://dp.la/exhibitions/exhibits/show/race-to-the-moon), Digital Public Library of America. \r\n2. [Space Race](https://airandspace.si.edu/exhibitions/space-race), National Air and Space Museum.  \r\n3. [Apollo Missions](https://www.nasa.gov/mission_pages/apollo/index.html), NASA History.  "
+      },
+      {
+         "name": "Overview",
+         "text": "From 1945 to 1991, the United States and the Union of Soviet Socialist Republics (USSR) engaged in the Cold War, a conflict in which the communist Soviet Union and the democratic United States competed for influence over countries around the world. During this era, the US and USSR also took their rivalry beyond earth into space through a series of aeronautic developments and flight tests known as the Space Race. After advances in defense technology during World War II and the United States\u2019 use of [atomic bombs](https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age), each side looked to propel its scientific and technological capability forward by building new missiles, rockets, and spacecraft. The Soviets had many early successes in the Space Race, including the launch of the first satellite, Sputnik (1957), and the first man in space, Yuri Gagarin (1961). However, the United States caught up and eventually overtook the Soviet Union, particularly when American astronaut Neil Armstrong and the crew of the Apollo 11 mission became the first humans to land on the moon in 1969.\r\n\r\nThe Space Race witnessed extraordinary feats of courage, intelligence, and ingenuity as astronauts and cosmonauts made voyages that previous generations thought were impossible. It also involved deception and espionage as the US and USSR competed for technological advantages. Both sides imprisoned, exchanged, and executed spies to protect these scientific secrets. The Space Race yielded many impressive achievements: putting humans into space, inventing new rocket technologies, launching satellites into orbit, and landing people on the moon. The race also resulted in frightening and powerful technology, including the development of thousands of nuclear missiles strong enough to destroy much of the earth. This set focuses on the Space Race during the mid-1950s and 1960s and examines the impact of the Space Race today. The selected documents, clips, and images raise questions about who \u201cwon\u201d the race and shed light on the paradox of the Space Race\u2014a period of tremendous scientific advancement that also yielded destructive technology and weapons."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+         "name": "The Atomic Bomb and the Nuclear Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+         "name": "There is No Cure for Polio",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-columbian-exchange",
+         "name": "The Columbian Exchange",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/pop-art-in-the-us",
+         "name": "Pop Art in the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-invention-of-the-telephone",
+         "name": "The Invention of the Telephone",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-yellow-fever-epidemic-of-1878",
+         "name": "The Yellow Fever Epidemic of 1878",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/electrifying-america",
+         "name": "Electrifying America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/postwar-rise-of-the-suburbs",
+         "name": "Postwar Rise of the Suburbs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-impact-of-television-on-news-media",
+         "name": "The Impact of Television on News Media",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Space Race",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

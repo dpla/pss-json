@@ -1,0 +1,2074 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Civil War and Reconstruction (1850-1877)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-5"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Law and Government"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      }
+   ],
+   "dateCreated": "2016-01-15",
+   "dateModified": "2020-07-22",
+   "dct:created": "2016-01-15",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the secession of southern states from the US Government prior to the Civil War.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/770",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-20",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lincoln, Abraham, excerpt from \u201cFamous speeches [of] Abraham Lincoln,\u201d Digital Public Library of America, https://dp.la/item/1ca86fc8c80f378ffd703603369523aa."
+                  }
+               ]
+            }
+         ],
+         "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/771",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Wisconsin via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Davis, Jefferson, excerpt from \u201cSpeeches of the Hon. Jefferson Davis, of Mississippi, delivered during the summer of 1858,\u201d Digital Public Library of America, https://dp.la/item/bb6a2d4dabb5fd42b443aca86471cb35."
+                  }
+               ]
+            }
+         ],
+         "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/772",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2017-08-31",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2017-08-31",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Hargrett Library via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Echols, A. A., \u201cA.A. Echols Letter to Governor Emory Washburn, 1860 November 12,\u201d Digital Public Library of America, https://dp.la/item/cdaaf15eb660d29f7a2f6d9e8fa9e652."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+         "text": "Savannah 12th Nov. 1860\r\n \r\nGov. E. Washburn\r\n\r\nCambridge\r\n \r\nDear Sir,\r\n \r\nMy visit to Cambridge in Sept. Being entirely of a social character, there was not an opportunity of exchanging political opinions to the extent desired by me. But the information received at Boston that you were identified with the Republican Party, taken in connection with some remarks which passed between you and another gentleman at your house that evening in reference to a political meeting to be held that night in Boston, leads me to presume that I do not assign you a wrong position in supposing you to have cooperated with that party in the late Presidential Elections, and hence the greater willingness on my part now to address you a line in reference to some of the questions of the day. And let not my humble position prevent you from weighing well any thought their[there] may be suggested by what I may say. During my visit North this Summer I was in all the New England states besides spending some\r\n \r\n[page two]\r\n \r\ntime in the State of New York, New Jersey, and Pennsylvania. Being a lover of the Union, I was anxious to discover some means by which the progress of Northern aggression upon the rights of the South might be arrested and thus save the country from what seemed to me to be impending danger. To arrive at a correct conclusion I thought is important to ascertain the true sentiment of the people of the North, and for this purpose I mingled freely with the various classes\u2014the politicians, professional gentlemen, merchants, mechanics and farmers, attended political meetings and watched closely the pulsations of the popular sentiment; and I was brought unwillingly yet irresistibly to the conclusion that the great body of the people in all the non slaveholding states are honestly and determinedly opposed to the institutions of the South: opposed not only to the extension of slavery into the common territories, but opposed to its existence as now held in the several states. Which many would disclaim any purpose or desire to interfere with it in the present slave states\u2014being instructed as they acknowledged by the constitution of the\r\n \r\n[page three]\r\n \r\ncountry, yet their very argument, in opposition to the extension of slavery, were of such a character as to disclose clearly the fact that they regarded the South as holding to a great political, moral and social evil. I focused upon examination and inquiry that this dominant sentiment in opposition to slavery had induced eleven and perhaps more of the Southern or Non-slaveholding states to pass state laws conflicting with the constitution of the United States upon the subject of the rendition of the fugitive slaves. My convictions were that when Massachusetts, by legislative action, subjects the citizen of a Southern state to a fine of Five Thousand dollars, and imprisonment for five years for making an effort to reclaim his property under the guarantees of the Constitution of his country, such must be regarded as an overt act of aggression upon the rights of the South: That when New Hampshire by state action assumed the position that the fugitive slave, found within her limits was free absolutely, she not only committed an overt act of aggression when the rights\r\n \r\n[page four]\r\n \r\nof the South, in thus violating the constitution of the United States, but by such act placed herself in a position of practical disunion: and that the act, of all the states having a tendency to obstruct the execution of the Fugitive Slave law, are overt acts of aggression, and well calculated to arouse the Southern states to an inquiry in the cause of all this war upon their rights, and to the necessity of a remedy leaving speedily applied.\r\nWhen I found that this general sentiment in opposition to slavery was seized by an element claiming to be conservative; that it had become embodied in the organization of a great political Northern party\u2014holding its Sectional Conventions and nominating its sectional candidates for President an Vice President of these United States; and when I discovered as I believed I did before I left New York the last of September that this\r\n \r\n[page five]\r\n \r\nsame political party would place in the Presidential Chair who was a fit and true representative of the sentiment of opposition to the South, I then and there declared, and proclaimed it immediately upon my arrival in Savannah, that the South in justice ought not to submit, and in my opinion would not submit to Mr. Lincoln's administration.\r\nThe 6th of November comes on\u2014a day hereafter to be memorable, in my opinion, as consummating the folly of Southern delusion in starting the death blow to the best government upon Earth; the vote is cast, and the Telegraph tells us that Lincoln is elected.\r\nImmediately upon the receipt of this inform-ation in the North, Federal officers resign, public meetings are called, legislation are convened, and a general cry for State conventions to be held to devise means for the redress of our wrongs. The sentiment of Secession from the Northern States prevails with a unanimity that astonishes even the most ardent advisers of that Measure. For do I believe that a proposition for any compromise, come from what quarter it may, will\r\n \r\n[page six]\r\n \r\nbe entertained by any respectable portion of the people of the Cotton States.\r\nI have now come to the point to which I desired to invite your attention, and which is the main object of these lines. First assuming the following proposition\u2014that the Cotton States and perhaps all the slave states will secede from the Union; that this Secession will be a peaceful one; that new governmental organizations must be made in the South; that a re-organization to some extent of the government North will most likely take place, and that the various relations which the people North and South [bear?] to each other demand a just and equitable ad-justment of commercial arrangements.\r\nLet liberal and satisfactory commercial resolutions be once established between the two sections, and the foundation will have been laid for that comity in all other matters so much to be desired by every true hearted American North and South. Then, in taking such steps in the South, as wisdom and prudence may seem to dictate, in view of the mutual dependence of the two sections of our country, are we to look to those who have of late had the control and management\r\n \r\n[page seven]\r\n \r\nof public affairs in the North, and whose policy has brought ruin upon the country, to take the lead in the inauguration of the practical and satisfactory adjustment of our various relations for the future, or may [be?] hope to [sew?] the organization of a new party to whose wisdom and guidance is to be committed the great work of establishing anew the foundations of peace and happiness for all our people.\r\n\r\nI presume that now my purpose in writing has been fully indicated; but lest you should be disposed to question the correctness of my proposition permit me to indulge a word of those features in the [drama?]. Is it the first proposition\u2014the certainty of secession, which you are disposed to regard as unsound? To this I can only answer that I fear you are not well acquainted with the Southern people and Southern sentiment touching this question. Do you point to similar demonstrations heretofore made in the South and the means by which they were quieted as a refutation of my position? I answer that the present is unlike any case that has ever arisen amongst us. The ground\r\n \r\n[page eight]\r\n \r\nof our action does not spring from any position taken in the canvass of questions in the National Councils; it is not in a shape to come within the scope of the Federal legislation\u2014a question to be taken hold of and controled[sic] in the character of a compromise for the pacification of the conflicting interests. It lies deeper, and broader, and comes up in a form more alarming and insulting to Southern interests and Southern honour[sic] than any that has ever preceded it. It assumes its most fearful character in the acts of your Sovereign States; it now proposes to seize the powers of the Federal Government and wield them by one Section of the country upon principles of hostility to the rights and interests of an other Section; and it will be extreme folly and madness in my estimation for any man or party to adopt a course of action upon the supposition that the cotton states will not resist such aggression, even to the\r\n \r\n[page nine]\r\n \r\n[sundering?] of the last ties that bind them to the Federal Union. And I shall be mistaken if any man shall be found at the head of Executive department of the General Government who does not recognize a vast difference between Nullification and peaceful secession. The one finds us in the Union in conflict with Federal Authority; the other places us out of the Union and leaves the Federal Authorities free to act upon all who remain. The one is Revolution, the other is the exercise of the rights of the state sovereignty necessarily reserved to her from the very nature of the original Federal Compact This doctrine I presume will not be seriously questioned after this declaration of Mr. Webster\u2014\"I do not hesitate to say and I repeat that if the Southern states refuse willfully and deliberately to carry into effect that part of the constitution which respects the restoration of fugitive slaves, the South would no longer be bound to observe the compact. A bargain broken on one side is a bargain broken on all sides.\"\r\n \r\n[page ten]\r\n \r\nMy next proposition is that the secession will be a peaceful one. This opinion I think is fully sustained by the argument which has been presented in the justification of our Secession. If the South peacefully withdraws from the Union, and the right of secession is recognized by the General Government, who is to strike the first blow? And for what? I confess that I met several gentlemen in the North who declared to me in conversation that \"if the South seceded the North would whip her back again,\" and I always found that my first answer to such suggestion was taking the form of a smile of scorn at a proposition to my mind so ridiculous. Suppose South Carolina alone secedes, and that the General Government wages a war upon her and puts her down; she would not then be in the Union; she would be merely a conquered Province; and who that has the least acquaintance with the genius of our people and their notion of Government can suppose that such a state of things as the subjugation of a sovereign state could long exist? If South Carolina then cannot be driven back into the Union unless she choose to do so, how absurd will it be to suppose that several\r\n \r\n[page eleven]\r\n \r\nof the Southern states and perhaps a combina-tion of them could be forced back into the Union. I can imagine but one class of persons who would be disposed to address such a course\u2014those upon whom the lights of civilization, the calls of humanity, the heaven-born principles of social ties, the diffusion of political intelligence, and the recognition of the necessi-ties of commerce have all been last in the [full?] purpose and determination that one section of our country shall rule and crush out the [?] and vital rights of the other. And if then exists in the North a class of this character of sufficient strength to grasp and wield the powers of the Government to the subjugation of our rights, it affords the strongest possible evidence that long since we should have set up for counselors and have established a separate and inde-pendent Southern Republic. I take it then that all the great consideration, which can be brought to bear upon this subject are opposed to civil war and the shedding of blood, and that consequently, our secession will be a peaceful one.\r\n\r\nThese two main propositions having been once established and their purposes fulfilled, all minor ones will follow in their\r\n \r\n[page twelve]\r\n \r\naccomplishment as a matter of course, but in order to be accomplished for the greatest good to the greatest numbers, they should be committed to wise heads and patriotic hearts.\r\nHaving been lead to believe that you are one of those possessing the qualifi-cations and dispostition to take a liberal and comprehensive view of the great questions affecting our common humanity, is the apology of\r\n\r\nRespectfully\r\n\r\nA. A. Echols",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/773",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_04_5857de5130fa02199d0154343283235b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Caroliniana Library via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cUnion Is Dissolved!,\u201d Digital Public Library of America, https://dp.la/item/f0c60ed29f7828a3acf19f7d8f8066cc."
+                  }
+               ]
+            }
+         ],
+         "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/774",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2020-07-21",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Greenville County Library System via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cDeclaration of the Immediate Causes which Induce and Justify the Secession of South Carolina from the Federal Union and the Ordinance of Secession,\u201d Digital Public Library of America, https://dp.la/item/888ba4428f4c2270a8d5f5e608c5cf80."
+                  }
+               ]
+            }
+         ],
+         "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/775",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Duke University Library via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cA declaration of the causes which impel the state of Texas to secede from the federal union,\u201d Digital Public Library of America, https://dp.la/item/4d3abdec348f28a821a6c8efc767427d."
+                  }
+               ]
+            }
+         ],
+         "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/776",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Caroliniana Library via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Caulfield, Thomas J., \u201cGrand Secession March,\u201d Digital Public Library of America, https://dp.la/item/57e14ad33dc88161a9b89c2b6c5bbc9a."
+                  }
+               ]
+            }
+         ],
+         "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/777",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Caroliniana Library via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEpitaph on the United States of America, presumably issued during the secession crisis of 1860-1861,\u201d Digital Public Library of America, https://dp.la/item/b4eb54f1ea7edafd2451798794935247."
+                  }
+               ]
+            }
+         ],
+         "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/778",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Portrait Gallery via the Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cInauguration of Davis,\u201d Digital Public Library of America, https://dp.la/item/fdbe6957936dea85b0d4a0cdf139f5e6."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/779",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Wake Forest University via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cJeff. Davis in the White House,\u201d Digital Public Library of America, https://dp.la/item/f7fdf9c731e89ba7d886840d8fe85e69."
+                  }
+               ]
+            }
+         ],
+         "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/780",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Caroliniana Library via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cThe Battle of Fort Sumter! End of the fight! Major Anderson surrenders,\u201d Digital Public Library of America, https://dp.la/item/998f370ba71873dc95eabeb52df3501a."
+                  }
+               ]
+            }
+         ],
+         "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/781",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Kansas City Public Library via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cThe Union Volunteer,\u201d Digital Public Library of America, https://dp.la/item/3684f31022f36d1e8fd92823af223141."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/782",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/783",
+               "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_13a_16e66ed896e93f911a1adabf6c2fcb1b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBacon's military map of the United States shewing the forts & fortifications,\u201d Digital Public Library of America, https://dp.la/item/16e66ed896e93f911a1adabf6c2fcb1b."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1862 map indicating free, border, and Confederate states. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/783",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/770",
+               "name": "Abraham Lincoln\u2019s \u201cA House Divided\u201d speech, delivered on June 17, 1858, in Springfield, Illinois. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_01_1ca86fc8c80f378ffd703603369523aa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/771",
+               "name": "A speech by Jefferson Davis to the Mississippi senate about the possibility of secession, November 1858. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_02_bb6a2d4dabb5fd42b443aca86471cb35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/772",
+               "name": "A letter from a Georgian to the former governor of Massachusetts, sharing southern reaction to Lincoln\u2019s election, November 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_03_f98dcd595066a7ab22845644d463be8c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/773",
+               "name": "A broadside announcing South Carolina\u2019s secession from the Union, December 20, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_04_5857de5130fa02199d0154343283235b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/774",
+               "name": "A pamphlet with the official justification for South Carolina\u2019s secession, 1860. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_05_37f18278236081b57931fdb46209f0a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/775",
+               "name": "A pamphlet declaring \u201cthe causes which impel the state of Texas to secede from the federal union,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_06_d8e7f4ea70a8775da73c0df973542bf8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/776",
+               "name": "Sheet music for the \u201cGrand Secession March,\u201d published in 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_07_d57a8cc7dd629c1be4c878f1fbcfc9f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/777",
+               "name": "A broadside called \u201cEpitaph on the United States of America,\u201d circulated during the Secession Crisis of 1860-1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_08_acfd4016d218650e7efa18108fef65b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/778",
+               "name": "An 1878 lithograph of Jefferson Davis\u2019s inauguration as president of the Confederate States of America on February 18, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_09_fdbe6957936dea85b0d4a0cdf139f5e6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/779",
+               "name": "A Confederate broadside with the lyrics to \u201cJeff. Davis in the White House,\u201d 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_10_f7fdf9c731e89ba7d886840d8fe85e69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/780",
+               "name": "A broadside announcing the defeat of the United States by Confederate forces at Fort Sumter, South Carolina, April 13, 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_11_22a5629ef07831fc434db6184e6828ef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/781",
+               "name": "An 1861 print of a union volunteer, created after the Fort Sumter attack and Lincoln's call for 75,000 volunteers to suppress the rebellion. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_12_3684f31022f36d1e8fd92823af223141_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/782",
+               "name": "An 1862 map indicating free, border, and Confederate states. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "secession-of-southern-states_14_31a3bd6b15d91910246571320510970a.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cAmnesty Oath of Robert E. Lee,\u201d Digital Public Library of America, https://dp.la/item/31a3bd6b15d91910246571320510970a."
+                  }
+               ]
+            }
+         ],
+         "name": "The amnesty oath signed by Robert E. Lee on October 2, 1865.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_14_31a3bd6b15d91910246571320510970a_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-secession-of-the-southern-states",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-20",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-20",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Look at the 1858 speeches by [Abraham Lincoln](http://dp.la/primary-source-sets/sources/770) and [Jefferson Davis](http://dp.la/primary-source-sets/sources/771). How do these speeches presage the conflicts that will lead to secession and civil war? How do they frame the central issues differently? \r\n2. Read the [letter from A. A. Echols](http://dp.la/primary-source-sets/sources/772) to former Massachusetts governor Emory Washburn. How does Echols understand regional and political differences around slavery and its extension? How does Echols predict secession will play out?\r\n3. Compare and contrast the official documents citing reasons for [South Carolina](http://dp.la/primary-source-sets/sources/774)\u2019s and [Texas](http://dp.la/primary-source-sets/sources/775)\u2019s secession from the Union.\r\n4. Examine the [sheet music](http://dp.la/primary-source-sets/sources/776) for the \u201cGrand Secession March,\u201d the \u201c[Epitaph on the United States of America](http://dp.la/primary-source-sets/sources/777),\u201d the [lithograph of Davis\u2019s inauguration](http://dp.la/primary-source-sets/sources/778), and the broadside of \u201c[Jeff. Davis in the White House](http://dp.la/primary-source-sets/sources/779).\u201d How did the creators of Secession and Confederate States of America propaganda understand that identity? How and why did they reimagine the political conflicts that led to secession?\r\n5. Using the [broadside announcing defeat](http://dp.la/primary-source-sets/sources/780) and the [print of a Union volunteer](http://dp.la/primary-source-sets/sources/781), explain how the events at Fort Sumter were understood differently in the North and South. What actions did the events at Fort Sumter prompt for each region?\r\n6. Citing evidence on the [1862 map](http://dp.la/primary-source-sets/sources/782), explain the impact of secession on the Union by 1862.\r\n7. How does [Robert E. Lee\u2019s amnesty oath](http://dp.la/primary-source-sets/sources/783) retroactively characterize secession? How does it understand the relationship between the Confederate States of America and the United States of America after the war? "
+            },
+            {
+               "name": "Activity",
+               "text": "Break the class into pairs or small groups and use the [1862 map](http://dp.la/primary-source-sets/sources/782) to identify the states that seceded from the Union. Assign each pair or group a state (including the initial seven and the border states but excluding South Carolina) and ask them to create a brief presentation about the secession history of their assigned state. Using the Digital Public Library of America and other resources, they should locate the official document listing a rationale for secession and summarize its reasoning in their presentation. The presentation should also include a timeline of major events on the state\u2019s road to secession. Groups should present their findings to the class. The whole class should then discuss the ways in which other states\u2019 stories of and reasons for secession are similar to or different from [South Carolina](http://dp.la/primary-source-sets/sources/774)\u2019s. "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "@type": "CreativeWork",
+            "name": "Secession of the Southern States"
+         },
+         "name": "Teaching Guide: Exploring the Secession of the Southern States"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Correspondence about the Secession Crisis](http://dp.la/search?&q=secession+letter), Digital Public Library of America. \r\n2. [Chronology of Major Events Leading to Secession Crisis](https://www.historians.org/teaching-and-learning/classroom-content/sixteen-months-to-sumter/chronology), American Historical Association. \r\n3. Susan Schulten, [Slavery, Secession, & the Civil War](http://www.c-span.org/video/?305384-1/secession-crisis), C-SPAN. \r\n4. [Torn in Two: Mapping the American Civil War](http://dp.la/exhibitions/exhibits/show/mapping-american-civil-war), Digital Public Library of America. "
+      },
+      {
+         "name": "Overview",
+         "text": "In response to the election of Abraham Lincoln to the presidency of the United States on a political platform that opposed the expansion of slavery, South Carolina seceded from the Union on December 20, 1860. Six more states would follow in the ensuing months: Mississippi, Florida, Alabama, Georgia, Louisiana, and Texas. In February 1861, they formed the Confederate States of America, an entity considered illegal by the United States government. On April 12, 1861, Confederate forces attacked Fort Sumter, a Union fort in the harbor of Charleston, South Carolina. This began the first battle of the deadliest conflict in US history, the American Civil War. This primary source set uses documents, illustrations, and maps to explore events and ideas that drove the formation of the Confederate States of America and the United States\u2019 descent into civil war. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/patronage-and-populism-the-politics-of-the-gilded-age",
+         "name": "Patronage and Populism: The Politics of the Gilded Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-boston-tea-party",
+         "name": "The Boston Tea Party",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+         "name": "John Brown's Raid on Harper\u2019s Ferry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+         "name": "Battle of Gettysburg",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+         "name": "Women in the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/rise-of-conservatism-in-the-1980s",
+         "name": "Rise of Conservatism in the 1980s",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/northern-draft-riots-during-the-civil-war",
+         "name": "Northern Draft Riots During the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/creating-the-us-constitution",
+         "name": "Creating the US Constitution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-deal",
+         "name": "The New Deal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/shays-rebellion",
+         "name": "Shays' Rebellion",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+         "name": "Road to Revolution: 1763-1776",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Secession of the Southern States",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

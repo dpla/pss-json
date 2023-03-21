@@ -1,0 +1,1220 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Colonization and Settlement (1585-1763)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-2"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Scott County High School, Georgetown, Kentucky"
+         },
+         "name": "James Walsh"
+      },
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Wentworth Institute of Technology, Boston, Massachusetts"
+         },
+         "name": "Ella Howard"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2016-01-11",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2016-01-11",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore perspectives on the French and Indian War.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/210",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/211",
+               "name": "A french map of pre- and post-war North America, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/212",
+               "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/213",
+               "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/214",
+               "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/215",
+               "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/216",
+               "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/217",
+               "name": "A letter to William Pitt, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/218",
+               "name": "Excerpts from a British history of the war, 1763.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/219",
+               "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Washington, George, excerpts from \u201cThe journal of Major George Washington\u201d Digital Public Library of America, https://dp.la/item/87037c8c0dc514bfd19bddbce9ff2ce7."
+                  }
+               ]
+            }
+         ],
+         "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/211",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/212",
+               "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/213",
+               "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/214",
+               "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/215",
+               "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/216",
+               "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/217",
+               "name": "A letter to William Pitt, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/218",
+               "name": "Excerpts from a British history of the war, 1763.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/219",
+               "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/210",
+               "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Rocque, John, \u201cCartes generales de l'Ame\u0301rique Septentrionale,\u201d Digital Public Library of America, https://dp.la/item/732c1d33eb211983e532f0ccc808c3f5."
+                  }
+               ]
+            }
+         ],
+         "name": "A french map of pre- and post-war North America, 1762.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/212",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/213",
+               "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/214",
+               "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/215",
+               "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/216",
+               "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/217",
+               "name": "A letter to William Pitt, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/218",
+               "name": "Excerpts from a British history of the war, 1763.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/219",
+               "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/210",
+               "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/211",
+               "name": "A french map of pre- and post-war North America, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Doughty, Arthur G., \u201cPlan of the town of Quebec, the capital of Canada in North America,\u201d Digital Public Library of America, https://dp.la/item/14e1f06f68b9f954a1936424d29673ea."
+                  }
+               ]
+            }
+         ],
+         "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/213",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/214",
+               "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/215",
+               "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/216",
+               "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/217",
+               "name": "A letter to William Pitt, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/218",
+               "name": "Excerpts from a British history of the war, 1763.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/219",
+               "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/210",
+               "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/211",
+               "name": "A french map of pre- and post-war North America, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/212",
+               "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cAn account of conferences held, and treaties made, between Major-General Sir William Johnson, Bart., and the chief sachems and warriours,\u201d Digital Public Library of America, https://dp.la/item/38af90d3a1a85936681a7d8bd156f6a3."
+                  }
+               ]
+            }
+         ],
+         "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/214",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/215",
+               "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/216",
+               "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/217",
+               "name": "A letter to William Pitt, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/218",
+               "name": "Excerpts from a British history of the war, 1763.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/219",
+               "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/210",
+               "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/211",
+               "name": "A french map of pre- and post-war North America, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/212",
+               "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/213",
+               "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Library of Congress via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gridley, Luke, excerpts from \u201cLuke Gridley's diary of 1757 while in service in the French and Indian war,\u201d Digital Public Library of America, https://dp.la/item/ee4949c9e4647ecf1a2358f616f96a52."
+                  }
+               ]
+            }
+         ],
+         "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/215",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/216",
+               "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/217",
+               "name": "A letter to William Pitt, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/218",
+               "name": "Excerpts from a British history of the war, 1763.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/219",
+               "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/210",
+               "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/211",
+               "name": "A french map of pre- and post-war North America, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/212",
+               "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/213",
+               "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/214",
+               "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Library of Congress via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Holden, David, excerpts from \u201cJournal kept by Sergeant David Holden of Groton,\u201d Digital Public Library of America, https://dp.la/item/ea510a7c6a01908b1243f699d3ab88d1."
+                  }
+               ]
+            }
+         ],
+         "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/216",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/217",
+               "name": "A letter to William Pitt, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/218",
+               "name": "Excerpts from a British history of the war, 1763.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/219",
+               "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/210",
+               "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/211",
+               "name": "A french map of pre- and post-war North America, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/212",
+               "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/213",
+               "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/214",
+               "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/215",
+               "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Amherst College Archives & Special Collections via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSilver medal commemorating the capture of Montreal, 1760,\u201d Digital Public Library of America, https://dp.la/item/684ba704a6cafcab5203490eac01aaa1."
+                  }
+               ]
+            }
+         ],
+         "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/217",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/218",
+               "name": "Excerpts from a British history of the war, 1763.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/219",
+               "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/210",
+               "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/211",
+               "name": "A french map of pre- and post-war North America, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/212",
+               "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/213",
+               "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/214",
+               "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/215",
+               "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/216",
+               "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpts from \u201cA Letter to the Right Honourable William Pitt, Esq. on the present negotiations for a peace with France and Spain,\u201d Digital Public Library of America, https://dp.la/item/5ddde164906d8eb172e4f3e8e1acef81."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter to William Pitt, 1762.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/218",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/219",
+               "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/210",
+               "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/211",
+               "name": "A french map of pre- and post-war North America, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/212",
+               "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/213",
+               "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/214",
+               "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/215",
+               "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/216",
+               "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/217",
+               "name": "A letter to William Pitt, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Almon, John, Excerpts from \u201cAn impartial history of the late war,\u201d Digital Public Library of America, https://dp.la/item/54d4bb2c2364cd32096e713d83696d8f."
+                  }
+               ]
+            }
+         ],
+         "name": "Excerpts from a British history of the war, 1763.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/219",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/210",
+               "name": "Excerpts from the diary of Major George Washington and letters delivered by Washington to the French, 1753.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_01_87037c8c0dc514bfd19bddbce9ff2ce7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/211",
+               "name": "A french map of pre- and post-war North America, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_02_732c1d33eb211983e532f0ccc808c3f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/212",
+               "name": "A map created in 1900 showing the battle plan for Quebec City in 1759.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_03_14e1f06f68b9f954a1936424d29673ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/213",
+               "name": "Speeches and treaties between William Johnson and the Iroquois, 1755-1756.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_04_38af90d3a1a85936681a7d8bd156f6a3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/214",
+               "name": "Excerpts from the diary of British soldier Luke Gridley, 1757.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_05_ee4949c9e4647ecf1a2358f616f96a52_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/215",
+               "name": "Excerpts from a journal kept by Sergeant David Holden of Groton, Massachusetts, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_06_ea510a7c6a01908b1243f699d3ab88d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/216",
+               "name": "A medal issued to Jeffrey Amherst commemorating the capture of Montreal, 1760.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_07_684ba704a6cafcab5203490eac01aaa1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/217",
+               "name": "A letter to William Pitt, 1762.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_08_5ddde164906d8eb172e4f3e8e1acef81_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/218",
+               "name": "Excerpts from a British history of the war, 1763.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_09_54d4bb2c2364cd32096e713d83696d8f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "french-and-indian-war_10_318dfdb4c12448304693d02384447b07.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Irving, Washington, \u201cDeath of General Wolfe,\u201d https://dp.la/item/318dfdb4c12448304693d02384447b07."
+                  }
+               ]
+            }
+         ],
+         "name": "An engraving of the Death of General Wolfe on the Plains of Abraham.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_10_318dfdb4c12448304693d02384447b07_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-french-and-indian-war",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Scott County High School, Georgetown, Kentucky"
+               },
+               "name": "James Walsh"
+            },
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Wentworth Institute of Technology, Boston, Massachusetts"
+               },
+               "name": "Ella Howard"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-11-19",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-11-19",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Choose five days from British soldier [Luke Gridley\u2019s diary](http://dp.la/primary-source-sets/sources/214). Compare his experience to that of Sergeant Holden in [Holden\u2019s journal](http://dp.la/primary-source-sets/sources/215). What can we learn from these sources about soldiers\u2019 experience of the war? \r\n\r\n2. Use the letter to William Pitt and the British history of the war to learn about the British perspective on the war. What do the sources tell us about England\u2019s reason for fighting? Are the sources biased?\r\n\r\n3. Use the [account of speeches and treaties](http://dp.la/primary-source-sets/sources/213) to learn about the Native American perspective on the war. Why did they fight? What did they hope to win?\r\n\r\n4. Use the letter at the end of [George Washington\u2019s diary](http://dp.la/primary-source-sets/sources/210) and the map to learn about the French perspective on the war. Why did they fight? What did they hope to win?\r\n\r\n5. Analyze the [medal](http://dp.la/primary-source-sets/sources/216) commemorating the capture of Montreal. What symbols appear on the medal? What do they represent? Do we use similar symbols today? "
+            },
+            {
+               "name": "Activity",
+               "text": "Divide the class into three groups: Native Americans, French, and British. Have each group read the primary sources relevant to their assigned role and discuss their position in the war. What did they stand to gain? Why did they fight? Moderate a debate between the three groups about which one should win the war and why. Have the class vote on the winner of the debate. Then lead a discussion on the actual outcomes of the war. Did the \u201ccorrect\u201d side win? "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/perspectives-on-the-french-and-indian-war",
+            "@type": "CreativeWork",
+            "name": "Perspectives on the French and Indian War"
+         },
+         "name": "Teaching Guide: Exploring the French and Indian War"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [George Washington Notebook as a Virginia Colonel during the French and Indian War](http://dp.la/item/f0b7fb1444dd7f202e86c6ff374da8cb), The New York Public Library, Digital Public Library of America. \r\n\r\n2. [French and Indian War/Seven Year\u2019s War, 1754-63](https://history.state.gov/milestones/1750-1775/french-indian-war), Office of the Historian. \r\n\r\n3. [French and Indian War](http://www.history.com/topics/french-and-indian-war), History.com.\r\n\r\n4. [French and Indian War](http://www.ohiohistorycentral.org/w/French_and_Indian_War?rec=498), Ohio History Central. \r\n\r\n5. [The French and Indian War (1754-1763)](http://www.clpgh.org/research/pittsburgh/history/frenchindianwar.html), Carnegie Library of Pittsburgh. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "Between the years 1754 and 1763, major powers engaged in a global struggle, the Seven Years War. In North America, this conflict was referred to as the French and Indian War. The conflict between the French and British Empires included indigenous nations.The French and Indian War helped set the stage for the American Revolution by necessitating British taxation of the American colonists to pay for the war costs. For Native American groups who sided with the French, the outcome of the conflict would prove devastating. This collection of documents, images, maps, and artifacts provides various perspectives on the war, incorporating the view from the leadership and from more marginalized groups. By analyzing, exploring, and interpreting these primary sources, students will gain insight into the experience of eighteenth-century warfare, from the point of view of the \u201cwinners\u201d and the \u201closers.\u201d "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/powhatan-people-and-the-english-at-jamestown",
+         "name": "Powhatan People and the English at Jamestown",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/dutch-new-netherland",
+         "name": "Dutch New Netherland",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/dutch-new-netherland_08_7dbc47e5949abd0d598d940b162381ce_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/dutch-new-netherland_08_7dbc47e5949abd0d598d940b162381ce_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/colonial-religion",
+         "name": "Colonial Religion",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/colonial-religion_01a_4f892ac94b1c93c49cf5c05167d3f14d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/colonial-religion_01a_4f892ac94b1c93c49cf5c05167d3f14d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cross-cultural-colonial-conflicts",
+         "name": "Cross-Cultural Colonial Conflicts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-colonies-motivations-and-realities",
+         "name": "The Colonies: Motivations and Realities",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/colonies-motivations-realities_00_aecaa3c8f0019d6f61f2471e8edc968f_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/colonies-motivations-realities_00_aecaa3c8f0019d6f61f2471e8edc968f.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Perspectives on the French and Indian War",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_00_14e1f06f68b9f954a1936424d29673ea_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/french-and-indian-war_00_14e1f06f68b9f954a1936424d29673ea.jpg",
+   "typicalAgeRange": "11-18"
+}

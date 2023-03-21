@@ -1,0 +1,2076 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Revolution and the New Nation (1754-1820s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-3"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Law and Government"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Scott County High School, Georgetown, Kentucky"
+         },
+         "name": "James Walsh"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2017-11-06",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2017-11-06",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the events that led up to the American Revolutionary War.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cNew commission of the Governor of Quebec: and other instruments of authority, derived from the crown relative to America,\u201d Digital Public Library of America, https://dp.la/item/f99068f3db4555def72b17a1d6b08a1d."
+                  }
+               ]
+            }
+         ],
+         "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/2",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Library of Congress via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cThe stamp act, 1765,\u201d Digital Public Library of America, https://dp.la/item/4e717e46c6499758643e289e9a15103f."
+                  }
+               ]
+            }
+         ],
+         "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/3",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Indiana University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cJournal of the first Congress of the American Colonies, in opposition to the tyrannical acts of the British Parliament,\u201d Digital Public Library of America, https://dp.la/item/49d77aef2167a57fa4ea4013d44df8d6."
+                  }
+               ]
+            }
+         ],
+         "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/4",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cStamp Act Riot,\u201d Digital Public Library of America, https://dp.la/item/49d77aef2167a57fa4ea4013d44df8d6."
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration of a Stamp Act protest in 1765.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/5",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Museum of American History, Kenneth E. Behring Center via the Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cNo Stamp Act Teapot,\u201d Digital Public Library of America, https://dp.la/item/30bea9d372364a99c97c403419b09275."
+                  }
+               ]
+            }
+         ],
+         "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/6",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Princeton University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cThe justice and necessity of taxing the American colonies, demonstrated,\u201d Digital Public Library of America, https://dp.la/item/04063a6c5939a91ca6b8dd75607dbe9e."
+                  }
+               ]
+            }
+         ],
+         "name": "A British text justifying taxation, 1766.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/7",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBoston Massacre, March 5, 1770,\u201d Digital Public Library of America, https://dp.la/item/10b434a30046e6434afd167fe1e41486."
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration of the Boston Massacre, 1770.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/8",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2017-11-06",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2017-11-06",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Irving, Washington, \u201cBoston Massacre,\u201d Digital Public Library of America, https://dp.la/item/e5377e2c13ad66f31fee3ad195277dbe."
+                  }
+               ]
+            }
+         ],
+         "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/9",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-20",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_09a_b747b0d7ab8bd370f301e3715e2b9dd6.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cLetter to Selectmen requesting town meeting to consider Tea Act,\u201d Digital Public Library of America, https://dp.la/item/b747b0d7ab8bd370f301e3715e2b9dd6."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+         "text": "Transcription:\r\n\r\nGentlemen\r\n\r\nWe the Subscribers ^Freeholders^ in the Town of Boston being justly alarmed at the Reports that the East India Company in London are about Shipping a Cargoe [cargo] or Cargoes of Tea into this [illegible] & the other Colonies [illegible] Esteeming it a Political Plan of the British Administration whereby we have Reason to fear not only that if Trade upon which we Depend for our Subsistence is threatened to be totally Destroyd [destroyed], but what is much more than anything in Life to be Dreaded, the Tribute which is Laid upon the Importation of that Article will be fixed & established and our Liberties which we have been long Struggling for, will be Lost to us & our Posterity\u2014Wherefore we Desire you would Immediately call a Meeting of the Freeholders & Inhabitants of the Town, that their Sense of the Matter may be taken & such ^steps^ be [illegible] as to their Safety & well being shall ascertain\r\n\r\nWe are with great Regard your Respectfull [respectful] fellow Citizens  \r\nSam Adams  \r\nBenja [illegible]  \r\nEdward Shorter  \r\nJos Henderson  \r\n\r\nTo\u2014  \r\nThe Selectmen of the Town of Boston\r\n\r\n*[page two]*\r\n\r\nPaul Revere  \r\nJno. Pulling  \r\nHenry [illegible]  \r\nJames Horton Londy[?]  \r\nJohn Giill  \r\nTho: Frost  \r\nBenja: Kent  ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/11",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cCopy of letter to Dr. Franklin from the Committee of Correspondence dated December. 21, 1775,\u201d Digital Public Library of America, https://dp.la/item/504b95e2aed77922861182d942609c92."
+                  }
+               ]
+            }
+         ],
+         "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+         "text": "Transcription:\r\n\r\nCapt Scott  \r\nLnt Capt Hall\r\n \r\nBoston Dec. 21. 1773\r\n \r\nIt has been the Expectation of many of the the Colonists had great expectations that the last session of Parliament would have put a final end to those greivances [grievances] under which they had so long been oppressed, and again which they had so long, in vain, demonstrated. They expected that the Revenue Act would have been repealed and that they should no more have had reason to complain of the unconstitutional exertions of Parliamentary Power: They were naturally led to from these expectations by ^from^ the Conduct of Administration, and the favourable representations of their Friends on your side of the water, who lately encouraged them with assurances, that if all things remained quiet in America, these unhappy dissentions would soon terminate in a lasting Union: But how, Sir were they surprised to find they had been deceived? To find that the Parliament, at the very time they expected relief, pursued new measures for effectually securing and enhancing these oppressive revenues, with the view by an Act, passed the las session, empowered the\r\n \r\nBenjamin Franklin Esq.\r\n \r\n*[page two]*\r\n \r\nthe East India Company to ship their teas to America. From this Act, they readily saw that they had nothing to hope from the favor of Administration, but that they rather discovered an indisposition that the Parliament should grant from any relief, they ^(a)^ looked upon the Act ^it^ pregnant with new greivances [grievances], having the way to further Impositions, and in the consequences threatening the final destruction of American Liberties. Thrown by the Idea into a state of Desperation, the United Voice of the People, not only in this Province but in New York & Pensylvania [Pennsylvania], and as far as we can learn, In all the Colonies, was that they would never suffer the Tea to be landed, but would prefer any species of hazard and danger to a tame submission to measures, which if pursued must reduce them to a state of abject slavery. Perhaps it would have been Impossible for the wit of man, or the wisdom of Administration could only to have invented a method so effectual for raising the Spirit of the Colonies, or promoting amoung [among] them an entire union of sentiment at the same\r\n \r\n*[running along left margin of the page]*\r\n \r\n(a) they considered the Act as introductive of monopolies which besides the train of Evils that attend them in a commercial View are forever dangerous to Publick Liberty. More especially under the direction & Influence of Government.\r\n \r\n*[page three]*\r\n \r\ntime People on your side the water have for several months been repeatedly information our merchants of this maneuver and advising them as they regarded every tie of Freedom their sacred rights to withstand the landing of the Teas by the most vigorous opposition.\r\n \r\nWhile the minds of the People were impressed with the sentiments, the vessels arrived with the Teas, consigned to Messrs Richard Clark & Sons, Thomas & Elisha Hutchinson, Benjamin Faneuil & Joshual Winslow Esqs; previous to this Town of Boston had several meetings, in order to forward induce the Consignees to resign their trust, but to no [not] postpone, and immediately upon the arrival of the Vessels aforesaid, that every measure possible might be taken to prevent Confusion and disorder, while the minds of all were [illegible crossed out] in great agitation, the People in their & many of the neighbouring [neighboring] Towns assembled in the old south Church ^meeting house^ to prevail (B) for the the Consignees to send back the Teas and if possible to preserve them it from Destruction, which the treatments of the People might justly lead them to expect. You will see by the inclosed [enclosed] paper the measures they took\r\n \r\n*[running along left margin of the page]*\r\n \r\nB (Faneuil Hall not being capacious enough to contain the People that attended)\r\n \r\n*[page four]*\r\n \r\nand the resolves they hoped, and will wonder perhaps that these resolves & measures were in vain\u201athey not only treated with the Consignees but with the owner & master of these vessels, but all without success. Despairing to effectuate any method of accommodation, after having tried all that could be derived to no agreeable other purpose, they Dissolved the meeting, which till that time constant & declared design had protected the Teas from destruction nigh twenty days were now passed since the arrival of one of the Tea Vessels commanded by Capt Hall, at which time, according to the Act of Parliament, it was in the power of the Custom House offices to take the Teas into their own possession in order to secure the duties, there was just grounds to think that they intended to do it the minute the Twenty Days were expired & that they would attempt to land them by force and overbear any opposition that might be made, by a second effusion of Blood: with these apprehensions, the Teas on the evening of the 16th Instant were destroyed by a number of Persons unknown and in disguise\u2014such was the obstinacy\r\n \r\n*[page five]*\r\n \r\nof the Consignees their advisers & coadjustors, such their aversion to all conciliating measures, that they are almost universally condemned, & some even of the Court party amoung [among] us, acknowledge that the destruction of the Tea must be imputed to there obstinate Enemies of our Liberties, who never would consent to any method proposed for its preservation, & who perhaps united to irritate and inflame the minds of an injured, oppressed People to the measures of Violence of which afterwards they hoped to make their own advantages\u2014\r\n \r\nThe House of Representatives at the last Session ^a^ Committee to write to their agent, in pursuance of their appointment we have given you this information of the present state of our affairs and doubt not you will make such improvement of this intelligence as shall be most for the interest of this Province in particular & the Colonies in general.\r\n \r\nWe are with respect, Your must humble Servants  \r\nThomas Cushing  \r\nSamuel Adams  \r\nJohn Hancock  \r\nWm Phillips\r\n \r\n[page seven]\r\n \r\nCopy of [illegible]  \r\nFranklin from the Committee of Independence United[?]  \r\nDec 21.1773.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/12",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of State Library of Massachusetts via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Boston Committee of Correspondence, \u201cBoston, February 25, 1775,\u201d Digital Public Library of America, https://dp.la/item/a1035e5fbf7300b2e40d073a33b58f7b."
+                  }
+               ]
+            }
+         ],
+         "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/13",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "1. Doolittle, Amos and Ralph Earl, \u201cThe battle of Lexington, April 19th. 1775. Plate I,\u201d Digital Public Library of America, https://dp.la/item/af55ff897cf75c777cc0118b39d1b43e. \r\n\r\n2. Doolittle, Amos and Ralph Earl, \u201cPlate II. A view of the town of Concord,\u201d Digital Public Library of America, https://dp.la/item/3b3d13f9c94d8b3bb281915ba9258304.\r\n\r\n3. Doolittle, Amos and Ralph Earl, \u201cPlate III. The engagement at the North Bridge in Concord,\u201d Digital Public Library of America, https://dp.la/item/f0772ddf6caa9c22dab21c12a1905f9d.\r\n\r\n4. Doolittle, Amos and Ralph Earl, \u201cPlate IV. A view of the south part of Lexington,\u201d Digital Public Library of America, https://dp.la/item/3506b28f1d8959b62bb83fa7f38949ac."
+                  }
+               ]
+            }
+         ],
+         "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/16",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/17",
+               "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Congress of the Confederation, \u201cDeposition #8 of Nathanael Parkhurst, et al. Regarding the Events of April 18 and 19, 1775 at Lexington and Concord, Massachusetts Bay Colony,\u201d Digital Public Library of America, https://dp.la/item/d123dd700071976469a5e82c673f6d5e."
+                  }
+               ]
+            }
+         ],
+         "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+         "text": "Transcription:\r\n\r\nNo. 8    27  \r\nWe Nathanael Parkhurst, Jonas Parker, John Munroe, Junr, John Winship, Solomon Pierce, John Muzzy, Abner Mead, John Bridge, Jun Ebenezer Bowman William Munroe 3d, Micah Hager, Saml Saunderson, Samuel Hastings & James Brown of Lexington in the County of Middlesex and Colony of Massachusetts Bay in New England & all of lawfull age do Testify and Say that on the morning of the nineteenth of April Instant about one or Two OClock being informed that a number of Regular Officers had been riding up & down the Road the evening & night preceding & that some of the Inhabitants as they were passing had been Insulted by the Officers and stoped by them; and being also informed that the Regular Troops were on their march from Boston in order (as it was said) to take the Colony store then deposited at Concord. We met on the Parade of our Company in this town; After the Company had collected we were ordered by Capt John Parker (who commanded us) to disperse for the present and to be ready to attend the beat of the Drum and accordingly the Company went into houses near the place of Parade. We further Testify and Say that about five o clock in the morning we attended the beat of our Drum and & [sic] were formed on the Parade. We were faced toward the Regulars then marching up to us & some of our Company were coming to the parade with their backs towards the troops and others on the parade began to Disperse when the Regulars fired on the Company before a gun was fired by any of our company on them. they killed eight of our company & wounded several & continued their fire until we had all made our escape.  \r\n                                                        Nathanael Parkhurst  \r\nLexington 25th April 1775                 Abner Mead         Jonas Parker  \r\n          Samuel Saunderson           John Bridge Jr         John Munroe, Jun  \r\n          Samuel Hastings             Ebenezer Bowman     John Winship  \r\n          James Brown                William Munroe        Solomon Pierce  \r\n                                     Micah Hager          John Muzzy     \r\n\r\nMiddlesex April 25th 1775               Nathanael Parkhurst Jonas Parker\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/17",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1",
+               "name": "The Proclamation Act of 1763 (\u201cThe King\u2019s Proclamation\u201d), from a collection of British legislative acts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_01_f99068f3db4555def72b17a1d6b08a1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/2",
+               "name": "The text of the 1765 Stamp Act, from a pamphlet printed in 1895.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_02_4e717e46c6499758643e289e9a15103f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/3",
+               "name": "A journal from the Congress of American Colonies in 1765, gathered in response to the Stamp Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_03_49d77aef2167a57fa4ea4013d44df8d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/4",
+               "name": "An illustration of a Stamp Act protest in 1765.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_04_3875c35e753ee1b228975b94c7f09239_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/5",
+               "name": "A \u201cNo Stamp Act\u201d teapot, circa 1766-1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_05_30bea9d372364a99c97c403419b09275_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/6",
+               "name": "A British text justifying taxation, 1766.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_06_04063a6c5939a91ca6b8dd75607dbe9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/7",
+               "name": "An illustration of the Boston Massacre, 1770.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_07_10b434a30046e6434afd167fe1e41486_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/8",
+               "name": "A mid-nineteenth century illustration of the Boston Massacre by Washington Irving.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_08_e5377e2c13ad66f31fee3ad195277dbe_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/9",
+               "name": "A letter from Samuel Adams, Paul Revere, and others requesting a town hall meeting to consider the Tea Act, 1773. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_09_b747b0d7ab8bd370f301e3715e2b9dd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/11",
+               "name": "A Committee of Correspondence letter to Benjamin Franklin in London, December 21, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_10_504b95e2aed77922861182d942609c92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/12",
+               "name": "The minutes from a meeting of the Committees of Correspondence in Massachusetts regarding British occupation, February 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_11_a1035e5fbf7300b2e40d073a33b58f7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/13",
+               "name": "Four illustrations depicting the battle of Lexington Green, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_12_af55ff897cf75c777cc0118b39d1b43e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/16",
+               "name": "A deposition of a colonial militiaman from the battle of Lexington and Concord, April 25, 1775.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_13_d123dd700071976469a5e82c673f6d5e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston College Libraries and Boston Library Consortium via Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Clark, Jonas, \u201cThe fate of blood-thirsty oppressors, and God's tender care of his distressed people,\u201d Digital Public Library of America, https://dp.la/item/f19ff7389c21d95e5aab96514bd1ad35."
+                  }
+               ]
+            }
+         ],
+         "name": "A sermon preached on the anniversary of the battle of Lexington, April 19, 1776. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_14_f19ff7389c21d95e5aab96514bd1ad35_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-road-to-revolution",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Scott County High School, Georgetown, Kentucky"
+               },
+               "name": "James Walsh"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2017-03-28",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2017-03-28",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Describe the [Proclamation Act of 1763](http://dp.la/primary-source-sets/sources/1). Reflect on the reasons the Crown and Parliament would have felt a law like this was necessary. Why would this have frustrated the American colonists?\r\n\r\n2. Reading several pages of the [1765 Stamp Act](http://dp.la/primary-source-sets/sources/2). What kinds of products was it taxing? What was the response of the \u201cCongress\u201d in the [journal from the Congress](http://dp.la/primary-source-sets/sources/3)? What actions did colonists take? Examine the [teapot](http://dp.la/primary-source-sets/sources/5). What does it tell us about the relationship at this point between the colonists and the British?\r\n\r\n3. Reading several pages of the [British text justifying taxation](http://dp.la/primary-source-sets/sources/6). What kind of reasons and justifications are provided for the Parliament's taxation of the colonies?\r\n\r\n4. Compare and contrast the [1770 illustration of the Boston Massacre](http://dp.la/primary-source-sets/sources/7) and the [Washington Irving illustration](http://dp.la/primary-source-sets/sources/8). Given your background knowledge, which depiction is more accurate? What reasons might have motivated the other depiction?\r\n\r\n5. After reading the [letter from Samuel Adams, Paul Revere, and others](http://dp.la/primary-source-sets/sources/9), reflect on what events or actions may have been planned or considered at this meeting. What organizations may have attended or planned the meeting?\r\n\r\n6. Describe the actions and information provided in both the [Committee of Correspondence letter](http://dp.la/primary-source-sets/sources/11) and the [minutes](http://dp.la/primary-source-sets/sources/12) from the meeting. \r\n\r\n7. Provide five observations from the [four plates depicting the battle at Lexington](http://dp.la/primary-source-sets/sources/13). How do these match the firsthand account in the [deposition of a colonial militiaman](http://dp.la/primary-source-sets/sources/16)? Select a passage from the [sermon](http://dp.la/primary-source-sets/sources/17). Given your knowledge of Lexington and Concord and the plates and deposition, explain the selected sermon passage. "
+            },
+            {
+               "name": "Activity",
+               "text": "Divide the class into groups. Use the events, Acts, and accounts from this set of sources, together with your outside information, to create a timeline on a poster paper. With the dates 1763-1776 as your date set, place the documents onto the timeline. Fill in the gaps with outside information, include at least ten other items. For each document and extra item, draw a picture or graphic as a representation. Below the timeline, use a color-coded graphic to indicate the changing attitude of the colonists towards the British Crown and Parliament (for example: an increasingly red thermometer). \r\n"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+            "@type": "CreativeWork",
+            "name": "Road to Revolution: 1763-1776"
+         },
+         "name": "Teaching Guide: Exploring the Road to Revolution"
+      },
+      {
+         "name": "Resources",
+         "text": "\r\n1. [*Paul Revere's Ride*](http://dp.la/item/547d0e51bf73b143270ff19f113ab932) by Henry Wadsworth Longfellow, HathiTrust, Digital Public Library of America.  \r\n\r\n2. [Announcement of the Boston Tea Party, December 20, 1773](http://www.loc.gov/teachers/classroommaterials/presentationsandactivities/presentations/timeline/amrev/rebelln/tea.html), The Library of Congress. \r\n\r\n3. [A Summary of the 1765 Stamp Act](http://www.history.org/history/teaching/tchcrsta.cfm), The Colonial Williamsburg Foundation. \r\n\r\n4. [The Coming of the American Revolution: The Boston Massacre](http://www.masshist.org/revolution/massacre.php), Massachusetts Historical Society. \r\n\r\n5. [Liberty! Chronicle of the Revolution](http://www.pbs.org/ktca/liberty/chronicle_boston1774.html), PBS.\r\n\r\n6. [Reasons for the Revolution](http://www.history.org/almanack/life/politics/4thjuly.cfm), Colonial Williamsburg."
+      },
+      {
+         "name": "Overview",
+         "text": "After the conclusion of the French and Indian War in 1763, relations between the American colonists and the British Crown and Parliament quickly deteriorated. By 1776, many of the colonists, and representatives of all 13 colonies, were ready to declare their independence and take up arms. This set of sources focuses on a selection of events, legislation, and perspectives from both sides during this time period. The documents, images, and artifacts help the student-historian understand the process of going from loyal subjects of the British Crown to rebels willing to risk their lives. Through this inquiry, together with other knowledge, the student should be able to understand the background of America\u2019s Revolution and some of the factors leading to all revolutions. Students can answer the question, \u201cWould you have revolted?\u201d"
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/shays-rebellion",
+         "name": "Shays' Rebellion",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/creating-the-us-constitution",
+         "name": "Creating the US Constitution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-boston-tea-party",
+         "name": "The Boston Tea Party",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/patronage-and-populism-the-politics-of-the-gilded-age",
+         "name": "Patronage and Populism: The Politics of the Gilded Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/revolutionary-war-turning-points-saratoga-and-valley-forge",
+         "name": "Revolutionary War Turning Points: Saratoga and Valley Forge",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/revolutionary-war_01_3986f996243a4766faa9d6703a090a2d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/revolutionary-war_01_3986f996243a4766faa9d6703a090a2d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/spanish-missions-in-california",
+         "name": "Spanish Missions in California",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/latin-american-revolutionaries",
+         "name": "Latin American Revolutionaries",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/latin-american-revolutions-nineteenth-century_07_5699b35dd255da771c2756adea8a8184_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/latin-american-revolutions-nineteenth-century_07_5699b35dd255da771c2756adea8a8184_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/declaration-of-the-rights-of-man-and-of-the-citizen",
+         "name": "Declaration of the Rights of Man and of the Citizen",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/declaration-rights-man-citizen_02_e13d7aff6105421177d22e640369597b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/declaration-rights-man-citizen_02_e13d7aff6105421177d22e640369597b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/rise-of-conservatism-in-the-1980s",
+         "name": "Rise of Conservatism in the 1980s",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+         "name": "Secession of the Southern States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-deal",
+         "name": "The New Deal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Road to Revolution: 1763-1776",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e.jpg",
+   "typicalAgeRange": "11-18"
+}

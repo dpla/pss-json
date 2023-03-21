@@ -1,0 +1,554 @@
+{
+  "@context": {
+  "@vocab": "http://schema.org/",
+  "ccss": "http://www.corestandards.org/",
+  "dct": "http://purl.org/dc/terms/",
+  "dcmitype": "http://purl.org/dc/dcmitype/",
+  "edm": "http://www.europeana.eu/schemas/edm",
+  "ore": "http://www.openarchives.org/ore/terms/",
+  "text": {
+    "@id": "http://schema.org/text",
+    "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+  },
+  "name": {
+    "@id": "http://schema.org/text",
+    "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+  }
+}
+,
+  "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+  "@type": "CreativeWork",
+  "dct:type": "dcmitype:InteractiveResource",
+  "name": "California Gold Rush",
+    "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg",
+    "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+  "dateCreated": "2018-02-22",
+  "dct:created": "2018-02-22",
+  "dateModified": "2018-06-13",
+  "dct:modified": "2018-06-13",
+    "about": [
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Subject",
+          "name": "US History"
+        },
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Time Period",
+          "name": "Expansion and Reform (1801-1861)",
+            "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+        },
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Subject",
+          "name": "Migration"
+        }
+    ],
+    "description": "This collection uses primary sources to explore the Gold Rush that began in California in 1848.",
+    "author": [
+        {
+          "@type": "Person",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Digital Public Library of America"
+            },
+          "name": "Samantha Gibson"
+        }
+    ],
+  "publisher": {
+    "@id": "//dp.la/",
+    "@type": "Organization",
+    "name": "Digital Public Library of America",
+    "email": "info@dp.la"
+  },
+  "hasPart": [
+        {
+          "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-california-gold-rush",
+          "@type": "CreativeWork",
+          "name": "Teaching Guide: Exploring the California Gold Rush",
+          "disambiguatingDescription": "guide"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1903",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+          "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1904",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+          "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1905",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+          "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1906",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+          "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1907",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+          "name": "A painting of California gold miners around a campfire, ca. 1850.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1908",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+          "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1909",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+          "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1910",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+          "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1911",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+          "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1912",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+          "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1913",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+          "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1914",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+          "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1915",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+          "name": "A print of a bird’s eye view of the town of Columbia, California surrounded by images of the town’s major buildings, 1855.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1916",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+          "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1917",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+          "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+      {
+        "name": "Resources",
+        "text": "1. [Gold Rush](http://www.pbs.org/wgbh/americanexperience/films/goldrush/), PBS.  \r\n2. [The Gold Rush Era](https://calisphere.org/exhibitions/t3/gold-rush/), 1848-1865, Calisphere. \r\n3. [*Staking Claims: The Gold Rush in Nineteenth-Century America*](https://dp.la/exhibitions/exhibits/show/gold-rush), Digital Public Library of America. \r\n4. [*1849 California Gold Rush*](http://www.sfmuseum.org/hist1/index0.1.html#gold), The Virtual Museum of the City of San Francisco. "
+      },
+      {
+        "name": "Overview",
+        "text": "On January 24, 1848, carpenter James Marshall discovered gold at Sutter’s Mill, a sawmill on the American River in Coloma, California. This news quickly spread across the country and around the world, igniting the California Gold Rush. Between 1848 and 1855, 300,000 fortune-seekers came to California, transforming its population, landscape, and economy. The largest wave of migrants—about 90,000 people—arrived in 1849, earning them the nickname “forty-niners.”\r\n\r\nIn 1848, the US had just taken California from Mexico as a result of the Mexican-American War, and the region’s population consisted primarily of Native Americans and people of Spanish or Mexican descent. Gold seekers arrived by both sea and overland routes across the West like the California Trail. As people flooded into mining camps, “boomtowns,” and the city of San Francisco, the Gold Rush brought together Europeans, South Americans, Chinese immigrants, and Americans from all walks of life. The tremendous influx of people, paired with open contempt for Native American claims to their ancestral land, resulted in devastating losses for California’s Native American population. Gambling, violence, and vigilante groups were common as local government and law enforcement were often nonexistent or ill-equipped to deal with the flood of new arrivals. \r\n\r\nFor fortune-seekers, gold mining was difficult work and hitting “pay dirt” was no guarantee. Miners would “stake a claim” to a particular location, securing the rights to any gold that they found there. Early gold mining techniques included various forms of panning—using sieve-like devices such as rockers or sluice boxes to separate gold nuggets from rocks and dirt by pouring water through them. As the Gold Rush progressed, miners used more invasive techniques like hydraulic blasting. Some, particularly early Gold Rushers who arrived in 1848, found impressive fortunes in California gold, but most prospectors failed to strike it rich. For those who found gold, it often became currency to pay for food, supplies, and other necessities so they could keep looking for more; local merchants who catered to the miners are the ones who really hit it rich. The sources in this set document the broad “forty-niner” experience."
+      }
+  ],
+    "isRelatedTo": [
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+          "name": "Cherokee Removal and the Trail of Tears"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+          "name": "Mormon Migration"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+          "name": "Puerto Rican Migration to the US"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+          "name": "Immigration through Angel Island"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+          "name": "Commodore Perry’s Expedition to Japan"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+          "name": "Cuban Immigration After the Revolution, 1959-1973"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+          "name": "Exodusters: African American Migration to the Great Plains"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+          "name": "The American Whaling Industry"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+          "name": "The Panic of 1837"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+          "name": "Cotton Gin and the Expansion of Slavery"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/aviation",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+          "name": "Shrinking the World: Pan American Airways in the Postwar Era"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+          "name": "Nineteenth-Century Schools for the Deaf and Blind"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+          "name": "Japanese American Internment During World War II"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+          "name": "Texas Revolution"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+          "name": "Victorian Era"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+          "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+          "name": "Women of the Antebellum Reform Movement"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+          "name": "Immigration and Americanization, 1880-1930"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+          "name": "The Great Migration"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+          "name": "The War of 1812"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+          "name": "Manifest Destiny"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+          "name": "Henry Clay: The Great Compromiser"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+          "name": "The Lewis and Clark Expedition"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+          "name": "Mexican Labor and World War II: The Bracero Program"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/early-chinese-immigration-to-the-us",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058_rep.jpg",
+          "name": "Early Chinese Immigration to the US"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+          "name": "The American Abolitionist Movement"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+          "name": "The Transatlantic Slave Trade"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+          "name": "The Homestead Acts"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+          "name": "Jacksonian Democracy?"
+        }
+    ],
+  "inLanguage": [
+    {
+      "@id": "http://lexvo.org/id/term/eng/English",
+      "@type": "Language",
+      "name": "English"
+    }
+  ],
+  "learningResourceType": "Source Set",
+  "license": "http://dp.la/info/terms/",
+  "typicalAgeRange": "11-18",
+  "accessbilityFeature": [
+    "captions",
+    "structuralNavigation",
+    "audioControl",
+    "videoControl"
+  ],
+  "accessibilityHazard": [
+    "noFlashingHazard",
+    "motionSimulation",
+    "noSoundHazard"
+  ],
+  "accessibilityControl": [
+    "fullMouseControl"
+  ],
+  "educationalAlignment": [
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+      "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+      "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+    }
+  ]
+}

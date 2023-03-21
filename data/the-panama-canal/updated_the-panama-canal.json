@@ -1,0 +1,2303 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Emergence of Modern America (1890-1930)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-7"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "World History"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2017-04-12",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2017-04-12",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the construction of the Panama Canal.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/195",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Bunau-Varilla, Philippe, \u201cNicaragua or Panama,\u201d Digital Public Library of America, https://dp.la/item/f6d73dbeb071e9a874e8c6f9697451d4."
+                  }
+               ]
+            }
+         ],
+         "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/196",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_02_40d04297b7848580a286acd111c6ad49.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Flint, William Russell, Sir, \u201cPacking six-and-a-half million dollars in gold for the first instalment of the Panama Canal purchase,\u201d Digital Public Library of America, https://dp.la/item/40d04297b7848580a286acd111c6ad49."
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/197",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_03_48e769a445e35e2760f3904062bc996c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Texas at Arlington Library via The Portal to Texas History.Courtesy of University of Texas at Arlington Library via The Portal to Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Americana Company, \u201cPanama,\u201d Digital Public Library of America, https://dp.la/item/48e769a445e35e2760f3904062bc996c."
+                  }
+               ]
+            }
+         ],
+         "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/198",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_04_7976290d5154e620eec7f22a593e4f87.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cAn Administrative Elephant,\u201d Digital Public Library of America, https://dp.la/item/7976290d5154e620eec7f22a593e4f87."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/199",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Macmillan, Allister, \u201cDeparture of labourers from Barbados for the Panama Canal,\u201d Digital Public Library of America, https://dp.la/item/5c06c06849b39c25c6f12c6aca7d11f9."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/200",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2017-02-23",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2017-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_06_4595d632c983e8b7e16d98ee81e81760.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of State University of New York Geneseo, Milne Library via Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Wadsworth, Martha Blow, \u201cConstruction Efforts on Panama Canal,\u201d Digital Public Library of America, https://dp.la/item/1f34be3a6ae3f70996c1c063b31b4396."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/201",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2017-04-12",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2017-04-12",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_07_134f78471dbcf33235fad7d206dc4434.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Cornell University Library via Biodiversity Heritage Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Le Prince, Joseph Albert Augustin and Alexander Jeremiah Orenstein, \u201cMosquito control in Panama,\u201d Digital Public Library of America,  https://dp.la/item/4d60ee167f62b8f28e2e710879c6e615."
+                  }
+               ]
+            }
+         ],
+         "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/202",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Panama Canal Company, \u201cApplication of Larvacide (Mosquito Oil) by Use of Knapsack Sprayer, Miraflores, C.Z,\u201d Digital Public Library of America,  https://dp.la/item/64290ba5be9c0f04a043a20ec6fef07b."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/203",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the University of Illinois at Urbana-Champaign via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cExpeditions organized or participated in by the Smithsonian Institution in 1910 and 1911,\u201d Digital Public Library of America,  https://dp.la/item/a2c29ced5a3c8e471b4d743e452071e5."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/204",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_10_8c08e491f90f73f8859ae3a76c73203d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Abbot, Willis J., \u201cJamaicans operating a compressed air drill,\u201d Digital Public Library of America, https://dp.la/item/8c08e491f90f73f8859ae3a76c73203d."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/205",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2017-02-23",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2017-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_11_7029f95767c10bc70a2477011f6704c6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of State University of New York Geneseo, Milne Library via Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Wadsworth, Martha Blow, \u201cConstruction Tower in Panama Canal Bed,\u201d Digital Public Library of America, https://dp.la/item/41075881f70ea42af4555946ee1f7ff6."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a construction tower in the Panama Canal Bed.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/206",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_12_63601809f6bcb7b11a84529cf4133b47.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Panama Canal Company, \u201cQuarters for Negro Laborers, Cristobal,\u201d Digital Public Library of America, https://dp.la/item/63601809f6bcb7b11a84529cf4133b47."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/207",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cGatun locks at work, Panama Canal,\u201d Digital Public Library of America, https://dp.la/item/033f4c4c7e8f71e64276c447d2fd2d05."
+                  }
+               ]
+            }
+         ],
+         "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/208",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/209",
+               "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cOpen for Business,\u201d Digital Public Library of America, https://dp.la/item/52019b6dc4e90a6a20ffd40ad7920bef."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/209",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/195",
+               "name": "The text from a 1901 speech given by Phillipe Bunau-Varilla assessing the value of Nicaragua and Panama Canal options.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_01_f6d73dbeb071e9a874e8c6f9697451d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/196",
+               "name": "An illustration of men packing 6.5 million dollars in gold for the first United States\u2019 Panama Canal purchase payment to France, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_02_40d04297b7848580a286acd111c6ad49_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/197",
+               "name": "A map of Panama indicating the path of the Panama Canal, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_03_48e769a445e35e2760f3904062bc996c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/198",
+               "name": "A 1905 political cartoon about Congressional debate over funds to build the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_04_7976290d5154e620eec7f22a593e4f87_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/199",
+               "name": "A photograph of laborers depart from Barbados for the Panama Canal, 1909.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_05_5c06c06849b39c25c6f12c6aca7d11f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/200",
+               "name": "A photograph of construction on the sides of the Panama Canal with houses in the background.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_06_4595d632c983e8b7e16d98ee81e81760_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/201",
+               "name": "A chart showing the percentage of Panama Canal laborers with malaria over time, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_07_134f78471dbcf33235fad7d206dc4434_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/202",
+               "name": "A photograph of man using a knapsack sprayer to apply larvacide to a ditch in Panama, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_08_64290ba5be9c0f04a043a20ec6fef07b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/203",
+               "name": "A photograph of Department of Agriculture surveyors documenting Gatun Lake prior to the completion of the Panama Canal, 1910-11. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_09_a5d905a23220a94c9d1480a3dd37f7e8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/204",
+               "name": "A photograph of Jamaicans operating a compressed air drill as part of construction for the Panama Canal, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_10_8c08e491f90f73f8859ae3a76c73203d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/205",
+               "name": "A photograph of a construction tower in the Panama Canal Bed.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_11_7029f95767c10bc70a2477011f6704c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/206",
+               "name": "A photograph of segregated living quarters for black Panama Canal laborers and their families.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_12_63601809f6bcb7b11a84529cf4133b47_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/207",
+               "name": "A stereoscopic card from Keystone Viewing Company of the Gatun locks at work, Panama Canal, 1910s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_13_033f4c4c7e8f71e64276c447d2fd2d05_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/208",
+               "name": "A 1914 political cartoon depicting the completion of the Panama Canal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_14_52019b6dc4e90a6a20ffd40ad7920bef_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPanama Canal, C.Z.,\u201d Digital Public Library of America, https://dp.la/item/c5fe9169f6ebcdbd003cb634767f69d8."
+                  }
+               ]
+            }
+         ],
+         "name": "A film reel of the Panama Canal in 1921 taken by the U.S. Department of the Navy.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_15_c5fe9169f6ebcdbd003cb634767f69d8_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-building-of-the-panama-canal",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-11-19",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-11-19",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. According to the [speech given by Phillipe Bunau-Varilla](http://dp.la/primary-source-sets/sources/195), which specific facts did advocates for the Nicaragua Canal use to make their case? Why, according to Phillipe Bunau-Varilla, are these ideas misguided?\r\n\r\n2. What does the [1905 political cartoon](http://dp.la/primary-source-sets/sources/198) tell us about the politics behind Congressional approval of funds to build the Panama Canal?\r\n\r\n3. Using the items in this set as evidence, what are some of the challenges that construction workers faced on the Panama Canal?\r\n\r\n4. Using the items in this set as evidence, how did the construction of the Panama Canal impact the natural environment?\r\n\r\n5. How do the creators of the [1921 film reel](http://dp.la/primary-source-sets/sources/209) want viewers to feel about the Panama Canal? To whom do they give credit? Compare and contrast this with the motivations and message of the [1914 political cartoon](http://dp.la/primary-source-sets/sources/208).\r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "Ask students to use the items in this set to write a week-long journal from the point of view of a construction worker on the Panama Canal. Require students to be specific about what kind of worker, which week of which year, and where the worker is from, or write these identities and ask students to do further research to flesh them out. Ask each student to write a brief entry for each day of the week describing the challenges and triumphs involved in building the Panama Canal."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+            "@type": "CreativeWork",
+            "name": "The Panama Canal"
+         },
+         "name": "Teaching Guide: Exploring the Building of the Panama Canal"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Theodore Roosevelt and the Panama Canal](http://www.pbs.org/wgbh/americanexperience/features/general-article/tr-panama/), PBS American Experience. \r\n\r\n2. [Building the Panama Canal, 1903-1914](https://history.state.gov/milestones/1899-1913/panama-canal), U.S. Department of State, Office of the Historian. \r\n\r\n3. [The Story of the Panama Canal](https://www.loc.gov/item/mp76000330/), the Library of Congress. "
+      },
+      {
+         "name": "Overview",
+         "text": "Beginning with sixteenth-century European explorers, travelers and traders in the Americas dreamed of direct route to connect the Atlantic and Pacific Oceans. That dream would become a reality with the construction of the Panama Canal, a forty-eight mile ship canal across the Isthmus of Panama. The new passage allowed ships to cross in six to eight hours and avoid the long, treacherous Cape Horn route around the southernmost tip of South America. Although the canal project was started by France in 1881, the United States purchased French equipment and excavations in Panama in 1904 and began construction. A decade later, after political struggles, changes in leadership, 375 million dollars in spending, and the death of an estimated 5,600 workers, the project was complete. This primary source set includes photographs, documents, maps, and footage that can be used to explore the stories of environmental issues, political struggle, and human labor that built the Panama Canal."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/settlement-houses-in-the-progressive-era",
+         "name": "Settlement Houses in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beginnings-of-the-american-red-cross",
+         "name": "Beginnings of the American Red Cross",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fake-news-in-the-1890s-yellow-journalism",
+         "name": "Fake News in the 1890s: Yellow Journalism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frank-lloyd-wright-and-modern-american-architecture",
+         "name": "Frank Lloyd Wright and Modern American Architecture",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/theodore-dreiser-s-sister-carrie-and-the-urbanization-of-chicago",
+         "name": "Theodore Dreiser\u2019s *Sister Carrie* and the Urbanization of Chicago",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-columbian-exchange",
+         "name": "The Columbian Exchange",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+         "name": "Blackface Minstrelsy in Modern America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-rise-of-italian-fascism-and-its-influence-on-europe",
+         "name": "The Rise of Italian Fascism and Its Influence on Europe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/spanish-missions-in-california",
+         "name": "Spanish Missions in California",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/when-miners-strike-west-virginia-coal-mining-and-labor-history",
+         "name": "When Miners Strike: West Virginia Coal Mining and Labor History",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+         "name": "Immigration and Americanization, 1880-1930",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+         "name": "Exploration of the Americas",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/attacks-on-american-soil-pearl-harbor-and-september-11",
+         "name": "Attacks on American Soil: Pearl Harbor and September 11",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-imperialism-the-spanish-american-war",
+         "name": "American Imperialism: The Spanish-American War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "The Panama Canal",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef.jpg",
+   "typicalAgeRange": "11-18"
+}

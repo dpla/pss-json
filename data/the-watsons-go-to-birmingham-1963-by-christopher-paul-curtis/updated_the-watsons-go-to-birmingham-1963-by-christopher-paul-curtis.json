@@ -1,0 +1,1774 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "American Literature"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Postwar United States (1945 to early 1970s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-9"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Contemporary United States (1968 to the present)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-state-era-10"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "African Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "New York City Department of Education"
+         },
+         "name": "Lakisha Odlum"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2017-08-24",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2017-08-24",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Christopher Paul Curtis&#39; The Watsons Go To Birmingham\u20141963.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2017-02-02",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2017-02-02",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Atlanta History Center via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Wilson, Bill, \u201cWallace, George C. Jr,\u201d Digital Public Library of America, https://dp.la/item/89b81cd69f7653b46ec58401fd0e349d.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cLetter to the President Birmingham, Alabama,\u201d Digital Public Library of America, https://dp.la/item/9dfea9c7abdaceb190aae483118f67a0.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+         "text": "This letter asks the president about protection for African Americans in the South after the Sixteenth Street Baptist Church bombing in Birmingham, Alabama.\r\n\r\nTranscript:\r\n\r\nDear Mr. President, <br>\r\nWhat I\u2019m going to say might not mean much to you but it means a lot to me. \r\n\r\nI heard on the news that you aren\u2019t sending troops to Birmingham.  Well I think you should for this reason.  Because the negroes have gone through a lot of rough treatment not only in Birmingham but in Mississippi, Arkansas, Georgia, ect. [sic]  This has been going on since the Civil War (they got some rights then but not many).  Many of them have been killed and wounded for the same reason (their rights).\r\n\r\nNow they have to be armed to love! But there [sic] not going to take there [sic] weapons to church, so there\u2019s a pretty good chance that there will be another bombing this Sunday.  By this time it might [be] too late.  They might kill every white in sight (negroes).  At least send secret service down there for church.  I think that that should make sense.\r\n\r\nIf you don\u2019t send troops send me a letter telling why.  You\u2019ll here [sic] from me again.\r\n\r\nLove, <br>\r\nTom Oberdorfer",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Memphis Libraries Special Collections Department via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cLetter from Birmingham City Jail,\u201d Digital Public Library of America, https://dp.la/item/356f3e56d09c5a8aa3da628e6844822b."
+                  }
+               ]
+            }
+         ],
+         "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSixteenth Street Baptist Church, Birmingham, Alabama, key meeting place during civil rights movement and site of 1963 bombing, designated as National Historic Landmark,\u201d Digital Public Library of America, https://dp.la/item/91e77ebca91e18548fdc315bb4e925e4."
+                  }
+               ]
+            }
+         ],
+         "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Georgia State University Libraries Special Collections via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPolicemen outside the shattered stained glass window of the 16th Street Baptist Church, following a racially motivated bombing, Birmingham, Alabama, September 15, 1963,\u201d Digital Public Library of America, https://dp.la/item/9cb6c625af54b24bd16a0f99470815fc. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of United States Federal Bureau of Investigation via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "United States Federal Bureau of Investigation, excerpts from \u201cSixteenth (16th) Street Church Bombing,\u201d Digital Public Library of America, https://dp.la/item/ba32ca7b5e1122a4e493354f22eadb41.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_07_cba8250eaf3bf7894e315a7fcf7dd5d4.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_07_cba8250eaf3bf7894e315a7fcf7dd5d4.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_07_cba8250eaf3bf7894e315a7fcf7dd5d4.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WSB-TV, Walter J. Brown Media Archives and Peabody Awards Collection via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWSB-TV newsfilm clip of Dr. Martin Luther King Jr. presenting four demands of the civil rights movement in Birmingham, Alabama, 1963 May 5,\u201d Digital Public Library of America, https://dp.la/item/c8844da4c76519fd7a7b664de3d30e73.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_08_cba8250eaf3bf7894e315a7fcf7dd5d4.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_08_cba8250eaf3bf7894e315a7fcf7dd5d4.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_08_cba8250eaf3bf7894e315a7fcf7dd5d4.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WSB-TV, Walter J. Brown Media Archives and Peabody Awards Collection via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWSB-TV newsfilm clip of president John F. Kennedy in a press conference expressing his satisfaction with progress in resolving racial conflicts in Birmingham, Alabama, 1963 May 8,\u201d Digital Public Library of America, https://dp.la/item/4add2b8e655619a1a786bcbf09df68c8.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2017-08-24",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2017-08-24",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of North Carolina Department of Natural and Cultural Resources via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cAssorted Clippings on School Segregation, 1950s -1960s,\u201d Digital Public Library of America, https://dp.la/item/9f3488341c3b3fbf2d1515e69c428af2."
+                  }
+               ]
+            }
+         ],
+         "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cComplaint in Brown v. Board of Education of Topeka,\u201d Digital Public Library of America, https://dp.la/item/1f5ff5801b8f5d4bdeecb861c8c3d364."
+                  }
+               ]
+            }
+         ],
+         "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpts from \u201cCivil Rights Act of 1964,\u201d Digital Public Library of America, https://dp.la/item/3355973de0cc507960c143e20e1866f7."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from the Civil Rights Act of 1964.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+               "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_12a_393ec061a98de80583abfae2226d2777.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Berkeley, Bancroft Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEmmett Till with mother, Mrs. Louise (Mame Bradley) Till, Chicago, Ill,\u201d Digital Public Library of America, https://dp.la/item/58299b1f0d6c3baed7a2d96c9d9bad31."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1069",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1057",
+               "name": "A photograph of Alabama Governor George Wallace speaking at a White Citizens Council meeting in 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_01_28713b50d336ce749becfe286454e947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1058",
+               "name": "A letter to President John F. Kennedy from Tom Oberdorfer, Birmingham, Alabama, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1059",
+               "name": "\u201cLetter from Birmingham City Jail\u201d by Martin Luther King Jr., 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_03_f2f181011b1d780f5d6b74a36e533cdd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1060",
+               "name": "A 2006 photograph of the Sixteenth Street Baptist Church in Birmingham, Alabama.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_04_91e77ebca91e18548fdc315bb4e925e4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1061",
+               "name": "A photograph of policemen outside the shattered stained-glass window of the Sixteenth Street Baptist Church, 1963. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_05_f06aa0f1a221941356290873aabbe150_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1062",
+               "name": "Excerpts from Federal Bureau of Investigation (FBI) records from 1972 regarding the bombing of the Sixteenth Street Baptist Church. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_06_5218495b3e0750168b642dcc0e2ec9ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1063",
+               "name": "A newsclip of Dr. Martin Luther King Jr. presenting the four demands of the civil rights movement in Birmingham, Alabama, May 5, 1963."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1064",
+               "name": "A newsclip from May 8, 1963 in which President John F. Kennedy expresses satisfaction with the resolution of racial conflicts in Birmingham."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1065",
+               "name": "Assorted newspaper clippings on school segregation from the 1950s and 1960s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_09_9125f880987ec8be0932d9c5783ceaae_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1066",
+               "name": "Excerpts from the legal complaint in *Brown v. Board of Education of Topeka*, 1951.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_10_1f5ff5801b8f5d4bdeecb861c8c3d364_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1067",
+               "name": "An excerpt from the Civil Rights Act of 1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_11_3355973de0cc507960c143e20e1866f7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1068",
+               "name": "A photograph of Emmett Till with his mother, Mrs. Louise (Mame Bradley) Till, Chicago, 1955. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_12_393ec061a98de80583abfae2226d2777_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of United States Federal Bureau of Investigation via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "United States Federal Bureau of Investigation, excerpts from \u201cEmmett Till,\u201d Digital Public Library of America, https://dp.la/item/08063b7787e1e8ff5d865795e1367608."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from Federal Bureau of Investigation (FBI) records regarding the murder of Emmett Till. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_13_c01ff1ab99dde644106e5cab091bbe63_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-watsons-go-to-birmingham-1963",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "New York City Department of Education"
+               },
+               "name": "Lakisha Odlum"
+            }
+         ],
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-11",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-11",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. In chapter fourteen Kenny says, \u201cI walked past people lying around in little balls on the grass crying and twitching, I walked past people squeezing each other and shaking. I walked past people hugging trees and telephone poles, looking like they were afraid they might fly off the earth if they let go. I walked past a million people with their mouths wide-opened and no sounds coming out.\u201d What does the author\u2019s use of repetition reveal about the aftermath of the bombing? How were people impacted by the event? Consider the evidence presented in Federal the [FBI records regarding the bombing](http://dp.la/primary-source-sets/sources/1062) (page fifteen). What do we learn about the aftermath of the bombing from this document? If you illustrated the scene using Kenny\u2019s description and evidence from the FBI report, what would the scene look like? (Illustrate the aftermath of the Sixteenth Street Church Bombing as an additional activity.) \r\n2. What are the similarities and differences between the experiences of Emmett Till, as described in [FBI records regarding the murder of Emmett Till](http://dp.la/primary-source-sets/sources/1069), and Kenny? How was the Mississippi Delta similar to Birmingham, Alabama during the Civil Rights Movement? In what ways did the southern journeys of Emmett Till and Kenny affect their childhood innocence? \r\n3. In what ways does Martin Luther King Jr. use rhetorical strategies in [\u201cLetter From a Birmingham City Jail\u201d](http://dp.la/primary-source-sets/sources/1059) to engage his audience? For example, in what ways would King\u2019s audience have been affected by the rhetoric of statements such as, \u201cInjustice anywhere is a threat to justice everywhere\u201d? How does King\u2019s letter reflect the sentiments expressed in the Epilogue of *The Watsons Go to Birmingham\u20141963*? What were strategies used by civil rights activists to end racial injustice? What were the risks all civil rights activists had to face?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. **The Civil Rights Movement Station Activity:** \r\n*This activity will be useful in frontloading information about the setting and conflict of the novel; therefore it would be most effective before students read the novel.*  Teachers can set up various learning stations using the primary sources in this set. Students should spend at least ten minutes at each station to engage with the resources, respond to teacher created questions, and develop their own insights. Some recommendations for organizing the stations are: \r\n  * **Station 1 The History of the Oppression of African Americans:** At this station students can read the [letter to President Kennedy](http://dp.la/primary-source-sets/sources/1058) and Martin Luther King Jr.\u2019s [\u201cLetter From a Birmingham City Jail\u201d](http://dp.la/primary-source-sets/sources/1059) and create a list of historical injustices that African Americans have experienced, especially in the South. Students can then use their findings in a discussion about the motivation behind the Birmingham civil rights protests. \r\n  * **Station 2 School Segregation:** At this station students can read the [legal complaint in *Brown v. Board of Education of Topeka*](http://dp.la/primary-source-sets/sources/1066) and begin to unpack the legal history of segregation. Students should identify the key components of the Fourteenth Amendment, explain how school segregation was a violation of the Fourteenth Amendment, and define the role of *Plessy v. Ferguson* in the school segregation debate. \r\n  * **Station 3 Alabama and the Civil Rights Movement:** At this station students can closely examine the severity of the racial turmoil in Alabama. They should read the description that accompanies the [image of Alabama Governor George Wallace](http://dp.la/primary-source-sets/sources/1057), they should watch the [news clip of Dr. Martin Luther King Jr.](http://dp.la/primary-source-sets/sources/1063) and the [news clip of President John F. Kennedy](http://dp.la/primary-source-sets/sources/1064), as well as read King\u2019s [\u201cLetter from a Birmingham City Jail.\u201d](http://dp.la/primary-source-sets/sources/1059) Students should be able to explain why Alabama was considered the most racist state in the country in the early 1960s during that era. \r\n  * **Station 4 The Sixteenth Street Baptist Church Bombing:** Students should examine the images of the church and critically analyze the [FBI\u2019s examination of the church bombing](http://dp.la/primary-source-sets/sources/1062). Students should closely read the letters in the file that suggest that the pastor of the church, as well as the Nation of Islam, should be considered as possible perpetrators. \r\n  * **Station 5 Youth Involvement in the Civil Rights Movement:** The [assorted newspaper clippings on school segregation](http://dp.la/primary-source-sets/sources/1065) serve as an excellent resource for students to examine the ways in which young people advocated for their rights during the civil rights era. Students should identify the obstacles young people faced, as well as the successes they had, and the reasons for those successes. \r\n\r\nOnce students have completed station activities, ask them to make predictions about what the novel will be about. Show students different covers for *The Watsons Go to Birmingham\u20141963*, and ask them to make connections between the images on the covers and the information they learned from the station activities. \r\n\r\n2. **Writing Prompt:**\r\nIn Martin Luther King Jr.\u2019s [\u201cLetter from a Birmingham City Jail,\u201d](http://dp.la/primary-source-sets/sources/1059) King states, \u201cWhatever affects one directly, affects all indirectly. . . Anyone who lives inside the United States can never be considered an outsider anywhere within its bounds.\u201d Write an expository essay in which you respond to the following questions: How does this quotation relate to Kenny\u2019s experience with the church bombing? How is Kenny impacted by the injustice that occurs in Alabama? How does the trauma of the bombing \u201cfollow\u201d the Watsons back to Flint, Michigan? Consider Kenny\u2019s behavior and his discussion with Byron in chapter fifteen, \u201cThe World-Famous Watson Pet Hospital.\u201d"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+            "@type": "CreativeWork",
+            "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis"
+         },
+         "name": "Teaching Guide: Exploring *The Watsons Go to Birmingham\u20141963*"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [*Activism in the US*](http://dp.la/exhibitions/exhibits/show/activism) online exhibition, Digital Public Library of America. \r\n2. [Interactive Resource Gallery](http://rg.bcri.org/gallery/), Birmingham Civil Rights Institute.\r\n3. [Civil Rights Digital Library](http://crdl.usg.edu/).  \r\n4. [Project \u2018C\u2019 in Birmingham](http://www.pbs.org/wgbh/amex/eyesontheprize/story/07_c.html) segment, Eyes on the Prize, PBS. \r\n5. \u201c[The Children Who Marched into Civil Rights History](http://www.cbsnews.com/news/the-children-who-marched-into-civil-rights-history/),\u201d CBS News. "
+      },
+      {
+         "name": "Overview",
+         "text": "The civil rights movement was one of the most powerful social justice movements in the history of the United States; however students and scholars of that movement do not often focus on the negative effects of segregation and racism on children of color before and during the civil-rights era. Christopher Paul Curtis\u2019s historical novel *The Watsons Go to Birmingham\u20141963* (1995) is unique because it deals directly with how racism traumatized youth. A beautiful yet tragic coming-of-age story, *The Watsons Go to Birmingham\u20141963*, shows how a young boy, Kenny, is traumatized after witnessing the bombing of the Sixteenth Street Baptist Church in Birmingham, Alabama. At first Kenny is unaware of the severity of the racism in Birmingham, his grandmother\u2019s hometown, when his family journeys there to keep his older brother Byron out of trouble. He soon realizes that despite some progress toward equality, many Americans are still resistant to the concept of racial integration. Through the support of his family, Kenny overcomes his trauma and matures into a wise young man. This primary source set provides background information on race relations in Alabama during the 1960s, the Sixteenth Street Baptist Church bombing, and civil rights activism in the South. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/a-raisin-in-the-sun-by-lorraine-hansberry",
+         "name": "*A Raisin in the Sun* by Lorraine Hansberry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+         "name": "*Invisible Man* by Ralph Ellison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beloved-by-toni-morrison",
+         "name": "*Beloved* by Toni Morrison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-maya-angelou",
+         "name": "The Poetry of Maya Angelou",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fire-next-time-by-james-baldwin",
+         "name": "*The Fire Next Time* by James Baldwin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+         "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-crucible-by-arthur-miller",
+         "name": "*The Crucible* by Arthur Miller",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/crucible-arthur-miller_07_f4d6eb6fe0b3b269a62f1711827d4d6b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/crucible-arthur-miller_07_f4d6eb6fe0b3b269a62f1711827d4d6b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+         "name": "*To Kill a Mockingbird* by Harper Lee",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/their-eyes-were-watching-god-by-zora-neale-hurston",
+         "name": "*Their Eyes Were Watching God* by Zora Neale Hurston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-woman-warrior-by-maxine-hong-kingston",
+         "name": "*The Woman Warrior* by Maxine Hong Kingston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-things-they-carried-by-tim-o-brien",
+         "name": "*The Things They Carried* by Tim O\u2019Brien",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/things-they-carried-tim-obrien_00_ae0ef4c66a9be21c6db7d21ad2db838a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/things-they-carried-tim-obrien_00_ae0ef4c66a9be21c6db7d21ad2db838a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/elie-wiesel-s-night-and-the-holocaust",
+         "name": "Elie Wiesel's *Night* and the Holocaust",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_sm.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

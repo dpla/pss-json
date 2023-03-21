@@ -1,0 +1,2350 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Postwar United States (1945 to early 1970s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-9"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Social Movements"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Labor History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Asian Americans"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Latino Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2017-02-11",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2017-02-11",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the United Farm Workers and their Delano Grape Strike protest.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Black Gold Cooperative Library System via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cFilipino farm workers picking lettuce, Nagano Farm,\u201d Digital Public Library of America, https://dp.la/item/0480f352d91b246aff3336f1cbf0af04."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+         "text": "In 1931, Filipino farm workers in the area went on strike and won a pay raise from fifteen to twenty-five cents per hour. During the strike, workers were brought from Mexico as replacement laborers.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Rojo, Trinidad A., excerpt from \u201cBrief on the geographical distribution of Filipinos in America,\u201d Digital Public Library of America, https://dp.la/item/5757cf92b1c821003f9aef524c7de64c."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+         "text": "This document was written by Trinidad Rojo, who was elected president of Cannery Workers And Farm Laborers Union Local Seven in October 1942. This brief cites statistics relating to the distribution of Filipinos in America. It also addresses many of the arguments made by salmon industry officials regarding demands from the union. Organizing efforts like the Cannery Workers And Farm Laborers Union were important predecessors to the United Farm Workers.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2017-02-11",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2017-02-11",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the United States Government Publishing Office (GPO)."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "United States Federal Bureau of Investigation, excerpt from \u201cCesar Chavez and United Farm Workers,\u201d Digital Public Library of America, https://dp.la/item/e8878b0115ecb348edb8e3703087e7fa."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Berkeley, Bancroft Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "National Association for the Advancement of Colored People, Los Angeles, California Branch, \u201cSupport the Farm Workers,\u201d Digital Public Library of America, https://dp.la/item/5689b6a3782ec4c07fe54a01ef245988."
+                  }
+               ]
+            }
+         ],
+         "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Kern County Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cClose-up of picketers, Delano Grape Strike,\u201d Digital Public Library of America, https://dp.la/item/ad86f868723875f9933e458bcd19d23d."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Kennedy, Robert F., \u201cRobert F. Kennedy Statement on Cesar Chavez March 10, 1968,\u201d Digital Public Library of America, https://dp.la/item/aaa27166fd4c50105aa90791635c8c3e."
+                  }
+               ]
+            }
+         ],
+         "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+         "text": "In Delano, the United States senator from New York Robert F. Kennedy joined an estimated 6,000 to 10,000 people, mostly Mexican American migrant workers, gathered to hold a \u201cMass of Thanksgiving\u201d at Memorial Park for Cesar Chavez, president of the United Farm Workers.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Los Angeles, Library Special Collections, Charles E. Young Research Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cDear Los Angeles friend ... please don't buy grapes,\u201d Digital Public Library of America, https://dp.la/item/d8f88dff38301a20abf182cb024e8274."
+                  }
+               ]
+            }
+         ],
+         "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Berkeley, Bancroft Library via California Digital Library. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWarning: Eating Grapes May Be Hazardous to Your Health,\u201d Digital Public Library of America, https://dp.la/item/035e2068918fbbf34e41af8d60497454."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Karpen, Joseph, \u201cDolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969,\u201d Digital Public Library of America, https://dp.la/item/471b595af5dd9ee891e6d7787bbfccf5"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+         "text": " Dolores Huerta was one of the co-founders of the National Farm Workers Association and the director of the UFW\u2019s national boycott during the Delano Grape Strike.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cC\u00e9sar Ch\u00e1vez speaking at La Escuelita at a United Farm Workers gathering in Granger, Washington, ca. 1969,\u201d Digital Public Library of America, https://dp.la/item/51c0332d319c02594c72375fc02bbd7c."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cCesar Chavez Jailed! Dow Chemical Guilty,\u201d Digital Public Library of America, https://dp.la/item/0e433831aaba070ce9ca87b68b153748."
+                  }
+               ]
+            }
+         ],
+         "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Museum of American History, Kenneth E. Behring Center via the Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cUnited Farmworkers Poster,\u201d Digital Public Library of America, https://dp.la/item/120f5910e4e2256e9bcd312f99442fda."
+                  }
+               ]
+            }
+         ],
+         "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Inglewood Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Williams, Dan E., \u201cCesar Chavez, Chiquita Bananas Boycott,\u201d Digital Public Library of America, https://dp.la/item/ccb6ed3cb0f4ca4ceaef669ec98edf54."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+               "name": "A United Farm Workers coloring book. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Los Angeles, Library Special Collections, Charles E. Young Research Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "United Farm Workers, \u201cBoycott for democracy ... boycott grapes unless you see this label,\u201d Digital Public Library of America, https://dp.la/item/80d09c2df44cc6b5121c5775932fa827."
+                  }
+               ]
+            }
+         ],
+         "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1327",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1313",
+               "name": "A photograph of Filipino farm workers picking lettuce, Nagano Farm, Morro Bay, California, ca. 1930. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_01_594c683c4a5684daa3d16a66d8209622_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1314",
+               "name": "An excerpt from a report on the geographical distribution and employments of Filipinos in America during the period 1940 to 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_02_5757cf92b1c821003f9aef524c7de64c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1315",
+               "name": "An excerpt from the 1965 FBI investigation of Cesar Chavez and the National Farm Workers Association, based on communist allegations.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_03_7a8c9c3d8e511648c80bbae173a3e701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1316",
+               "name": "A NAACP flyer calling for support for the grape boycott, 1965.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_04_6e389de5ed7d1d87d06221fa1d9fbe2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1317",
+               "name": "A photograph of Delano Grape Strike picketers in Delano, California, February 1966. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_05_c94f56cb16ef43fdb086bc6fdf018658_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1318",
+               "name": "The text of a speech given by Robert F. Kennedy about Cesar Chavez during a visit to Delano, California, March 10, 1968. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_06_aaa27166fd4c50105aa90791635c8c3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1319",
+               "name": "An open letter to Los Angeles supporters asking them for their continued support of the Grape Strike, 1968.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_07_dd5696fb5b8d72c4c099fc1c09a32bc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1320",
+               "name": "A 1969 flyer from the United Farm Workers Organizing Committee advising consumer about the dangers of eating grapes sprayed with pesticides.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_08_9a86c21989ac38c4b906a1a6c406b08d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1321",
+               "name": "A photograph of Dolores Huerta of the United Farm Workers speaking at a Moratorium March in downtown Seattle, November 1969. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_09_471b595af5dd9ee891e6d7787bbfccf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1322",
+               "name": "A photograph of Cesar Chavez speaking at a United Farm Workers gathering at La Escuelita in Granger, Washington, ca. 1969.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_10_51c0332d319c02594c72375fc02bbd7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1323",
+               "name": "An announcement for a rally protesting the arrest of Cesar Chavez, 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_11_0e433831aaba070ce9ca87b68b153748_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1324",
+               "name": "A United Farm Workers poster describing Cesar Chavez's vision of political and economic emancipation for farm workers, circa 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1325",
+               "name": "A photograph of Cesar Chavez speaking at the Chiquita Bananas boycott, ca. 1970.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_13_e6abb2d3381223a21097786505d80b11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1326",
+               "name": "A poster calling for a \u201cboycott for democracy\u201d of grapes, 1975.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_14_cb07614d802aa80b2baa4134c6cd1c97_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Los Angeles, Library Special Collections, Charles E. Young Research Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "United Farm Workers, \u201cA United Farm Workers Coloring Book,\u201d Digital Public Library of America, https://dp.la/item/2f27abaeb79b6d51a21df25a3600523b."
+                  }
+               ]
+            }
+         ],
+         "name": "A United Farm Workers coloring book. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_15_c6dd1eec55af4c1579acc2f94ba55b59_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-united-farm-workers-and-the-delano-grape-strike",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. What do the [photograph of Filipino farm workers](http://dp.la/primary-source-sets/sources/1313) and the [report on the geographical distribution and employments of Filipinos](http://dp.la/primary-source-sets/sources/1314) tell us about the conditions that led to Filipino labor activism?\r\n2. Examine the excerpt from the [FBI investigation](http://dp.la/primary-source-sets/sources/1315). What security concerns about the National Farmer Works Association does it reveal? How do you understand the motivation for these concerns in the context of 1960s America?\r\n3. Considering the [NAACP flyer](http://dp.la/primary-source-sets/sources/1316) and the [photograph of Delano Grape Strike picketers](http://dp.la/primary-source-sets/sources/1317), describe how the work of the United Farm Workers compares and contrasts with the efforts of other activists during the civil rights era.\r\n4. What is the central message of [Robert F. Kennedy\u2019s speech](http://dp.la/primary-source-sets/sources/1318) in Delano? What impact might it have had on the boycott?\r\n5. Cesar Chavez is the leader most prominently featured in the story of the United Farm Workers. Using the sources in this set, consider the pros and cons of a campaign that places Chavez as a central figure.\r\n6. The [open letter](http://dp.la/primary-source-sets/sources/1319), the [1969 flyer from the United Farm Workers Organizing Committee](http://dp.la/primary-source-sets/sources/1320), the poster calling for a \u201c[boycott for democracy](http://dp.la/primary-source-sets/sources/1326)\u201d, and the [coloring book](http://dp.la/primary-source-sets/sources/1327) are propaganda for the United Farm Workers. Who are their intended audiences? What strategies do they use to convince? \r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Group project: Divide students into groups and ask them to design a campaign strategy and poster for the Delano Grape Strike using the examples in this set as inspiration. Who would they be interested in recruiting to help? What strategies and language would they use to convince their audience? Where would they display their posters? Each group should make a brief poster presentation answering these questions to the whole class.\r\n2. Independent research activity: Cesar Chavez is the most-often discussed leader of the United Farm Workers. Ask students to select one of the following UFW leaders and write a brief research report that details his/her involvement and important contributions: Dolores Huerta, Philip Vera Cruz, Larry Itliong, Richard Chavez, Benjamin Gines, or Pete Velasco."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+            "@type": "CreativeWork",
+            "name": "The United Farm Workers and the Delano Grape Strike"
+         },
+         "name": "Teaching Guide: Exploring the United Farm Workers and the Delano Grape Strike"
+      },
+      {
+         "name": "Resources",
+         "text": "1. Lisa Morehouse, \u201c[The Forgotten Filipino-Americans Who Led the \u201965 Delano Grape Strike](http://ww2.kqed.org/news/2015/09/04/50-years-later-the-forgotten-origins-of-the-historic-delano-grape-strike),\u201d KQED News. \r\n2. Cesar Chavez, [The Farmworker Movement, 1962-1993](https://libraries.ucsd.edu/farmworkermovement/), Farmworker Documentation Project, University of California San Diego Library. \r\n3. [United Farm Workers: California 1960s](http://facingfreedom.org/workers-rights/united-farm-workers), Facing Freedom, Chicago History Museum. \r\n4. David Bacon, \u201c[Legacy of the Delano Grape Strike, 50 years Later](http://www.sfchronicle.com/opinion/article/50-years-after-the-Delano-grape-strike-6508846.php),\u201d *San Francisco Chronicle*. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "On September 8, 1965, Filipino farm workers organized as the Agricultural Workers Organizing Committee (AWOC) decided to strike against grape growers in Delano, California, to protest years of poor pay and working conditions. The Delano Grape Strike grew from a long history of labor organizing and protest by Filipino workers in agriculture and canning on the West Coast. AWOC leaders asked the National Farm Workers Association (NFWA), a mostly Latino farm workers union led by Cesar Chavez, to join their strike. The Delano Grape Strike was the first major collaboration between Filipino and Mexican workers, who had traditionally been recruited to work during the other group\u2019s protest actions. In August 1966, the two organizations merged to form the United Farm Workers (UFW), a union committed to nonviolent protest that sought to organize migrant farm laborers to improve their wages, education, housing, and legal protections. \r\n\r\nThe protest that began in the fields in Delano grew into a broader boycott that asked for help from consumers in urban areas. By 1970, the UFW grape boycott was a success. Table grape growers signed their first union contracts, granting workers better pay, benefits, and protections. In the decades that followed, Chavez and the UFW continued to use nonviolent strikes, boycotts, marches, and fasts to help farm workers stand up for their rights and gather support from ordinary Americans to aid them in their efforts. This primary source set uses documents, photographs, and promotional materials to explore the events of the Delano Grape Strike and the formation of the United Farm Workers."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+         "name": "Mexican Labor and World War II: The Bracero Program",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/pop-art-in-the-us",
+         "name": "Pop Art in the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/space-race",
+         "name": "Space Race",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+         "name": "ACT UP and the AIDS Crisis",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fire-next-time-by-james-baldwin",
+         "name": "*The Fire Next Time* by James Baldwin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+         "name": "John Brown's Raid on Harper\u2019s Ferry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/when-miners-strike-west-virginia-coal-mining-and-labor-history",
+         "name": "When Miners Strike: West Virginia Coal Mining and Labor History",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+         "name": "There is No Cure for Polio",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-strike",
+         "name": "The Homestead Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-strike_04_5e348bddb7180bd530acaf6886991ff6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-strike_04_5e348bddb7180bd530acaf6886991ff6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-populist-movement",
+         "name": "The Populist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/populist-movement_06_ac2f9e212ed45f762f3faf7f8594a2a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/populist-movement_06_ac2f9e212ed45f762f3faf7f8594a2a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/rock-and-roll-beginnings-to-woodstock",
+         "name": "Rock 'n' Roll: Beginnings to Woodstock",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rock-and-roll-beginnings-woodstock_07_c358de7e3e1c31322a2cf34d4e788975_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rock-and-roll-beginnings-woodstock_07_c358de7e3e1c31322a2cf34d4e788975_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/postwar-rise-of-the-suburbs",
+         "name": "Postwar Rise of the Suburbs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-impact-of-television-on-news-media",
+         "name": "The Impact of Television on News Media",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-temperance-movement",
+         "name": "Women and the Temperance Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/early-chinese-immigration-to-the-us",
+         "name": "Early Chinese Immigration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+         "name": "The Atomic Bomb and the Nuclear Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "The United Farm Workers and the Delano Grape Strike",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

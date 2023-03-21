@@ -1,0 +1,2046 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Native Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Amy Rudersdorf"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2018-06-13",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2018-06-13",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the Lewis and Clark Expedition.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/146",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-05-18",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-05-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the University of Virginia Library.\r\n"
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Holsinger, Rufus W., \u201cLewis Meriwether,\u201d Digital Public Library of America, https://dp.la/item/9c4fb38670ed7e318d6fca731802da85."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/147",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2017-08-22",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2017-08-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Montana Historical Society Research Center via Big Sky Country Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lewis, Meriwether, \u201cMeriwether Lewis letter, 1806,\u201d Digital Public Library of America, https://dp.la/item/3b87383d36ac55406ccd0c1751baeded."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "text": "Transcription:\r\n\r\nVincennes October 30th. 1806  \r\nSir,  \r\nMy Bill of Exchange No. 113 in favor of George Wallace Jnr. [Junior] on order for five hundred dollars, is an account of that sum advanced me in specie. and which when paid will be charged to me on the faith of my final settlement with the party who accompanied me to the Pacific Ocean, and for other public purposes.   \r\nI have the honor to be with due consideration.  \r\nYour Obt. [Obedient] Servt. [Servant]  \r\nMeriwether Lewis Capt.  \r\n1st M\u2019S. [Missouri?] Regt.[Regimental] Infantry  \r\nGenl. [General] Henry Dearborn  \r\nSecretary of War\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/148",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-19",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Missouri History Museum via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lewis, Meriwether,  \u201cLetter from Meriwether Lewis, Chickasaw Bluffs, to James Madison Esqr, September 16, 1809,\u201d Digital Public Library of America, https://dp.la/item/b5da6546ea5351e2800eb3984f32ddab."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+         "text": "Transcription:\r\n\r\nChickasaw Bluffs, [TN]  \r\nSeptember 16th 09\r\n\r\nDear Sir,\r\n\r\nI arrived here ^yesterday about [crossed out] PM very much exhausted from the heat of the climate, but having ^taken medicine feel much better this morning. My apprehension from the heat of the lower country and my fear of the original papers relative to my voyage to the Pacific ocean falling into the hands of the British has induced me to change my route and proceed by land through the state of Tennessee to the city of Washington. I bring with me duplicates of my voucher for public expenditures etc. which\r\n\r\n*[page two]*\r\n\r\nwhen fully explained, or reather [rather] the general view of the circumstances under which they were made I flatter myself that they ^will receive both ^sanction &^ approbation.\r\n\r\nProvided my health permits no time shall be lost in reaching Washington, my anxiety to pursue and to fullfill [fulfill] the duties incident to ^the internal arrangements incident to the government of Louisiana has prevented my writing you more frequently. Inclosed I herewith transmit you a copy of the laws of the territory of Louisiana. I have the honor to be with the most sincere esteem your [illegible] and very humble\r\n\r\n*[page three]*\r\n\r\n[ftr?] and very humble Servant.  \r\nMeriwether Lewis.\r\n\r\nJames Madison Esq.  \r\nPresident U States\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/149",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_04_898df2f39aeddabad178fc971b36d451.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Missouri History Museum via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Cary, William, \u201cRefracting Telescope of Meriwether Lewis,\u201d Digital Public Library of America, https://dp.la/item/898df2f39aeddabad178fc971b36d451."
+                  }
+               ]
+            }
+         ],
+         "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/150",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_05a_2638c6ebd7901dd8aab8f24c408918b0.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cList of Indian Presents Purchased by Meriwether Lewis in Preparation for the Expedition to the West,\u201d Digital Public Library of America, https://dp.la/item/2638c6ebd7901dd8aab8f24c408918b0."
+                  }
+               ]
+            }
+         ],
+         "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+         "text": "The list includes four dozen butcher knives, twelve dozen pocket looking-glasses, seventy-two pairs of striped ribbons, and eight brass kettles.\r\n\r\nTranscription:\r\n\r\n**Indian presents**\r\n\r\n[header of first numeric column of table] no.  \r\n12 Pipe Tomahawks . . . . . 8 \u00be . . . x 18 \"  \r\n6 \u00bd  lb Strips Sheet Iron . . . . .6 \u00bd . . .x 1.62    \r\n1 p. red flannel 47 \u00bd yd . . . . . 12 3/4 . 5 . 12 . 0 . x 14.94      \r\n11 ps. Handkerchief ass[orted]. . . . . . 13 lb . 22 . 8 . 9 . x 59.83  \r\n1 doz Ivory Combs . . . . 3 oz . 1 . 5 . 0 . x 3.33  \r\n\u00bd Catty Indn. S. Silk . . . . 7 oz . 1 . 8 . 1 \u00bd . x 3.75  \r\n21 lb Tread ass[orted]. . . . . . 21 lb. 8. 13. 9. x 23.17     \r\n1 ps. Scarlet Cloth 22 yd . . . . . 28 \u00be . 21 . 18 . 9 . x 58.50  \r\n5 \u00bd doz fan: Hos ---------- 6 3.4} . . 7 . 1.  6 . x 18.87  \r\n6 Gro[cer]: Binding . . . . . 9 \u00bc }. . 4. 8. 5. x 11.79               \r\n2 Cards Beads . . . . . 1 \u00be} . 26 \u00bd . 1 . 8 . 6 . x 3.80  \r\n4 doz: Butcher Knives ---------- 8 \u00bc } .  . 2 . 0 . 0 . x 5.33  \r\n12 doz. Pocket Looking Glass . . . . . 12 \u00bd lb . . . x 5.19  \r\n15 doz. Pewter \" \" . . . . . 3 6/16 . . . x 3.99  \r\n8 doz. Burning \" \" . . . . . 11 \u00bc . . . x 12. ..  \r\n2 doz . Nonsopretty . . . . . \u00be . . . x 2.94  \r\n2 doz. Red Striped tapes[?] . . . . . 1 \u00bd . . . x 2.50  \r\n72 ps Striped silk ribbon . . . . . 3 \u00bc . . . x 39.60  \r\n3 lb red Beads . . . . . 3 [illegible] . . . x 2.01   \r\n6 Paper[?] Small Bells [illegible crossed out] . . . . . 1 \u00bc . . . x 4.02  \r\n1 box with 100 larger \" \" . . . . . . 1 3/16 . . . x 2.25  \r\n73 B[?] Beads ass[orted] . . . . . 20 . . . x 41. ..  \r\n3 \u00bd doz Tinsel Beads ass[orted] . . . . . 9 oz[?] . . . x 3.75  \r\n1 # Thread [crossed out]  \r\n1 doz: Needle cases . . . . 5 \u00bd oz . . . x .30  \r\n2 /34 doz Lockets . . . . . 3 oz . . . x 3.56  \r\n8 \u00bd [illegible] Red Beads . . . . . 8 \u00bd . . . x 25.50  \r\n2 doz: Earrings . . . . . . . . . x 1. ..  \r\n8 Brass kettles . . . . [illegible crossed out] 24/[illegible] 19 20 . 3 4 . 16 0 . x 10.14 10.67  \r\n12 lb Brass Strips . . . . 12 lb . 2 . 11 . 0 . x 6.80  \r\n500 Broaches . . . . . } . . . . x 62.07  \r\n72 Rings . . . . . } 1 \u00bd lb } . . . x 6.00  \r\n2 Corn Mills . . . . 52 \u00be . . . x 20.00  \r\n15 doz: Scissors[?] . . . . . 17 \u00bc} [illegible crossed out] . . . x 18.97  \r\n[subtotal of last column] confirmed 496.82  \r\nadd [to last column] 53  \r\n[total of last column] 507.35  \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/151",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_06_980729f9329919e14b4bc26204640edc.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cCaptain Clark & his men building a line of huts,\u201d Digital Public Library of America, https://dp.la/item/980729f9329919e14b4bc26204640edc."
+                  }
+               ]
+            }
+         ],
+         "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/152",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_07a_525da571492f728c5e570f1f7897e497.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Texas at Arlington Library via The Portal to Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Shope, Irvin, \u201cThe trail of Lewis and Clark: 1804-1806,\u201d Digital Public Library of America, https://dp.la/item/525da571492f728c5e570f1f7897e497."
+                  }
+               ]
+            }
+         ],
+         "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/153",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2018-04-04",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2018-04-04",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Illinois at Urbana-Champaign via Illinois Digital Heritage Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cGolden Dollar with Sacagawea,\u201d Digital Public Library of America, https://dp.la/item/fe49bd595c3d004ccef5afd0117daf23."
+                  }
+               ]
+            }
+         ],
+         "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/154",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMap of the Louisiana Purchase Territory,\u201d Digital Public Library of America, https://dp.la/item/e80ea3f29dfc08cae764df5e8097dfbf."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/155",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2018-06-13",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2018-06-13",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the University of Utah-American West Center via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Baker & Johnstone, \u201cShoshone women and children,\u201d Digital Public Library of America, https://dp.la/item/f02392e31ed936d0fafca74e2de2f1c7."
+                  }
+               ]
+            }
+         ],
+         "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/156",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2017-08-22",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2017-08-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Montana Historical Society Research Center via Big Sky Country Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Huffman, L. A., \u201cMandan Earth Lodges, Mandan Reservation, Dakota,\u201d Digital Public Library of America, https://dp.la/item/7d8e02120b152cd0232c708e747c5b14."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/157",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWilliam Clark,\u201d Digital Public Library of America, https://dp.la/item/fea0c19c16bc42569b6c3a7cf81b4ff0."
+                  }
+               ]
+            }
+         ],
+         "name": "A portrait of William Clark, circa 1790-1820.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/158",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/159",
+               "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_13_4d539a3a0192576478579409d5154e1a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Desnoyers, Auguste Gaspard Louis, \u201cJefferson,\u201d Digital Public Library of America, https://dp.la/item/4d539a3a0192576478579409d5154e1a."
+                  }
+               ]
+            }
+         ],
+         "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/159",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/146",
+               "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/147",
+               "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/148",
+               "name": "A letter from Meriwether Lewis to President James Madison about Lewis\u2019s journey to deliver papers to Washington, 1809.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/149",
+               "name": "Meriwether Lewis\u2019s telescope, manufactured in 1795.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/150",
+               "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/151",
+               "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/152",
+               "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/153",
+               "name": "A US dollar coin, minted in 2000, showing Lewis and Clark\u2019s Shoshone guide, Sacagawea.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/154",
+               "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/155",
+               "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/156",
+               "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/157",
+               "name": "A portrait of William Clark, circa 1790-1820.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/158",
+               "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark\u2019s expedition.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the University of California Riverside, California Museum of Photography via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSacajawea, Showing the Way to Lewis and Clark,\u201d Digital Public Library of America, https://dp.la/item/228180e4b1606ecbd4f10c09d6e13d32."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-lewis-and-clark-expedition",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-11-01",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-11-01",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Compare and contrast the ways Sacagawea is portrayed on the [coin](http://dp.la/primary-source-sets/sources/153) and in the [sculpture](http://dp.la/primary-source-sets/sources/159). What does each say about her legacy?\r\n\r\n2. Using the items in this set as evidence, describe the challenges that the Lewis and Clark faced. How did they prepare for and overcome these challenges?\r\n\r\n3. Look at the [list of presents](http://dp.la/primary-source-sets/sources/150) Lewis purchased for Native Americans he would meet in his travels. Select one of the gifts and speculate about how a Native American recipient might have reacted to this gift and put it to use.\r\n\r\n4. Look at the [1945 map](http://dp.la/primary-source-sets/sources/152) of the Lewis and Clark Expedition. What does this illustration of their journey reveal about their travels?"
+            },
+            {
+               "name": "Activity",
+               "text": "Based on ideas in this set and your other research about Lewis and Clark, pick a person from the Lewis and Clark Expedition and write a diary entry on a particular day of the journey. Include details about what you see, whom you encounter, which work you have to do, and how you face challenges. "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "@type": "CreativeWork",
+            "name": "The Lewis and Clark Expedition"
+         },
+         "name": "Teaching Guide: Exploring the Lewis and Clark Expedition"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Teaching With Documents: The Lewis and Clark Expedition](https://www.archives.gov/education/lessons/lewis-clark/), the National Archives and Records Administration. \r\n\r\n2. [Lewis & Clark](http://www.nationalgeographic.com/lewisandclark/), National Geographic. \r\n\r\n3. [Lewis & Clark: The Journey of the Corps of Discovery](http://www.pbs.org/lewisandclark/), PBS. \r\n\r\n4. [Journals of the Lewis and Clark Expedition](http://lewisandclarkjournals.unl.edu/), University of Nebraska Lincoln. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "The Lewis and Clark expedition was commissioned by Thomas Jefferson to explore and map the newly purchased Louisiana Territory, to identify a practical route to the Pacific Ocean, and to learn more about the native peoples who lived in the region. Headed by Captain Meriwether Lewis and Second Lieutenant William Clark, the Corps of Discovery Expedition took place from May 1804 to September 1806. Lewis and Clark and the rest of the exploration party were the first Americans to travel through what became the western United States. The expedition included a Shoshone woman named Sacagawea who served as a translator, guide, and diplomat to the many native tribes they encountered. Jefferson was also interested in the flora and fauna of the European-untraveled West, and had hundreds of specimens sent back to Virginia during the two-year undertaking. This collection of images, letters, and maps provides information about the expedition leaders, the president that made the expedition possible, and the people they encountered along the way."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+         "name": "Manifest Destiny",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/spanish-missions-in-california",
+         "name": "Spanish Missions in California",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+         "name": "The American Whaling Industry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+         "name": "The Panic of 1837",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/powhatan-people-and-the-english-at-jamestown",
+         "name": "Powhatan People and the English at Jamestown",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+         "name": "Exploration of the Americas",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-wounded-knee-massacre",
+         "name": "The Wounded Knee Massacre",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+         "name": "The War of 1812",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cross-cultural-colonial-conflicts",
+         "name": "Cross-Cultural Colonial Conflicts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-indian-boarding-schools",
+         "name": "American Indian Boarding Schools",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "The Lewis and Clark Expedition",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg",
+   "typicalAgeRange": "11-18"
+}

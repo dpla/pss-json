@@ -1,0 +1,2379 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Civil War and Reconstruction (1850-1877)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-5"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "African Americans"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Law and Government"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Samantha Gibson"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2017-09-14",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2017-09-14",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the Fifteenth Amendment.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cJoint Resolution Proposing the Fifteenth Amendment to the United States Constitution,\u201d Digital Public Library of America, https://dp.la/item/e303ab9c19a13d03a091b5a2b50e7822."
+                  }
+               ]
+            }
+         ],
+         "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "text": "Transcript:\r\n\r\nFortieth Congress of the United States of America;<br>\r\nAt the third Session,<br>\r\nBegun and held at the city of Washington, on Monday, the seventh day of December, one thousand eight hundred and sixty-eight.\r\n\r\nA RESOLUTION<br>\r\nProposing an amendment to the Constitution of the United States.\r\n\r\nResolved, by the Senate and House of Representatives of the United States of America in Congress assembled, (two-thirds of both Houses concurring) That the following article be proposed to the legislatures of the several States as an amendment to the Constitution of the United States, which, when ratified by three-fourths of said legislatures shall be valid as part of the Constitution, namely:\r\n\r\nArticle XV.\r\n\r\nSection 1. The right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race, color, or previous condition of servitude -- <br>\r\nSection 2. The Congress shall have power to enforce this article by appropriate legislation. -- \r\n\r\nSchuyler Colfax<br>\r\nSpeaker of the House of Representatives.\r\n\r\nB[enjamin]. F[ranklin]. Wade <br>\r\nPresident of the Senate pro tempore.\r\n\r\nAttest:<br>\r\nEdward McPherson<br>\r\nClerk of House of Representatives\r\n\r\nGeo[rge] C. Gorham<br>\r\nSec[retar]y of Senate U.S.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Georgia Archives via Digital Library of Georgia.\r\n"
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cResolution Ratifying the Fifteenth Amendment,\u201d Digital Public Library of America, https://dp.la/item/4e75184b881986066a38f950498bfcf1."
+                  }
+               ]
+            }
+         ],
+         "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+         "text": "Following the Civil War, African Americans had already already claimed voting rights and elected black representatives to Georgia\u2019s constitutional convention and the newly constituted state legislature in 1868. However, white Republicans and Democrats in the state assembly soon allied to expel all the black elected officials. Congress responded with military oversight and, by January of 1870, re-seated the black representatives a month before this ratification was issued. Georgia was the second to last of the required number of states to recognize the fifteenth amendment in order to secure its ratification. Iowa was the last required state, ratifying the amendment the following day, on February 3, 1870. Adoption of the amendment was required before Georgia would be re-admitted to congressional representation. Georgia was the last Confederate state readmitted to the Union.\r\n\r\nTranscript:\r\n\r\nWhereas, At the session of the Fortieth Congress, it was resolved by the Senate and House of Representatives of the United States of America, in Congress assembled, two thirds of both houses concurring, that the following Article shall be proposed to the Legislatures of the several states as an amendment to the Constitution of the United States, which amendment, when it shall have been ratified by three fourths of the said Legislatures shall be valid to all intents and purposes as a part of said Constitution, namely:\r\n\r\nArticle Fifteen<br>\r\nThe right of citizens of the United States to vote, shall not be denied or abridged by the United States, or by any state on account of race, color, or previous condition of servitude.\r\nThe Congress shall have power to enforce this article by appropriate legislation.\r\n\r\nTherefore Resolved, (if the Assembly House concur), That the said proposed Amendment to the Constitution be, and the same is hereby ratified by the Legislature of the State of Georgia.\r\n\r\nExterior: <br>\r\nResolution adopting the 15th Amendment<br>\r\nAdopted in Senate Febr[uar]y 2nd 1870\r\n\r\nA Resolution<br>\r\nWhereas, at the session of the fortieth Congress it was resolved by the Senate and House of Representatives of the United States of America in Congress assembled, two-thirds of both Houses concurring, that the following Article shall be proposed to the Legislatures of the several states as an amendment to the Constitution of the United States, which amendment, when it shall have been ratified by three-fourths of the said Legislatures, shall be valid to all intents and purposes as a part-of the said Constitution, namely, \r\n\r\nArticle Fifteenth.<br>\r\nThe right of citizens of the United States to vote shall not be denied or abridged by the United States or by any State on account of race or color, or previous condition of servitude.<br>\r\nThe Congress shall have power to enforce this article by Appropriate legislation.\r\n\r\nTherefore, resolved, if the Senate concur, that the said proposed amendment to the Constitution be and the same is hereby ratified by the Legislature of the State of Georgia.\r\n\r\nR. L. McWhorter<br>\r\nSpeaker, House Reps.\r\n\r\nJno [John]. J. Newton<br>\r\nClerk, House Reps\r\n\r\nBenjamin Conley<br>\r\nPresident of the Senate\r\n\r\nJ. G. W. Mills<br>\r\nSecretary of the Senate\r\n\r\nAppend Feb[ruar]y 2nd 1870\r\n\r\nRufus Bullock<br>\r\nGovernor\r\n\r\nExterior:<br>\r\nA Resolution Ratifying the fifteenth amendment to the Constitution of the United States.<br>\r\nIn house Read and Adopted Feby 2d 1870<br>\r\nJno [John] J. Newton Cl[er]k House Reps<br>\r\nIn Senate Read and concurred in Feby 2d 1870<br>\r\nJ. G. W. Mills Secty of Senate\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cFifteenth Amendment,\u201d Digital Public Library of America, https://dp.la/item/1c5483d33dcc701f3f4f093d92e058fa."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_04_9e808659b46656abda53f6685141013e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cThe Result of the Fifteenth Amendment and the Rise and Progress of the African Race in America and its Final Accomplishment and Celebration on May 19th A.D. 1870,\u201d Digital Public Library of America, https://dp.la/item/9e808659b46656abda53f6685141013e."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+         "text": "This print is captioned: \u201cThe Result of the Fifteenth Amendment and the Rise and Progress of the African Race in America and its final Accomplishment, and Celebration on May 19th A.D. 1870.\"",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Missouri History Museum via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPrinted song lyrics: 'The Fifteenth Amendment,' ca. 1870,\u201d Digital Public Library of America, https://dp.la/item/e1c79c3b92b492a034ba0a0c50e4a5ac."
+                  }
+               ]
+            }
+         ],
+         "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+         "text": "Born free in Ohio, Joshua McCarter Simpson was an African American abolitionist, herbal doctor, Underground Railroad conductor, and songwriter. Simpson studied at Oberlin College and published his songs in a collection titled *The Emancipation Car: Being an Original Composition of Anti-Slavery Ballads, Composed Exclusively for the Underground Railroad* (1854, 1874).\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Turner, Henry McNeal, \u201cFifteenth amendment; a speech on the benefits accruing from the ratification of the fifteenth amendment and its incorporation into the United States constitution,\u201d Digital Public Library of America, https://dp.la/item/23419a844e5c48fb5efb56064020bb0e"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+         "text": "Henry McNeal Turner was a religious and political leader among Georgia\u2019s African American community during Reconstruction. Turner served as a chaplain to black regiments during the Civil War and was elected to Georgia\u2019s state assembly as a representative in 1868, though he and other other black elected officials were soon expelled from their seats by white Republicans and Democrats.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Bell, C. M., \u201cBishop Henry McNeal Turner of the African Methodist Episcopal Church,\u201d Digital Public Library of America, https://dp.la/item/f0cbc5296aa0e921f2108ab51adb0a2e."
+                  }
+               ]
+            }
+         ],
+         "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "May, Samuel, \u201c[Letter to] Dear friend Webb [manuscript],\u201d Digital Public Library of America, https://dp.la/item/012b92bc660c995de0b048ffec6688ca."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+         "text": "Samuel May was a white abolitionist and minister from Massachusetts. He worked closely with William Lloyd Garrison and his circle of abolitionists and as an agent of the Massachusetts Anti-Slavery Society for many years. May\u2019s cousin, Samuel J. May, and Wendell Phillips were also Garrisonian abolitionists. Richard Davis Webb was an Irish journalist and abolitionist.\r\n\r\nTranscript:\r\n\r\n27 Hollis St. Boston, April 14. [1870]\r\n\r\nDear friend Webb,<br>\r\nI am indeed delinquent in my correspondence, not with you alone, but (I fear) many - certainly, some others. And, even now, I have not the time to explain or apologize, -- of which you will doubtless be glad! To-day the citizens of Boston are celebrating the adoption of the \u201cFifteenth Amendment\u201d ~ all the colored people of the city + of many neighboring towns also, and a good sprinkling of white folk beside; the day is warm + bright, + all is auspicious. At 3 o\u2019clock. Faneuil Hall will be well filled, maybe packed, + Garrison, + Phillips, + numbers of others, are to speak. S. J. May and I, in this family, are honored with tickets of invitation to platform; and as it is now past 2 o\u2019clock, you will perceive I have small time for writing. But I have no sinister motive in so long a silence, as I\u2019m sure you\u2019ll believe.\r\n\r\nWe are very sorry to have Deborah leave the country without coming to Boston, or Leicester, again. We comfort ourselves a little with sending you a few books now, and hoping that both you and she will, before long, visit America again.\r\n\r\nI had a short note from Mary Erthin[?] yesterday, ~ written with her left hand. She said she had sent to you, some weeks time, a letter I had written to her, concerning Mrs. Robbins\u2019s death mainly, + my father\u2019s illness; -- and, before I had finished which, my dear father himself joined the great company of the departed. -- I was glad she sent it to you; for I quite had you in mind, all the while I was writing it. Now I must say goodbye; -- & with sincere regard\r\n\r\nFor you always<br>\r\nS. May\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Broadbent, Samuel and Henry C. Phillips, \u201cOctavius Catto,\u201d Digital Public Library of America, https://dp.la/item/f21e6a4efb52c0ff5f94f7ad9c8d2889.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+         "text": "In addition to his work as a political organizer and educator, Catto worked with Frederick Douglass as a recruiter for black regiments during the Civil War. Catto was a supporter of the Republican Party and an advocate for the Fifteenth Amendment. Although Pennsylvania was a free state prior to the Civil War, African American men\u2019s right to vote had been rescinded by the state legislature in 1838. For the city\u2019s first election following the Fifteenth Amendment, Catto led a campaign encouraging Philadelphia\u2019s African American community to vote. On election day, Octavius Catto was shot and killed by Frank Kelly, a Democratic Party agent. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_10_50af849e9298e33d05d127018237b371.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Wellesley College Library and Boston Library Consortium via Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cThe trial of Frank Kelly for the assassination (!) & murder of Octavius V. Catto, on October 10, 1871,\u201d Digital Public Library of America, https://dp.la/item/50af849e9298e33d05d127018237b371.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+         "text": "Frank Kelly was a Democratic Party supporter who killed Octavius Catto, a black political organizer, on October 10, 1871. Following the shooting, Kelly fled Philadelphia and was found six years later in Chicago. He was returned to Philadelphia for his trial, which was recorded in this pamphlet. Despite testimony by six eyewitnesses who identified Kelly as the perpetrator, he was acquitted.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2017-02-23",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2017-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of New York State Library via Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cRepublicans! Democrats! : A word with you about Negro suffrage,\u201d Digital Public Library of America, https://dp.la/item/2545c9cbe5467d83bd2a0a67f9bc6f38."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+         "text": "This broadside is signed Oliver Ellsworth. Ellsworth (1745 to 1807) was a \u201cfounding father\u201d who helped to draft the US Constitution, served as a senator from Connecticut, and was the third Chief Justice of the United States Supreme Court. The creator of this broadside likely used Ellsworth\u2019s name as a pseudonym.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_12_2087902360615055dc2de74e593f2879.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cFirst Colored Senator and Representatives,\u201d Digital Public Library of America, https://dp.la/item/2087902360615055dc2de74e593f2879.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+         "text": "Hiram Revels, the first African American US senator, took Confederate President Jefferson Davis\u2019 seat, representing Mississippi, on February 25, 1870. The other congressmen pictured include Representatives Benjamin Turner of Alabama, Robert DeLarge of South Carolina, Josiah Walls of Florida, Jefferson Long of Georgia, and Joseph Rainey and Robert B. Elliot of South Carolina. The Forty-First Congress met from 1869 to 1871 and the Forty-Second Congress met from 1871 to 1873.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Yale University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cThe negro and the elective franchise. A series of papers and a sermon,\u201d Digital Public Library of America, https://dp.la/item/c67e2c9a4fd3234e56f6e419ba7c74ec."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+         "text": "*The Negro and the Elective Franchise* was a collection of essays and a sermon published by the American Negro Academy in 1905. The American Negro Academy was an organization of black scholars and intellectuals that operated from 1897 to 1924. Archibald H. Grimk\u00e9 (1849-1930), author of this essay, was born enslaved and was freed as a result of the Civil War. Grimk\u00e9 was the president of the American Negro Academy from 1903 to 1919. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+               "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Tennessee State Library and Archives via Tennessee Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPoll tax receipt,\u201d Digital Public Library of America, https://dp.la/item/52e43e971fc50b7156093b3ecbda347d."
+                  }
+               ]
+            }
+         ],
+         "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+         "text": "Poll taxes were laws that required payment of a fee in order to vote, and were implemented in southern states like Tennessee in order to restrict the political power of African American communities. By the 1880s, Tennessee began enforcing poll taxes, which remained active until the 1960s. In many places, poll taxes were combined with other voting restrictions such as literacy tests.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1226",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1212",
+               "name": "The joint resolution of the United States Congress proposing the Fifteenth Amendment to the United States Constitution, December 7, 1868.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1213",
+               "name": "A resolution by the Georgia state legislature to ratify the Fifteenth Amendment, February 2, 1870.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_02_ef072f67dbfe58e2b572ca7130475390_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1214",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_03_1c5483d33dcc701f3f4f093d92e058fa_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1215",
+               "name": "An 1870 print depicting the celebration of the Fifteenth Amendment as well as vignettes that represent the significance of the amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_04_9e808659b46656abda53f6685141013e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1216",
+               "name": "Lyrics for \u201cThe Fifteenth Amendment\u201d by African American songwriter Joshua McCarter Simpson. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_05_e1c79c3b92b492a034ba0a0c50e4a5ac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1217",
+               "name": "An excerpt from a speech by Henry McNeal Turner in Macon, Georgia on April 19, 1870 regarding the benefits of the Fifteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_06_23419a844e5c48fb5efb56064020bb0e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1218",
+               "name": "A portrait of Henry McNeal Turner, Bishop of the African Methodist Episcopal Church, ca.1880s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_07_f0cbc5296aa0e921f2108ab51adb0a2e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1219",
+               "name": "A letter from April 1870, written by Samuel May to Richard Davis Webb, mentioning Boston\u2019s celebration of the Fifteenth Amendment. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_08_012b92bc660c995de0b048ffec6688ca_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1220",
+               "name": "A portrait of Octavius Catto, an African American activist, educator, and political organizer, ca.1871.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_09_f21e6a4efb52c0ff5f94f7ad9c8d2889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1221",
+               "name": "An excerpt from a pamphlet called *The Trial of Frank Kelly For The Assassination and Murder of Octavius V. Catto, on October 10, 1871*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_10_50af849e9298e33d05d127018237b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1222",
+               "name": "An 1869 broadside in response to the proposed Fifteenth Amendment, titled \u201cRepublicans! Democrats! A Word with you about Negro Suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_11_1a64842372b3e03407e6713e71504c7b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1223",
+               "name": "A print depicting the first African American senator and representatives, who served in the Forty-First and Forty-Second Congresses, 1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_12_2087902360615055dc2de74e593f2879_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1224",
+               "name": "An excerpt from a 1905 essay by A. H. Grimk\u00e9 called \u201cThe Meaning and Need of the Movement to Reduce Southern Representation.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_13_c67e2c9a4fd3234e56f6e419ba7c74ec_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1225",
+               "name": "Robert S. Anderson\u2019s poll tax receipt, Memphis, Tennessee, April 25, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_14_52e43e971fc50b7156093b3ecbda347d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Rhodes College Crossroads to Freedom via Tennessee Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMemphis World: Free The Ballot,\u201d Digital Public Library of America, https://dp.la/item/0de2fb82c1ab1d00aa0bdbb82733392d."
+                  }
+               ]
+            }
+         ],
+         "name": "An article titled \u201cFree the Ballot,\u201d about voting rights during the civil rights movement, from *Memphis World* newspaper, February 13, 1960.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_rep.jpg",
+         "text": "*Memphis World* was a black newspaper published between 1931 and 1973 in Memphis, Tennessee. \r\n\r\nTranscript:\r\n\r\nTranscript:\r\n\r\n**Free The Ballot**<br>\r\nAmerica is not fully free so long as the ballot is fettered in any part of the United States of America. The right of the Negro citizen to vote is embedded in the Fifteenth Amendment of the federal constitution. In a number of states the right-to-vote amendment has been frustrated, negated and butchered. \r\n\r\nIn the South there is only token Negro voting on an average basis. In a number of Southern counties with more Negro citizens than white citizens there are no Negro voters. This is a tragic commentary on American democracy. Excuse given for such racial denial of voting is the preservation of \"white supremacy\" and to prevent \"Negro bloc voting\". The bogey of \"Negro rule\" and the preservation of \"white rule\" are other scares. \r\n\r\nStill much is said of \"States' Rights\" and \"local rule.\" Yet local rule should be based upon the rule of the local people. States' rights envision a respect for personal and individual rights. Southern politicians tend to distort the theory of states' rights and to misapply the idea of local rule.' \r\n\r\nThe Fifteenth Amendment bestows upon the Negro citizen a right which constitutionally cannot be removed by state action or states' rights doctrines. Yet that very thing is being done in the South and the Congress has been indifferent and laggard about using its authority and power to protect, guard and actuate the Negro citizen's right to vote in the South.\r\n\r\nA number of bills have been introduced in the Congress seeking to implement the Fifteenth Amendment. The Republican Administration and the Democratic Majority Leadership together with individual lawmakers have submitted bills designed to make voting rights practical opportunities for the Negro group. Introduction of bills, press releases about them and the criss-cross of quibbling partisan criticism, do not always produce legislation.\r\n\r\nTherefore if the President of the United States actually means that he is for meaningful voting by the Negro group in the South he is going to have to begin to fight with all of his power for such legislation. He probably will need to carry the fight to the people in a special nationwide civil rights speech. We would like to see President Eisenhower carry the fight for practical voting opportunities to the people and exert bold and uncompromising leadership for the right to vote. \r\n\r\nIn the meantime, those who want Negro voting opportunities established and materialized in the South should build a fire under Congress. A hard fight is a hand and the Southern lawmakers in Congress are tough, skilled and experienced counter fighters, let Congress have no peace of mind, no easy conscience and no happy time at the polls until adequate civil rights legislation is passed in the current session.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_15_0de2fb82c1ab1d00aa0bdbb82733392d_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-fifteenth-amendment",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Samantha Gibson"
+            }
+         ],
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Based on a close reading of imagery in the two commemorative prints from 1870, describe how the artists believed the Fifteenth Amendment would impact African Americans\u2019 lives in addition to allowing them the power to vote?\r\n2. In what ways do the lyrics in Joshua McCarter Simpson\u2019s [song](http://dp.la/primary-source-sets/sources/1216) reflect the Thirteenth and Fourteenth Amendments in addition to the Fifteenth Amendment? How do Simpson\u2019s song lyrics compare to the imagery in the commemorative prints?\r\n3. What do the case of Octavius Catto, the [broadside](http://dp.la/primary-source-sets/sources/1222) from Connecticut, and Samuel May\u2019s [letter](http://dp.la/primary-source-sets/sources/1219) reveal about Northern attitudes toward the Fifteenth Amendment and the idea of black political power?\r\n4. Black leaders Henry McNeal Turner and Archibald Grimk\u00e9 wrote about the significance and impact of the Fifteenth Amendment approximately thirty-five years apart. Using [Turner\u2019s speech](http://dp.la/primary-source-sets/sources/1217) and [Grimk\u00e9\u2019s essay](http://dp.la/primary-source-sets/sources/1224), compare and contrast their perspectives. Based on Grimk\u00e9\u2019s analysis, describe what had changed between the adoption of the Fifteenth Amendment and 1905.\r\n5. Compare the analysis in [Grimk\u00e9\u2019s essay](http://dp.la/primary-source-sets/sources/1224) with that of the [*Memphis World* article](http://dp.la/primary-source-sets/sources/1226) in 1960. How had strategies for securing the vote changed between 1905 and the start of the civil rights movement?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Have students stage a mock meeting of the American Negro Academy based on essays in *The Negro and the Elective Franchise*. Students can select specific members of the academy and research their lives and perspectives. At the mock meeting, students can discuss and debate strategies and ideas for securing the full promises of the Fifteenth Amendment.\r\n2. Have students create collages inspired by the commemorative prints at the beginning of the set. What would the scenes and imagery for a \u201cFifteenth Amendment\u201d print have looked like in 1905? What about in 1965? Students can research historical images from DPLA and other sources to complete their \u201cvignette\u201d collages.\r\n"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "The Fifteenth Amendment"
+         },
+         "name": "Teaching Guide: Exploring the Fifteenth Amendment"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [The Fifteenth Amendment to the US Constitution](http://www.ourdocuments.gov/doc.php?flash=true&doc=44), Our Documents Initiative. \r\n2. [Amendment XV: Right to vote not denied by race](http://constitutioncenter.org/interactive-constitution/amendments/amendment-xv), National Constitution Center.\r\n3. [Octavius Catto: Philadelphia\u2019s \"Forgotten Hero,\"](http://blog.constitutioncenter.org/2012/02/octavius-catto-philadelphia\u2019s-\u201cforgotten-hero\u201d/) National Constitution Center blog. \r\n4. [*This Far By Faith*: Henry McNeal Turner](http://www.pbs.org/thisfarbyfaith/people/#henry_mcneal_turner), PBS.  \r\n5. [Introduction to Federal Voting Rights Laws](http://www.justice.gov/crt/introduction-federal-voting-rights-laws), US Department of Justice. \r\n6. \u201c[Recalling an era when the color of your skin meant you paid to vote](http://www.smithsonianmag.com/smithsonian-institution/recalling-era-when-color-your-skin-meant-you-paid-vote-180958469/),\u201d *Smithsonian* magazine. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "The Fifteenth Amendment to the US Constitution, ratified on February 3, 1870, says that the right to vote cannot be denied or abridged on the basis of race, color, or prior condition of servitude. The Fifteenth Amendment is often grouped with the Thirteenth Amendment, ending slavery (1865), and Fourteenth Amendment, securing citizenship (1868), as one of the \u201cReconstruction amendments,\u201d which were passed by the radical Republican-dominated Congress following the Civil War. In effect, the Fifteenth Amendment secured the right to vote for African American men. As many as one million African American men registered to vote throughout the South, where in many districts African Americans constituted the majority or near-majority of the population. This expansion of political power also resulted in a dramatic increase in political representation as African American men were elected to local, state, and federal offices throughout the North and South. \r\n\r\nMany of the gains provided by the Fifteenth Amendment proved to be only temporary, however, because many white Americans strongly opposed black political power. Following the end of Reconstruction, many southern states quickly enacted laws that limited the voting power of black citizens in order to restore white supremacy. In some places, African Americans faced additional taxes or the threat of losing their jobs, homes, or even their lives if they tried to vote. By the 1890s, most black communities in the South were effectively disenfranchised by these state and local policies, despite the Fifteenth Amendment. During the 1960s, securing equal voting rights became one of the central issues of the civil rights movement, culminating in the Voting Rights Act of 1965. The documents, images, photographs and articles in this set explore the passage of the Fifteenth Amendment, responses to it across the United States, and its long-term impact on the struggle for equal voting rights."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+         "name": "Secession of the Southern States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+         "name": "Blackface Minstrelsy in Modern America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-boston-tea-party",
+         "name": "The Boston Tea Party",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+         "name": "Exodusters: African American Migration to the Great Plains",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+         "name": "John Brown's Raid on Harper\u2019s Ferry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/patronage-and-populism-the-politics-of-the-gilded-age",
+         "name": "Patronage and Populism: The Politics of the Gilded Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+         "name": "Battle of Gettysburg",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+         "name": "Women in the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/rise-of-conservatism-in-the-1980s",
+         "name": "Rise of Conservatism in the 1980s",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beloved-by-toni-morrison",
+         "name": "*Beloved* by Toni Morrison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/northern-draft-riots-during-the-civil-war",
+         "name": "Northern Draft Riots During the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/creating-the-us-constitution",
+         "name": "Creating the US Constitution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-deal",
+         "name": "The New Deal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/shays-rebellion",
+         "name": "Shays' Rebellion",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+         "name": "Road to Revolution: 1763-1776",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "The Fifteenth Amendment",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

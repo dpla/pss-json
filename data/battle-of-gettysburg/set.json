@@ -1,0 +1,429 @@
+{
+  "@context": {
+  "@vocab": "http://schema.org/",
+  "ccss": "http://www.corestandards.org/",
+  "dct": "http://purl.org/dc/terms/",
+  "dcmitype": "http://purl.org/dc/dcmitype/",
+  "edm": "http://www.europeana.eu/schemas/edm",
+  "ore": "http://www.openarchives.org/ore/terms/",
+  "text": {
+    "@id": "http://schema.org/text",
+    "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+  },
+  "name": {
+    "@id": "http://schema.org/text",
+    "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+  }
+}
+,
+  "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+  "@type": "CreativeWork",
+  "dct:type": "dcmitype:InteractiveResource",
+  "name": "Battle of Gettysburg",
+    "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_sm.jpg",
+    "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+  "dateCreated": "2017-09-18",
+  "dct:created": "2017-09-18",
+  "dateModified": "2020-07-22",
+  "dct:modified": "2020-07-22",
+    "about": [
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Subject",
+          "name": "US History"
+        },
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Time Period",
+          "name": "Civil War and Reconstruction (1850-1877)",
+            "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-5"
+        }
+    ],
+    "description": "This collection uses primary sources to explore the Battle of Gettysburg during the American Civil War.",
+    "author": [
+        {
+          "@type": "Person",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Digital Public Library of America"
+            },
+          "name": "Franky Abbott"
+        }
+    ],
+  "publisher": {
+    "@id": "//dp.la/",
+    "@type": "Organization",
+    "name": "Digital Public Library of America",
+    "email": "info@dp.la"
+  },
+  "hasPart": [
+        {
+          "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-battle-of-gettysburg",
+          "@type": "CreativeWork",
+          "name": "Teaching Guide: Exploring the Battle of Gettysburg",
+          "disambiguatingDescription": "guide"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1464",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+          "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O’Sullivan.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1465",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+          "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O’Sullivan, July 1863.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1466",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+          "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1467",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+          "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1468",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+          "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1469",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+          "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1470",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+          "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1471",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+          "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1472",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+          "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1473",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+          "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1474",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+          "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1479",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+          "name": "*(Warning: graphic material)* “Home of a Rebel Sharpshooter,” a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1480",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+          "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O’Sullivan, 1863.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1482",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+          "name": "A box of relics collected at the battlefield at Gettysburg.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/1483",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+          "name": "Handwritten copies of Abraham Lincoln’s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+      {
+        "name": "Resources",
+        "text": "1. [Gettysburg](https://www.civilwar.org/learn/civil-war/battles/gettysburg), Civil War Trust. \r\n2. [Gettysburg National Military Park](https://www.nps.gov/gett/learn/historyculture/index.htm), National Park Service. \r\n3. “[A Cutting-Edge Second Look at the Battle of Gettysburg](http://www.smithsonianmag.com/history/A-Cutting-Edge-Second-Look-at-the-Battle-of-Gettysburg-1-180947921/),” *Smithsonian Magazine*, June 27, 2013. \r\n4. “[The Battle of Gettysburg: 150 Years Ago](https://www.theatlantic.com/photo/2013/07/the-battle-of-gettysburg-150-years-ago/100545/),” *The Atlantic*, July 3, 2013. "
+      },
+      {
+        "name": "Overview",
+        "text": "In late June 1863, more than two years into the American Civil War, Union and Confederate military forces converged on the town of Gettysburg, Pennsylvania. After a series of military successes, Confederate Commander Robert E. Lee led his Army of Northern Virginia into Union territory in his second invasion of the North. He hoped that a Confederate victory in Pennsylvania would convince Northern politicians to abandon the war. The Union Army of the Potomac, led initially by General Joseph Hooker and then General George Meade, crossed the Potomac River to pursue Lee’s forces. \r\n\r\nOn July 1, Confederate forces attacked the Union lines at Gettysburg from the northwest and north, initially pushing the Union army back. By July 2, both Confederate and Union armies had fully assembled, with seventy thousand and ninety-four thousand men, respectively. Confederates launched assaults on the Union left at sites like Little Round Top, the Wheatfield, and the Peach Orchard. On the Union right, Confederates charged Culp's Hill and Cemetery Hill. Across these sites and despite significant losses, the Union held its lines. On July 3, fighting resumed, most notably on Cemetery Ridge, where 12,500 Confederates charged the center of the Union line during Pickett's Charge. Union rifle and artillery fire repulsed the charge at great loss to the Confederate army. On July 4, Lee led his army on a difficult retreat back to Virginia.\r\n\r\nSome fifty thousand soldiers from both armies died in the three-day battle at Gettysburg, making it the most deadly military battle in US history. The town of Gettysburg had to deal with the aftermath of this brutal conflict: Bodies covered fields, wounded soldiers flooded hospitals, and property was destroyed. The Battle at Gettysburg is considered a turning point in the Civil War because it ended Lee’s long run of victories and marked the Confederate Army’s last attempt to invade the North. On November 19, 1863, President Abraham Lincoln used the dedication ceremony for the Gettysburg National Cemetery to honor the fallen Union soldiers and redefine the war in his historic Gettysburg Address."
+      }
+  ],
+    "isRelatedTo": [
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+          "name": "John Brown's Raid on Harper’s Ferry"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+          "name": "The Fifteenth Amendment"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+          "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+          "name": "The Underground Railroad and the Fugitive Slave Act of 1850"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+          "name": "Women in the Civil War"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/northern-draft-riots-during-the-civil-war",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_rep.jpg",
+          "name": "Northern Draft Riots During the Civil War"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+          "name": "Secession of the Southern States"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+          "name": "The Freedmen's Bureau"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+          "name": "Frederick Douglass and Abraham Lincoln"
+        }
+    ],
+  "inLanguage": [
+    {
+      "@id": "http://lexvo.org/id/term/eng/English",
+      "@type": "Language",
+      "name": "English"
+    }
+  ],
+  "learningResourceType": "Source Set",
+  "license": "http://dp.la/info/terms/",
+  "typicalAgeRange": "11-18",
+  "accessbilityFeature": [
+    "captions",
+    "structuralNavigation",
+    "audioControl",
+    "videoControl"
+  ],
+  "accessibilityHazard": [
+    "noFlashingHazard",
+    "motionSimulation",
+    "noSoundHazard"
+  ],
+  "accessibilityControl": [
+    "fullMouseControl"
+  ],
+  "educationalAlignment": [
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+      "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+      "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+    }
+  ]
+}

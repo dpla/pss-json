@@ -1,0 +1,1654 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "American Literature"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Contemporary United States (1968 to the present)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-state-era-10"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Native Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "East Central High School, St. Leon, Indiana"
+         },
+         "name": "Susan Ketcham"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2020-07-22",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Sherman Alexie&#39;s The Absolutely True Diary of a Part-Time Indian.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/987",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_01_62f372682f1e72259bd5ca6b43868988.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_01_62f372682f1e72259bd5ca6b43868988.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_01_62f372682f1e72259bd5ca6b43868988.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Public Radio via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cAuthor Sherman Alexie reflects on moving off reservation,\u201d Digital Public Library of America, https://dp.la/item/62f372682f1e72259bd5ca6b43868988."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/988",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lewis, Richard T., \u201cSpokane family-- four generations, Washington, c.1940,\u201d Digital Public Library of America, https://dp.la/item/c71c2033f209d4102e8401e738f5be55."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+         "text": "The baby pictured is Sherman Alexie, Sr., father of Sherman Alexie.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/989",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSpokane Reservation first mission, Wellpinit, Washington,\u201d Digital Public Library of America, https://dp.la/item/592fa512bbd2c8c56e5fd6317d75eec6."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/990",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSpokane named Sam Boyd in ceremonial dress, Wellpinit, Washington, 1910,\u201d Digital Public Library of America, https://dp.la/item/4580df66daf5f8a39ec25d1940b51060."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/991",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lewis, Richard T., \u201cSpokane named Sam Boyd, Wellpinit, Washington,\u201d Digital Public Library of America, https://dp.la/item/d3ba3bfe78b2b8f4ec10a6a193cbe3a1."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/992",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Thompson, J.W., \u201cPeople assembled during an event at Makah Indian Reservation,\u201d Digital Public Library of America, https://dp.la/item/6269940d63147f5e1d799f264f798ae2."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/993",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Thompson, J.W., \u201cWomen dancing during an event at Makah Indian Reservation,\u201d Digital Public Library of America, https://dp.la/item/f0f560f4ff23f70ebb796bbbf120acf5."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/994",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Cowley, Henry Thomas, \u201cEarly Times In Spokane,\u201d Digital Public Library of America, https://dp.la/item/25e80bf58c80e0fb7a1bc21b98aeb3d1."
+                  }
+               ]
+            }
+         ],
+         "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/995",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_09_88247d7588aa7831f6a26c36c38d6dd9.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_09_88247d7588aa7831f6a26c36c38d6dd9.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_09_88247d7588aa7831f6a26c36c38d6dd9.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Public Radio via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cImproving education for Native American students,\u201d Digital Public Library of America, https://dp.la/item/88247d7588aa7831f6a26c36c38d6dd9.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/996",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_10_33bb5a83003884ace4074b80cc352163.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_10_33bb5a83003884ace4074b80cc352163.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_10_33bb5a83003884ace4074b80cc352163.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Public Radio via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cRed Lake Warriors eye state basketball tourney,\u201d Digital Public Library of America, https://dp.la/item/2666c96ea954aa9b3fad4197390643ca."
+                  }
+               ]
+            }
+         ],
+         "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/997",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2020-07-21",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of College of Charleston Libraries via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cDavid und Goliath,\u201d Digital Public Library of America, https://dp.la/item/f3e719f229b750309c97adad71865ee5."
+                  }
+               ]
+            }
+         ],
+         "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/998",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/999",
+               "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutlely-true-diary-part-time-indian-sherman-alexie_12_02aba809b56abbc3f7c77ed7b27a9db3.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutlely-true-diary-part-time-indian-sherman-alexie_12_02aba809b56abbc3f7c77ed7b27a9db3.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutlely-true-diary-part-time-indian-sherman-alexie_12_02aba809b56abbc3f7c77ed7b27a9db3.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Public Radio via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cSherman Alexie on 'Blasphemy\u2019,\u201d Digital Public Library of America, https://dp.la/item/02aba809b56abbc3f7c77ed7b27a9db3.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an interview with Sherman Alexie, 2012."
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/999",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/987",
+               "name": "An excerpt from an interview with Sherman Alexie in which he discusses moving off the reservation, 2009. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/988",
+               "name": "A photograph of four generations of a Spokane Indian family, ca. 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/989",
+               "name": "A photograph of Spokane Reservation in Wellpinit, Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_03_592fa512bbd2c8c56e5fd6317d75eec6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/990",
+               "name": "A photograph of Sam Boyd, a Spokane Indian, in ceremonial dress, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_04_4580df66daf5f8a39ec25d1940b51060_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/991",
+               "name": "A photograph of an older Spokane Indian named Sam Boyd, ca. 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_05_d3ba3bfe78b2b8f4ec10a6a193cbe3a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/992",
+               "name": "A photograph of people assembled for an event at the Makah Indian Reservation, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_06_6269940d63147f5e1d799f264f798ae2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/993",
+               "name": "A photograph of women dancing in Wellpinit, Washington, 1955.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_07_f0f560f4ff23f70ebb796bbbf120acf5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/994",
+               "name": "The text of Henry Thomas Cowley\u2019s appointment as a missionary and school teacher for the Spokane Indians in Spokane Falls, 1874.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_08_25e80bf58c80e0fb7a1bc21b98aeb3d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/995",
+               "name": "An excerpt from a news bulletin about improving education for Native American students, 2013."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/996",
+               "name": "A news report discussing the Red Lake Warriors, an all-Native American basketball team, 1998."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/997",
+               "name": "A reproduction of Robert Leinweber\u2019s painting depicting David and Goliath, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_11_6f31d724cad3d8e1ce0439252dc9eb13_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/998",
+               "name": "An excerpt from an interview with Sherman Alexie, 2012."
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cAgreement with Spokane Indians,\u201d Digital Public Library of America, https://dp.la/item/3c9e4baab087642be1e9ffa655221d8f."
+                  }
+               ]
+            }
+         ],
+         "name": "The text of the agreement between the United States and the Spokane Indians, 1892.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_13_3c9e4baab087642be1e9ffa655221d8f_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-absolutely-true-diary-of-a-part-time-indian",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "East Central High School, St. Leon, Indiana"
+               },
+               "name": "Susan Ketcham"
+            }
+         ],
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-11",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-11",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Listen to the [interview with Sherman Alexie](http://dp.la/primary-source-sets/sources/987) in which he discusses moving off the reservation. What do you think he means when he says, \u201cSpokane Indians are preconditioned to mourn in a way that other Indians may not\u201d? In what ways does Junior mourn throughout the novel? How does this connect to what Alexie says?\r\n2. Look at the photograph of [people assembled for an event at the Makah Indian Reservation](http://dp.la/primary-source-sets/sources/992) and the photograph of [women dancing in Wellpinit](http://dp.la/primary-source-sets/sources/993). Why might people like Billionaire Ted and other art collectors be interested in attaining the ceremonial dance outfits the women are wearing in the photographs? What makes clothing art? Why do you think Alexie decided to include the scene at Grandma\u2019s wake where Junior\u2019s mother tells Billionaire Ted that the powwow dress wasn\u2019t hers, nor did it even look like it belonged to a Spokane Indian?\r\n3. Look at the [postcard of David and Goliath](http://dp.la/primary-source-sets/sources/997). After the basketball game where Arnold beats his former all-Native American team and best friend Rowdy, Arnold realizes that he is playing on the side of Goliath, not David. How does this picture illustrate this analogy? Why would people root for Davids instead of Goliaths? Why does this realization shame Arnold?\r\n4. Junior says, \u201cReservations were meant to be prisons, you know? Indians were supposed to move onto reservations and die. We were supposed to disappear.\u201d Look at [the agreement](http://dp.la/primary-source-sets/sources/999) between the United States and the Spokane Indians. Does the agreement confirm what Junior says about the purpose of a reservation? Now listen to [Sherman Alexie\u2019s 2012 interview](http://dp.la/primary-source-sets/sources/998). How true are Junior\u2019s words? Does Junior\u2019s desire to leave the reservation challenge the common media portrayals of Native Americans? Is Sherman Alexie blasphemous for writing about the Native American community with a critical eye? Explain.\r\n5. Junior leaves Wellpinit for Rearden because of the quality of education he can receive at a white school versus a reservation school. Read about [Henry Thomas Cowley\u2019s experience](http://dp.la/primary-source-sets/sources/994) as a school teacher for the Spokane Indians and listen to the [news bulletin about improving education](http://dp.la/primary-source-sets/sources/995) for Native American students. Do you think Junior should have left? Would you have left? Are we, as a society, doing enough for Native American students? Think about the quality of your education. After having read about Junior\u2019s experience at Wellpinit\u2019s school, identify some things about your education that you have taken for granted.\r\n6. Compare the two pictures of Sam Boyd. What conclusions can you make about life on the reservation based on these photographs of the same man taken nearly thirty years apart?\r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "Ask students to listen to the [report about the Red Lake Warriors basketball team](http://dp.la/primary-source-sets/sources/996). Then ask them to create a newspaper article or deliver a live report after Rearden vs. Wellpinit\u2019s first basketball game. Finally, have them create one for the rematch.\r\n"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-absolutely-true-diary-of-a-part-time-indian-by-sherman-alexie",
+            "@type": "CreativeWork",
+            "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie"
+         },
+         "name": "Teaching Guide: Exploring *The Absolutely True Diary of a Part-Time Indian*"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Spokane Tribe of Indians](http://www.spokanetribe.com/) website.\r\n2. \u201c[The Toughest Indian in the World: Writer Sherman Alexie Mixes Humor With His Anger](http://www.cbsnews.com/news/the-toughest-indian-in-the-world/),\u201d 60 Minutes. \r\n3. [Sherman Alexie](http://www.poetryfoundation.org/bio/sherman-alexie), Poetry Foundation.  \r\n4. [Sherman Alexie\u2019s acceptance speech](https://www.youtube.com/watch?v=-6AbxJxDoI8) for the National Book Award (starts at 3:55). "
+      },
+      {
+         "name": "Overview",
+         "text": "Published in 2007, and winner of the National Book Award, Sherman Alexie\u2019s coming-of-age novel *The Absolutely True Diary of a Part-Time Indian* gives readers insight into life on an Indian reservation. Alexie calls his gritty, dark novel \u201creservation realism.\u201d The protagonist, Arnold Spirit, Jr., deals with abuse, bullying, poverty, alcoholism, and senseless violence; however, his humor and spirit remain hopeful. Junior leaves the reservation in search of a better education and a way out of his oppressive life, ultimately finding a new identity. This primary source set includes photographs, text documents, and interviews with Sherman Alexie that provide context for thematic elements within *The Absolutely True-Diary of Part-Time Indian*."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+         "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-maya-angelou",
+         "name": "The Poetry of Maya Angelou",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beloved-by-toni-morrison",
+         "name": "*Beloved* by Toni Morrison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-woman-warrior-by-maxine-hong-kingston",
+         "name": "*The Woman Warrior* by Maxine Hong Kingston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-things-they-carried-by-tim-o-brien",
+         "name": "*The Things They Carried* by Tim O\u2019Brien",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/things-they-carried-tim-obrien_00_ae0ef4c66a9be21c6db7d21ad2db838a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/things-they-carried-tim-obrien_00_ae0ef4c66a9be21c6db7d21ad2db838a.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "*The Absolutely True Diary of a Part-Time Indian* by Sherman Alexie",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/absolutely-true-diary-part-time-indian-sherman-alexie_02_c71c2033f209d4102e8401e738f5be55_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

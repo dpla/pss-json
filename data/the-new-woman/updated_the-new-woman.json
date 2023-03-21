@@ -1,0 +1,2372 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Emergence of Modern America (1890-1930)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-7"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Social Movements"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Women"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Amy Rudersdorf"
+      }
+   ],
+   "dateCreated": "2016-01-15",
+   "dateModified": "2017-08-23",
+   "dct:created": "2016-01-15",
+   "dct:modified": "2017-08-23",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the New Woman ideal.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/660",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_01_61122e6aa1279a1b82af4add9cf9c814.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Bordin, Ruth Birgitta Anderson, excerpt from \u201cAlice Freeman Palmer: the evolution of a new woman,\u201d Digital Public Library of America, https://dp.la/item/61122e6aa1279a1b82af4add9cf9c814."
+                  }
+               ]
+            }
+         ],
+         "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/661",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Parrish, Maxfield, \u201cHarper's weekly bicycle number,\u201d Digital Public Library of America, https://dp.la/item/22df5bf031df7d0ecc70d3b6e8e79c44."
+                  }
+               ]
+            }
+         ],
+         "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/662",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_03_af7f6384e00bf7d4a761164a851e91fd.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Cooley, Winnifred (Harper), excerpt from \u201cThe new womanhood,\u201d Digital Public Library of America, https://dp.la/item/af7f6384e00bf7d4a761164a851e91fd."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/663",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_04_630947bfae32c4072e9548167c56d41b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\"The \u2018new woman,\u2019\u201d Digital Public Library of America, https://dp.la/item/630947bfae32c4072e9548167c56d41b."
+                  }
+               ]
+            }
+         ],
+         "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/664",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gibson, Charles Dana, \u201cFourth Of July,\u201d Digital Public Library of America, https://dp.la/item/42a2437f78b1ca43999f84c0fd1e1dac."
+                  }
+               ]
+            }
+         ],
+         "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/665",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_06_fa33193f17037d010f3f25c619eac45d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gilman, Charlotte Perkins, excerpt from \u201cThe yellow wall paper,\u201d Digital Public Library of America, https://dp.la/item/fa33193f17037d010f3f25c619eac45d."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/666",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Ibsen, Henrik, excerpt from \u201cThe doll's house: a play,\u201d Digital Public Library of America, https://dp.la/item/00a73d3f722629c87c52b7bf7d9a9bdf."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/667",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_08_062f18c09229848c1002bbe3a0c371ea.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cNellie Bly,\u201d Digital Public Library of America, https://dp.la/item/062f18c09229848c1002bbe3a0c371ea."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/668",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_09_a33398a6df17f53e088ae72fe6d966ab.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWhat women can earn: occupations of women and their compensation,\u201d Digital Public Library of America, https://dp.la/item/a33398a6df17f53e088ae72fe6d966ab."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/669",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2017-08-23",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2017-08-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of North Carolina Department of Natural and Cultural Resources via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Treidler, Adolph, \u201cFor Every Fighter A Woman Worker. Care for her through the YWCA,\u201d Digital Public Library of America, https://dp.la/item/8fa6d13228bc667fe8a3288b85290a9a."
+                  }
+               ]
+            }
+         ],
+         "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/670",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-03-01",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-03-01",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gibson, Charles Dana, \u201cCollege Girl,\u201d Digital Public Library of America, https://dp.la/item/3b1586f3cd682bb0d66d6d62f7a745d2."
+                  }
+               ]
+            }
+         ],
+         "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/671",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSport model roadster, 1907,\u201d Digital Public Library of America, https://dp.la/item/3f10d60366f9fc2cde64d0ab10bb033f."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a woman driving a sportscar in 1907.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/672",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Morrow, Albert, \u201cAffiche anglaise pour le Comedy Theatre, \u2018The New Woman,\u2019\" Digital Public Library of America, https://dp.la/item/f8909d61be0f1c2fd9a11e149475a2a8."
+                  }
+               ]
+            }
+         ],
+         "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/673",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/674",
+               "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_14_7f51495ccafcdd311981455379ada77d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cTo a suffragette valentine,\u201d Digital Public Library of America, https://dp.la/item/7f51495ccafcdd311981455379ada77d."
+                  }
+               ]
+            }
+         ],
+         "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/674",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/660",
+               "name": "A definition of the \u201cThe New Woman\u201d from Alice Freeman Palmer: *The Evolution of a New Woman*, a 1993 biography by Ruth Bordin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_01_61122e6aa1279a1b82af4add9cf9c814_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/661",
+               "name": "A cover of *Harper\u2019s Weekly*, ca.1890-1920, by Maxfield Parrish, that shows a woman riding a bicycle.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_02_22df5bf031df7d0ecc70d3b6e8e79c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/662",
+               "name": "An excerpt from *The New Womanhood* (1904) by Winnifred Harper Cooley.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_03_af7f6384e00bf7d4a761164a851e91fd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/663",
+               "name": "An image of the New Woman from 1899\u2014she reads the newspaper in her riding bloomers with her bicycle nearby as her husband does the wash.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_04_630947bfae32c4072e9548167c56d41b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/664",
+               "name": "A woman represents independence on this 1894 Fourth of July postcard illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_05_42a2437f78b1ca43999f84c0fd1e1dac_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/665",
+               "name": "An excerpt from *The Yellow Wall Paper* by Charlotte Perkins Gilman. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_06_fa33193f17037d010f3f25c619eac45d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/666",
+               "name": "An excerpt from *The Doll\u2019s House* by Henrik Ibsen. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_07_00a73d3f722629c87c52b7bf7d9a9bdf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/667",
+               "name": "A photograph of Nellie Bly, newspaper correspondent; she circled the Earth in a record-setting seventy-two days from 1889 to 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_08_062f18c09229848c1002bbe3a0c371ea_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/668",
+               "name": "An excerpt from *What Women Can Earn*, a book describing the careers and salaries available to women in 1899. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_09_a33398a6df17f53e088ae72fe6d966ab_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/669",
+               "name": "A World War I poster proclaiming, \u201cFor every fighter a woman worker. Care for her through the YWCA.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10_3ea9a4f89a9fb44e83c99359b6d2ae35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/670",
+               "name": "The cover to the book *College Girls* (1895), written by Abbe Carter Goodloe, illustrated by Charles Dana Gibson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_11_3b1586f3cd682bb0d66d6d62f7a745d2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/671",
+               "name": "A photograph of a woman driving a sportscar in 1907.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_12_3f10d60366f9fc2cde64d0ab10bb033f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/672",
+               "name": "A poster for *The New Woman*, a comedic play from 1894 which shows one way that society was dealing with changing gender roles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_13_f8909d61be0f1c2fd9a11e149475a2a8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/673",
+               "name": "A valentine card showing an anti-suffrage sentiment: \u201cYour vote from me you will not get, I don\u2019t want a preaching suffragette.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_14_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "new-woman_15_52946914e93b20f75de6abb0b5e0df6a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Hall, George Franklin, excerpt from \u201cA study in bloomers or, The model new woman: a novel,\u201d Digital Public Library of America, https://dp.la/item/52946914e93b20f75de6abb0b5e0df6a."
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration from the 1895 novel *A Study in Bloomers*: \u201cAnd by way of illustration, she picked up the pole and vaulted.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_15_52946914e93b20f75de6abb0b5e0df6a_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-new-woman-ideal",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Summarize Alice Freeman Palmer\u2019s definition of the New Woman in the [biography](http://dp.la/primary-source-sets/sources/660). How does this idea respond to [ideas about gender roles during the Victorian era](http://www.bl.uk/romantics-and-victorians/articles/gender-roles-in-the-19th-century)?\r\n2. Freedom is a key aspect of the New Woman ideologies. Which freedoms are illustrated in the images in this set? What composite picture of \u201cfreedom\u201d for the New Woman do they paint? Which freedoms for women do they ignore?\r\n3. Using the [excerpt from *What Women Can Earn*](http://dp.la/primary-source-sets/sources/668), describe the social context of the New Woman. Which careers and social roles were available to women? In what ways were these options changing? In what ways were they not?\r\n4. Read the excerpts from [*The Yellow Wall Paper*](http://dp.la/primary-source-sets/sources/665) and [*The Doll\u2019s House*](http://dp.la/primary-source-sets/sources/666) closely. Where do you see the influence of the New Woman in these writings? How do these writers approach the concept differently?\r\n5. Using the items in this set as evidence and your own understanding of the historical context for the New Woman ideal, describe challenges that proponents of this ideal faced.\r\n6. Consider the sources in this set as a whole. Which groups of women are missing from discussion of the New Woman? What does this reveal about the proponents of this ideology and the world in which they lived?"
+            },
+            {
+               "name": "Activity",
+               "text": "Assign each student (or pairs of students) an illustration from this set. Ask them to organize and give a short presentation to the class about which aspect of the New Woman ideal the image captures."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+            "@type": "CreativeWork",
+            "name": "The New Woman"
+         },
+         "name": "Teaching Guide: Exploring the New Woman Ideal"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Daughters of decadence: the New Woman in the Victorian fin de si\u00e8cle](http://www.bl.uk/romantics-and-victorians/articles/daughters-of-decadence-the-new-woman-in-the-victorian-fin-de-siecle), British Library. \r\n2. [The New Woman, Clash of Cultures in the 1910s and 1920s](https://ehistory.osu.edu/sites/ehistory.osu.edu/files/mmh/clash/NewWoman/newwomen-page1.htm), Ohio State University. \r\n3. [Reforming Their World: Women in the Progressive Era](https://www.nwhm.org/online-exhibits/progressiveera/statuswomenprogressive.html), National Women\u2019s History Museum. \r\n4. [The New Woman of the 1920s: Debating Bobbed-Hair](http://historymatters.gmu.edu/d/5117/), History Matters. "
+      },
+      {
+         "name": "Overview",
+         "text": "Throughout history, and particularly during the Victorian era (mid- to late-1800s), women\u2014especially from the upper and middle classes\u2014had little opportunities beyond those of the hearth and home. The New Woman was a response to these limiting roles of wife and mother. Starting in the late nineteenth century, more and more women remained unmarried until later in their lives, gained education, organized for women\u2019s suffrage, and worked outside the home. Women also supported the war effort during World War I. Such developments allowed greater freedom. This was manifest, for example, in the image of the bicycle rider\u2014wearing bloomers instead of long dresses and free to go wherever, whenever she wanted, by herself or with her friends. But these changes didn\u2019t come easily or without pushback from both men and women who were unused to the notion of women\u2019s independence. The following set illustrates the movement\u2019s ideals, the women who embraced it, and a society made uncomfortable by this seismic shift in the roles of men and women. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/settlement-houses-in-the-progressive-era",
+         "name": "Settlement Houses in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beginnings-of-the-american-red-cross",
+         "name": "Beginnings of the American Red Cross",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-temperance-movement",
+         "name": "Women and the Temperance Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-awakening-by-kate-chopin",
+         "name": "*The Awakening* by Kate Chopin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+         "name": "Blackface Minstrelsy in Modern America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-rise-of-italian-fascism-and-its-influence-on-europe",
+         "name": "The Rise of Italian Fascism and Its Influence on Europe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+         "name": "ACT UP and the AIDS Crisis",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frank-lloyd-wright-and-modern-american-architecture",
+         "name": "Frank Lloyd Wright and Modern American Architecture",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/theodore-dreiser-s-sister-carrie-and-the-urbanization-of-chicago",
+         "name": "Theodore Dreiser\u2019s *Sister Carrie* and the Urbanization of Chicago",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+         "name": "John Brown's Raid on Harper\u2019s Ferry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/when-miners-strike-west-virginia-coal-mining-and-labor-history",
+         "name": "When Miners Strike: West Virginia Coal Mining and Labor History",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+         "name": "Immigration and Americanization, 1880-1930",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fake-news-in-the-1890s-yellow-journalism",
+         "name": "Fake News in the 1890s: Yellow Journalism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+         "name": "Women in the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-blues",
+         "name": "Women and the Blues",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-and-the-blues_04_a0e2019640b28b0f46c5d0c1a3ff12b4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-and-the-blues_04_a0e2019640b28b0f46c5d0c1a3ff12b4_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/visual-art-during-the-harlem-renaissance",
+         "name": "Visual Art During the Harlem Renaissance",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/art-during-harlem-renaissance_00_b945bc5a8bda295b5e0765a190a3e075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/art-during-harlem-renaissance_00_b945bc5a8bda295b5e0765a190a3e075.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-imperialism-the-spanish-american-war",
+         "name": "American Imperialism: The Spanish-American War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-ii-women-on-the-home-front",
+         "name": "World War II: Women on the Home Front",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+         "name": "The Panama Canal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "The New Woman",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

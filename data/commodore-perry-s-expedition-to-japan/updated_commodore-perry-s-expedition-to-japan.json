@@ -1,0 +1,1852 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "World History"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Ripley High School, West Virginia"
+         },
+         "name": "Adena Barnette"
+      }
+   ],
+   "dateCreated": "2018-02-22",
+   "dateModified": "2018-02-28",
+   "dct:created": "2018-02-22",
+   "dct:modified": "2018-02-28",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Commodore Matthew C. Perry&#39;s expedition to Japan in 1853.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Beckers, Alexander, and Victor Piard, \u201cMatthew Calbraith Perry,\u201d Digital Public Library of America, https://dp.la/item/c27fbcdf1d5defae0b9f2626d89a50de."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+         "text": "Matthew Perry rose through the ranks of the US Navy from midshipman to commodore and helped lay the foundation for a professionally-trained, technologically-advanced US Navy. This photograph is a daguerreotype, a photographic format in which the image is recorded on a silvered copper plate. Daguerreotypes were the first commercially successful photographic format, quickly replaced by less expensive techniques. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_02_94247f4795791cb33a24665a2b8533b8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMatthew Calbraith Perry,\u201d Digital Public Library of America, https://dp.la/item/94247f4795791cb33a24665a2b8533b8."
+                  }
+               ]
+            }
+         ],
+         "name": "A Japanese woodcut of Commodore Matthew Perry.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+         "text": "This portrait by an unknown Japanese artist appears in the book *Ikobu Ochiba Kugo* (\"a basket for fallen leaves from abroad\"). This image shows Commodore Matthew Perry with the prominent nose that the Japanese associated with Americans. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Virginia Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Heine, Wilhelm, and Eliphalet M. Brown, \u201cThe Japan expedition under Commodore Perry,\u201d Digital Public Library of America, https://dp.la/item/141ce0f7ead5ed36454d9d3ae5bf1285."
+                  }
+               ]
+            }
+         ],
+         "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+         "text": "Eliphalet Brown created these six hand-colored lithographs based on watercolors by artist Wilhelm Heine, both of whom were chosen to accompany the Perry expedition. Brown was a well-established daguerreotypist, lithographer, and artist working for the Currier and Ives Company in New York City and Heine, a German-American artist, already had experience documenting a diplomatic visit to Central America. In addition to publishing these lithographs, Brown took over 400 photographs during the two-year journey, though most were destroyed in a fire at the printer\u2019s once they returned in the US.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_04_e977f48796b1fd23614fc717f13ab880.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cForeigners in early Japan,\u201d Digital Public Library of America, https://dp.la/item/e977f48796b1fd23614fc717f13ab880. "
+                  }
+               ]
+            }
+         ],
+         "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+         "text": "The Perry Scroll provides a pictorial record of Commodore Perry\u2019s second visit to Japan in 1854, though it is believed to have been produced in 1858 to commemorate the second Kanagawa Treaty. The scroll is based on the sketches by Hibata \u014csuke and was possibly commissioned by a high-ranking Japanese official. According to the British Museum, which has held the scroll since 2013, Perry\u2019s visits \u201cgenerated an explosion of Japanese popular works\u201d including color woodblock prints, painted handscrolls, and other art. Much of this popular art was quite crude and exaggerated facial features of the foreign visitors.\r\n\r\nThese selected images from the Perry Scroll were reproduced in an art catalog titled *Foreigners in Early Japan*. The third image on the page depicts the quarter-size steam engine, carriage, and track gifted to the shogun by the Americans. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_05_36e061dbad35b4706866879041c6e07f.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cForeigners in early Japan,\u201d Digital Public Library of America, https://dp.la/item/36e061dbad35b4706866879041c6e07f. "
+                  }
+               ]
+            }
+         ],
+         "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+         "text": "The top two images provide detailed views of the arrival of westerners in Japan. Image #181 on the left shows a close-up view of a foreign ship while image #184 on the right shows an encounter between a western foreigner and a Japanese official in an interior space, with an American flag raised in the background. The four bottom illustrations appear to depict a number of western sailing ships in a Japanese harbor, along with towns and villages and geographical features like mountains. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Anthropological Archives via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\"Illustrated map and chart concerning Commodore Perry's landing at Uraga in Tokyo Bay n.d,\u201d Digital Public Library of America, https://dp.la/item/b436ecd74ee1c23af239fa9a5ce562a9."
+                  }
+               ]
+            }
+         ],
+         "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+         "text": "This illustrated map is divided into four parts. The lower left-hand portion shows two American \"black ships,\u201d or steamer-sail ships used by Perry. The rest of the lower portion shows Perry\u2019s ships anchoring near Uraga, a town at the opening of Tokyo Bay (formerly Edo Bay). The upper portion of the document includes the names of lords of the fiefs in the Izu and Bo\u0304shu\u0304 provinces and the numbers of men they assigned to the harbor defensive posts.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Freer Gallery of Art and Arthur M. Sackler Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Yoshitora, Utagawa, \u201cAmerica,\u201d Digital Public Library of America, https://dp.la/item/1b7ea66200ccd4d6db13f970dbda21ed. "
+                  }
+               ]
+            }
+         ],
+         "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "text": "Artist Utagawa Yoshitora (\u6b4c\u5ddd\u82b3\u864e) was active between 1850 and 1880. Utagawa Yoshitora designed woodblock illustrations for books and newspapers, and his works in the 1860s focused on the rapid modernization of Japan after the country opened to American trade. Though he may not have ever seen America, Yoshitora\u2019s scene was influenced by Japan\u2019s encounters with Americans and other foreigners. This illustration depicts men and women dressed in brightly colored western attire. In the middle of the image is an American flag raised on a flagpole displayed along a waterfront. The right portion of the image shows Americans testing hot air balloons and the background features western-style buildings, with an American naval vessel visible along the horizon.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Tomes, Robert, excerpt from \u201cThe Americans in Japan: an abridgement of the Government narrative of the U. S. Expedition to Japan, under Commodore Perry,\u201d Digital Public Library of America, https://dp.la/item/8a64b00808ac30adf619d1e43a951cfb. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+         "text": "Author Robert Tomes was a medical doctor, writer, and translator. Tomes principally wrote for magazines such as *Harper\u2019s Weekly* but also published several books. Tomes had assisted Matthew Perry and Francis L. Hawks with compiling and publishing the official three-volume US government record of the Perry expedition. *The Americans in Japan* is an abridged version that was more accessible to readers from the general public. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_09_6514cd35c500017c51f02b0803f46c3c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "US Government, \u201cTreaty of Kanagawa,\u201d Digital Public Library of America, https://dp.la/item/6514cd35c500017c51f02b0803f46c3c. "
+                  }
+               ]
+            }
+         ],
+         "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+         "text": "The Treaty of Kanagawa was the first treaty between the United States of America and Japan. It successfully secured the primary objective of the Perry expedition: opening Japan for trade with the US. The Japanese were hesitant to end their long-established isolation, but Perry\u2019s show of military force and hardline diplomatic style pressured them to accept his terms. The outcomes of the treaty included opening trade with American vessels in some Japanese ports, protection for American sailors and vessels in Japan, and the formation of a US consulate in Japan. The treaty, written in English, Dutch, Chinese, and Japanese, was signed on March 31, 1854. \r\n\r\nTranscription:\r\n\r\nThe United States of America and the empire of Japan, desiring to establish firm, lasting and sincere friendship between the two nations, have resolved to fix, in a manner clear and positive by means of a treaty or general convention of peace and amity, the rules which shall in future be mutually observed in the intercourse of their respective countries; for which most desirable object the President of the United States has conferred full powers on his commissioner, Matthew Calbraith Perry, special ambassador of the United States to Japan and the august sovereign of Japan has given similar full powers to his commissioners, Hayashi-Daigaku-no-kami, Ido, Prince of Tsus-Sima; Izawa, Prince of Mmimasaki; and Udono, member of the Board of Revenue.\r\n \r\nAnd the said commissioners after having exchanged their said full powers and duly considered the premises, have agreed to the following articles:\r\n\r\nArticle I<br>\r\nThere shall be a perfect, permanent and universal peace, and a sincere and cordial amity, between the United States of American on the one part and between their people, respectfully, (respectively,) without exception of persons or places.\r\n\r\nArticle II<br>\r\nThe port of Simoda, in the principality of Idzu and the port of Hakodadi, in the pricipality of Matsmai are granted by the Japanese as ports for he reception for American ships, where they can be supplied with wood, water, provisions and coal, and other articles their necessities may require, as far as the Japanese have them. The time for opening the first named port is immediately on signing this treaty; the last named port is to be opened immediately after the same day in the ensuing Japanese year.\r\n \r\nNote- A tariff of prices shall be given by the Japanese officers of the things which they can furnish, payment for which shall be made in gold, and silver coin.\r\n\r\nArticle III<br>\r\nWhenever ships of the United States are thrown or wrecked on the coast of Japan, the Japanese vessels will assist them, and carry their crews to Simoda or Hakodadi and hand them over to their countrymen appointed to receive them. Whatever articles the shipwrecked men may have preserved shall likewise be restored and the expenses incurred in the rescue and support of Americans and Japanese who may thus be thrown up on the shores of either nation are not to be refunded.\r\n\r\nArticle IV<br>\r\nThose shipwrecked persons and other citizens of the United States shall be free as in the other countries and not subjected to confinement but shall be amenable to just laws.\r\n\r\nArticle V<br>\r\nShipwrecked men and other citizens of the United States, temporarily living at Simoda and Hakodadi, shall not be subject to such restrictions and confinement as the Dutch and Chinese are at Nagasakil but shall be free at Simoda to go where they please within the limits of seven Japanese miles from a small island in the harbor of Simoda, marked on the accompanying chart hereto appended; and shall in like manner be free to go where they please at Hakodadi, within limits to be defined after the visit of the United States squadron to that place.\r\n\r\nArticle VI<br>\r\nIf there be any other sort of goods wanted or any business which shall require to be arranged, there shall be careful deliberation between the particles in order to settle such matters.\r\n\r\nArticle VII<br>\r\nIt is agreed that ships of the United states resorting to the ports open to them, shall be permitted to exchange gold and silver coin and articles of goods for other articles of goods under such regulations as shall be temporarily established by the Japanese government for that purpose. It is stipulated, however that the ships of the United States shall be permitted to carry away whatever articles they are unwilling to exchange.\r\n\r\nArticle VIII<br>\r\nWood, water provisions, coal and goods required shall only be procured through the agency of Japanese officers appointed for that purpose, and in no other manner.\r\n\r\nArticle IX<br>\r\nIt is agreed, that if, at any future day, the government of Japan shall grant to any other nation or nations privileges and advantages which are not herein granted to the United states and the citizens thereof, that these same privileges and advantages shall be granted likewise to the United States and to the citizens thereof without any consultation or delay.\r\n\r\nArticle X<br>\r\nShips of the United States shall be permitted to resort to no other ports in Japan but Simoda and Hakodadi, unless in distress or forced by stress of weather.\r\n\r\nArticle XI<br>\r\nThere shall be appointed by the government of the United States consuls or agents to reside in Simoda at any time after the expiration of eighteen months from the date of the signing of this treaty; provided that either of the two governments deem such arrangement necessary.\r\n\r\nArticle XII<br>\r\nThe present convention, having been concluded and duly signed, shall be obligatory, and faithfully observed by the United States of America, and Japan and by the citizens and subjects of each respective power; and it is to be ratified and approved by the President of the United States, by and with the advice and consent of the Senate thereof, and by the august Sovereign of Japan, and the ratification shall be exchanged within eighteen months from the date of the signature therefore, or sooner if practicable.\r\n \r\nIn faith, whereof, we, the respective plenipotentiaries of the United States of America and the empire of Japan aforesaid have signed and sealed these presents.\r\n \r\nDone at Kanagawa, this thirty-first day of March, in the year of our Lord Jesus Christ one thousand eight hundred and fifty-four and of Kayei the seventh year, third month and third day.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_10_00ff77351c6084528cddb07eef320cb5.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of NMNH - Anthropology Dept. via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWriting Paper In Five Colors (Goshiki Hosho-Shi Or Hosho-Gami),\u201d Digital Public Library of America, https://dp.la/item/00ff77351c6084528cddb07eef320cb5. "
+                  }
+               ]
+            }
+         ],
+         "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+         "text": "The set includes paper in five colors: white, yellow, pink, green and lavender. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_11_0876457a1bfdf583447be95f8d66670c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of NMNH - Anthropology Dept. via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cLarge Porcelain Dish (Ozara),\u201d Digital Public Library of America, https://dp.la/item/0876457a1bfdf583447be95f8d66670c. "
+                  }
+               ]
+            }
+         ],
+         "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+         "text": "This large, shallow dish features a design representing pine, bamboo, and plum blossoms at the center. The sides of the dish also feature *kanoko botan* design, which resembles tiny white dots among peony petals.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+               "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_12_b2c245c406c8fa0898f108a469ccd226.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of NMNH - Anthropology Dept. via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cFan (Uchiwa; Dansen),\u201d Digital Public Library of America, https://dp.la/item/b2c245c406c8fa0898f108a469ccd226. "
+                  }
+               ]
+            }
+         ],
+         "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+         "text": "This fan, made by Hiroshige I, has a cylindrical bamboo handle, and forms a semi-square shape to which the paper is attached. The front of the fan is painted with a woodcut scene of a group of men and women disembarking onto the shore. Mount Fuji is visible in the distance while sailing boats and a shrine gate are also featured in the design. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1801",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1789",
+               "name": "A photograph of Commodore Matthew Perry after his expedition to Japan, ca. 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_01_c27fbcdf1d5defae0b9f2626d89a50de_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1790",
+               "name": "A Japanese woodcut of Commodore Matthew Perry.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_02_94247f4795791cb33a24665a2b8533b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1791",
+               "name": "A series of six color lithographs by Wilhelm Heine and Eliphalet Brown documenting the Japanese expedition under Commodore Perry, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_03_141ce0f7ead5ed36454d9d3ae5bf1285_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1792",
+               "name": "Three illustrations from the Perry Scroll, created by Hibata \u014csuke to celebrate the signing of the Kanagawa Treaty, 1858.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_04_e977f48796b1fd23614fc717f13ab880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1793",
+               "name": "Six illustrations documenting the arrival of foreign ships in Japan from an art catalog titled *Foreigners in Early Japan*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_05_36e061dbad35b4706866879041c6e07f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1794",
+               "name": "A Japanese illustrated map and chart depicting Commodore Perry\u2019s arrival in Tokyo Bay.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_06_b436ecd74ee1c23af239fa9a5ce562a9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1795",
+               "name": "A woodblock illustration titled America by Japanese artist Utagawa Yoshitora, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07_1b7ea66200ccd4d6db13f970dbda21ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1796",
+               "name": "An excerpt from *The Americans in Japan* by Robert Tomes about the initial encounter between Perry and the Japanese, 1857.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_08_8a64b00808ac30adf619d1e43a951cfb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1797",
+               "name": "The Treaty of Kanagawa, signed in 1854 between the Japanese and Americans.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_09_6514cd35c500017c51f02b0803f46c3c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1798",
+               "name": "A set of writing paper gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_10_00ff77351c6084528cddb07eef320cb5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1799",
+               "name": "A porcelain dish gifted to Commodore Perry by the Japanese, 1854.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_11_0876457a1bfdf583447be95f8d66670c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1800",
+               "name": "A hand-painted fan gifted to Commodore Perry by the Japanese, 1853.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_12_b2c245c406c8fa0898f108a469ccd226_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of NMNH - Anthropology Dept. via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cLacquerware Picnic Box (Bento-Bako; Sageju-Bako),\u201d Digital Public Library of America, https://dp.la/item/ef939c86e0edd2d3fe5127eae173ff93. "
+                  }
+               ]
+            }
+         ],
+         "name": "A lacquerware picnic box gifted to Commodore Perry by the Japanese, ca. 1853.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_rep.jpg",
+         "text": "This picnic box is a rectangular wood chest with a slide front. It is made of natural wood with a clear lacquer finish. Inside are five smaller boxes of varying sizes: two rectangular red lacquer boxes and a set of three, square, red lacquer open trays. The set also includes a pewter wine bottle and small cup.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_13_ef939c86e0edd2d3fe5127eae173ff93_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-commodore-perry-s-expedition-to-japan",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Ripley High School, West Virginia"
+               },
+               "name": "Adena Barnette"
+            }
+         ],
+         "dateCreated": "2018-02-22",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-22",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Compare and contrast the depictions of Commodore Matthew Perry in the [photograph](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1789) and the [Japanese woodcut](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1790). \r\n2. How did Americans depict their arrival in Japan in the first and second prints from the series of [six color lithographs by Wilhelm Heine and Eliphalet Brown](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1791)? What stands out in both works? In what ways could these two prints be construed as works of American propaganda?\r\n3. Examine the Japanese artworks that depict the encounter between Perry and the Japanese including the [three illustrations from the Perry Scroll](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1792), the [six illustrations documenting the arrival of foreign ships](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1793), and the [illustrated map and chart](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1794). How do the artists interpret American innovations in the Japanese landscape? In the woodblock illustration *[America](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1795)*, what is Japanese artist Utagawa Yoshitora\u2019s interpretation of America? \r\n4. Based on the excerpt from *[The Americans in Japan](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1796)*, did Perry see the Japanese as his equals? Take a stand and use evidence to support your claim. \r\n5. How did the [Treaty of Kanagawa](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1797) codify the relationship between Japan and the United States? In what ways did the terms of the treaty reflect American demands? Did the Japanese benefit from the treaty? If so, how? \r\n6. The [set of writing paper](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1798), [porcelain dish](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1799), [hand-painted fan](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1800), and [lacquerware picnic box](https://dp.la/primary-source-sets/commodore-perry-s-expedition-to-japan/sources/1801) were brought back to America by Commodore Perry. Why might Japanese officials have given each of these items to Perry? What do these objects suggest about Japan in the 1850s? "
+            },
+            {
+               "name": "Activity",
+               "text": "1. In this activity, students will examine Perry\u2019s expedition in the historical context of US-Japanese relations. In a pair or group of four, students will research the history of Japanese-American relations, from Perry\u2019s expedition to the present. Using Microsoft Powerpoint or Prezi, students will create a Top Five list of the best and worst moments of Japanese-American relations. Students should include a graphic or image for each moment included on their lists. If students elect to include the Perry expedition on their lists, they should use evidence from the sources in this set to support their claim. Students will present their lists to the class, and the teacher will evaluate the presentation using a PowerPoint Evaluation Rubric. In this activity, the Pearl Harbor attack and the bombings of Hiroshima and Nagasaki will likely occupy top spots on most students\u2019 \u201cworst moments\u201d lists, but the goal of this activity is to encourage students to think about America\u2019s relationships with foreign nations as well as encourage students to explore political and economic change over time.  \r\n2. In this activity, students will explore one aspect of the long-term cultural exchange that resulted from the opening of Japan. American and European trade with Japan provided one of the inspirations for the Aesthetic Movement of the late nineteenth century (1870s-1900). Ask students to read one or several of the following websites to learn more about Aestheticism: [Style Guide: Influence of Japan](http://www.vam.ac.uk/content/articles/s/style-guide-influence-of-japan/) from the Victoria & Albert Museum, \u201c[The Aesthetic Movement](https://www.theguardian.com/artanddesign/2011/mar/26/aestheticism-exhibition-victoria-albert-museum)\u201d from *The Guardian*, or [Aesthetic Movement: A Break with the Past](http://www.pbs.org/wgbh/roadshow/fts/oklahomacity_200303A08.html) from PBS.\r\nAfter learning about the Japanese influence on the Aesthetic Movement, ask students to examine the Japanese artworks and objects in this set to look for elements that may have been consistent with Aesthetic Movement influences. Have students select a specific item from the set and write a paragraph about the design elements (color, patterns, etc.) that may have influenced western art and culture later in the nineteenth century. As an extension, ask students to look for an example of Aesthetic Movement art that includes similar design elements to the item they chose. The class could go further and create a Wiki for displaying their findings. Directions for creating a wiki are available in the article, \u201c[How to Create Your Own Wiki](http://www.pcmag.com/article2/0,2817,2399582,00.asp),\u201d from *PC Magazine*.\r\n3. In this activity, students will explore contemporary US-Japanese relations from an English-language Japanese source. Ask students to select and read an article from [US-Japan Relations section of *The Japan Times*](http://www.japantimes.co.jp/tag/u-s-japan-relations/). Students can work alone or in pairs to evaluate their selected article. Next, ask students to identify an article from a reputable American news outlet about the same topic. Students will compare the way the topic is covered in each nation and, finally, present their selected news topic and their findings of the similarities and differences in coverage, to the class."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "@type": "CreativeWork",
+            "name": "Commodore Perry\u2019s Expedition to Japan"
+         },
+         "name": "Teaching Guide: Exploring Commodore Perry\u2019s Expedition to Japan"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Commodore Perry and Japan (1853-1854)](http://afe.easia.columbia.edu/special/japan_1750_perry.htm), Asia for Educators, Columbia University. \r\n2. \u201c[Scroll displays the human side of Perry\u2019s arrival](http://www.japantimes.co.jp/culture/2013/04/18/arts/scroll-displays-the-human-side-of-perrys-arrival/#.V5Odpo7UT6l),\u201d *The Japan Times*, April 18, 2013. \r\n3. [Perry in Japan: A Visual History](http://library.brown.edu/cds/perry/about.html), Brown University Library. \r\n4. [Treaty of Kanagawa](https://www.archives.gov/exhibits/featured_documents/treaty_of_kanagawa/), National Archives and Records Administration. \r\n5. \u201c[How Strong Is the U.S.-Japan Relationship](http://foreignpolicy.com/2015/04/14/united-states-japan-relationship-poll-washington-tokyo/)?\u201d *Foreign Policy*, April 14, 2015. "
+      },
+      {
+         "name": "Overview",
+         "text": "The United States experienced extensive economic and geographical expansion during the 1840s, as the spirit of [Manifest Destiny](https://dp.la/primary-source-sets/sets/manifest-destiny) drove Americans west across the North American continent to exert their influence over new places and peoples. Influenced by this expansionary philosophy, political leaders sought to expand American trade relationships worldwide. One of the first targets of this campaign was to open diplomatic and trade relations with isolationist Japan, which had been closed to western traders for centuries. In 1852, President Millard Fillmore ordered Commodore Matthew C. Perry to lead an expedition to secure Japanese trade and access to Japan\u2019s ports for American ships. \r\n\r\nPerry\u2019s fleet, the *Susquehanna*, *Mississippi*, *Plymouth*, and *Saratoga*, carried 400 sailors and arrived in Edo Bay, today\u2019s Tokyo Bay, on July 8, 1853. Upon arrival, Commodore Perry asserted his military authority to intimidate the Japanese into negotiations. For example, Perry refused to speak with any Japanese officials who did not seem to be of high enough rank. When they disembarked on July 14, Perry delivered a letter from President Fillmore to the emperor of Japan describing American interests in opening trade and outlining mutual benefits. Perry and his fleet departed for several months to allow the Japanese to consider the trade proposal. \r\n\r\nPerry returned to Tokyo in March 1854 with ten ships and 1,600 men. The Japanese reluctantly agreed to American demands by signing the Kanagawa Treaty, which opened some ports to American ships and allowed for the establishment of an American consulate. Before leaving, the American delegation and the Japanese exchanged gifts, which Perry brought back to the United States. Perry\u2019s expedition and the Kanagawa Treaty effectively ended Japan\u2019s centuries-long isolation, especially as over twenty European nations negotiated similar treaties with Japan over the following years. In 1858, American diplomat Townsend Harris ventured to Japan to negotiate a much more comprehensive treaty. The opening of Japan, which represents an international manifestation of Manifest Destiny, established markets for American goods outside the nation\u2019s borders and spurred the westernization of Japan. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+         "name": "The American Whaling Industry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+         "name": "The Panic of 1837",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-columbian-exchange",
+         "name": "The Columbian Exchange",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/spanish-missions-in-california",
+         "name": "Spanish Missions in California",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+         "name": "Exploration of the Americas",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/attacks-on-american-soil-pearl-harbor-and-september-11",
+         "name": "Attacks on American Soil: Pearl Harbor and September 11",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+         "name": "The War of 1812",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+         "name": "Manifest Destiny",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+         "name": "The Lewis and Clark Expedition",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+         "name": "The Panama Canal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Commodore Perry\u2019s Expedition to Japan",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

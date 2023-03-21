@@ -1,0 +1,1331 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Native Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "North Carolina School of Science and Mathematics, Durham, North Carolina"
+         },
+         "name": "Jamie Lathan"
+      }
+   ],
+   "dateCreated": "2016-01-15",
+   "dateModified": "2020-07-22",
+   "dct:created": "2016-01-15",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the idea of Manifest Destiny and its influence.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/454",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2016-01-16",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2016-01-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/455",
+               "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/456",
+               "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/457",
+               "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/458",
+               "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/459",
+               "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/460",
+               "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/461",
+               "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/462",
+               "name": "A mannequin of a Mexican soldier in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/463",
+               "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Healy, Wayne and David Botello, Ricardo Duffy, and Robin J. Dunitz, \u201cSouth Central Codex and Slauson serenade,\u201d Digital Public Library of America, https://dp.la/item/b4adc12e6b74c02ee190f7fd9ba2c85a."
+                  }
+               ]
+            }
+         ],
+         "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/455",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/456",
+               "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/457",
+               "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/458",
+               "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/459",
+               "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/460",
+               "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/461",
+               "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/462",
+               "name": "A mannequin of a Mexican soldier in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/463",
+               "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/454",
+               "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Historical Society via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Locke, Deborah and Melvin Longclaws, \u201cU.S.-Dakota War of 1862 Oral History Project: Interview with Melvin Longclaws,\u201d Digital Public Library of America, https://dp.la/item/8c140eab1b23a90cb5d20961a8c4ace2."
+                  }
+               ]
+            }
+         ],
+         "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/456",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2016-06-27",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/457",
+               "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/458",
+               "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/459",
+               "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/460",
+               "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/461",
+               "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/462",
+               "name": "A mannequin of a Mexican soldier in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/463",
+               "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/454",
+               "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/455",
+               "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "manifest-destiny_03_37c33abc806d5f2d907b668f5331b274.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Santa Barbara, Special Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Moreno and Hobara, \u201cDestiny manifesting,\u201d Digital Public Library of America, https://dp.la/item/87b624673df509250073242b99fbf52d."
+                  }
+               ]
+            }
+         ],
+         "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/457",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2016-01-16",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2016-01-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/458",
+               "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/459",
+               "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/460",
+               "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/461",
+               "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/462",
+               "name": "A mannequin of a Mexican soldier in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/463",
+               "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/454",
+               "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/455",
+               "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/456",
+               "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Smithsonian American Art Museum via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Leutze, Emanuel Gottlieb, \u201cWestward the Course of Empire Takes Its Way,\u201d Digital Public Library of America, https://dp.la/item/e606ebe2044769b88a5ad7ccb661adc2."
+                  }
+               ]
+            }
+         ],
+         "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/458",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2017-10-06",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2017-10-06",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/459",
+               "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/460",
+               "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/461",
+               "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/462",
+               "name": "A mannequin of a Mexican soldier in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/463",
+               "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/454",
+               "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/455",
+               "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/456",
+               "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/457",
+               "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of David Rumsey."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Phelps, Humphrey, \u201cOrnamental Map Of The United States & Mexico,\u201d Digital Public Library of America, https://dp.la/item/fdaefc813b70570837fee839bab05868."
+                  }
+               ]
+            }
+         ],
+         "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/459",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2016-01-16",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2016-01-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/460",
+               "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/461",
+               "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/462",
+               "name": "A mannequin of a Mexican soldier in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/463",
+               "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/454",
+               "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/455",
+               "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/456",
+               "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/457",
+               "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/458",
+               "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Texas State Historical Association via The Portal to Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Hudson, Linda S., excerpt from \u201cMistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878,\u201d Digital Public Library of America, https://dp.la/item/c4a8645ee97f9104d1ae6ef937e57317."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/460",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2016-01-16",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2016-01-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/461",
+               "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/462",
+               "name": "A mannequin of a Mexican soldier in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/463",
+               "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/454",
+               "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/455",
+               "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/456",
+               "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/457",
+               "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/458",
+               "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/459",
+               "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "manifest-destiny_07_f00555b1e2fbf98179da99d09665866b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Wisconsin via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Stephens, Ann S., excerpt from \u201cEsther: a story of the Oregon trail,\u201d Digital Public Library of America, https://dp.la/item/f00555b1e2fbf98179da99d09665866b."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/461",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2016-01-16",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2016-01-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/462",
+               "name": "A mannequin of a Mexican soldier in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/463",
+               "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/454",
+               "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/455",
+               "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/456",
+               "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/457",
+               "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/458",
+               "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/459",
+               "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/460",
+               "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Houston Metropolitan Research Center at Houston Public Library via The Portal to Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Covin, A.D., \u201cLetter from A.D. Covin to George Carmack,\u201d Digital Public Library of America, https://dp.la/item/26b228ce01ff48ea0592f7eec4c5fc8b."
+                  }
+               ]
+            }
+         ],
+         "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/462",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2016-01-16",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2016-01-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/463",
+               "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/454",
+               "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/455",
+               "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/456",
+               "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/457",
+               "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/458",
+               "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/459",
+               "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/460",
+               "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/461",
+               "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Arizona Military Museum and Arizona Memory Project via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Abodeely, Joseph, \u201cU.S.--Mexican War Mexican soldier,\u201d Digital Public Library of America, https://dp.la/item/0fe9e0be81e37f0b4230418081552cee."
+                  }
+               ]
+            }
+         ],
+         "name": "A mannequin of a Mexican soldier in 1846. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/463",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-16",
+         "dateModified": "2018-06-13",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2018-06-13",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/454",
+               "name": "A South Central Los Angeles mural of the city\u2019s history. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_01_b4adc12e6b74c02ee190f7fd9ba2c85a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/455",
+               "name": "An interview with Melvin Longclaws about the US-Dakota War of 1862. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_02_00f1045b8858d206f2b8edf595e40571_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/456",
+               "name": "A poster created in 1998 about the effects of manifest destiny on California\u2019s communities of color. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_03_37c33abc806d5f2d907b668f5331b274_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/457",
+               "name": "*Westward the Course of Empire Take Its Way*, an Emanuel Gottlieb Leutze mural created in 1861 for the capitol in Washington, DC. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/458",
+               "name": "An ornamental map of the US and Mexico created by Humphrey Phelps in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_05_96fe3fd232036cf3400aaa3afbc59a43_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/459",
+               "name": "An excerpt from *Mistress of Manifest Destiny: A Biography of Jane McManus Storm Cazneau, 1807-1878*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_06_c4a8645ee97f9104d1ae6ef937e57317_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/460",
+               "name": "An excerpt from *Esther: A Story of the Oregon Trail* by Mrs. Anne S. Stephens, written in 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_07_f00555b1e2fbf98179da99d09665866b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/461",
+               "name": "Letter from A.D. Covin to George Carmack in 1962 criticizing US expansionism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_08_26b228ce01ff48ea0592f7eec4c5fc8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/462",
+               "name": "A mannequin of a Mexican soldier in 1846. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_09_0fe9e0be81e37f0b4230418081552cee_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Utah - J. Willard Marriott Library via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201c\u2018This is the Place\u2019 State Monument in Salt Lake City celebrating Brigham Young, Mormons, and Native Americans working together,\u201d Digital Public Library of America, https://dp.la/item/f2bc24827b7ef1a30f86798566cac351."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1964 photograph of the \u201cThis is the Place\u201d state monument in Salt Lake City. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_10_7bc4833f321924d3551664df0f6ee70d_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-manifest-destiny",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "North Carolina School of Science and Mathematics, Durham, North Carolina"
+               },
+               "name": "Jamie Lathan"
+            }
+         ],
+         "dateCreated": "2016-01-16",
+         "dateModified": "2016-01-16",
+         "dct:created": "2016-01-16",
+         "dct:modified": "2016-01-16",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Does the [South Central Los Angeles mural](http://dp.la/primary-source-sets/sources/454) represent a positive or negative portrayal of manifest destiny? Explain.\r\n2. Compare and contrast the [South Central Los Angeles mural](http://dp.la/primary-source-sets/sources/454) and the [Leutze painting](http://dp.la/primary-source-sets/sources/457). \r\n3. How do the memories and experiences of [Mr. Longclaws](http://dp.la/primary-source-sets/sources/455) represent some of the negative consequences of manifest destiny?\r\n4. Are there stereotypes of Mexicans or Mexican-Americans represented in the [mannequin figure](http://dp.la/primary-source-sets/sources/462)?\r\n5. What were some of the accomplishments of Jane Cazneau, as seen in the [excerpt from her biography](http://dp.la/primary-source-sets/sources/459)? How did those accomplishments reflect manifest destiny?\r\n6. How are Native Americans depicted in the [excerpt from *Esther*](http://dp.la/primary-source-sets/sources/460)? In what ways does that depiction represent some of the ideals of manifest destiny?\r\n7. Using the [letter from A.D. Covin](http://dp.la/primary-source-sets/sources/461) and the [photograph of the Salt Lake City monument](http://dp.la/primary-source-sets/sources/463), discuss how ideas of manifest destiny can represent the whitewashing of history."
+            },
+            {
+               "name": "Activity",
+               "text": "Ask students to compare the map in the [poster](http://dp.la/primary-source-sets/sources/456) and the [ornamental map](http://dp.la/primary-source-sets/sources/458). Ask students to create a new map of the US representing the diverse immigrant groups of the country. Ask students to review the thirty-seven maps on the following website ([http://www.vox.com/2015/1/12/7474897/immigration-america-maps](http://www.vox.com/2015/1/12/7474897/immigration-america-maps)) and use one of the maps to serve as a model for a new map representing the diverse immigrant groups of the US. Ask students to consider how immigration patterns have changed since the heyday of manifest destiny."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "@type": "CreativeWork",
+            "name": "Manifest Destiny"
+         },
+         "name": "Teaching Guide: Exploring Manifest Destiny"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Manifest Destiny Overview](http://www.pbs.org/kera/usmexicanwar/prelude/manifest_destiny_overview.htm), The U.S.-Mexican War: Prelude to War, PBS. \r\n2. [Manifest Destiny](http://www.let.rug.nl/usa/essays/1801-1900/manifest-destiny/), American History from Revolution to Reconstruction and beyond. \r\n3. [The Religious Origins of Manifest Destiny](http://nationalhumanitiescenter.org/tserve/nineteen/nkeyinfo/mandestiny.htm), Divining America: Religion in American History, National Humanities Center. "
+      },
+      {
+         "name": "Overview",
+         "text": "Belief in the God-ordained right of European-Americans to settle and colonize the continental United States from the Atlantic to the Pacific coast is known as manifest destiny. Coined by newspaper editor John O\u2019Sullivan in 1845, the phrase \u201cmanifest destiny\u201d reached its zenith during the US takeover of the Oregon territory, the Mexican-American War, and the California gold rush. Arising from heightened patriotism after the War of 1812, the religious passion of the Second Great Awakening, and the economic drive for more land and profits, this nationalist expansion of \u201cAmerican\u201d people and culture was synonymous with white imperialist, racially supremacist, and religiously intolerant thoughts and actions against Native Americans, Mexicans, Chinese, Japanese, and other people of color. This primary source set includes visual, audial, and written documents that reflect the era\u2019s projected ideals and harsh realities. From twentieth-century posters, monuments, and letters to nineteenth-century maps, biographies, and paintings, this set allows students to gain a greater understanding of how perceptions of manifest destiny have changed over time."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+         "name": "The Lewis and Clark Expedition",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/spanish-missions-in-california",
+         "name": "Spanish Missions in California",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+         "name": "The American Whaling Industry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+         "name": "The Panic of 1837",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/powhatan-people-and-the-english-at-jamestown",
+         "name": "Powhatan People and the English at Jamestown",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+         "name": "Exploration of the Americas",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-wounded-knee-massacre",
+         "name": "The Wounded Knee Massacre",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+         "name": "The War of 1812",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cross-cultural-colonial-conflicts",
+         "name": "Cross-Cultural Colonial Conflicts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-indian-boarding-schools",
+         "name": "American Indian Boarding Schools",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Manifest Destiny",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

@@ -1,0 +1,1455 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Social Movements"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "African Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Weston Public Schools, Massachusetts"
+         },
+         "name": "Kerry Dunne"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2016-01-12",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2016-01-12",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the American Abolitionist Movement.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/170",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/171",
+               "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/172",
+               "name": "A photograph of Sojourner Truth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/173",
+               "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/174",
+               "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/175",
+               "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/176",
+               "name": "A commemorative print of the Emancipation Proclamation.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/177",
+               "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/178",
+               "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/179",
+               "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_01_f87a858ba3b54ff984b1b13e8cd166d5.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Library of Congress via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cProceedings of the Anti-slavery convention of American women, held in Philadelphia,\u201d Digital Public Library of America, https://dp.la/item/f87a858ba3b54ff984b1b13e8cd166d5. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/171",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/172",
+               "name": "A photograph of Sojourner Truth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/173",
+               "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/174",
+               "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/175",
+               "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/176",
+               "name": "A commemorative print of the Emancipation Proclamation.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/177",
+               "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/178",
+               "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/179",
+               "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/170",
+               "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_02_815b52395f207c348c8739c5dc3b982c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Public Radio via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Douglass, Frederick, \u201cWhat, to the slave, is the Fourth of July?,\u201d Digital Public Library of America, https://dp.la/item/815b52395f207c348c8739c5dc3b982c."
+                  }
+               ]
+            }
+         ],
+         "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/172",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/173",
+               "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/174",
+               "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/175",
+               "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/176",
+               "name": "A commemorative print of the Emancipation Proclamation.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/177",
+               "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/178",
+               "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/179",
+               "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/170",
+               "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/171",
+               "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_03_db1573dfb364b51d515926eeeea245a1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSojourner Truth,\u201d Digital Public Library of America, https://dp.la/item/db1573dfb364b51d515926eeeea245a1."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Sojourner Truth.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/173",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/174",
+               "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/175",
+               "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/176",
+               "name": "A commemorative print of the Emancipation Proclamation.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/177",
+               "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/178",
+               "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/179",
+               "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/170",
+               "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/171",
+               "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/172",
+               "name": "A photograph of Sojourner Truth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Museum of American History, Kenneth E. Behring Center via the Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Josiah Wedgwood & Sons, \u201cAntislavery Medallion,\u201d Digital Public Library of America, https://dp.la/item/19d3c8f19a87c22a7ac547df2f7b98c1."
+                  }
+               ]
+            }
+         ],
+         "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/174",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/175",
+               "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/176",
+               "name": "A commemorative print of the Emancipation Proclamation.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/177",
+               "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/178",
+               "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/179",
+               "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/170",
+               "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/171",
+               "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/172",
+               "name": "A photograph of Sojourner Truth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/173",
+               "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gaul, Gilbert William, \u201cBreaking up a pro-slavery camp,\u201d Digital Public Library of America, https://dp.la/item/1c31de7a8b90ec3600fe65c5dd7e825a."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/175",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/176",
+               "name": "A commemorative print of the Emancipation Proclamation.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/177",
+               "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/178",
+               "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/179",
+               "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/170",
+               "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/171",
+               "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/172",
+               "name": "A photograph of Sojourner Truth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/173",
+               "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/174",
+               "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_06_6ec923cd64846cdbf2221fe75642f479.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Library of Congress via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Sleigh, William Wilcocks, excerpt from \u201cAbolitionism exposed!,\u201d Digital Public Library of America, https://dp.la/item/6ec923cd64846cdbf2221fe75642f479."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/176",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/177",
+               "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/178",
+               "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/179",
+               "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/170",
+               "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/171",
+               "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/172",
+               "name": "A photograph of Sojourner Truth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/173",
+               "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/174",
+               "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/175",
+               "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_07a_821567a4509c13c237dc63f2eb7fdb92.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Kansas City Public Library via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEmancipation Proclamation,\u201d Digital Public Library of America, https://dp.la/item/821567a4509c13c237dc63f2eb7fdb92. "
+                  }
+               ]
+            }
+         ],
+         "name": "A commemorative print of the Emancipation Proclamation.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/177",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/178",
+               "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/179",
+               "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/170",
+               "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/171",
+               "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/172",
+               "name": "A photograph of Sojourner Truth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/173",
+               "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/174",
+               "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/175",
+               "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/176",
+               "name": "A commemorative print of the Emancipation Proclamation.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cAbolition catastrophe. Or the November smash-up,\u201d Digital Public Library of America, https://dp.la/item/631145ffe20b8cdcbfcdf5c87f48e1b0."
+                  }
+               ]
+            }
+         ],
+         "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+         "text": "This cartoon includes racist language and caricatures typical of this period. In the U.S. presidential election of 1864, Republican Abraham Lincoln defeated Democrat George B. McClellan and his early peace platform. This pro-McClellan cartoon shows \"Little Mac\" in the cab of the \"Union\" train, which has a clear track to the White House. Lincoln's \"Abolitionism\" train with its cargo of cabinet members and abolitionists has just smashed against the rock of \"Confiscation,\" \"Emancipation,\u201d etc. that are piled across the track.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/178",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/179",
+               "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/170",
+               "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/171",
+               "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/172",
+               "name": "A photograph of Sojourner Truth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/173",
+               "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/174",
+               "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/175",
+               "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/176",
+               "name": "A commemorative print of the Emancipation Proclamation.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/177",
+               "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Kansas City Public Library via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Magee, John L., \u201cLithograph of Preston Brooks' 1856 attack on Sumner,\u201d Digital Public Library of America, https://dp.la/item/63dd61c83c29c0d1e197d173ac6a57a2."
+                  }
+               ]
+            }
+         ],
+         "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/179",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/170",
+               "name": "An excerpt from an 1838 printed pamphlet, *Proceedings of the Anti-slavery Convention of American Women*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_01a_f87a858ba3b54ff984b1b13e8cd166d5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/171",
+               "name": "The text of Frederick Douglass\u2019s 1852 speech, \u201cWhat, to the slave, is the Fourth of July?\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_02_815b52395f207c348c8739c5dc3b982c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/172",
+               "name": "A photograph of Sojourner Truth.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_03_db1573dfb364b51d515926eeeea245a1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/173",
+               "name": "A British anti-slavery medallion created by Josiah Wedgwood & Sons some time after 1787.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_04_19d3c8f19a87c22a7ac547df2f7b98c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/174",
+               "name": "An 1859 illustration by Gilbert William Gaul depicting men in Kansas breaking up a pro-slavery camp.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_05_1c31de7a8b90ec3600fe65c5dd7e825a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/175",
+               "name": "An excerpt from an 1832 book, *Abolitionism Exposed!*, by William Willcocks Sleigh.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_06_6ec923cd64846cdbf2221fe75642f479_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/176",
+               "name": "A commemorative print of the Emancipation Proclamation.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_07_821567a4509c13c237dc63f2eb7fdb92_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/177",
+               "name": "A pro-McClellan political cartoon for the 1864 presidential election titled \u201cThe Abolition Catastrophe. Or the November Smash-Up.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_08_631145ffe20b8cdcbfcdf5c87f48e1b0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/178",
+               "name": "A lithograph by John L. Magee depicting Preston Brooks' 1856 attack on Senator Charles Sumner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_09_63dd61c83c29c0d1e197d173ac6a57a2_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Garrison, William Lloyd and James Brown Yerrinton, excerpt from \u201cThe liberator, 1833,\u201d Digital Public Library of America, https://dp.la/item/8c7db23a6d492a6065dbb0e8e6f8c213."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an 1833 edition of William Lloyd Garrison\u2019s *The Liberator*.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_10_8c7db23a6d492a6065dbb0e8e6f8c213_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-american-abolitionism",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Weston Public Schools, Massachusetts"
+               },
+               "name": "Kerry Dunne"
+            }
+         ],
+         "dateCreated": "2015-10-15",
+         "dateModified": "2017-11-02",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2017-11-02",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Consider the [photograph of Sojourner Truth](http://dp.la/primary-source-sets/sources/172) and the [text of Frederick Douglass\u2019 speech](http://dp.la/primary-source-sets/sources/171). Why were the voices of former slaves essential to the success of the abolitionist movement?\r\n\r\n2. How were visual images, including objects such as the [British medallion](http://dp.la/primary-source-sets/sources/173), and the popular press used to advance the abolitionist cause?\r\n\r\n3. Using the [excerpt from the 1838 printed pamphlet](http://dp.la/primary-source-sets/sources/170), explain how women fighting for suffrage found common cause with abolitionists. \r\n\r\n4. Using [*Abolitionism Exposed!*](http://dp.la/primary-source-sets/sources/175) as evidence, describe some counterarguments to abolition that were expressed at the time.\r\n\r\n5. What was one argument made for the eradication of slavery by abolitionists? Choose one item from this set that expresses that argument. \r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Imagine you live in Massachusetts in 1833. A cousin from South Carolina writes to you to ask about [*The Liberator*](http://dp.la/primary-source-sets/sources/179), about which she has heard many rumors. Write a letter to her in which you tell her what you know about *The Liberator* and what you have read in the latest issue. Include your opinions on *The Liberator*, its abolitionist cause, and its tactics.\r\n\r\n2. Ask students to choose five documents from the gallery above, and to create their own document-based question about abolitionism. Ask students to share their document-based questions with a partner and to discuss how they would respond to the question, using evidence to justify their response."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "@type": "CreativeWork",
+            "name": "The American Abolitionist Movement"
+         },
+         "name": "Teaching Guide: Exploring American Abolitionism"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [*Uncle Tom\u2019s Cabin*](http://dp.la/item/7709e9556bb0de7db7a7c9efb8f47e5f) by Harriet Beecher Stowe, HathiTrust, Digital Public Library of America. \r\n\r\n2. [American Abolitionism](http://americanabolitionist.liberalarts.iupui.edu/), Indiana University. \r\n\r\n3. [\u201cI will be heard!\u201d: Abolition in America](http://rmc.library.cornell.edu/abolitionism/abolitionists.htm), Cornell University. \r\n\r\n4. [Resistance and Abolition](http://www.loc.gov/teachers/classroommaterials/presentationsandactivities/presentations/immigration/african5.html), the Library of Congress. "
+      },
+      {
+         "name": "Overview",
+         "text": "The abolitionist movement espoused the view that slavery was morally wrong, and that the United States should ban slavery and emancipate all enslaved people. Some states had banned slavery during the colonial period or shortly after independence, often due to advocacy by Quakers and other religious people objecting to slavery. However, slavery persisted in parts of the American mid-Atlantic and the entirety of the American South. As the expansion of the US westward created the potential for new states where slavery could be legal, the abolitionist movement took shape, mounting increasing political activism between 1820 and the outbreak of Civil War in 1860. Abolitionists included former slaves such as Harriet Tubman and Frederick Douglass, publishers and writers such as William Lloyd Garrison and Harriet Beecher Stowe, politicians such as Senator Charles Sumner, and feminists such as Susan B. Anthony and Lucy Stone, who, at times, saw the causes of women\u2019s rights and the abolition of slavery as related. Ultimately, the goal of the abolitionist movement was partially enacted with President Abraham Lincoln\u2019s 1863 Emancipation Proclamation, and fully achieved with the passage of the Thirteenth Amendment in 1865."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+         "name": "John Brown's Raid on Harper\u2019s Ferry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+         "name": "Exodusters: African American Migration to the Great Plains",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+         "name": "The American Whaling Industry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+         "name": "The Panic of 1837",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-temperance-movement",
+         "name": "Women and the Temperance Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+         "name": "Blackface Minstrelsy in Modern America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+         "name": "ACT UP and the AIDS Crisis",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fire-next-time-by-james-baldwin",
+         "name": "*The Fire Next Time* by James Baldwin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+         "name": "The War of 1812",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+         "name": "Manifest Destiny",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/visual-art-during-the-harlem-renaissance",
+         "name": "Visual Art During the Harlem Renaissance",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/art-during-harlem-renaissance_00_b945bc5a8bda295b5e0765a190a3e075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/art-during-harlem-renaissance_00_b945bc5a8bda295b5e0765a190a3e075.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+         "name": "The Lewis and Clark Expedition",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "The American Abolitionist Movement",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg",
+   "typicalAgeRange": "11-18"
+}

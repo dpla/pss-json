@@ -1,0 +1,464 @@
+{
+  "@context": {
+  "@vocab": "http://schema.org/",
+  "ccss": "http://www.corestandards.org/",
+  "dct": "http://purl.org/dc/terms/",
+  "dcmitype": "http://purl.org/dc/dcmitype/",
+  "edm": "http://www.europeana.eu/schemas/edm",
+  "ore": "http://www.openarchives.org/ore/terms/",
+  "text": {
+    "@id": "http://schema.org/text",
+    "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+  },
+  "name": {
+    "@id": "http://schema.org/text",
+    "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+  }
+}
+,
+  "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+  "@type": "CreativeWork",
+  "dct:type": "dcmitype:InteractiveResource",
+  "name": "The War of 1812",
+    "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg",
+    "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+  "dateCreated": "2016-01-15",
+  "dct:created": "2016-01-15",
+  "dateModified": "2018-03-29",
+  "dct:modified": "2018-03-29",
+    "about": [
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Subject",
+          "name": "US History"
+        },
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Time Period",
+          "name": "Expansion and Reform (1801-1861)",
+            "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+        }
+    ],
+    "description": "This collection uses primary sources to explore the War of 1812.",
+    "author": [
+        {
+          "@type": "Person",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Scott County High School, Georgetown, Kentucky"
+            },
+          "name": "James Walsh"
+        }
+    ],
+  "publisher": {
+    "@id": "//dp.la/",
+    "@type": "Organization",
+    "name": "Digital Public Library of America",
+    "email": "info@dp.la"
+  },
+  "hasPart": [
+        {
+          "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-war-of-1812",
+          "@type": "CreativeWork",
+          "name": "Teaching Guide: Exploring the War of 1812",
+          "disambiguatingDescription": "guide"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/498",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_01_f069c01bc2a2a2e3751feeb8b25b94f8_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_01_f069c01bc2a2a2e3751feeb8b25b94f8_rep.jpg",
+          "name": "An image of a council between William Henry Harrison and Native American leaders, including Tecumseh, August 1810.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/499",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_02_20621b83de6b60d41a08045db62207f1-01_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_02_20621b83de6b60d41a08045db62207f1-01_rep.jpg",
+          "name": "An excerpt from evidence provided before Parliament by a British “woolen manufacturer” opposed to the British Orders in Council of 1807.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/500",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_03_63c29f55dbd8db65e6d02a4af88a1cb4_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_03_63c29f55dbd8db65e6d02a4af88a1cb4_rep.jpg",
+          "name": "An excerpt from an explanation of the British Orders in Council, published in 1812.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/501",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_04_fc0f396726585f19828d6bd04f66cf09_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_04_fc0f396726585f19828d6bd04f66cf09_rep.jpg",
+          "name": "An excerpt from an 1804 letter from James Madison, Secretary of State, to James Monroe, about British impressment of American sailors.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/502",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_05_167ff2ec7451125518c30b225b919344_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_05_167ff2ec7451125518c30b225b919344_rep.jpg",
+          "name": "The American declaration of war from June 18, 1812.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/503",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+          "name": "An image of Fort George from Fort Niagara, 1813. ",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/504",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_07_431204605ab0e34e540efa63f0d01201_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_07_431204605ab0e34e540efa63f0d01201_rep.jpg",
+          "name": "An 1814 image with the title “Naval Heroes of the United States.” ",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/505",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_08_31feddfcd9d80806bf98928bb8d6ff87_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_08_31feddfcd9d80806bf98928bb8d6ff87_rep.jpg",
+          "name": "An 1813 poem celebrating Oliver Hazard Perry’s naval victory on Lake Erie. ",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/506",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_09_7f587c9d9bae30734dfc514fdb0faf34_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_09_7f587c9d9bae30734dfc514fdb0faf34_rep.jpg",
+          "name": "A medallion commemorating the Battle of the Thames on October 5, 1813. ",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/507",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_10_4e1c117646d34e36a4527fd4d18fd6f9_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_10_4e1c117646d34e36a4527fd4d18fd6f9_rep.jpg",
+          "name": "An 1816 description of the Battle of Baltimore and the Battle of New Orleans. ",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/508",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_11_251c662952469252fa7fc7647c763c4e_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_11_251c662952469252fa7fc7647c763c4e_rep.jpg",
+          "name": "A sheet of music from 1814 with the tune and words to “The Star Spangled Banner.”",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/509",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_12_def2d76d091c655c740ca7b3cb72518e_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_12_def2d76d091c655c740ca7b3cb72518e_rep.jpg",
+          "name": "Andrew Jackson’s own description, in a letter to James Monroe, of the final conflict of the Battle of New Orleans on January 8, 1815.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/510",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_13_0ca23309dbba9fa8adc53b3f479ad3d9_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_13_0ca23309dbba9fa8adc53b3f479ad3d9_rep.jpg",
+          "name": "An image of the USS *Constitution* capturing the British ships Levant and Cyane on February 20, 1815. ",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/511",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_14_e1a0195f604340173bfd2f6052f2b063_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_14_e1a0195f604340173bfd2f6052f2b063_rep.jpg",
+          "name": "A letter from Benjamin Hawkins to Georgia Governor Peter Early discussing the Treaty of Ghent and the end of the war, February 26, 1815.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+      {
+        "name": "Resources",
+        "text": "1. [Military Resources: War of 1812](https://www.archives.gov/research/military/war-of-1812/), National Archives and Records Administration. \r\n2. [The War of 1812](http://amhistory.si.edu/starspangledbanner/the-war-of-1812.aspx), National Museum of American History, Smithsonian Institution. \r\n3. [A Guide to the War of 1812](https://www.loc.gov/rr/program/bib/1812/), Library of Congress. \r\n4. [The War of 1812 in the Collections of the Lilly Library](http://collections.libraries.indiana.edu/warof1812/), Indiana University Bloomington. "
+      },
+      {
+        "name": "Overview",
+        "text": "The War of 1812, a war between the United States and Great Britain, took place between 1812 and 1814. Ending effectively in a draw with relatively few casualties, the war is sometimes barely mentioned in US history courses and sometimes omitted from British history courses. However, in many ways, this conflict formally established independence from Great Britain for the United States. It is celebrated as the origin of Canada’s nationhood. For many Native American nations, it marked an end to thousands of years of sovereign habitation of the North American continent east of the Mississippi. With its causes rooted in trade disputes and internal conflicts, its epic battles remembered in poems and song, and its outcome resulting in a new American nationalism, the War of 1812 holds many compelling storylines. These include conflicts in the West, relationships between Native Americans and white Americans, and pivotal battles of Baltimore and New Orleans. With the sources in this set, together with prior knowledge, students can fill in the timeline of this crucial war and begin to answer the question, “Why do we care about the War of 1812?”"
+      }
+  ],
+    "isRelatedTo": [
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+          "name": "California Gold Rush"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+          "name": "Cotton Gin and the Expansion of Slavery"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+          "name": "Victorian Era"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+          "name": "Commodore Perry’s Expedition to Japan"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+          "name": "The American Whaling Industry"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+          "name": "The Panic of 1837"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+          "name": "Mormon Migration"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+          "name": "Cherokee Removal and the Trail of Tears"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+          "name": "Nineteenth-Century Schools for the Deaf and Blind"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+          "name": "Texas Revolution"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+          "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+          "name": "Women of the Antebellum Reform Movement"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+          "name": "Manifest Destiny"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+          "name": "Henry Clay: The Great Compromiser"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+          "name": "The Lewis and Clark Expedition"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+          "name": "The American Abolitionist Movement"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+          "name": "Jacksonian Democracy?"
+        }
+    ],
+  "inLanguage": [
+    {
+      "@id": "http://lexvo.org/id/term/eng/English",
+      "@type": "Language",
+      "name": "English"
+    }
+  ],
+  "learningResourceType": "Source Set",
+  "license": "http://dp.la/info/terms/",
+  "typicalAgeRange": "11-18",
+  "accessbilityFeature": [
+    "captions",
+    "structuralNavigation",
+    "audioControl",
+    "videoControl"
+  ],
+  "accessibilityHazard": [
+    "noFlashingHazard",
+    "motionSimulation",
+    "noSoundHazard"
+  ],
+  "accessibilityControl": [
+    "fullMouseControl"
+  ],
+  "educationalAlignment": [
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+      "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+      "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+    }
+  ]
+}

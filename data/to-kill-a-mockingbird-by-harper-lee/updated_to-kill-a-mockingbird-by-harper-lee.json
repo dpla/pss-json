@@ -1,0 +1,2218 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "American Literature"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Postwar United States (1945 to early 1970s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-9"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Women"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "East Central High School, St. Leon, Indiana"
+         },
+         "name": "Susan Ketcham"
+      }
+   ],
+   "dateCreated": "2016-01-15",
+   "dateModified": "2020-07-22",
+   "dct:created": "2016-01-15",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Harper Lee&#39;s To Kill a Mockingbird.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/645",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_01a_4b5b40a2b3ca6a64d2bd43354d324ae9.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cFranklin D. Roosevelt's First Inaugural Address,\u201d Digital Public Library of America, https://dp.la/item/4b5b40a2b3ca6a64d2bd43354d324ae9."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+         "text": "Scout refers to Roosevelt\u2019s speech when she says, \u201cMaycomb County had recently been told that it had nothing to fear but fear itself.\u201d ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/646",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cA Jim-Crow car for Negroes only, Fayetteville, N.C,\u201d Digital Public Library of America, https://dp.la/item/6d1fc6e684875b17266e1f5ef077458d."
+                  }
+               ]
+            }
+         ],
+         "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+         "text": "While not specifically mentioned in the novel, Jim Crow laws were in effect throughout the Southern states.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/647",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Tubman African American Museum via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWhites only restroom sign,\u201d Digital Public Library of America, https://dp.la/item/54951359079a8d6d6ae5eac57821743c."
+                  }
+               ]
+            }
+         ],
+         "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/648",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cThe Scottsboro case: opinion of Judge James E. Horton of the Alabama Circuit Court granting a motion for a new trail,\u201d Digital Public Library of America, https://dp.la/item/88bcd9a524b02dee3b667c0c8cda1baf."
+                  }
+               ]
+            }
+         ],
+         "name": "A calendar of events for the Scottsboro case, 1936. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/649",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Endore, S. Guy, \u201cThe crime at Scottsboro,\u201d Digital Public Library of America, https://dp.la/item/b45718b3fc8d21816b00702b71396b8b."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/650",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Minnesota Libraries via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Hughes, Langston, \u201cScottsboro Limited,\u201d Digital Public Library of America, https://dp.la/item/1e2e0891cf8441be3a28539e5c254c4f."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/651",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UCLA, Library Special Collections, Charles E. Young Research Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSave the Scottsboro Boys; flyer,\u201d Digital Public Library of America, https://dp.la/item/6d037d5fb7ae9d8f8ee702555a58d2ec."
+                  }
+               ]
+            }
+         ],
+         "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+         "text": "The trial of the Scottsboro Boys is similar to Tom Robinson\u2019s trial in *To Kill a Mockingbird*.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/652",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Archives Center - NMAH via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Scurlock, Addison N., \u201cScottsboro Mothers,\u201d Digital Public Library of America, https://dp.la/item/c8994ac95e70adf16c19fa0f0744108c."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+         "text": "The caption in the national edition of the Afro American reads: \"Four of the Alabama mothers who were greeted by Mrs. Julia West Hamilton (center) chairman of the board of directors of the Phyllis Wheatley Y.W.C.A., as they arrived at the D.C. Y where they stayed until arrangements were made to see Marvin H. McIntyre, secretary to President Roosevelt. Left to right, Ruby Bates, white, Mrs. Mayme Williams, Mrs. Viola Montgomery, Mrs. Julia W. Hamilton, Mrs. Janie Patterson and Mrs. Ida Norris. The mothers are seeking the aid of President Roosevelt in an effort to save their sons lives.\"",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/653",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cCommunist parade, Washington, D.C., 1933,\u201d Digital Public Library of America, https://dp.la/item/91c5fdf7c118506c61c103d889bdedb6."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+         "text": "Banners include: \"We march for food and freedom; to free the Scottsboro boys,\u201d \"Fight Roosevelt's new deal of hunger,\u201d \"Down with Jim-Crowism,\u201d and \"Scottsboro boys will not die!\". ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/654",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "National Education Association of the United States, excerpt from \u201cThe schools and the depression,\u201d Digital Public Library of America, https://dp.la/item/54e7689f985f1ca6584c695976086c35."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/655",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cArtistic playground shot, Southern California, 1930,\u201d Digital Public Library of America, https://dp.la/item/63ceb02b29805a9a4f913bdfde7ed640."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a playground in southern California, 1930.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/656",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Dublin Heritage Park and Museums via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cKids and new car, (c. 1935), photograph,\u201d Digital Public Library of America, https://dp.la/item/93236305295b82defe62eaae4eec7a20."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/657",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Library of Congress Prints and Photographs Division and New Georgia Encyclopedia via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lange, Dorothea, \u201cSharecropping family, Macon County,\u201d Digital Public Library of America, https://dp.la/item/950280f7a7dcf858135502e982cf3fac. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/658",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-06-28",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-06-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/659",
+               "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Los Angeles Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cTruman Capote,\u201d Digital Public Library of America, https://dp.la/item/3c8494c02fd0cec7df1a0396e9dc95ca."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/659",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-17",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-17",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/645",
+               "name": "An excerpt from the text of Franklin D. Roosevelt\u2019s first inaugural address, March 4, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_01_4b5b40a2b3ca6a64d2bd43354d324ae9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/646",
+               "name": "An image of a Jim Crow rail car \u201cfor Negroes only,\u201d Fayetteville, NC, 1929.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_02_6d1fc6e684875b17266e1f5ef077458d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/647",
+               "name": "A \u201cwhites only\u201d restroom sign, another example of racial prejudice. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_03_4d46014ca508cd34b7651ed5e4767e3e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/648",
+               "name": "A calendar of events for the Scottsboro case, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_04_88bcd9a524b02dee3b667c0c8cda1baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/649",
+               "name": "An excerpt from *The Crime at Scottsboro* by Guy Endore, 1938. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_05_b45718b3fc8d21816b00702b71396b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/650",
+               "name": "A 1932 pamphlet of \u201cScottsboro Limited,\u201d the poem Langston Hughes wrote about the Scottsboro boys\u2019 trial. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_06_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/651",
+               "name": "A flyer for a mass meeting to \u201csave the Scottsboro boys\u201d on February 10, 1936. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_07_8123d5cb03e0423d3d2558465c044c1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/652",
+               "name": "A photo of Scottsboro boys\u2019 mothers, May 19, 1934. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_08_c8994ac95e70adf16c19fa0f0744108c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/653",
+               "name": "A photograph of a communist parade in Washington, DC, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/654",
+               "name": "An excerpt from the National Education Association review of Alabama schools during the Depression, 1933. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_10_54e7689f985f1ca6584c695976086c35_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/655",
+               "name": "A photograph of a playground in southern California, 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_11_63ceb02b29805a9a4f913bdfde7ed640_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/656",
+               "name": "A photograph of kids and a new car, ca. 1935; while the Finches were poor, they still had luxury items like a car.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_12_f82b742b0cddde9960ae5093ac0d041e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/657",
+               "name": "A photograph of a sharecropper family in Macon County, GA, 1937; the Depression affected the Cunninghams and other farmers more than most.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_13_147e03a41fb663b3fd1a4ea8e44bf4b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/658",
+               "name": "A 1978 photograph of Truman Capote, 1978, an author and a childhood friend of Harper Lee who is said to be her inspiration for Dill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_14_b3b8d67ae6040a1b5347fdd5d16936b7_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of William Stanley Hoole Special Collections Library, University of Alabama via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cInterview with Rosa Jackson, 1984 July 23,\u201d Digital Public Library of America, https://dp.la/item/4241d72c30e3e08b74fc5ca2b5e31692."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1984 interview with Rosa Jackson in which she talks about her experience with the law as a black woman in Alabama in 1927. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_15_95ab6b7a809b6cca493fac214787dc59_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-to-kill-a-mockingbird",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "East Central High School, St. Leon, Indiana"
+               },
+               "name": "Susan Ketcham"
+            }
+         ],
+         "dateCreated": "2016-01-17",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-17",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Compare and contrast the photographs of [kids and a new car](http://dp.la/primary-source-sets/sources/656) and the [sharecropper family in Macon County](http://dp.la/primary-source-sets/sources/657). How do these two pictures relate to the Finch children and the Cunninghams? How do they relate to the Great Depression? Use textual evidence to support your answer.\r\n\r\n2. Listen to the [interview](http://dp.la/primary-source-sets/sources/659) with Rosa Jackson. Explain how Atticus Finch would have reacted to Rosa\u2019s arrest. How is Atticus similar to Judge Abernathy? How is Tom Robinson similar to Rosa Jackson? Use textual evidence to support your answer.\r\n\r\n3. Look at the [photograph of the children on the playground](http://dp.la/primary-source-sets/sources/655). Find a quotation from the book that could caption this picture. How does this image show Scout\u2019s feelings about Jem\u2019s school experience? What emotion does the picture evoke?\r\n\r\n4. Look over the [review of Alabama schools](http://dp.la/primary-source-sets/sources/654), specifically in rural areas. Reread chapter two about Scout\u2019s first day of school. What do we learn about rural schools in Alabama during the Great Depression from a historical document and a fictionalized account? Use textual evidence from the novel to support your answer.\r\n\r\n5. Scout tells the reader in chapter one that \u201cthere was no hurry, for there was nowhere to go, nothing to buy and no money to buy it with...But it was a time of vague optimism for some people: Maycomb County had recently been told that it had nothing to fear but fear itself.\" This historical allusion is from Franklin D. Roosevelt\u2019s [first inaugural address](http://dp.la/primary-source-sets/sources/645). Read the first page of the address. How could this speech help revive a nation in the depths of a Great Depression? "
+            },
+            {
+               "name": "Activity",
+               "text": "At the conclusion of the novel, have students read the [Scottsboro trial calendar](http://dp.la/primary-source-sets/sources/648). With a partner, have students create a Tom Robinson trial calendar. Next have students read [*The Crime at Scottsboro*](http://dp.la/primary-source-sets/sources/649). Emulating the tone of the excerpt, have students write a one-paragraph editorial proclaiming Tom Robinson\u2019s innocence. Finally, show the [\u201cScottsboro Limited\u201d pamphlet](http://dp.la/primary-source-sets/sources/650), the [flyer](http://dp.la/primary-source-sets/sources/651), the [photograph of mothers](http://dp.la/primary-source-sets/sources/652), and the [photograph of the Communist parade](http://dp.la/primary-source-sets/sources/653). Allow students to discuss. Students should describe the items, explain what is happening in each, explain how each makes them feel, and identify how each is connected to *To Kill a Mockingbird*."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+            "@type": "CreativeWork",
+            "name": "*To Kill a Mockingbird* by Harper Lee"
+         },
+         "name": "Teaching Guide: Exploring *To Kill a Mockingbird*"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Famous American Trials: \u201cThe Scottsboro Boys\u201d Trials, 1931-1937](http://law2.umkc.edu/faculty/projects/FTrials/scottsboro/scottsb.htm), University of Missouri Kansas City. \r\n2. [History](http://www.scottsboro-boys.org/history.html), Scottsboro Boys Museum and Cultural Center. \r\n3. [To Kill a Mockingbird](http://resources.mhs.vic.edu.au/mockingbird/intro.htm), Melbourne High School. "
+      },
+      {
+         "name": "Overview",
+         "text": "Harper Lee\u2019s *To Kill a Mockingbird*, published in 1960, quickly became a success with both critics and the public. Winner of the Pulitzer Prize in 1961, the novel has been translated into forty different languages and sold more than 40 million copies, earning its description as \u201cone of the best novels of the twentieth century.\u201d In *To Kill a Mockingbird*, set in the deeply prejudiced South in the midst of the Great Depression, an adult Jean Louise \u201cScout\u201d Finch tells her story of growing up in Maycomb, Alabama. Scout learns about prejudice and empathy as events unfold around her. Her father, Atticus Finch, is the court-appointed lawyer for Tom Robinson, a black man accused of rape. Lee takes the story straight from the headlines in the 1930s when the Scottsboro boys (nine young men) were falsely accused of raping two white women on a train. The social iniquities of a small Southern town are brought to life through the innocent eyes of a young girl. This primary source set includes photographs, documents, and objects that provide context for historical and thematic elements within *To Kill a Mockingbird*."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/a-raisin-in-the-sun-by-lorraine-hansberry",
+         "name": "*A Raisin in the Sun* by Lorraine Hansberry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+         "name": "*Invisible Man* by Ralph Ellison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-awakening-by-kate-chopin",
+         "name": "*The Awakening* by Kate Chopin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fire-next-time-by-james-baldwin",
+         "name": "*The Fire Next Time* by James Baldwin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+         "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-maya-angelou",
+         "name": "The Poetry of Maya Angelou",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/elie-wiesel-s-night-and-the-holocaust",
+         "name": "Elie Wiesel's *Night* and the Holocaust",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+         "name": "The Poetry of Emily Dickinson",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-crucible-by-arthur-miller",
+         "name": "*The Crucible* by Arthur Miller",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/crucible-arthur-miller_07_f4d6eb6fe0b3b269a62f1711827d4d6b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/crucible-arthur-miller_07_f4d6eb6fe0b3b269a62f1711827d4d6b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beloved-by-toni-morrison",
+         "name": "*Beloved* by Toni Morrison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/their-eyes-were-watching-god-by-zora-neale-hurston",
+         "name": "*Their Eyes Were Watching God* by Zora Neale Hurston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-woman-warrior-by-maxine-hong-kingston",
+         "name": "*The Woman Warrior* by Maxine Hong Kingston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+         "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_00_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_00_529f51e7ae782956e47f5ce8288bff17.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+         "name": "*Little Women* by Louisa May Alcott",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_00_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_00_eed0d959d47a589b8958e254d4131ddf.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "*To Kill a Mockingbird* by Harper Lee",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

@@ -1,0 +1,2294 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Great Depression and World War II (1929-1945)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-8"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Labor History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Latino Americans"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Migration"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      },
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Hillary Brady"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2016-06-27",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2016-06-27",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the Bracero Program.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/63",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_01_16c1c6626cddb88d4519951e6907696a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Davis, Special Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Higgins, Floyd Halleck, \u201cTwo men with a group of Mexican workers standing near Southern Pacific train,\u201d Digital Public Library of America, https://dp.la/item/7f814f33ad3f7fd3686a2251c123e008."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+         "text": "After going through the processing center in Mexico, workers were transported by train or bus to processing centers in the United States and then to bracero camps. The group pictured in this photograph is among the first group of braceros hired in 1942 to help with the sugar beet harvest near Salinas, California.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/64",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Davis, Special Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Higgins, Floyd Halleck, \u201cMexican workers standing in front of bus,\u201d Digital Public Library of America, https://dp.la/item/39226cc1337cd41c173f3c5697764821."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+         "text": "After going through the processing center in Mexico, workers were transported by train or bus to processing centers in the United States, and then to bracero camps. The group pictured in this photograph is among the first group of Braceros hired in 1942 to help with the sugar beet harvest near Salinas, California.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/65",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_03_f0a7655e4709da7063de9d1a88a03085.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Davis, Special Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Higgins, Floyd Halleck, \u201cFourteen Mexican workers sitting on back of flatbed truck holding hoes,\u201d Digital Public Library of America, https://dp.la/item/935f8e26f883b80449730cf475825bf7."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/66",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_04_02753d443e9d818670736da373dedc9b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Davis, Special Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Higgins, Floyd Halleck, \u201cRobert Barr standing on the back of a truck with Mexican workers tossing sugar beets into the truck,\u201d Digital Public Library of America, https://dp.la/item/3420f07c27d02333e3297c193ce664db."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+         "text": "Description: The original description from photographer Hal Higgins reads: \u201cPresident Robert Barr of the Central California Beet Growers' Assoc. And his crew of Mexicans recently imported into California to save the record crop. Mr. Barr likes the Mexican labor above all other for beet field work and says his crew had no trouble learning to top and load beets under his leadership, as they averaged 3 1/2 tons the first week and went up to 4 tons the second week.\u201d",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/67",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Davis, Special Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Higgins, Floyd Halleck, \u201cSix men eating in dining hall, cook in background,\u201d Digital Public Library of America,  https://dp.la/item/9746336221612cd4a7a22ce8819c60be."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/68",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_06_93b03f2b2c7305b9c1431212e4c93135.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Davis, Special Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Higgins, Floyd Halleck, \u201cOne man walking among the labor camp buildings at Spreckels Sugar Company, Woodland California,\u201d Digital Public Library of America, https://dp.la/item/2a2e9d5b061948baae1db9208e23a87b."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/69",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_07_12737ea618a1a1bf912857c58c5f86ed.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California Davis, Special Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Higgins, Floyd Halleck, \u201cMexican workers entering church with priest at door,\u201d Digital Public Library of America, https://dp.la/item/56b8937ec739fad2c4870d0b4d212ac7."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/70",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMexican farm workers receiving paychecks, Skagit Valley, 1943,\u201d Digital Public Library of America,  https://dp.la/item/9e21017b16a4d70a749f40f77f5bb1e9."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/71",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_09_490a83f0636a36472f1f76c9439231c1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Los Angeles Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMexican Americans, group photo,\u201d Digital Public Library of America, https://dp.la/item/1dc4600dbfc2dd74675762916d2631e5."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of braceros before a return to Mexico, 1963.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+         "text": "The man standing in the middle (plaid shirt) has been a bracero since 1944. He is returning to Guadalajara. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/72",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cA Report on \u2018Strangers in Our Fields\u2019 by Region X, Regional Office, Bureau of Employment Security,\" Digital Public Library of America, https://dp.la/item/e6aa58392d3bf75dfe2006a66491b8d4."
+                  }
+               ]
+            }
+         ],
+         "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+         "text": "In 1956, labor organizer Ernesto Galarza published a book, *Strangers in Our Fields*, reporting on the conditions faced by braceros in the United States. The book begins with this statement from a worker: \"In this camp, we have no names. We are called only by numbers.\" The book concludes that workers in the program were lied to, cheated and \"shamefully neglected.\u201d In this report, federal officials attempt to refute Galarza\u2019s findings point by point. These officials are reporting from Region X of the Bureau of Secure Employment (part of the Department of Labor), which covers Alaska, Idaho, Oregon, and Washington.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/73",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Yuma County (AZ) Library District via the Arizona Memory Project and Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Marquez, Luis and Jos\u00e9 Marquez, \u201cOral History with Luis Marquez and Jos\u00e9 Marquez,\u201d Digital Public Library of America, https://dp.la/item/810aad4d4402c50919a1a31af41ea729."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+         "text": "An English translation of this clip from the original oral history in Spanish with Luis Marquez and Jose Marquez. Translator: Audrey Whitebloom.\r\n\r\nJM: Jose Marquez (father)  \r\nLM: Luis Marquez (son)\r\n\r\nInterviewer: I understand that Mr. Jose also started working as a manual laborer.\r\n\r\nJM: Yes.  \r\n\r\nLM:  Dad, do you remember when you used to tell us that you used to work as a bracero and illegally? Do you remember telling us about it?  \r\n\r\nJM: When I was illegal I was in Texas. I was in ranch that was called the 90, because it was very big...\r\n\r\nLM: And what year was that? Do you remember?  \r\n\r\nJM: No, I don't remember. \r\n\r\nLM: It was before we were born, remember?  \r\n\r\nJM: Yes, all of you were born after I was already there.\r\n\r\nLM: So it was around 1956 or 57 in those years when you were an illegal worker and after being an illegal worker you got a contract in a bracero program.  \r\n\r\nJM: Yes, I got a contract to come to work in California.\r\n\r\nLM: Do you remember what that job was? \r\n\r\nJM: They used to make a list then they would take you, not everyone, one here and there, to the center of contracts in  Guadalajara and they...\r\n\r\nLM:  The commissario would make the list, he would look for the candidates, he would look for the people...\r\n\r\nJM: Yes, but he wouldn't  include everyone...\r\n\r\nLM:  No, not everyone, only certain people...\r\n\r\nJM: Once they made the list they would take them to Guadalajara and they would do the contracts there.  \r\n\r\nLM: How would they send you there when they contracted you...in cars, in airplanes, in donkeys...in trains\u2026?\r\n\r\nJM: In trains.\r\n\r\nLM: Ah, in trains. So you went from Balded Sonora to the United States\u2026\r\n\r\nJM: Yes and from there they would give you the passports.  \r\n\r\nLM: Who would decide where u were going to work?  Who would decide that\u2026?\r\n\r\nJM: In Parma and Sonora, a lot of them would go to different places...and some would be sent to Arizona and I imagine they wanted to go because it was very hot over here...\r\n\r\nLM: So the bosses would arrive, looking for manual laborers, and braceros from Mexico would arrive.  So, would they say, I have some work Texas or I have work in California or I have work in Arizona... \r\n\r\nJM: It depended, some wanted twenty, thirty, forty, or fifty people.  \r\n\r\nLM: So was it voluntary, and you could say, I want to go to California, or I want to go to Texas?\r\n\r\nJM: Many wanted to go to Arizona because it is very hot there and that was what they were used to.\r\n\r\nLM: What did you used to do in San Jose? \r\n\r\nJM: Picked cucumbers and zucchini.  \r\n\r\nLM:  And how did they used to pay you, by hour or by contract? \r\n\r\nJM: Per hour.\r\n\r\nLM: Do you remember how much they used to pay you?\r\n\r\nJM: I used to get paid $1.25 an hour.\r\n\r\nLM: And why did you decide to come here, because mom brought you here or what?\r\n\r\nJM: Once the contract was over in Sonoma, then we came here.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/74",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Yuma County (AZ) Library District via the Arizona Memory Project and Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gradias, Louis, \u201cOral History with Louie Gradias,\u201d Digital Public Library of America, https://dp.la/item/2d427af35f54afbb97f24bde9ae98e96."
+                  }
+               ]
+            }
+         ],
+         "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/75",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_15_46389f80435feed6d6da4cfda727261d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Houston Metropolitan Research Center at Houston Public Library via The Portal to Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Idar, Eduardo, Jr., \u201cPress statement and telegram from Ed Idar, Jr., to E. M. Dealey,\u201d Digital Public Library of America, https://dp.la/item/46389f80435feed6d6da4cfda727261d."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/76",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/77",
+               "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_13_4f595f82e26504a393a7aeb773fc3472.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cNews from the U.S. Department of Labor, Washington, DC, regarding a denied request of the DiGiorgio Fruit Corporation for 300 Mexican nationals to harvest pears,\u201d Digital Public Library of America, https://dp.la/item/4f595f82e26504a393a7aeb773fc3472."
+                  }
+               ]
+            }
+         ],
+         "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+         "text": "The document discusses domestic farm workers on strike in California.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/77",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/63",
+               "name": "A photo of officials standing with a group of braceros by a Southern Pacific train in California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_01_16c1c6626cddb88d4519951e6907696a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/64",
+               "name": "A photo of braceros arriving in Salinas, California, in a Pacific Greyhound Line bus, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_02_f3d7a69d78198f1344ba9a2657cd78b2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/65",
+               "name": "A photo of braceros sitting on the back of a flatbed truck holding hoes, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_03_f0a7655e4709da7063de9d1a88a03085_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/66",
+               "name": "A photo of a farm owner supervising braceros as they harvest sugar beets and toss them in the back of the truck, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_04_02753d443e9d818670736da373dedc9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/67",
+               "name": "A photo of braceros eating in the labor camp dining hall, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_05_5fc9463fdda2da2b0f21c0f3cfef427a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/68",
+               "name": "A photo of a man walking among the labor camp buildings at Spreckels Sugar Company in Woodland, California, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_06_93b03f2b2c7305b9c1431212e4c93135_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/69",
+               "name": "A photo of a group of braceros entering a church with the priest at the door and officials supervising, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_07_12737ea618a1a1bf912857c58c5f86ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/70",
+               "name": "A photo of braceros receiving paychecks in Skagit Valley, Washington, 1943.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_08_9e21017b16a4d70a749f40f77f5bb1e9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/71",
+               "name": "A photo of braceros before a return to Mexico, 1963.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_09_490a83f0636a36472f1f76c9439231c1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/72",
+               "name": "Government report responding to *Strangers in Our Fields*, a book critiquing conditions for laborers in the Bracero Program, 1956.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_10_e6aa58392d3bf75dfe2006a66491b8d4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/73",
+               "name": "An excerpt from a 2011 oral history interview with a father who worked as a bracero in Arizona and his son (in Spanish).",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_11_810aad4d4402c50919a1a31af41ea729_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/74",
+               "name": "A 2011 oral history interview with a man who grew up on a farm in Arizona recounting how hard the braceros worked in the fields.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_12_2d427af35f54afbb97f24bde9ae98e96_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/75",
+               "name": "A 1951 letter to a Dallas newspaper, detailing the author\u2019s opposition to \u201cwetback labor.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_15_46389f80435feed6d6da4cfda727261d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/76",
+               "name": "A denied request for \u201c300 Mexican nationals\u201d to harvest pears, issued by the US Department of Labor, 1960.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_13_4f595f82e26504a393a7aeb773fc3472_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "bracero-program_14_1fbcf790561e09ed52aa4611430959be.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cTranscribed news story \u2018U.S. Charges Falsifying of Bracero Pay Books\u2019 from Los Angeles Times,\u201d Digital Public Library of America, https://dp.la/item/1fbcf790561e09ed52aa4611430959be."
+                  }
+               ]
+            }
+         ],
+         "name": "A transcription of a 1962 *Los Angeles Times* news story: \u201cU.S. Charges Falsifying of Bracero Pay Books.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_14_1fbcf790561e09ed52aa4611430959be_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-bracero-program",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Hillary Brady"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-11-01",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-11-01",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Discuss how the reaction to the Bracero Program, as seen in the [letter to the Dallas newspaper](http://dp.la/primary-source-sets/sources/75), the [denied request](http://dp.la/primary-source-sets/sources/76), and the [transcribed Los Angeles Times story](http://dp.la/primary-source-sets/sources/77), mirrors present-day labor debates. How does it relate to the current Mexican border crisis?\r\n\r\n2. Look over the the [government report](http://dp.la/primary-source-sets/sources/72), the [Marquez oral history](http://dp.la/primary-source-sets/sources/73), the [Gradias oral history](http://dp.la/primary-source-sets/sources/74), the [letter to the Dallas newspaper](http://dp.la/primary-source-sets/sources/75), the [denied request](http://dp.la/primary-source-sets/sources/76), and the [transcribed Los Angeles Times story](http://dp.la/primary-source-sets/sources/77). What do these resources show are the major issues in debates about the Bracero Program? Who are some of the key players in these debates and what are their positions?\r\n\r\n3. Look at the seven photographs by Floyd Halleck Haskins in this set. What do these photos say about work and living conditions for braceros? What is the photographer\u2019s point of view on the program?\r\n\r\n4. Use the items in this set as evidence to explain the kinds of discrimination braceros faced in the United States. How did this discrimination impact their everyday lives?\r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "Pretend you are the bracero writing to his family back home. Using images in this set for details, how would you describe your work day? How would you describe labor issues in America? "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+            "@type": "CreativeWork",
+            "name": "Mexican Labor and World War II: The Bracero Program"
+         },
+         "name": "Teaching Guide: Exploring the Bracero Program"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Bracero History Archive](http://braceroarchive.org/about), The Center for History and New Media, George Mason University. \r\n\r\n2. [Braceros: History, Compensation](https://migration.ucdavis.edu/rmn/more.php?id=1112), University of California, Davis.\r\n\r\n3. [The Bracero Program, 1942-1964](http://www.unco.edu/cohmlp/pdfs/bracero_program_powerpoint.pdf), University of Northern Colorado.\r\n\r\n4. [The Bracero Program](http://www.c-span.org/video/?312267-4/bracero-program), C-SPAN.\r\n\r\n5. [Uneasy Neighbors: A Brief History of Mexican-U.S. Migration](http://harvardmagazine.com/2007/05/uneasy-neighbors-a-brief-html), *Harvard Magazine*. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "Beginning in World War II, the Bracero Program brought Mexican laborers to the United States to remedy wartime production shortages. The program (which derived its name from the Spanish word for a manual laborer, \u201cbracero\u201d) continued until 1964, with braceros working mainly in agricultural areas in the Southwest and on the West Coast. Braceros worked long hours for low wages in difficult jobs that separated them from their families. In the United States, they also faced discrimination and became the subject of national labor debates. Get new insight into the Bracero Program and its workers through this collection of era photographs, documents, and oral history interviews. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/when-miners-strike-west-virginia-coal-mining-and-labor-history",
+         "name": "When Miners Strike: West Virginia Coal Mining and Labor History",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/truth-justice-and-the-birth-of-the-superhero-comic-book",
+         "name": "Truth, Justice, and the Birth of the Superhero Comic Book",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/superhero-comic-book_01_5d5ca6ee70196ed8a3b2c959f5dda5a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/superhero-comic-book_01_5d5ca6ee70196ed8a3b2c959f5dda5a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+         "name": "Exodusters: African American Migration to the Great Plains",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+         "name": "Immigration and Americanization, 1880-1930",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-strike",
+         "name": "The Homestead Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-strike_04_5e348bddb7180bd530acaf6886991ff6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-strike_04_5e348bddb7180bd530acaf6886991ff6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-populist-movement",
+         "name": "The Populist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/populist-movement_06_ac2f9e212ed45f762f3faf7f8594a2a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/populist-movement_06_ac2f9e212ed45f762f3faf7f8594a2a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/attacks-on-american-soil-pearl-harbor-and-september-11",
+         "name": "Attacks on American Soil: Pearl Harbor and September 11",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-deal",
+         "name": "The New Deal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/early-chinese-immigration-to-the-us",
+         "name": "Early Chinese Immigration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-ii-women-on-the-home-front",
+         "name": "World War II: Women on the Home Front",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Mexican Labor and World War II: The Bracero Program",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085.jpg",
+   "typicalAgeRange": "11-18"
+}

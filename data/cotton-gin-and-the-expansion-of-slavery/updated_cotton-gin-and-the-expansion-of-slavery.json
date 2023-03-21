@@ -1,0 +1,2435 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Science and Technology"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Revolution and the New Nation (1754-1820s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-3"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "African Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      }
+   ],
+   "dateCreated": "2018-02-22",
+   "dateModified": "2020-07-21",
+   "dct:created": "2018-02-22",
+   "dct:modified": "2020-07-21",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the invention of the cotton gin and its impact on cotton production and the expansion of slavery in the United States.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Blessing, S. T, \u201cCotton plant in bloom,\u201d Digital Public Library of America, https://dp.la/item/4d53ed3e297b790074bb79a28ce09d36."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a cotton plant in bloom.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+         "text": "Cotton plants produce a single stem that grows to be three to four feet tall on average when cultivated in rows. From this stem, offshooting branches host blooms that become bolls\u2014protective cases that hold seeds wrapped in cotton fiber. The coarseness of the bolls can damage the hands of cotton harvesters picking by hand. To get cotton fiber that can be made into textiles, the seeds need to be removed.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Museum of American History, Kenneth E. Behring Center via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cReproduction of Eli Whitney's Cotton Gin Model,\u201d Digital Public Library of America, https://dp.la/item/84f0ff53a04e2536d1f59de01fabb2b6."
+                  }
+               ]
+            }
+         ],
+         "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "text": "Inventor Eli Whitney developed this model for the cotton gin and applied for a patent in 1793, though others quickly pirated his invention. Whitney\u2019s cotton gin used rotating brushes and teeth to remove the seeds from cotton. Southern plantation owners depended on enslaved people to cultivate and harvest labor-intensive crops such as rice, sugar, tobacco, and especially cotton. As the market demand for cotton increased in the early 1800s and the cotton gin made cotton processing faster and easier, the Southern cotton industry expanded dramatically, as did the system of slave labor on which it relied.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-28",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_03_8a7f0d605855a20616536112304586f5.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Tennessee State Library and Archives via Digital Library of Tennessee."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEli Whitney cotton gin contract,\u201d Digital Public Library of America, https://dp.la/item/8a7f0d605855a20616536112304586f5."
+                  }
+               ]
+            }
+         ],
+         "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+         "text": "The first page of this contract is a typed transcription and the remaining pages are the original handwritten contract. The contract gives the State of Tennessee patent rights to Eli Whitney\u2019s cotton gin. After his invention, Whitney did not envision selling patent rights to his design. Instead, he planned to charge farmers fees for using gins that he built to process their cotton. But planters in Georgia where Whitney developed the gin began making their own versions and claiming they were \"new\" inventions. Struggling to turn a profit and bogged down by legal battles, Whitney and his partners agreed to license gins. In 1802, South Carolina agreed to purchase Whitney's patent right and North Carolina and Tennessee followed. Catherine Miller and Phineas Miller, mentioned in the contract, were a married couple who supported Whitney\u2019s invention and invested in his cotton gin business. The Millers were neighbors of the Georgia plantation where Whitney was a tutor when he built his first cotton gin model. Phineas Miller died before this contract was created.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-28",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_04_686691e8a152f376af25d903b197616a.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "U.S. House of Representatives, \u201cPetition of Eli Whitney requesting the renewal of his patent on the cotton gin,\u201d Digital Public Library of America, https://dp.la/item/686691e8a152f376af25d903b197616a."
+                  }
+               ]
+            }
+         ],
+         "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+         "text": "In this petition to the US Congress, titled as a \u201cmemorial,\u201d Eli Whitney makes the case for the renewal of his patent for a cotton gin. He narrates the history of his invention, patent, and subsequent legal challenges. Whitney applied for his original patent in 1793 and he received it in 1794, but it was not validated until 1807. Because of a loophole in the 1793 patent act, Whitney and his partners could not collect any money from their lawsuits against copycats until the law was changed in 1800 to allow for the awarding of damages for patent infringement. Congress did not approve this request to renew Whitney\u2019s patent in 1812.\r\n\r\nTranscription: \r\n\r\nTo the Honorable the Senate and House of Representatives in Congress assembled,<br>\r\nThe Memorial of Eli Whitney<br>\r\nRespectfully showeth,\r\n \r\nThat your memorialist is the inventor of the machine with which the principal part of the Cotton raised in the United States is cleaned & prepared for market. That being in the State of Georgia in the year 1793, he was informed by the planters that the agriculture of that state was unproductive, especially in the interior, where it produced little or nothing for exportation. That attempts had been made to cultivate cotton: but that the prospect of success was not flattering. That of the various kinds which had been tried in the interior, none of them were productive, except the Green seed cotton, which was so extremely\r\n \r\n[page 2]<br>\r\ndifficult to clean, as to discourage all further attempts to raise it. That it was generally believed this species of cotton might be cultivated with great advantage, if any cheap and expeditious method of separating it from its seeds could be discovered\u2014and that such a discovery would be highly beneficial both to the public and the invention.\r\n \r\nThese remarks first drew the attention of your memorialist to this subject and after considerable reflection he became impressed with a belief that this desirable object might be accomplished. At the same time he could not but entertain doubts, whether he ought to suffer any prospect of so precarious a nature as that which depends upon the success of new projects to divert his attention from a regular profession.\r\n \r\nAbout this time Congress passed a new Patent Law, which your memorialist\r\n \r\n[page 3]<br>\r\nconsidered as a premium offered to any citizen who should devote his attention to useful improvements and as a pledge from his country that in case he should be successful, his rights and his property would be protected.\r\n \r\nUnder these impressions your memorialist relinquished every other object of pursuit and devoted his utmost coercions to reduce his invention, which, as yet was little more than a floating image of the mind, to practical use\u2014and fortunately for the Country he succeeded in giving form to the conceptions of his imagination and to matter a new mode of existence and the result of this new modification of matter was everything that could be wished.\r\n \r\nAfter reducing his theory to practice by effectual and successful experiments your memorialist took out a patent.\r\n\r\n[page 4]<br>\r\nSo alluring were the advantages developed by this invention that in a short time the whole attention of the planters of the middle and upper country of the Southern States was turned to planting the Green Seed Cotton. The means furnished by this discovery of cleaning that species of cotton were at once so cheap and expeditious and the prospect of advantage so alluring that it suddenly became the general crop of the country.\r\n \r\nLittle or no regard however was paid to the claims of your memorialist\u2014and the infringement of his rights became almost as extensive as the cultivation of cotton. He was soon reduced to the disagreeable necessity of resorting to courts of Justice for the protection of his property.\r\n \r\nAfter the unavoidable delays which usually attend prosecutions of this kind\r\n \r\n[page 5]<br>\r\nand a laboured trial, it was discovered that the Defendants had only used\u2014and that was the law then stood they must both make and use the machine or they could not be liable. The Court decided that it was a fatal, though inadvertent defect in the law and gave judgment for the Defendants.\r\n \r\nIt was not until the year 1800 that this defect in the law was amended. Immediately after the amendment of the law, your memorialist commenced a number of suits but so effectual were the means of procrastination and delay, resorted to, by the Defendants, that he was unable to obtain any decision on the merits of his claim until the year 1807\u2014not until he had been eleven years in the Law and thirteen years of his patent term had expired.\r\n \r\nA compromise has been made with several of the States to which your memorialist has assigned his right and relinquished all further claims; but from the state in\r\n \r\n[page 6]<br>\r\nwhich he first made and introduced his invention, and which has derived the most signal benefits from it, he has realized nothing\u2014and from no state has he received the amount of half a cent per pound on the cotton cleaned with his machine, within that state in only one year.\r\n \r\nEstimating the value of the labour of one man at twenty cents per Day, the whole amount which has been realized by your memorialist for his invention is not equal to the value of the labour saved in one hour by his machines, now in use, in the U[nited] States.\r\n \r\nPermit your memorialist further to remark that by far the greatest part of the cotton raised in the United States has been & must of necessity continue to be the Green Seed. That, before the invention of your memorialist, the value of this species of cotton after it was cleaned was not equal to the expense of cleaning it. That since the cultivation of this species has been a great\r\n \r\n[page 7]<br>\r\nsource of wealth to the community & of riches to thousands of her citizens. That as a labour-saving machine it is an invention which enables one man to perform in a given time that which would require a thousand men without its aid to perform in the same time. In short that it furnished to the whole family of mankind the means of procuring the article of cotton, that important raw material, which constitutes a great part of their clothing at a much cheaper rate.\r\n \r\nYour memorialist begs leave further to state that a confident expectation that his case would be embraced in the general law which Congress has for several years had under its ideation, has prevented his making an earlier application. That the expenses incurred by him in making and introducing this useful improvement and establishing his claim to its invention, have absorbed great proportion of what he has received, from those states with which he has made a compromise.\r\n \r\n[page 8]<br>\r\nThat he humbly conceives himself fairly entitled to a further remuneration from his Country\u2014and that he ought to be admitted to a more liberal participation with his fellow citizens, in the benefits of his invention.\r\n \r\nHe therefore prays your Honourable Body to take his case into consideration and authorize the renewal of his Patent or grant such other relief, as Congress in their wisdom and their justice may deem meet and proper.\r\n \r\nEli Whitney\r\n \r\nWashington 16th Apr. 1812.\r\n \r\nPetition of Eli Whitney\r\n \r\n20th April 1812<br>\r\npresented\r\n \r\n22 Apr. 1812<br>\r\nRef to Mr. Lowndes<br>\r\nMr Pitkin<br>\r\nMr. State of Georgia<br>\r\nMr. Nelson and<br>\r\nMr. Gray\r\n \r\nBill presented\r\n \r\nMiscellaneous<br>\r\nVol II: page 183 = No. 319<br>\r\n12th Congress",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-28",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Library of Congress via Biodiversity Heritage Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Brooks, Christopher Parkinson, excerpt from \u201cCotton: its uses, varieties, fibre structure, cultivation, and preparation for the market,\u201d Digital Public Library of America, https://dp.la/item/e47a5c0f2591ef747caec05f3cbd0c93."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+         "text": "In this section of his book, *Cotton: Its Uses, Varieties, Fibre structure, Cultivation, and Preparation for the Market*, Christopher Brooks explains the stages of cotton harvesting and processing before its sale at market. This excerpt includes an illustration of an antebellum gin house.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Cornell University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Albany Cotton Gin Manufacturing Company, excerpt from \u201cCircular for 1868,\u201d Digital Public Library of America, https://dp.la/item/818f62f6b9cb0b9c2f5f93d6490b50cf."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+         "text": "This advertisement promotes cotton gin equipment for sale by the Albany Cotton Gin Manufacturing Company located in Albany, New York. It is part of a larger circular from the company advertising other agricultural equipment. Text persuading the reader of the product\u2019s merits underscores some of the health risks people had come to associate with cotton ginning.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-28",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_07_985cf07abeb336d7d90915d48626ced5.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of David Rumsey."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gannett, Henry, and Fletcher W. Hewes, \u201cCotton. Product, per square mile of total area, by counties. Based on the returns of the tenth census. 1880,\u201d Digital Public Library of America, https://dp.la/item/985cf07abeb336d7d90915d48626ced5."
+                  }
+               ]
+            }
+         ],
+         "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+         "text": "This document has three sections. First, at the top center, is a chart that shows the number of bales of cotton produced in the United States each decade from 1850 to 1880. Longer horizontal green lines indicate a larger number of bales. Second, the central portion of the document contains a map that shows where cotton was produced and in what amount in the United States in 1880. The darker green the county, the more cotton was produced there. Finally, at the bottom of the document is a chart that indicates the money made through the import and export of cotton by the United States. Longer horizontal green lines indicate larger amounts of money. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-28",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_08_80b821ee9cc395a73fabc2f014290546.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of David Rumsey."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Paullin, Charles, et al, \u201cPlate 142. Agriculture. Agricultural Regions, 1924,\u201d Digital Public Library of America, https://dp.la/item/80b821ee9cc395a73fabc2f014290546."
+                  }
+               ]
+            }
+         ],
+         "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+         "text": "This document includes several maps. The large map at the top shows the agricultural regions of the United States in 1924 and identifies the dominant crops in each region. The bottom of the document includes maps that indicate locations of cotton production in 1839, 1859, 1889, 1919, and 1924.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Hergesheimer, E., \u201cMap showing the distribution of the slave population of the southern states of the United States,\u201d Digital Public Library of America, https://dp.la/item/f9a45eded1e670d3b33fcdff9147b396. "
+                  }
+               ]
+            }
+         ],
+         "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+         "text": "This map plots the percentage of enslaved people by county for the southern states based on census data from 1860. The darker counties have higher percentages of enslaved people within the overall population. The map also includes a chart at the bottom with data from the 1860 census that lists free and enslaved populations for each of the southern states. This map was sold during the Civil War and was one the first statistical or thematic maps published in the United States. Although not explicitly acknowledged on the map, it was produced by the US Coast Survey. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2020-07-21",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of South Carolina Historical Society via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cP.J. Porcher and Baya slave sale broadside,\u201d Digital Public Library of America, https://dp.la/item/59ebc95aef68957c9d2e886e57b81855."
+                  }
+               ]
+            }
+         ],
+         "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+         "text": "The slave auction described in this broadside was for enslaved people from St. Johns Berkeley in South Carolina, and it was held at the slave mart on Chalmers Street in Charleston by brokers P.J. Porcher and Baya. The second page of the broadside lists the names and ages of the men, women, and children for sale. For some, it also notes previous experiences, skills, and health conditions. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-28",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-28",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Blake, William O., \u201cPlantation; Cotton picking,\u201d Digital Public Library of America, https://dp.la/item/d2a0750be7506b98e72b7b299cf5c49b. "
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+         "text": "This illustration comes from William O. Blake\u2019s 1859 book, *The History of Slavery and the Slave Trade, Ancient and Modern*. It depicts enslaved people laboring in multiple stages of the cotton harvesting process.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_12_89f4abb49a39e2040e928aecc46315af.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Museum of African American History and Culture via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cCarte-de-visite of women and children in a cotton field,\u201d Digital Public Library of America, https://dp.la/item/89f4abb49a39e2040e928aecc46315af."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of African American women and children in a cotton field, 1860s.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+         "text": "In this carte-de-visite photograph, very young children stand alongside adults in a cotton field. Because the photograph is from the 1860s, it is unclear whether it was captured before or after emancipation. Workers in this photograph could be enslaved or sharecroppers, both of whom picked cotton in fields on large plantations.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2020-07-21",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Avery Research Center at the College of Charleston via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cStreo Card Depicting Women and Children Working in a Cotton Field,\u201d Digital Public Library of America, https://dp.la/item/518bc2559641e98f42607853cc2acefb."
+                  }
+               ]
+            }
+         ],
+         "name": "A stereo card depicting African American women and children picking cotton in a field.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+         "text": "Because the date of this photograph is unknown, it is unclear whether it was captured before or after emancipation. Workers in this photograph could be enslaved or sharecroppers, both of whom picked cotton in fields on large plantations. Stereo cards were popular between the 1850s and the 1930s.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2020-07-21",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+               "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Avery Research Center at the College of Charleston via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cA Cotton Gin,\u201d Digital Public Library of America, https://dp.la/item/5ad5970784a48d7b51d4058d6e772463."
+                  }
+               ]
+            }
+         ],
+         "name": "A stereo card of an African American worker beside a cotton gin.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+         "text": "Because the date of this photograph is unknown, it is unclear whether it was captured before or after emancipation. Stereo cards were popular between the 1850s and the 1930s.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1887",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1873",
+               "name": "A photograph of a cotton plant in bloom.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_01_4d53ed3e297b790074bb79a28ce09d36_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1874",
+               "name": "A reproduction of Eli Whitney\u2019s cotton gin model, patented in 1794.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1875",
+               "name": "A contract between Eli Whitney and the State of Tennessee for use of the cotton gin, 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_03_8a7f0d605855a20616536112304586f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1876",
+               "name": "A petition by Eli Whitney to the US Congress requesting renewal of his cotton gin patent, 1812.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_04_686691e8a152f376af25d903b197616a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1877",
+               "name": "An excerpt from an 1898 book about cotton that details the invention of the saw gin and the ginning and baling processes.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_05_e47a5c0f2591ef747caec05f3cbd0c93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1878",
+               "name": "An 1868 advertisement from the Albany Cotton Gin Manufacturing Company for the Star Cotton Gin and Condenser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_06_818f62f6b9cb0b9c2f5f93d6490b50cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1879",
+               "name": "A map of US cotton production in 1880 with charts showing figures for the import and export of cotton from 1821 to 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_07_985cf07abeb336d7d90915d48626ced5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1880",
+               "name": "A map of the agricultural regions of the United States, showing changes in cotton production between 1839 and 1924.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_08_80b821ee9cc395a73fabc2f014290546_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1881",
+               "name": "A map showing the distribution of the population of enslaved people in the United States, 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_09_f9a45eded1e670d3b33fcdff9147b396_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1882",
+               "name": "A broadside advertising an auction of forty-four enslaved people in Charleston, South Carolina, 1859-1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_10_d626079d2e1e8bfb8dcfa48028e13a16_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1883",
+               "name": "An illustration of enslaved people laboring on a cotton plantation, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_11_d2a0750be7506b98e72b7b299cf5c49b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1884",
+               "name": "A photograph of African American women and children in a cotton field, 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_12_89f4abb49a39e2040e928aecc46315af_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1885",
+               "name": "A stereo card depicting African American women and children picking cotton in a field.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_13_ac3a00aa76a4822d36bcd6c3f712b578_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1886",
+               "name": "A stereo card of an African American worker beside a cotton gin.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_14_53b17b5362e4e0f299d66d9d765d3d1e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWhitney's cotton gin, 1793,\u201d Digital Public Library of America, https://dp.la/item/0569f4c0477c93bdabb9fce3d982007d."
+                  }
+               ]
+            }
+         ],
+         "name": "A *Harper\u2019s Weekly* illustration of enslaved people operating an early cotton gin, 1869.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_rep.jpg",
+         "text": "The original title for this illustration is \u201cThe First Cotton-Gin.\u201d",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_15_0569f4c0477c93bdabb9fce3d982007d_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-cotton-gin",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2018-02-22",
+         "dateModified": "2018-02-28",
+         "dct:created": "2018-02-22",
+         "dct:modified": "2018-02-28",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Examine the [photograph of a cotton plant](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1873), [Eli Whitney\u2019s cotton gin model](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1874), the [stereo card of an African American worker](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1886), and the [*Harper\u2019s Weekly* illustration](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1887). How does the cotton gin work? What goes in and what comes out? What are the goals of using the gin?\r\n2. What does the [contract between Eli Whitney and the State of Tennessee](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1875) promise? Under what circumstances would it be null and void? What does this suggest about Whitney\u2019s experience as the inventor of the cotton gin?\r\n3. In the [petition by Eli Whitney to Congress](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1876), how does Whitney characterize his reasons for inventing a cotton gin? What is his argument for the renewal of his patent? Why is this renewal important for Whitney? Would you award him a renewal? Cite textual evidence from the petition to support your answers.\r\n4. Use information from the [1898 book about cotton](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1877) to describe the overall process of cotton harvesting. What role did the cotton gin play?\r\n5. What does the [advertisement from the Albany Cotton Gin Manufacturing Company](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1878) tell us about how the cotton industry grew between 1793 and 1868? Who is the audience for this advertisement? Cite evidence to support your answer.\r\n6. Use the [map of US cotton production in 1880](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1879) and the [map of the agricultural regions of the United States](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1880) to describe changes to the cotton industry between 1820 and 1924. In what specific areas was cotton being produced? How did the geography of cotton change over time? How did the overall industry change in terms of rate of production and profit? (Bonus: What does the bottom chart on the [map of US cotton production in 1880](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1879) say about the impact of the Civil War?)\r\n7. Compare the maps of [US cotton production in 1880](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1879), [agricultural regions of the United States](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1880), and the [distribution of the population of enslaved people](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1881). What do they reveal about the relationship between cotton production and slavery, especially in the mid-1800s?\r\n8. What does the [broadside advertising a slave auction](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1882) tell us about how the cotton industry had changed slavery\u2019s practices and economy by 1860?\r\n9. Examine the [broadside advertising a slave auction](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1882), the [illustration of enslaved persons laboring on a cotton plantation](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1883), the [photograph of African American women and children](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1884), the [stereo card depicting African American women and children](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1885), the [stereo card of an African American worker](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1886), and the [*Harper\u2019s Weekly* illustration](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1887). What do they indicate about the roles enslaved people and later free African Americans played in the cotton industry? How did an enslaved person\u2019s gender and age determine the type of labor he or she did? What were some the physical challenges of this labor?\r\n10. What do the [stereo card of an African American worker](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1886) and the [*Harper\u2019s Weekly* illustration](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1887) reveal about how antebellum African American laborers operated the cotton gin? What did the process look like and what labor was required?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. *Research extension:* Ask students to use the maps of [US cotton production in 1880](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1879), [agricultural regions of the United States](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1880), and the [distribution of the population of enslaved people](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1881) to identify areas where slavery and cotton production were particularly concentrated by the 1860s. Areas could include coastal South Carolina, the Alabama Black Belt, the Mississippi River Valley, and coastal Texas. Once students have made a list of areas of concentration, divide them into small groups and assign each group one area. Ask each group to research the history of cotton production, slavery, and the cotton gin in that area, create a map of the area, build a timeline of major milestones, and present their findings to the class.\r\n2. *Research extension:* Eli Whitney created an early model for the cotton gin but many future inventors improved on it with the addition of features like steam power. Ask students to individually find a diagram of a post-1860 cotton gin model and present a comparison with [Eli Whitney\u2019s cotton gin model](https://dp.la/primary-source-sets/cotton-gin-and-the-expansion-of-slavery/sources/1874) by annotating the images with at least five comparisons or contrasts.\r\n3. *Historical connections:* Some historians have argued that Eli Whitney\u2019s invention of the cotton gin was a significant cause of the Civil War. Ask students to write a position paper that takes a stand on this claim, using additional research or prior knowledge of the causes of the Civil War."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "@type": "CreativeWork",
+            "name": "Cotton Gin and the Expansion of Slavery"
+         },
+         "name": "Teaching Guide: Exploring the Cotton Gin"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [The Cotton Gin](https://www.eliwhitney.org/7/museum/eli-whitney/cotton-gin), Eli Whitney Museum and Workshop. \r\n2. \u201c[The cotton gin: A game-changing social and economic invention](https://constitutioncenter.org/blog/the-cotton-gin-a-game-changing-social-and-economic-invention),\u201d National Constitution Center, March 14, 2017. \r\n3. [Cotton Gins](http://www.georgiaencyclopedia.org/articles/history-archaeology/cotton-gins), New Georgia Encyclopedia. \r\n4. [The Cotton Revolution](http://www.americanyawp.com/text/11-the-cotton-revolution/), *The American Yawp*. \r\n5. \u201c[When Cotton Was King](https://opinionator.blogs.nytimes.com/2011/03/26/when-cotton-was-king/),\u201d *The New York Times*, March 26, 2011."
+      },
+      {
+         "name": "Overview",
+         "text": "In 1792, recent college graduate Eli Whitney moved to Georgia to work as a tutor on a plantation. There, Whitney learned that southern planters were eager to make cotton a profitable crop. Once cotton was picked from the field, seeds had to be removed from the cotton fiber by hand before cotton could be sold. This process was labor-intensive and time-consuming, and it limited the amount of cotton that planters, relying on the work of enslaved people, could produce. \r\n\r\nIn 1793, Whitney invented and submitted a patent for the cotton gin\u2014a machine that used rotating brushes and teeth to remove seeds from cotton fiber. His invention revolutionized cotton production, although Whitney faced challenges enforcing his patent and saw little profit from it. While an enslaved person needed about ten hours to separate the seeds from one pound of cotton fiber by hand, two people using the cotton gin could produce about fifty pounds of cotton in the same timeframe. \r\n\r\nThe invention of the cotton gin forever altered the economy, geography, and politics of the United States. The cotton gin made cotton tremendously profitable, which encouraged westward migration to new areas of the US South to grow more cotton. The number of enslaved people rose with the increase in cotton production, from 700,000 in 1790 to over three million by 1850. By mid-century, the southern states were responsible for seventy-five percent of the world's cotton, most of which was shipped to New England or England, where it was made into cloth. Whitney\u2019s cotton gin and its descendants helped the southern states become a major agricultural force in the world economy on the backs of a growing enslaved population. \r\n\r\nAfter the Civil War, cotton production boomed, as many newly emancipated African Americans continued to work in cotton fields as sharecroppers\u2014tenants who rented land from farmers in return for a share of the crops harvested from that land. In the sharecropping system, landowners often cheated tenants using financial deception reinforced by racial violence to keep sharecroppers working to pay off endless debt. By the 1950s, mechanized cotton pickers had largely replaced manual cotton picking, but modern versions of the cotton gin are still in use today."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/space-race",
+         "name": "Space Race",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+         "name": "Exodusters: African American Migration to the Great Plains",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+         "name": "The American Whaling Industry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+         "name": "The Panic of 1837",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-columbian-exchange",
+         "name": "The Columbian Exchange",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+         "name": "Blackface Minstrelsy in Modern America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/revolutionary-war-turning-points-saratoga-and-valley-forge",
+         "name": "Revolutionary War Turning Points: Saratoga and Valley Forge",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/revolutionary-war_01_3986f996243a4766faa9d6703a090a2d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/revolutionary-war_01_3986f996243a4766faa9d6703a090a2d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-invention-of-the-telephone",
+         "name": "The Invention of the Telephone",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/spanish-missions-in-california",
+         "name": "Spanish Missions in California",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-yellow-fever-epidemic-of-1878",
+         "name": "The Yellow Fever Epidemic of 1878",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-boston-tea-party",
+         "name": "The Boston Tea Party",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+         "name": "There is No Cure for Polio",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/electrifying-america",
+         "name": "Electrifying America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+         "name": "The War of 1812",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/creating-the-us-constitution",
+         "name": "Creating the US Constitution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+         "name": "Manifest Destiny",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/shays-rebellion",
+         "name": "Shays' Rebellion",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+         "name": "The Lewis and Clark Expedition",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+         "name": "Road to Revolution: 1763-1776",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+         "name": "The Atomic Bomb and the Nuclear Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Cotton Gin and the Expansion of Slavery",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

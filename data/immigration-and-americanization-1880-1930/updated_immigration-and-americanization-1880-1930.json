@@ -1,0 +1,1725 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Emergence of Modern America (1890-1930)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-7"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Migration"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Wentworth Institute of Technology, Boston, Massachusetts"
+         },
+         "name": "Ella Howard"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2020-07-21",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2020-07-21",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore immigration and Americanization of immigrants from southern and eastern Europe between 1880 and 1930.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/924",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2017-02-23",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2017-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of New York State Archives via Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cNYC. Ellis Island. Emigrants Waiting to Pass,\u201d Digital Public Library of America, https://dp.la/item/b8117769a14cde52e9000b24a3df3b1b."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/925",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2017-02-23",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2017-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of New York State Archives via Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cImmigrants on Deck of Steamer Awaiting Debarkation at Ellis Island,\u201d Digital Public Library of America, https://dp.la/item/1be8431734c5ddde6792bac75215797d. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/926",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Breed, Reuben Leonard, excerpt from \u201cThe immigrant gateway: a missionary demonstration,\u201d Digital Public Library of America, https://dp.la/item/3bc473f2b9e8a3323711479cb9743dbf. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/927",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Cornell University via HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Sampson, Zabdiel Sidney, excerpt from \u201cThe immigration problem,\u201d Digital Public Library of America, https://dp.la/item/5b12acc3f80ef78c0ebb36f5e84ceba4. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/928",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California via HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Safford, Victor, excerpt from \u201cImmigration problems; personal experiences of an official,\u201d Digital Public Library of America, https://dp.la/item/2bf8a17b3871ba70df3304f977f72d70. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/929",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_06_a837cd9837df471c919f88da92959cc6.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Illinois via HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Phelps, Edith M., excerpt from \u201cSelected Articles on Restriction of Immigration,\u201d Digital Public Library of America, https://dp.la/item/a837cd9837df471c919f88da92959cc6. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/930",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Miller, Herbert Adolphus, excerpt from \u201cTreatment of Immigrant Heritages,\u201d Digital Public Library of America, https://dp.la/item/ed9b2e171c65aaac412e04695a7f0a2a."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/931",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Ernst, C. J., excerpt from \u201cThe Story of an Emigrant Boy,\u201d Digital Public Library of America, https://dp.la/item/93f90708efb94716d1daed2e72e2bf89."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/932",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Library of Congress via HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Moldovan, Dionys, excerpt from \u201cWhere will be your home? An appeal and warning to every immigrant in America,\u201d Digital Public Library of America, https://dp.la/item/f83b221502bcaaf31595f712062d6b7d. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/933",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Cohen, Rose, excerpt from \u201cOut of the Shadow,\u201d Digital Public Library of America, https://dp.la/item/b28bc19200b96f4f759c05557967ebb4. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/934",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2020-07-21",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/935",
+               "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of College of Charleston Libraries via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSaturday Night in the New York Ghetto,\u201d Digital Public Library of America, https://dp.la/item/233f622623a01a3f975487ae2e239262. "
+                  }
+               ]
+            }
+         ],
+         "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/935",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2020-07-21",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/924",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1900. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_01_bd10d0ac5cab1311b647a778457e10dc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/925",
+               "name": "A photograph of immigrants arriving at Ellis Island, ca. 1925. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_02_9f2d30480ba68992a356ab5d0b650d11_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/926",
+               "name": "An excerpt from a 1913 play for community or church groups to stage about the immigrant experience. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_03_3bc473f2b9e8a3323711479cb9743dbf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/927",
+               "name": "An excerpt from an 1892 text discussing the critique of Chinese and Irish immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_04_5b12acc3f80ef78c0ebb36f5e84ceba4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/928",
+               "name": "An excerpt from a 1925 text describing the medical examination of potential immigrants by officials. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_05_2bf8a17b3871ba70df3304f977f72d70_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/929",
+               "name": "An excerpt from a summary of the era\u2019s arguments for and against immigration policy reform, designed for debate teams, 1920. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_06_a837cd9837df471c919f88da92959cc6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/930",
+               "name": "An excerpt from a 1919 pamphlet from the National Conference of Social Work in defense of immigration. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_07_ed9b2e171c65aaac412e04695a7f0a2a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/931",
+               "name": "An excerpt from a patriotic speech delivered by a German immigrant in 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_08_93f90708efb94716d1daed2e72e2bf89_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/932",
+               "name": "An excerpt from a 1917 pamphlet by an immigrant, calling on new arrivals to America to embrace an American identity. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_09_f83b221502bcaaf31595f712062d6b7d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/933",
+               "name": "An excerpt from a memoir published in 1918 about an immigrant\u2019s journey and life in America.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_10_b28bc19200b96f4f759c05557967ebb4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/934",
+               "name": "A postcard of a Saturday night street scene in New York City\u2019s Lower East Side, 1904.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_11_d86c983fedf39fcbb359879c453f89cc_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of College of Charleston Libraries via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cThe Ghetto, New York,\u201d Digital Public Library of America, https://dp.la/item/10001e9505c2a3c3ed9bc1a5106ecf72. "
+                  }
+               ]
+            }
+         ],
+         "name": "A postcard of a street scene in New York City\u2019s Lower East Side, ca. 1900.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12_cb00e13651fb6e7bb691d39cc41c854e_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-immigration-and-americanization-1880-1930",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Wentworth Institute of Technology, Boston, Massachusetts"
+               },
+               "name": "Ella Howard"
+            }
+         ],
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-27",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-27",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. After reading the text discussing the [critique of Chinese and Irish immigration](http://dp.la/primary-source-sets/sources/927), the summary of [arguments for and against immigration](http://dp.la/primary-source-sets/sources/929), the pamphlet in [defense of immigration](http://dp.la/primary-source-sets/sources/930), the [speech delivered by a German immigrant](http://dp.la/primary-source-sets/sources/931), and the [pamphlet calling on immigrants to embrace an American identity](http://dp.la/primary-source-sets/sources/932), how would you define \u201cAmericanization?\u201d \r\n2. After reading the text discussing the [critique of Chinese and Irish immigration](http://dp.la/primary-source-sets/sources/927), the text describing [medical examination of potential immigrants](http://dp.la/primary-source-sets/sources/928), the summary of [arguments for and against immigration](http://dp.la/primary-source-sets/sources/929), and the [pamphlet calling on immigrants to embrace an American identity](http://dp.la/primary-source-sets/sources/932), summarize the arguments that were presented against immigration. Who mounted this opposition?\r\n3. After reading the summary of [arguments for and against immigration](http://dp.la/primary-source-sets/sources/929) and the [pamphlet in defense of immigration](http://dp.la/primary-source-sets/sources/930), summarize the arguments that were presented in favor of immigration. Who favored immigration and why?\r\n4. Considering the two photographs, the [play](http://dp.la/primary-source-sets/sources/926), the [memoir](http://dp.la/primary-source-sets/sources/933), and the two postcards, how would you describe the process of immigration? What did individuals and families experience?\r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "Ask groups of three to four students to read over different portions of the play. Have each group discuss and then outline their plan for a contemporary version of such a production. Which immigrant groups would they spotlight? What aspects of their experience would they hope to capture? What broader message would they hope to convey through the production?"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+            "@type": "CreativeWork",
+            "name": "Immigration and Americanization, 1880-1930"
+         },
+         "name": "Teaching Guide: Exploring Immigration and Americanization, 1880-1930"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [*Leaving Europe: A New Life in America*](http://exhibitions.europeana.eu/exhibits/show/europe-america-en/europe-america) online exhibition, Digital Public Library of America and Europeana. \r\n2. [Ellis Island Museum of Immigration](http://libertyellisfoundation.org/immigration-museum). \r\n3. [Education Resources](https://tenement.org/education_lessonplans.html), The Tenement Museum.\r\n4. [Destination America: US Immigration](http://www.pbs.org/destinationamerica/usim.html), PBS. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "Between 1880 and 1930, approximately 28 million immigrants entered the United States. In contrast to earlier waves of immigrants, most of whom had originated in western and northern Europe, this group arrived from eastern and southern Europe. As they entered through Ellis Island in New York Harbor and made their way into various new lives\u2014in cities and rural areas coast to coast, from urban tenements to Midwestern farms to seaside towns\u2014 they encountered mixed reactions from existing Americans. They also entered into a political climate that was charged by the sweeping immigration restrictions placed on the Chinese in 1882 through the Chinese Exclusion Act. While some Americans favored immigration, many opposed it, and responded during the 1920s by pressing for a tightening of the nation\u2019s borders. This set of photographs, plays, and primary sources allows users to immerse themselves in the debates that surrounded turn-of-the-century immigration and to consider the nature of Americanization."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/settlement-houses-in-the-progressive-era",
+         "name": "Settlement Houses in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beginnings-of-the-american-red-cross",
+         "name": "Beginnings of the American Red Cross",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fake-news-in-the-1890s-yellow-journalism",
+         "name": "Fake News in the 1890s: Yellow Journalism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+         "name": "Exodusters: African American Migration to the Great Plains",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frank-lloyd-wright-and-modern-american-architecture",
+         "name": "Frank Lloyd Wright and Modern American Architecture",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/theodore-dreiser-s-sister-carrie-and-the-urbanization-of-chicago",
+         "name": "Theodore Dreiser\u2019s *Sister Carrie* and the Urbanization of Chicago",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+         "name": "Blackface Minstrelsy in Modern America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/when-miners-strike-west-virginia-coal-mining-and-labor-history",
+         "name": "When Miners Strike: West Virginia Coal Mining and Labor History",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-imperialism-the-spanish-american-war",
+         "name": "American Imperialism: The Spanish-American War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+         "name": "Mexican Labor and World War II: The Bracero Program",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/early-chinese-immigration-to-the-us",
+         "name": "Early Chinese Immigration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+         "name": "The Panama Canal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Immigration and Americanization, 1880-1930",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

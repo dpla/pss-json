@@ -1,0 +1,2262 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Civil War and Reconstruction (1850-1877)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-5"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Social Movements"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Chattanooga State Community College, Tennessee"
+         },
+         "name": "Nancy Schurr"
+      }
+   ],
+   "dateCreated": "2018-02-22",
+   "dateModified": "2020-07-22",
+   "dct:created": "2018-02-22",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore John Brown and his raid on Harper&#39;s Ferry in 1859.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_01_05271b3a1cd86a43f35c2d7cf740d541.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Washington, Augustus, \u201cJohn Brown,\u201d Digital Public Library of America, https://dp.la/item/05271b3a1cd86a43f35c2d7cf740d541. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "text": "This is the earliest known photograph of abolitionist John Brown. Pioneering African American daguerreotypist and fellow abolitionist Augustus Washington made this portrait.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_02_219139335594683705e4b660332cb3d8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library.\r\n"
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Strother, David Hunter, \u201cSwivel gun and pike used by the Harper's Ferry outlaws; The school-house in the mountains, used by Brown as an arsenal,\u201d Digital Public Library of America, https://dp.la/item/219139335594683705e4b660332cb3d8. "
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+         "text": "Before the raid on Harper\u2019s Ferry, John Brown ordered 950 pikes from a Connecticut forgemaster named Charles Blair. Brown intended to issue these inexpensive weapons to his army of slave insurgents. He had the pikes designed in the fashion of a Bowie knife he captured from a pro-slavery Missourian in the mid-1850s.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_03_183e0789fb77245e8ac6d7797d950766.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cJohn Brown's raid on Harper's ferry,\u201d Digital Public Library of America, https://dp.la/item/183e0789fb77245e8ac6d7797d950766. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+         "text": "This print depicts United States Marines preparing to storm the building where John Brown and his raiders were holding several Harper\u2019s Ferry residents as hostages.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_04_02f49a9b67f1f02d8294de956970a0c8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cHarper's Ferry insurrection--Interior of the engine-house,\u201d Digital Public Library of America, https://dp.la/item/02f49a9b67f1f02d8294de956970a0c8. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+         "text": "In this print, several of Brown\u2019s men lay wounded while others hold civilian hostages. This illustration appeared in *Frank Leslie\u2019s Illustrated Newspaper* on November 5, 1859. *Frank Leslie\u2019s* was published weekly beginning in 1855. The newspaper gained popularity as a result of its coverage of John Brown\u2019s raid and other events leading to the Civil War.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cJohn Brown,\u201d Digital Public Library of America, https://dp.la/item/00e442cdd3ea6e3a6debeaa65c8c5d93. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+         "text": "After being captured, John Brown was tried for treason and murder. The trial began on October 27 and Brown was found guilty on November 2. Upon hearing his verdict, Brown delivered a statement to the court, including this excerpt. This account comes from \u201cThe Raid of John Brown at Harper\u2019s Ferry As I Saw It,\u201d by Rev. Samuel Leech. Twenty-one year old Leech was one of several eyewitnesses to John Brown\u2019s raid who subsequently wrote about what they saw. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_06_17ca61fbb15c35e57d4f52406feeaacd.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of New Georgia Encyclopedia via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cRaid on Harpers Ferry,\u201d Digital Public Library of America, https://dp.la/item/e6f841ec32191dfd5a778341318d1186. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+         "text": "This print depicting John Brown\u2019s raid appeared in *Frank Leslie\u2019s Illustrated Newspaper*, which was published weekly beginning in 1855. The newspaper gained popularity as a result of its coverage of John Brown\u2019s raid and other events leading to the Civil War.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_07_72288d4e9eea59ee045caf8efcf15b67.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cThe Martyrdom of John Brown. Exercises at the Town Hall, in Concord, on Friday, December 2nd, 1859,\u201d Digital Public Library of America, https://dp.la/item/72288d4e9eea59ee045caf8efcf15b67.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+         "text": "John Brown was executed on December 2, 1859, and many of Brown\u2019s supporters held public meetings to mourn and commemorate his death. One of these meetings took place in Concord, Massachusetts. Residents of Concord, including Ralph Waldo Emerson and Henry David Thoreau, gathered at a town hall meeting on the day of John Brown\u2019s execution. This document is a program from that meeting and includes a \u201cDirge\u201d celebrating Brown\u2019s martyrdom.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_08_5ba2191d209521f635c8ca8a1814ef2b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Boston Union meeting, excerpt from \u201cBoston Courier report of the union meeting in Faneuil hall, Thursday, Dec. 8th, 1859,\u201d Digital Public Library of America, https://dp.la/item/5ba2191d209521f635c8ca8a1814ef2b. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+         "text": " Edward Everett was the most famous American orator of the mid-nineteenth century. In this speech, delivered at Boston\u2019s Faneuil Hall on December 8, 1859, Everett warns his listeners about the potential side effects of John Brown\u2019s raid.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_09_ed94efd341a2fed56aee6e37b114d61c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Library of Congress via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Cheever, George Barrell, excerpt from \u201cThe curse of God against political atheism: with some of the lessons of the tragedy at Harper's Ferry,\u201d Digital Public Library of America, https://dp.la/item/ed94efd341a2fed56aee6e37b114d61c. \r\n\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+         "text": "This excerpt comes from a sermon delivered by George B. Cheever entitled \u201cThe Curse of God Against Political Atheism: With Some of the Lessons of the Tragedy at Harper\u2019s Ferry.\u201d Cheever preached this sermon at the Church of the Puritans in New York City on November 6, 1859, and it was published later that same year.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_10_79407001bc1f68cba99c6ce2a9587a71.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Clay, Clement Claiborne, excerpt from \u201cInvasion of Harper's Ferry--dangers and duties of the South,\u201d Digital Public Library of America, https://dp.la/item/9bfeb2bff97c99c6371d0e49a70917f6.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+         "text": "This document contains excerpts from two speeches delivered in the United States Senate on December 13, 1859, eleven days after John Brown\u2019s execution. Senator Clement C. Clay of Alabama gave the first speech (p. 1-2) and Senator William M. Gwin of California gave the second speech (p. 7). Both men address the political fallout of John Brown\u2019s raid. Gwin was born in Tennessee and was a prot\u00e9g\u00e9 of Andrew Jackson. As a result, he was sympathetic to slaveholders despite representing the non-slaveholding state of California.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Newton, John, excerpt from \u201cCaptain John Brown of Harper's Ferry; a preliminary incident to the great civil war of America,\u201d Digital Public Library of America, https://dp.la/item/9bfeb2bff97c99c6371d0e49a70917f6. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+         "text": "\u201cJohn Brown\u2019s Body,\u201d first sung in Boston in 1861, was a favorite song among Union soldiers during the Civil War.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_12_409a86384aa96ce59ca061cdabfdc1f0.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Duke University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cOld John Brown: a song for every Southern man,\u201d Digital Public Library of America, https://dp.la/item/409a86384aa96ce59ca061cdabfdc1f0. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+         "text": "\u201cOld John Brown: A Song for Every Southern Man,\u201d was written from a southern pro-slavery perspective. The term \u201cOld Ossawattomie Brown\u201d in the song\u2019s chorus refers to John Brown\u2019s abolitionist activism in the Kansas Territory (also known as \u201cBleeding Kansas\u201d) in the mid-1850s. Note that the word \u201cniggers\u201d appears in the chorus and the word \u201cdarkie\u201d appears in the last verse.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_13_1c2bc0f38804899c6e3b6866edde4adc.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of New York State Archives via Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "New York (State). Education Dept. Division of Visual Instruction, \u201cGrave of John Brown in North Elba,\u201d Digital Public Library of America, https://dp.la/item/1c2bc0f38804899c6e3b6866edde4adc. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+         "text": "The names of two other men also appear on the grave marker. Captain John Brown (d. 1776) was John Brown\u2019s grandfather. He was an officer in the 18th Connecticut Regiment and died during the American Revolution. Oliver Brown, a son of John Brown, died from wounds he received during the Harper\u2019s Ferry raid.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2020-07-21",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+               "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_14_ba611d3bda0005a5fbc554afc191ddf3.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Avery Research Center at the College of Charleston via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cButtons of John Brown's raiders,\u201d Digital Public Library of America, https://dp.la/item/2f66a8b7e96426ccf3ccfde8e56910cd. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+         "text": "Pictured are three bone buttons acquired from the bodies of John Brown\u2019s raiders, whose remains were reinterred at the John Brown Farm in North Elba, New York, in 1899. The image of John Brown mounted above the buttons appears to use imagery from the mural *Tragic Prelude* by John Steuart Curry, which was completed between 1938 and 1940. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1732",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1718",
+               "name": "A daguerreotype of John Brown with his hand raised, ca. 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1719",
+               "name": "An illustration of the swivel gun and pike used by the Harper\u2019s Ferry raiders, November 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_02_219139335594683705e4b660332cb3d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1720",
+               "name": "A print of the engine house occupied by John Brown and his raiders as US Marines attempted to break in, ca. 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_03_183e0789fb77245e8ac6d7797d950766_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1721",
+               "name": "A print depicting Brown\u2019s raiders and hostages in the interior of the engine house before the US Marines break-in, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_04_02f49a9b67f1f02d8294de956970a0c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1722",
+               "name": "An excerpt from John Brown\u2019s address to the court after hearing his guilty verdict, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_05_00e442cdd3ea6e3a6debeaa65c8c5d93_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1723",
+               "name": "A print showing an encounter between raiders and the militia at the railroad bridge, from *Frank Leslie\u2019s Illustrated Newspaper*, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_06_17ca61fbb15c35e57d4f52406feeaacd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1724",
+               "name": "A program for a commemorative town hall meeting held in Concord, Massachusetts following John Brown\u2019s execution on December 2, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_07_72288d4e9eea59ee045caf8efcf15b67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1725",
+               "name": "An excerpt from a speech given by Edward Everett in Boston, Massachusetts about the political consequences of Brown\u2019s raid, December 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_08_5ba2191d209521f635c8ca8a1814ef2b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1726",
+               "name": "An excerpt from a sermon preached by George B. Cheever on November 6, 1859, about John Brown\u2019s character.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_09_ed94efd341a2fed56aee6e37b114d61c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1727",
+               "name": "An excerpt from speeches delivered in the US Senate by Senators Clement Clay of Alabama and William Gwin of California, December 13, 1859.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_10_79407001bc1f68cba99c6ce2a9587a71_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1728",
+               "name": "The sheet music to \u201cJohn Brown\u2019s Body,\u201d published in 1902.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_11_9bfeb2bff97c99c6371d0e49a70917f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1729",
+               "name": "A sheet of lyrics to \u201cOld John Brown: A Song for Every Southern Man,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_12_409a86384aa96ce59ca061cdabfdc1f0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1730",
+               "name": "A photograph of John Brown\u2019s tombstone in North Elba, New York, ca. 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_13_1c2bc0f38804899c6e3b6866edde4adc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1731",
+               "name": "Buttons from the clothing of John Brown\u2019s raiders, mounted with a depiction of John Brown.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_14_ba611d3bda0005a5fbc554afc191ddf3_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Lincoln Financial Foundation Collection, Allen County Public Library, Fort Wayne, Indiana via Indiana Memory."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cJohn Brown's Fort,\u201d Digital Public Library of America, https://dp.la/item/7235fe9d49d65d3ca4240a7a1cf1137a. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of \u201cJohn Brown\u2019s Fort,\u201d the former engine room of the  federal arsenal at Harper\u2019s Ferry, circa 1890.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_rep.jpg",
+         "text": "Taken around 1890, this photograph depicts a partially boarded up building with a cannon in front.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_15_7235fe9d49d65d3ca4240a7a1cf1137a_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-john-brown-s-raid-on-harper-s-ferry",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Chattanooga State Community College, Tennessee"
+               },
+               "name": "Nancy Schurr"
+            }
+         ],
+         "dateCreated": "2018-02-22",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-22",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Examine the [daguerreotype of John Brown](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1718). Why is Brown\u2019s hand raised in the photograph? What might the flag in the picture represent? Read the [excerpt from John Brown\u2019s address](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1722) to the court and explain how John Brown defends his actions during the raid on Harper\u2019s Ferry. Do the [daguerreotype of John Brown](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1718) and the [illustration of the swivel gun and pike](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1719) support or oppose Brown\u2019s defense of his actions? Why?\r\n2. Examine the [print of the engine house occupied by John Brown and his raiders](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1720). What kind of activity is taking place outside of the engine house? Examine the [print depicting Brown\u2019s raiders and hostages in the interior of the engine house](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1721). Which men are the hostages and which men are the raiders? What ideas were the artists of each image trying to convey to the audience? Based on these images, did the artist of each sketch approve or disapprove of Brown\u2019s raid? \r\n3. Examine the [print showing an encounter between raiders and the militia at the railroad bridge](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1723) and explain how an antislavery American and a proslavery American might have interpreted this image differently. \r\n4. Read the [excerpt from George B. Cheever\u2019s sermon](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1726). How does Cheever describe John Brown as a person? How does Cheever connect Brown\u2019s actions to his Christian duty? According to Cheever, what is the \u201cgreat lesson of this tragedy?\u201d According to the [excerpt from Edward Everett\u2019s speech](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1725), would he agree with Rev. Cheever? Why or why not?\r\n5. What is the main idea of the \u201cDirge\u201d printed on the [program for the commemorative town hall meeting](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1724)? According to their [speeches delivered in the US Senate](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1727) eleven days later, would Senators Clement Clay and William Gwin agree or disagree with this portrayal? How did Clay and Gwin think that Brown\u2019s raid would affect national politics?\r\n6. Read the lyrics of the songs entitled \u201c[John Brown\u2019s Body](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1728)\u201d and \u201c[Old John Brown: A Song for Every Southern Man](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1729).\u201d What was the purpose of each of these songs? Who were the intended audiences for each? Can you think of any other songs written in response to newsworthy events such as John Brown\u2019s raid?\r\n7. Examine the [photograph of John Brown\u2019s tombstone](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1730), the [buttons from the clothing of John Brown\u2019s raiders](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1731), and the photograph of \u201c[John Brown\u2019s Fort](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1732).\" What do you notice about John Brown\u2019s grave? Why are there three names on the tombstone? Why do you think the three buttons are now artifacts in a museum? Who might have renamed the Engine Room \u201cJohn Brown\u2019s Fort\u201d? What does each of these sources suggest about John Brown\u2019s legacy?\r\n8. Based on the [speeches delivered in the US Senate](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1727) and \u201c[Old John Brown: A Song for Every Southern Man](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1729),\u201d describe the significance of John Brown\u2019s raid for white southerners."
+            },
+            {
+               "name": "Activity",
+               "text": "1. Ask students to select a nineteenth-century abolitionist and write a letter about John Brown\u2019s raid to the editor of an antislavery newspaper such as *The Liberator* or *Frederick Douglass\u2019 Paper* from that person\u2019s perspective. Choices of abolitionists might include, but are not limited to, Frederick Douglass, Harriet Tubman, Henry Highland Garnet, William Lloyd Garrison, Henry Ward Beecher, or Lucretia Mott. Students might use the [excerpt from John Brown\u2019s address](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1722), the [program for the commemorative town hall meeting](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1724), the [excerpt from George B. Cheever\u2019s sermon](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1726), and the [excerpt from Edward Everett\u2019s speech](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1725) to inform their letters, but may also conduct outside research about the abolitionist of their choosing to see how they responded to John Brown\u2019s raid.\r\n2. Based on their analysis of the [print of the engine house occupied by John Brown and his raiders](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1720),  the [print depicting Brown\u2019s raiders and hostages in the interior of the engine house](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1721), and the [print of an encounter between raiders and the militia at the railroad bridge](https://dp.la/primary-source-sets/john-brown-s-raid-on-harper-s-ferry/sources/1723), ask students to consider how images in newspapers might have shaped Americans\u2019 reactions to Brown\u2019s raid. Ask students to gather examples of documentary photographs about a topic in the news today to share with the class and discuss how the American public consumes news through images. Finally, have students take a photograph that captures an issue or current event in their community and write a caption for it. Students will present their photographs to the class and explain what they think it conveys. "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+            "@type": "CreativeWork",
+            "name": "John Brown's Raid on Harper\u2019s Ferry"
+         },
+         "name": "Teaching Guide: Exploring John Brown\u2019s Raid on Harper\u2019s Ferry"
+      },
+      {
+         "name": "Resources",
+         "text": "1. \u201c[John Brown\u2019s Day of Reckoning](https://www.smithsonianmag.com/history/john-browns-day-of-reckoning-139165084/),\u201d *Smithsonian Magazine*, October 2009.  \r\n2. [John Brown: The Abolitionist & His Legacy](https://www.gilderlehrman.org/sites/default/files/swf/jbrown/index.html), Gilder Lehrman Institute of American History. \r\n3. \u201c[The Harpers Ferry 'Rising' That Hastened Civil War](https://www.npr.org/2011/10/22/141564113/the-harpers-ferry-rising-that-hastened-civil-war),\u201d NPR, October 22, 2011. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "John Brown first made a name for himself as a militant abolitionist in 1854, when Brown traveled to Kansas following the Kansas-Nebraska Act, intent on defending the territory from the scourge of slavery. It was in \u201cBleeding Kansas,\u201d named for violent conflicts between proslavery and antislavery settlers there, that John Brown led a guerilla warfare campaign against the territory\u2019s proslavery settlers, including a deadly attack against residents of Pottawatomie Creek. By 1859, fueled by donations from wealthy abolitionists, Brown was again ready to strike a blow against slavery and slaveholders\u2014this time in the South.\r\n\r\nBrown\u2019s target was the sleepy Virginia town of Harper\u2019s Ferry (now spelled \u201cHarpers Ferry\"), where he planned to capture the stockpile of guns and ammunition at the federal arsenal. He intended to start a war between slaves and slaveholders by distributing these weapons to the enslaved. Brown believed this war would end the \u201cpeculiar institution\u201d of slavery in the United States forever and that God approved of his plan. Accompanied by twenty-one other men, including three of Brown\u2019s sons, and equipped with rifles and pikes, Brown and his raiders launched their attack on the night of Sunday, October 16, 1859. Some of the raiders captured local civilians as hostages, including Colonel Lewis Washington, great-grandnephew of George Washington, while others headed for the arsenal.\r\n \r\nBy the morning of October 17, townspeople had discovered the plot and forced Brown and his men into the arsenal\u2019s engine room, which was where they made their last stand as local militia and US Marines attacked. By the following day, at least sixteen people, including members of Brown\u2019s party and several townspeople, were dead and Brown and other remaining raiders were captured, imprisoned, and charged with treason and murder. Brown\u2019s trial and subsequent execution galvanized the American public around the already profoundly contentious issue of slavery. The fallout from Brown\u2019s raid likely hastened the secession of slaveholding states from the Union, igniting the Civil War. The primary sources in this set document John Brown\u2019s raid and the broad range of responses it provoked across the country. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-temperance-movement",
+         "name": "Women and the Temperance Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+         "name": "Battle of Gettysburg",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+         "name": "ACT UP and the AIDS Crisis",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+         "name": "Women in the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/northern-draft-riots-during-the-civil-war",
+         "name": "Northern Draft Riots During the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+         "name": "Secession of the Southern States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "John Brown's Raid on Harper\u2019s Ferry",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

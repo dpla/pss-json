@@ -1,0 +1,1624 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Three Worlds Meet (Beginnings to 1620)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-1"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "World History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Native Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Weston Public Schools, Massachusetts"
+         },
+         "name": "Kerry Dunne"
+      }
+   ],
+   "dateCreated": "2016-01-15",
+   "dateModified": "2017-08-21",
+   "dct:created": "2016-01-15",
+   "dct:modified": "2017-08-21",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore early exploration of the Americas.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/408",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Library of Congress via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Las Casas, Bartolom\u00e9 de, excerpt from \u201cBreve relacion de la destruccion de las Indias occidentales,\u201d Digital Public Library of America, https://dp.la/item/75ce0b3291c6a9f4f8c69d61f2698786."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+         "text": "Translation:\r\nBartolom\u00e9 de Las Casas, Brief Account of the Devastation of the Indies (1542)\r\n\r\nThe Indies were discovered in the year one thousand four hundred and ninety-two. In the following year a great many Spaniards went there with the intention of settling the land. Thus, forty-nine years have passed since the first settlers penetrated the land, the first so claimed being the large and most happy isle called Hispaniola, which is six hundred leagues in circumference. Around it in all directions are many other islands, some very big, others very small, and all of them were, as we saw with our own eyes, densely populated with native peoples called Indians. This large island was perhaps the most densely populated place in the world. There must be close to two hundred leagues of land on this island, and the seacoast has been explored for more than ten thousand leagues, and each day more of it is being explored. And all the land so far discovered is a beehive of people; it is as though God had crowded into these lands the great majority of mankind.\r\n\r\nAnd of all the infinite universe of humanity, these people are the most guileless, the most devoid of wickedness and duplicity, the most obedient and faithful to their native masters and to the Spanish Christians whom they serve. They are by nature the most humble, patient, and peaceable, holding no grudges, free from embroilments, neither excitable nor quarrelsome. These people are the most devoid of rancors, hatreds, or desire for vengeance of any people in the world. And because they are so weak and complaisant, they are less able to endure heavy labor and soon die of no matter what malady. The sons of nobles among us, brought up in the enjoyments of life's refinements, are no more delicate than are these Indians, even those among them who are of the lowest rank of laborers. They are also poor people, for they not only possess little but have no desire to possess worldly goods. For this reason they are not arrogant, embittered, or greedy. Their repasts are such that the food of the holy fathers in the desert can scarcely be more parsimonious, scanty, and poor. As to their dress, they are generally naked, with only their pudenda covered somewhat. And when they cover their shoulders it is with a square cloth no more than two varas in size. They have no beds, but sleep on a kind of matting or else in a kind of suspended net called bamacas. They are very clean in their persons, with alert, intelligent minds, docile and open to doctrine, very apt to receive our holy Catholic faith, to be endowed with virtuous customs, and to behave in a godly fashion. And once they begin to hear the tidings of the Faith, they are so insistent on knowing more and on taking the sacraments of the Church and on observing the divine cult that, truly, the missionaries who are here need to be endowed by God with great patience in order to cope with such eagerness. Some of the secular Spaniards who have been here for many years say that the goodness of the Indians is undeniable and that if this gifted people could be brought to know the one true God they would be the most fortunate people in the world. \r\n\r\nYet into this sheepfold, into this land of meek outcasts there came some Spaniards who immediately behaved like ravening wild beasts, wolves, tigers, or lions that had been starved for many days. And Spaniards have behaved in no other way during tla! past forty years, down to the present time, for they are still acting like ravening beasts, killing, terrorizing, afflicting, torturing, and destroying the native peoples, doing all this with the strangest and most varied new methods of cruelty, never seen or heard of before, and to such a degree that this Island of Hispaniola once so populous (having a population that I estimated to be more than three million), has now a population of barely two hundred persons.\r\n\r\nThe island of Cuba is nearly as long as the distance between Valladolid and Rome; it is now almost completely depopulated. San Juan [Puerto Rico] and Jamaica are two of the largest, most productive and attractive islands; both are now deserted and devastated. On the northern side of Cuba and Hispaniola he the neighboring Lucayos comprising more than sixty islands including those called Gigantes, beside numerous other islands, some small some large. The least felicitous of them were more fertile and beautiful than the gardens of the King of Seville. They have the healthiest lands in the world, where lived more than five hundred thousand souls; they are now deserted, inhabited by not a single living creature. All the people were slain or died after being taken into captivity and brought to the Island of Hispaniola to be sold as slaves. When the Spaniards saw that some of these had escaped, they sent a ship to find them, and it voyaged for three years among the islands searching for those who had escaped being slaughtered , for a good Christian had helped them escape, taking pity on them and had won them over to Christ; of these there were eleven persons and these I saw.\r\n\r\nMore than thirty other islands in the vicinity of San Juan are for the most part and for the same reason depopulated, and the land laid waste. On these islands I estimate there are 2,100 leagues of land that have been ruined and depopulated, empty of people.\r\n\r\nAs for the vast mainland, which is ten times larger than all Spain, even including Aragon and Portugal, containing more land than the distance between Seville and Jerusalem, or more than two thousand leagues, we are sure that our Spaniards, with their cruel and abominable acts, have devastated the land and exterminated the rational people who fully inhabited it. We can estimate very surely and truthfully that in the forty years that have passed, with the infernal actions of the Christians, there have been unjustly slain more than twelve million men, women, and children. In truth, I believe without trying to deceive myself that the number of the slain is more like fifteen million.\r\n\r\nThe common ways mainly employed by the Spaniards who call themselves Christian and who have gone there to extirpate those pitiful nations and wipe them off the earth is by unjustly waging cruel and bloody wars. Then, when they have slain all those who fought for their lives or to escape the tortures they would have to endure, that is to say, when they have slain all the native rulers and young men (since the Spaniards usually spare only the women and children, who are subjected to the hardest and bitterest servitude ever suffered by man or beast), they enslave any survivors. With these infernal methods of tyranny they debase and weaken countless numbers of those pitiful Indian nations.\r\n\r\nTheir reason for killing and destroying such an infinite number of souls is that the Christians have an ultimate aim, which is to acquire gold, and to swell themselves with riches in a very brief time and thus rise to a high estate disproportionate to their merits. It should be kept in mind that their insatiable greed and ambition, the greatest ever seen in the world, is the cause of their villainies. And also, those lands are so rich and felicitous, the native peoples so meek and patient, so easy to subject, that our Spaniards have no more consideration for them than beasts. And I say this from my own knowledge of the acts I witnessed. But I should not say \"than beasts\" for, thanks be to God, they have treated beasts with some respect; I should say instead like excrement on the public squares. And thus they have deprived the Indians of their lives and souls, for the millions I mentioned have died without the Faith and without the benefit of the sacraments. This is a wellknown and proven fact which even the tyrant Governors, themselves killers, know and admit. And never have the Indians in all the Indies committed any act against the Spanish Christians, until those Christians have first and many times committed countless cruel aggressions against them or against neighboring nations. For in the beginning the Indians regarded the Spaniards as angels from Heaven. Only after the Spaniards had used violence against them, killing, robbing, torturing, did the Indians ever rise up against them....\r\n\r\nOn the Island Hispaniola was where the Spaniards first landed, as I have said. Here those Christians perpetrated their first ravages and oppressions against the native peoples. This was the first land in the New World to be destroyed and depopulated by the Christians, and here they began their subjection of the women and children, taking them away from the Indians to use them and ill use them, eating the food they provided with their sweat and toil. The Spaniards did not content themselves with what the Indians gave them of their own free will, according to their ability, which was always too little to satisfy enormous appetites, for a Christian eats and consumes in one day an amount of food that would suffice to feed three houses inhabited by ten Indians for one month. And they committed other acts of force and violence and oppression which made the Indians realize that these men had not come from Heaven. And some of the Indians concealed their foods while others concealed their wives and children and still others fled to the mountains to avoid the terrible transactions of the Christians.\r\n\r\nAnd the Christians attacked them with buffets and beatings, until finally they laid hands on the nobles of the villages. Then they behaved with such temerity and shamelessness that the most powerful ruler of the islands had to see his own wife raped by a Christian officer.\r\n\r\nFrom that time onward the Indians began to seek ways to throw the Christians out of their lands. They took up arms, but their weapons were very weak and of little service in offense and still less in defense. (Because of this, the wars of the Indians against each other are little more than games played by children.) And the Christians, with their horses and swords and pikes began to carry out massacres and strange cruelties against them. They attacked the towns and spared neither the children nor the aged nor pregnant women nor women in childbed, not only stabbing them and dismembering them but cutting them to pieces as if dealing with sheep in the slaughter house. They laid bets as to who, with one stroke of the sword, could split a man in two or could cut off his head or spill out his entrails with a single stroke of the pike. They took infants from their mothers' breasts, snatching them by the legs and pitching them headfirst against the crags or snatched them by the arms and threw them into the rivers, roaring with laughter and saying as the babies fell into the water, \"Boil there, you offspring of the devil!\" Other infants they put to the sword along with their mothers and anyone else who happened to be nearby. They made some low wide gallows on which the hanged victim's feet almost touched the ground, stringing up their victims in lots of thirteen, in memory of Our Redeemer and His twelve Apostles, then set burning wood at their feet and thus burned them alive. To others they attached straw or wrapped their whole bodies in straw and set them afire. With still others, all those they wanted to capture alive, they cut off their hands and hung them round the victim's neck, saying, \"Go now, carry the message,\" meaning, Take the news to the Indians who have fled to the mountains. They usually dealt with the chieftains and nobles in the following way: they made a grid of rods which they placed on forked sticks, then lashed the victims to the grid and lighted a smoldering fire underneath, so that little by little, as those captives screamed in despair and torment, their souls would leave them....\r\n\r\nAfter the wars and the killings had ended, when usually there survived only some boys, some women, and children, these survivors were distributed among the Christians to be slaves. The repartimiento or distribution was made according to the rank and importance of the Christian to whom the Indians were allocated, one of them being given thirty, another forty, still another, one or two hundred, and besides the rank of the Christian there was also to be considered in what favor he stood with the tyrant they called Governor. The pretext was that these allocated Indians were to be instructed in the articles of the Christian Faith. As if those Christians who were as a rule foolish and cruel and greedy and vicious could be caretakers of souls! And the care they took was to send the men to the mines to dig for gold, which is intolerable labor, and to send the women into the fields of the big ranches to hoe and till the land, work suitable for strong men. Nor to either the men or the women did they give any food except herbs and legumes, things of little substance. The milk in the breasts of the women with infants dried up and thus in a short while the infants perished. And since men and women were separated, there could be no marital relations. And the men died in the mines and the women died on the ranches from the same causes, exhaustion and hunger. And thus was depopulated that island which had been densely populated.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/409",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cDon Fray Bartholome de las Casas,\u201d Digital Public Library of America, https://dp.la/item/41eb45e147711bf35cfae9ec289b3a56."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+         "text": "This illustration was not drawn from life; Bartolom\u00e9 de Las Casas died in 1461.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/410",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEuropean Explorers In The Americas,\u201d Digital Public Library of America, https://dp.la/item/053e2477d310990f0617fcb154c112c5."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/411",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of East Carolina University via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Rainforth, S. I., \u201cVariola,\u201d Digital Public Library of America, https://dp.la/item/a2647a2d5dce9db524f6e2f556d35819."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/412",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-06-27",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Los Angeles Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Schultheis, Herman, \u201cSanta Barbara Mission,\u201d Digital Public Library of America, https://dp.la/item/fc3ad837e1d2f19a05815d0baae9b186."
+                  }
+               ]
+            }
+         ],
+         "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/413",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPocahontas saving the life of John Smith, Jamestown, Va,\u201d Digital Public Library of America, https://dp.la/item/7f87a5af5d9f8f58f46b3019c90ba947."
+                  }
+               ]
+            }
+         ],
+         "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/414",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Plymouth Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "McLaughlin, Edward P., \u201cPlymouth Tercentenary Pageant, Tisquantum and the Mayflower,\u201d Digital Public Library of America, https://dp.la/item/c0b93540bf1b8f4572f973f08174863d."
+                  }
+               ]
+            }
+         ],
+         "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/415",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Museum of American History, Kenneth E. Behring Center via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSlave shackles,\u201d Digital Public Library of America, https://dp.la/item/aa88b7ba381ef6706f82a923cdb6584f."
+                  }
+               ]
+            }
+         ],
+         "name": "Nineteenth-century slave shackles.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/416",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Kip, William Ingraham, excerpt from \u201cThe early Jesuit missions in North America,\u201d Digital Public Library of America, https://dp.la/item/add36cdf1f185c62e6a22dc50638ad5d."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/417",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2017-08-21",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2017-08-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Montana-Maureen and Mike Mansfield Library  via Big Sky Country Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPaxson print of a French-Canadian fur trapper,\u201d Digital Public Library of America, https://dp.la/item/e2be3b73d778a0ab2bfb4ea7919cdff7."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/418",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/419",
+               "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Texas at Arlington Library via The Portal to Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Hondius, Jodocus, \u201cAmerica,\u201d Digital Public Library of America, https://dp.la/item/dad0f54a099fd2ca917e601d0fe9b6f9."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1630 map of the Americas including settlements and Native populations. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/419",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-15",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/408",
+               "name": "An excerpt from Bartolom\u00e9 de Las Casas\u2019s 1542 account of Spanish conquest of native peoples of the Americas (in Spanish). ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_01_75ce0b3291c6a9f4f8c69d61f2698786_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/409",
+               "name": "A 1791 illustration of Bartolom\u00e9 de Las Casas. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_02a_41eb45e147711bf35cfae9ec289b3a56_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/410",
+               "name": "An 1866 illustration of early Spanish colonization in the Caribbean islands. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03_053e2477d310990f0617fcb154c112c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/411",
+               "name": "A 1910 photograph of a man infected with variola, also known as smallpox. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_04_a2647a2d5dce9db524f6e2f556d35819-01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/412",
+               "name": "A modern photograph of a Spanish mission in Santa Barbara, California.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_05_3d89869a9e03ac65604b40048e01e29e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/413",
+               "name": "A late-nineteenth-century photograph of a recreation by Pamunkey Indians of Pocahontas saving the life of John Smith.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_06_7f87a5af5d9f8f58f46b3019c90ba947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/414",
+               "name": "1920s photograph recreating the interactions between newly arrived Pilgrims and native people in Plymouth, Massachusetts.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_07_c0b93540bf1b8f4572f973f08174863d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/415",
+               "name": "Nineteenth-century slave shackles.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_08_aa88b7ba381ef6706f82a923cdb6584f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/416",
+               "name": "A 1722 letter from a French Jesuit Missionary about his experience living among the Abnaki people in eastern Canada.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_09_add36cdf1f185c62e6a22dc50638ad5d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/417",
+               "name": "A 1902 illustration of an early French fur trapper in Canada. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_rep.jpeg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_10a_f5c7afd601b4302faf6b0fe288ddb9f9_thumb.jpeg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/418",
+               "name": "A 1630 map of the Americas including settlements and Native populations. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_11_dad0f54a099fd2ca917e601d0fe9b6f9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Sidney R. Knafel Map Collection, Phillips Academy via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Bry, Theodor de, \u201cAmerica sive novvs orbis respectv Evropaeorvm inferior globi terrestris pars,\u201d Digital Public Library of America, https://dp.la/item/582165f7aae1ca32572450d833bc9096."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1596 map of the Americas featuring illustrations of four prominent explorers.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_12a_582165f7aae1ca32572450d833bc9096_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-examining-the-exploration-of-the-americas",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Weston Public Schools, Massachusetts"
+               },
+               "name": "Kerry Dunne"
+            }
+         ],
+         "dateCreated": "2016-01-15",
+         "dateModified": "2016-01-20",
+         "dct:created": "2016-01-15",
+         "dct:modified": "2016-01-20",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Consider [Bartolom\u00e9 de Las Casas\u2019s 1542 account](http://dp.la/primary-source-sets/sources/408). What does Las Casas\u2019s perspective reveal about the consequences of New World exploration? What makes this source such an important piece of this set?\r\n2. Examine the [1596](http://dp.la/primary-source-sets/sources/419) and [1630](http://dp.la/primary-source-sets/sources/418) maps, and compare them to a modern map of North and South America. What features are distorted or missing?\r\n3. Photographs in this set show dramatic reenactments of interactions between early British settlers and native peoples. Do you think these depictions are realistic? What do you think is the purpose of these reenactments?\r\n4. Early French explorers of what is today Canada included fur trappers and Jesuit missionaries. After reading the [selection from a Jesuit missionary](http://dp.la/primary-source-sets/sources/416) regarding his interactions with the Abenaki people, what do you think that \u201cthe other side of the story\u201d might be from the Abenaki perspective?\r\n5. The [slave shackles](http://dp.la/primary-source-sets/sources/415) are a reminder that exploration, colonization, and the quick transition to African slavery to create a captive labor force in the \u201cnew world\u201d were intertwined. What emotions do you feel when you view these shackles?"
+            },
+            {
+               "name": "Activity",
+               "text": "Show students the photograph of a man infected with smallpox. Break students up into three groups. Ask group one to research the history of the disease and its impact on the native peoples of the Americas, finding data estimating the number of deaths caused by the disease. Ask group two to research the development of a smallpox vaccine, to find a photo of the small scar left by the inoculation, and to explain how the vaccine was discovered. Ask group three to research the current status of the disease, and to share with the class any potential risks still conceivable from this \u201ceradicated\u201d disease.\r\n\r\nAfter providing twenty minutes for this quick research task, ask each group to share their findings with the class. As a follow up, ask students if they know of any modern diseases that people worry about that may be spread by travel and migration in the same manner that smallpox was spread to the Americas from Europe."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "@type": "CreativeWork",
+            "name": "Exploration of the Americas"
+         },
+         "name": "Teaching Guide: Examining Exploration of the Americas"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Exploring the Early Americas: Explorations and Encounters](http://www.loc.gov/exhibits/exploring-the-early-americas/explorations-and-encounters.html) exhibition, Library of Congress. \r\n2. [American Beginnings: The European Presence in North America: 1492-1690](http://nationalhumanitiescenter.org/pds/amerbegin/index.htm), The National Humanities Center. \r\n3. [Early European Exploration and Colonization](http://www.vcdh.virginia.edu/solguide/VUS02/essay02.html), Virginia Center for Digital History. "
+      },
+      {
+         "name": "Overview",
+         "text": "Although conventional narratives often have begun this topic with the arrival of Christopher Columbus in 1492, it is critical to note the presence of an estimated 37 million inhabitants in North and South America at the time of European exploration. It is also important, given what we know about the varied peoples and civilizations of the Americas, and the aims and consequences of Europeans sailing to the Americas, to characterize this period not as \u201cdiscovery\u201d of the Americas but as \u201cexploration,\u201d \u201ccolonization,\u201d and/or \u201cconquest.\u201d \r\n\r\nThe historical details of European exploration of the Americas are many, and difficult to summarize. There is archaeological evidence of Viking exploration and temporary settlement in Eastern Canada and New England around the year 1000. Unconfirmed tales of Irish, African, and Polynesian exploration of the Americas prior to 1492 also exist. But, without a doubt, the onslaught of European colonization began in 1492 with the arrival of Christopher Columbus, and quickly accelerated as the Spanish claimed land in the Caribbean, Central America, Mexico, and South America, the French claimed land in the Caribbean and the central and northern portions of North America, and the British claimed land in what is today the eastern United States as well as Canada. Portugal and the Netherlands also, for a time, held significant \u201cnew world\u201d colonies. \r\n\r\nThe consequences of this period of exploration and early colonization are many. The \u201cColumbian Exchange\u201d led to a rapid introduction of new flora and fauna in Europe and the Americas. European nations gained wealth, power, and vast lands in which to re-settle excess populations. But surely, the largest consequences were felt by the native peoples of the Americas, who experienced a genocide that diminished their populations by more than 90 percent within a century of European arrival, and on the peoples of West Africa, who were enslaved by the millions to build a captive labor force in the newly colonized Americas.\r\n"
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/spanish-missions-in-california",
+         "name": "Spanish Missions in California",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-columbian-exchange",
+         "name": "The Columbian Exchange",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/powhatan-people-and-the-english-at-jamestown",
+         "name": "Powhatan People and the English at Jamestown",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/attacks-on-american-soil-pearl-harbor-and-september-11",
+         "name": "Attacks on American Soil: Pearl Harbor and September 11",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-wounded-knee-massacre",
+         "name": "The Wounded Knee Massacre",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+         "name": "Manifest Destiny",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cross-cultural-colonial-conflicts",
+         "name": "Cross-Cultural Colonial Conflicts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+         "name": "The Lewis and Clark Expedition",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+         "name": "The Panama Canal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-indian-boarding-schools",
+         "name": "American Indian Boarding Schools",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Exploration of the Americas",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

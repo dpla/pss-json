@@ -1,0 +1,1802 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Native Americans"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Law and Government"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Ripley High School, West Virginia"
+         },
+         "name": "Adena Barnette"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2020-07-22",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Jacksonian democracy.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/134",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Kearny, Francis, \u201cAndrew Jackson, President of the United States,\u201d Digital Public Library of America, https://dp.la/item/6ec5f86f585a556cb557ec25a3d7c755."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1830 engraving of President Andrew Jackson.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/135",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Yale University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Frost, John, excerpts from \u201cPictorial life of Andrew Jackson,\u201d Digital Public Library of America, https://dp.la/item/34f0124dbc897c2f132b692cf8ad0baf."
+                  }
+               ]
+            }
+         ],
+         "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/136",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2020-07-22",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Caroliniana Library via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cInaugural address delivered by Andrew Jackson,\u201d Digital Public Library of America, https://dp.la/item/9dec6b15834ff861ebdc3128500f81ff."
+                  }
+               ]
+            }
+         ],
+         "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+         "text": "Transcript:\r\n\r\nAs the instrument of the Federal Constitution it will devolve on me for a stated period to execute the laws of the United States, to superintend their foreign and their confederate relations, to manage their revenue, to command their forces, and, by communications to the Legislature, to watch over and to promote their interests generally. And the principles of action by which I shall endeavor to accomplish this circle of duties it is now proper for me briefly to explain.\r\n\r\nIn administering the laws of Congress I shall keep steadily in view the limitations as well as the extent of the Executive power trusting thereby to discharge the functions of my office without transcending its authority. With foreign nations it will be my study to preserve peace and to cultivate friendship on fair and honorable terms, and in the adjustment of any differences that may exist or arise to exhibit the forbearance becoming a powerful nation rather than the sensibility belonging to a gallant people.\r\n\r\nIn such measures as I may be called on to pursue in regard to the rights of the separate States I hope to be animated by a proper respect for those sovereign members of our Union, taking care not to confound the powers they have reserved to themselves with those they have granted to the Confederacy.\r\n\r\nThe management of the public revenue--that searching operation in all governments--is among the most delicate and important trusts in ours, and it will, of course, demand no inconsiderable share of my official solicitude. Under every aspect in which it can be considered it would appear that advantage must result from the observance of a strict and faithful economy. This I shall aim at the more anxiously both because it will facilitate the extinguishment of the national debt, the unnecessary duration of which is incompatible with real independence, and because it will counteract that tendency to public and private profligacy which a profuse expenditure of money by the Government is but too apt to engender. Powerful auxiliaries to the attainment of this desirable end are to be found in the regulations provided by the wisdom of Congress for the specific appropriation of public money and the prompt accountability of public officers.\r\n\r\nWith regard to a proper selection of the subjects of impost with a view to revenue, it would seem to me that the spirit of equity, caution and compromise in which the Constitution was formed requires that the great interests of agriculture, commerce, and manufactures should be equally favored, and that perhaps the only exception to this rule should consist in the peculiar encouragement of any products of either of them that may be found essential to our national independence.\r\n\r\nInternal improvement and the diffusion of knowledge, so far as they can be promoted by the constitutional acts of the Federal Government, are of high importance.\r\n\r\nIt will be my sincere and constant desire to observe toward the Indian tribes within our limits a just and liberal policy, and to give that humane and considerate attention to their rights and their wants which is consistent with the habits of our Government and the feelings of our people.\r\n\r\nThe recent demonstration of public sentiment inscribes on the list of Executive duties, in characters too legible to be overlooked, the task of reform, which will require particularly the correction of those abuses that have brought the patronage of the Federal Government into conflict with the freedom of elections, and the counteraction of those causes which have disturbed the rightful course of appointment and have placed or continued power in unfaithful or incompetent hands.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/137",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-03-23",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-03-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of New York Public Library via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cMessages of Gen. Andrew Jackson: with a short sketch of his life,\u201d Digital Public Library of America, https://dp.la/item/647c063e5f1edba83792a2c9dc99fd62."
+                  }
+               ]
+            }
+         ],
+         "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+         "text": "Transcript:    \r\n\r\nGentlemen, I have maturely considered the bill proposing to authorize a \"subscription of stock in the Maysville...Road Company,\" and now return the same to the House of Representatives, in which it originated, with my objections to its passage...\r\n\r\nSuch grants have always been under the control of the general principle that the works which might be thus aided should be \"of a general, not local, national, not State,\" character.  A disregard of this distinction would of necessity lead to the subversion of the federal system.... I am not able to view in any other light than as a measure of purely local character.... It has no connection with any established system of improvements; is exclusively within the limits of a State...\r\n\r\n...As great as this objects undoubtedly is, it is not the only one which demands the fostering care of the government. The preservation and success of the republican principle rest with us. To elevate its character and its influence rank among our most important duties, and the best means to accomplish this desirable end are those which will rivet the attachment of our citizens to the Government of their choice by the comparative lightness of their public burthens and by the attraction which the superior success of its operations will present to the admiration and respect of the world. Through the favor of an overruling and indulgent Providence our country is blessed with a general prosperity and our citizens exempted from the pressure of taxation, which other less favored portions of the human family are obliged to bear; yet it is true that many of the taxes collected from our citizens through the medium of imposts have for a considerable period been onerous. In many particulars these taxes have borne severely upon the laboring and less prosperous classes of the community, being imposed on the necessaries of life, and this, too, in cases where the burden was not relieved by the consciousness that it would ultimately contribute to make us independent of foreign nation articles of prime necessity by the encouragement of growth and manufacture at home. They have been cheerfully borne because they were thought to be necessary to the support of government and the payments of debts unavoidably incurred in the acquisition and maintenance of our national rights and liberties. But have we a right to calculate on the same cheerful acquiescence when it is known that the necessity for their continuance would cease were it not for irregular, improvident, and unequal appropriations of public funds?... \r\n  \r\n...How gratifying the effect of presenting to the world the sublime spectacle of a Republic of more than 12,000,000 happy people, in the fifty-fourth year of her existence, after having passed through two protracted wars \u00ad one for the acquisition and the other for the maintenance of liberty \u00ad free from debt and all her immense resources unfettered! What a salutary influence would not such an exhibition exercise upon the cause of liberal principles and free government throughout the world! Would we not find ourselves in its effect an additional guarantee that our political institutions will be transmitted to the most remote posterity without decay? A course of policy destined to witness events like these cannot be benefited by a legislation which tolerates a scramble for appropriations that have no relation to any general system of improvement, and whose good effects must of necessity be very limited... \r\n  \r\n...If different impressions are entertained in any quarter; if it is expected that the people of this country, reckless of their constitutional obligations, will prefer their local interest to the principles of the Union...indeed has the world but little to hope from the example of free government. When an honest observance of constitutional compacts cannot be obtained from communities like ours, it need not be anticipated elsewhere... and the degrading truth that man is unfit for self -government be admitted. And this will be the case if expediency be made a rule of construction in interpreting the Constitution. Power in no government could desire a better shield for the insidious advances which it is ever ready to make upon the checks that are designed to restrain its action... \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/138",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201c\u2018An Act to Modify and Continue the Act entitled 'An Act to incorporate the subscribers to the Bank of the United States,\u2019 returned by President Andrew Jackson with his objections,\u201d Digital Public Library of America, https://dp.la/item/4e52a27ab3181dc6aab4c42597fd8f1f."
+                  }
+               ]
+            }
+         ],
+         "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+         "text": "Transcribed excerpt from page 1:\r\n\r\nA bank of the United States is in many respects convenient for the Government and useful to the people. Entertaining this opinion, and deeply impressed with the belief that some of the powers and privileges possessed by the existing bank are unauthorized by the Constitution, subversive of the rights of the States, and dangerous to the liberties of the people, I felt it my duty at an early period of my Administration to call the attention of Congress to the practicability of organizing an institution combining all its advantages and obviating these objections. I sincerely regret that in the act before me I can perceive none of those modifications of the bank charter which are necessary, in my opinion, to make it compatible with justice, with sound policy, or with the Constitution of our country. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/139",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2020-07-22",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Caroliniana Library via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Jackson, Andrew, \u201cJackson's proclamation to the people of South Carolina re Nullification Ordinance,\u201d Digital Public Library of America, https://dp.la/item/3e7613be8587745f03f3433799fbf13b."
+                  }
+               ]
+            }
+         ],
+         "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+         "text": "Transcript:\r\n\r\nWhereas a convention, assembled in the State of South Carolina, have passed an ordinance, by which they declare that the several acts and parts of acts of the Congress of the United States, purporting to be laws for the imposing of duties and imposts on the importation of foreign commodities, and now having actual operation and effect within the United States, and more especially \"two acts for the same purposes, passed on the 29th of May, 1828, and on the 14th of July, 1832, are unauthorized by the Constitution of the United States, and violate the true meaning and intent thereof, and are null and void, and no law,\" nor binding on the citizens of that State or its officers, and by the said ordinance it is further declared to the unlawful for any of the constituted authorities of the State, or of the United States, to enforce the payment of the duties imposed by the said acts within the same State, and that it is the duty of the legislature to pass such laws as may be necessary to give full effect to the said ordinances..\r\n...the said ordinance declares that the people of South Carolina will maintain the said ordinance at every hazard, and that they will consider the passage of any act by Congress abolishing or closing the ports of the said State, or otherwise obstructing the free ingress or egress of vessels to and from the said ports, or any other act of the Federal Government to coerce the State, shut up her ports, destroy or harass her commerce, or to enforce the said acts otherwise than through the civil tribunals of the country, as inconsistent with the longer continuance of South Carolina in the Union; and that the people of the said State will thenceforth hold themselves absolved from all further obligation to maintain or preserve their political connection with the people of the other States, and will forthwith proceed to organize a separate government, and do all other acts and things which sovereign and independent States may of right do.\r\n\r\nAnd whereas the said ordinance prescribes to the people of South Carolina a course of conduct in direct violation of their duty as citizens of the United States, contrary to the laws of their country, subversive of its Constitution, and having for its object the instruction of the Union-that Union, which, coeval with our political existence, led our fathers, without any other ties to unite them than those of patriotism and common cause, through the sanguinary struggle to a glorious independence-that sacred Union, hitherto inviolate, which, perfected by our happy Constitution, has brought us, by the favor of Heaven, to a state of prosperity at home, and high consideration abroad, rarely, if ever, equaled in the history of nations; to preserve this bond of our political existence from destruction, to maintain inviolate this state of national honor and prosperity, and to justify the confidence my fellow-citizens have reposed in me, I, Andrew Jackson, President of the United States, have thought proper to issue this my PROCLAMATION, stating my views of the Constitution and laws applicable to the measures adopted by the Convention of South Carolina, and to the reasons they have put forth to sustain them, declaring the course which duty will require me to pursue, and, appealing to the understanding and patriotism of the people, warn them of the consequences that must inevitably result from an observance of the dictates of the Convention.\r\n\r\nStrict duty would require of me nothing more than the exercise of those powers with which I am now, or may hereafter be, invested, for preserving the Union, and for the execution of the laws. But the imposing aspect which opposition has assumed in this case, by clothing itself with State authority, and the deep interest which the people of the United States must all feel in preventing a resort to stronger measures, while there is a hope that anything will be yielded to reasoning and remonstrances, perhaps demand, and will certainly justify, a full exposition to South Carolina and the nation of the views I entertain of this important question, as well as a distinct enunciation of the course which my sense of duty will require me to pursue.\r\n\r\nThe ordinance is founded, not on the indefeasible right of resisting acts which are plainly unconstitutional, and too oppressive to be endured, but on the strange position that any one State may not only declare an act of Congress void, but prohibit its execution- that they may do this consistently with the Constitution-that the true construction of that instrument permits a State to retain its place in the Union, and yet be bound by no other of its laws than those it may choose to consider as constitutional. It is true they add, that to justify this abrogation of a law, it must be palpably contrary to the Constitution, but it is evident, that to give the right of resisting laws of that description, coupled with the uncontrolled right to decide what laws deserve that character, is to give the power of resisting all laws. For, as by the theory, there is no appeal, the reasons alleged by the State, good or bad, must prevail. If it should be said that public opinion is a sufficient check against the abuse of this power, it may be asked why it is not deemed a sufficient guard against the passage of an unconstitutional act by Congress. There is, however, a restraint in this last case, which makes the assumed power of a State more indefensible, and which does not exist in the other. There are two appeals from an unconstitutional act passed by Congress-one to the judiciary, the other to the people and the States. There is no appeal from the State decision in theory; and the practical illustration shows that the courts are closed against an application to review it, both judges and jurors being sworn to decide in its favor. But reasoning on this subject is superfluous, when our social compact in express terms declares, that the laws of the United States, its Constitution, and treaties made under it, are the supreme law of the land; and for greater caution adds, \"that the judges in every State shall be bound thereby, anything in the Constitution or laws of any State to the contrary notwithstanding.\" And it may be asserted, without fear of refutation, that no federative government could exist without a similar provision. Look, for a moment, to the consequence. If South Carolina considers the revenue laws unconstitutional, and has a right to prevent their execution in the port of Charleston, there would be a clear constitutional objection to their collection in every other port, and no revenue could be collected anywhere; for all imposts must be equal. It is no answer to repeat that an unconstitutional law is no law, so long as the question of its legality is to be decided by the State itself, for every law operating injuriously upon any local interest will be perhaps thought, and certainly represented, as unconstitutional, and, as has been shown, there is no appeal.\r\n\r\nIf this doctrine had been established at an earlier day, the Union would have been dissolved in its infancy. The excise law in Pennsylvania, the embargo and non-intercourse law in the Eastern States, the carriage tax in Virginia, were all deemed unconstitutional, and were more unequal in their operation than any of the laws now complained of; but, fortunately, none of those States discovered that they had the right now claimed by South Carolina. The war into which we were forced, to support the dignity of the nation and the rights of our citizens, might have ended in defeat and disgrace instead of victory and honor, if the States, who supposed it a ruinous and unconstitutional measure, had thought they possessed the right of nullifying the act by which it was declared, and denying supplies for its prosecution. Hardly and unequally as those measures bore upon several members of the Union, to the legislatures of none did this efficient and peaceable remedy, as it is called, suggest itself. The discovery of this important feature in our Constitution was reserved to the present day. To the statesmen of South Carolina belongs the invention, and upon the citizens of that State will, unfortunately, fall the evils of reducing it to practice.\r\n\r\nIf the doctrine of a State veto upon the laws of the Union carries with it internal evidence of its impracticable absurdity, our constitutional history will also afford abundant proof that it would have been repudiated with indignation had it been proposed to form a feature in our Government.\r\n\r\nIn our colonial state, although dependent on another power, we very early considered ourselves as connected by common interest with each other. Leagues were formed for common defense, and before the Declaration of Independence, we were known in our aggregate character as the United Colonies of America. That decisive and important step was taken jointly. We declared ourselves a nation by a joint, not by several acts; and when the terms of our confederation were reduced to form, it was in that of a solemn league of several States, by which they agreed that they would, collectively, form one nation, for the purpose of conducting some certain domestic concerns, and all foreign relations. In the instrument forming that Union, is found an article which declares that \"every State shall abide by the determinations of Congress on all questions which by that Confederation should be submitted to them.\"\r\n\r\nUnder the Confederation, then, no State could legally annul a decision of the Congress, or refuse to submit to its execution, but no provision was made to enforce these decisions. Congress made requisitions, but they were not complied with. The Government could not operate on individuals. They had no judiciary, no means of collecting revenue.\r\n\r\nBut the defects of the Confederation need not be detailed. Under its operation we could scarcely be called a nation. We had neither prosperity at home nor consideration abroad. This state of things could not be endured, and our present happy Constitution was formed, but formed in vain, if this fatal doctrine prevails. It was formed for important objects that are announced in the preamble made in the name and by the authority of the people of the United States, whose delegates framed, and whose conventions approved it.\r\n\r\nThe most important among these objects, that which is placed first in rank, on which all the others rest, is \"to form a more perfect Union.\" Now, is it possible that, even if there were no express provision giving supremacy to the Constitution and laws of the United States over those of the States, it can be conceived that an Instrument made for the purpose of \"forming; a more perfect Union\" than that of the confederation, could be so constructed by the assembled wisdom of our country as to substitute for that confederation a form of government, dependent for its existence on the local interest, the party spirit of a State, or of a prevailing faction in a State? Every man, of plain, unsophisticated understanding, who hears the question, will give such an answer as will preserve the Union. Metaphysical subtlety, in pursuit of an impracticable theory, could alone have devised one that is calculated to destroy it.\r\n\r\nI consider, then, the power to annul a law of the United States, assumed by one State, incompatible with the existence of the Union, contradicted expressly by the letter of the Constitution, unauthorized by its spirit, inconsistent with every principle on which It was founded, and destructive of the great object for which it was formed...\r\n\r\nThe wisdom of man never yet contrived a system of taxation that would operate with perfect equality. If the unequal operation of a law makes it unconstitutional and if all laws of that description may be abrogated by any State for that cause, then, indeed, is the federal Constitution unworthy of the slightest effort for its preservation. We have hitherto relied on it as the perpetual bond of our Union. We have received it as the work of the assembled wisdom of the nation We have trusted to it as to the sheet-anchor of our safety, in the stormy times of conflict with a foreign or domestic foe. We have looked to it with sacred awe as the palladium of our liberties, and with all the solemnities of religion have pledged to each other our lives and fortunes here, and our hopes of happiness hereafter, in its defense and support. Were we mistaken, my countrymen, in attaching this importance to the Constitution of our country? Was our devotion paid to the wretched, inefficient, clumsy contrivance, which this new doctrine would make it? Did we pledge ourselves to the support of an airy nothing-a bubble that must be blown away by the first breath of disaffection? Was this self-destroying, visionary theory the work of the profound statesmen, the exalted patriots, to whom the task of constitutional reform was intrusted? Did the name of Washington sanction, did the States deliberately ratify, such an anomaly in the history of fundamental legislation? No. We were not mistaken. The letter of this great instrument is free from this radical fault; its language directly contradicts the imputation, its spirit, its evident intent, contradicts it. No, we did not err. Our Constitution does not contain the absurdity of giving power to make laws, and another power to resist them. The sages, whose memory will always be reverenced, have given us a practical, and, as they hoped, a permanent constitutional compact. The Father of his Country did not affix his revered name to so palpable an absurdity. Nor did the States, when they severally ratified it, do so under the impression that a veto on the laws of the United States was reserved to them, or that they could exercise it by application\u2026\r\n\r\n...The Constitution of the United States, then, forms a government, not a league, and whether it be formed by compact between the States, or in any other manner, its character is the same. It is a government in which all the people are represented, which operates directly on the people individually, not upon the States; they retained all the power they did not grant. But each State having expressly parted with so many powers as to constitute jointly with the other States a single nation, cannot from that period possess any right to secede, because such secession does not break a league, but destroys the unity of a nation, and any injury to that unity is not only a breach which would result from the contravention of a compact, but it is an offense against the whole Union. To say that any State may at pleasure secede from the Union, is to say that the United States are not a nation...\r\n\r\n...The line has not been so distinctly drawn as to avoid doubts in some cases of the exercise of power. Men of the best intentions and soundest views may differ in their construction of some parts of the Constitution, but there are others on which dispassionate reflection can leave no doubt. Of this nature appears to be the assumed right of secession. It rests, as we have seen, on the alleged undivided sovereignty of the States, and on their having formed in this sovereign capacity a compact which is called the Constitution, from which, because they made it, they have the right to secede. Both of these positions are erroneous, and some of the arguments to prove them so have been anticipated.\r\n\r\nThe States severally have not retained their entire sovereignty...The right to make treaties, declare war, levy taxes, exercise exclusive judicial and legislative powers, were all functions of sovereign power. The States, then, for all these important purposes, were no longer sovereign. The allegiance of their citizens was transferred in the first instance to the government of the United States; they became American citizens, and owed obedience to the Constitution of the United States, and to laws made in conformity with the powers vested in Congress...The unity of our political character (as has been shown for another purpose) commenced with its very existence. Under the royal government we had no separate character; our opposition to its oppression began as UNITED COLONIES. We were the UNITED STATES under the Confederation, and the name was perpetuated and the Union rendered more perfect by the federal Constitution. In none of these stages did we consider ourselves in any other light than as forming one nation...the national Constitution had been formed by compact, there would be no right in any one State to exonerate itself from the obligation...\r\n\r\nSo obvious are the reasons which forbid this secession, that it is necessary only to allude to them. The Union was formed for the benefit of all. It was produced by mutual sacrifice of interest and opinions...  \r\n...A small majority of the citizens of one State in the Union have elected delegates to a State convention; that convention has ordained that all the revenue laws of the United States must be repealed, or that they are no longer a member of the Union. The governor of that State has recommended to the legislature the raising of an army to carry the secession into effect, and that he may be empowered to give clearances to vessels in the name of the State. No act of violent opposition to the laws has yet been committed, but such a state of things is hourly apprehended, and it is the intent of this instrument to PROCLAIM, not only that the duty imposed on me by the Constitution, '` to take care that the laws be faithfully executed,\" shall be performed to the extent of the powers already vested in me by law or of such others as the wisdom of Congress shall devise and Entrust to me for that purpose; but to warn the citizens of South Carolina, who have been deluded into an opposition to the laws, of the danger they will incur by obedience to the illegal and disorganizing ordinance of the convention-to exhort those who have refused to support it to persevere in their determination to uphold the Constitution and laws of their country, and to point out to all the perilous situation into which the good people of that State have been led, and that the course they are urged to pursue is one of ruin and disgrace to the very State whose rights they affect to support.\r\n\r\nFellow-citizens of my native State! let me not only admonish you, as the first magistrate of our common country, not to incur the penalty of its laws, but use the influence that a father would over his children whom he saw rushing to a certain ruin. In that paternal language, with that paternal feeling, let me tell you, my countrymen, that you are deluded by men who are either deceived themselves or wish to deceive you. Mark under what pretenses you have been led on to the brink of insurrection and treason on which you stand!...The great political truth was repeated to you that you had the revolutionary right of resisting all laws that were palpably unconstitutional and intolerably oppressive-it was added that the right to nullify a law rested on the same principle, but that it was a peaceable remedy! ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/140",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University at HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Nack, James, excerpt from \u201cAn ode on the proclamation of President Jackson,\u201d Digital Public Library of America, https://dp.la/item/fd2b65d463af6bb5b8d8f7ac55ff6b07."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/141",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2016-03-25",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2016-03-25",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Library of Congress via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Von Bergen, William, excerpt from \u201cThe rare coins of America, England, Ireland, Scotland, France, Germany, and Spain,\u201d Digital Public Library of America, https://dp.la/item/a9e7ae85867526a524c793d6a3af0b8b."
+                  }
+               ]
+            }
+         ],
+         "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/142",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cThe Political Barbecue. Going the Whole Hog,\u201d Digital Public Library of America, https://dp.la/item/dc6ea846c0367dd7e86b0a3a597a0190."
+                  }
+               ]
+            }
+         ],
+         "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/143",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPresident Andrew Jackson's Message to Congress \u2018On Indian Removal\u2019,\u201d Digital Public Library of America, https://dp.la/item/5d706f7160cbbda05060c40326f122f4."
+                  }
+               ]
+            }
+         ],
+         "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+         "text": "Transcription:\r\n\r\nIt gives me pleasure to announce to Congress that the benevolent policy of the Government, steadily pursued for nearly thirty years, in relation to the removal of the Indians beyond the white settlements is approaching to a happy consummation. Two important tribes have accepted the provision made for their removal at the last session of Congress, and it is believed that their example will induce the remaining tribes also to seek the same obvious advantages.\r\n\r\nThe consequences of a speedy removal will be important to the United States, to individual States, and to the Indians themselves. The pecuniary advantages which it promises to the Government are the least of its recommendations. It puts an end to all possible danger of collision between the authorities of the General and State Governments on account of the Indians. It will place a dense and civilized population in large tracts of country now occupied by a few savage hunters. By opening the whole territory between Tennessee on the north and Louisiana on the south to the settlement of the whites it will incalculably strengthen the southwestern frontier and render the adjacent States strong enough to repel future invasions without remote aid. It will relieve the whole State of Mississippi and the western part of Alabama of Indian occupancy, and enable those States to advance rapidly in population, wealth, and power. It will separate the Indians from immediate contact with settlements of whites; free them from the power of the States; enable them to pursue happiness in their own way and under their own rude institutions; will retard the progress of decay, which is lessening their numbers, and perhaps cause them gradually, under the protection of the Government and through the influence of good counsels, to cast off their savage habits and become an interesting, civilized, and Christian community. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/144",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/145",
+               "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_11a_ac04843058a6215686943bdf9e788d31.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Hargrett Library via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Cherokee Nation, excerpt from \u201cRemoval of the Cherokee Indians,\u201d Digital Public Library of America, https://dp.la/item/1026a4129c6d2bbc1b972093e1f6fa03."
+                  }
+               ]
+            }
+         ],
+         "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+         "text": "Transcription:\r\n\r\nBut if we are compelled to leave our country, we see nothing but ruin before us. The country west of the Arkansas territory is unknown to us. From what we can learn of it, we have no prepossessions in its favor. All the inviting parts of it, as we believe, are pre-occupied by various Indian nations, to which it has been assigned. They would regard us as intruders, and look upon us with an evil eye. The far greater part of that region is, beyond all controversy, badly supplied with wood and water; and no Indian tribe can live as agriculturalists without these articles. All our neighbors, in case of our removal, though crowded into our near vicinity, would speak a language totally different from ours, and practice different customs. The original possessors of that region are now wandering savages, lurking for prey in the neighborhood. They have always been at war, and would be easily tempted to turn their arms against peaceful emigrants. Were the country to which we are urged much better than it is represented to be, and were it free from the objections which we have made to it, still it is not the land of our birth, nor our affections. It contains neither the scenes of our childhood, nor the graves of our fathers.\r\n\r\nThe removal of families to a new country, even under the most favorable auspices, and when the spirits are sustained by pleasing visions of the future, is attended with much depression of mind and sinking of heart. This is the case, when the removal is a matter of decided preference, and when the persons concerned are in early youth or vigorous manhood. Judge, then, what must be the circumstances of a removal, when a whole community, embracing persons of all classes and every description, from the infant to the man of extreme old age, the sick, the blind, the lame,\u2014the improvident, the reckless, the desperate, as well as the prudent, the considerate, the industrious, are compelled to remove by odious and intolerable vexations and persecutions brought upon them in the forms of law, when all will agree only in this, that they have been cruelly robbed of their country, in violation of the most solemn compacts, which it is possible for communities to form with each other; and that, if that should make themselves comfortable in their new residence, they have nothing to expect hereafter but to be the victims of a future legalized robbery!\r\n\r\nSuch we deem, and are absolutely certain, will be the feelings of the whole Cherokee people, if they are forcibly compelled by the laws of Georgia to remove; and with these feelings, how is it possible that we should pursue our present course of improvement, or avoid sinking into utter despondency? We have been called a poor, ignorant, and degraded people. We certainly are not rich; nor have we ever boasted of our knowledge, or our moral or intellectual elevation. But there is not a man within our limits, so ignorant as not to know that he has a right to live on the land of his fathers, in the possession of his immemorial privileges, and that this right has been acknowledged and guaranteed by the United States; nor is there a man so degraded as not to feel a keen sense of injury, on being deprived of this right and driven into exile.\r\n\r\nIt is under a sense of the most pungent feelings that we make this, perhaps our last appeal to the good people of the United States. It cannot be that the community we are addressing, remarkable for its intelligence and religious sensibilities, and pre-eminent for its devotion to the rights of man, will lay aside this appeal, without considering that we stand in need of its sympathy and commiseration. We know that to the Christian and the Philanthropist the voice of our multiplied sorrows and fiery trials will not appear as an idle tale. In our own land, on our own soil, and in our own dwellings, which we reared for our wives and for our little ones, when there was peace on our mountains and in our valleys, we are encountering troubles which cannot but try our very souls. But shall we, on account of these troubles, forsake our beloved country? Shall we be compelled by a civilized and christian people, with whom we have lived in perfect peace for the last forty years, and for whom we have willingly bled in war, to bid a final adieu to our homes, our farms, streams and our beautiful forests?",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/145",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2020-07-22",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/134",
+               "name": "An 1830 engraving of President Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_01_6ec5f86f585a556cb557ec25a3d7c755_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/135",
+               "name": "Illustrations from an 1846 book, *Pictorial Life of Andrew Jackson*, with engraved scenes from Jackson\u2019s life. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_02_34f0124dbc897c2f132b692cf8ad0baf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/136",
+               "name": "A satin printed copy of Jackson\u2019s First Inaugural Address in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_03_1a42493531fd5424716a27b2ef48cf15_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/137",
+               "name": "Jackson\u2019s first presidential veto was the Maysville Road Bill in 1829.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_04_647c063e5f1edba83792a2c9dc99fd62_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/138",
+               "name": "Jackson\u2019s veto of the incorporation of the Second Bank of the United States, 1832.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_05_4e52a27ab3181dc6aab4c42597fd8f1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/139",
+               "name": "A South Carolinian copy of Jackson\u2019s 1833 message about nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_06_5fb3e0aa678d7dec884c869d62acdc10_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/140",
+               "name": "An 1833 ode by James Nack attacking Jackson on the issue of nullification.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_07_fd2b65d463af6bb5b8d8f7ac55ff6b07_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/141",
+               "name": "Images of \u201chard times tokens\u201d made between 1834 and 1841 to mock the economic policies of Andrew Jackson.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_08_a9e7ae85867526a524c793d6a3af0b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/142",
+               "name": "A political cartoon about the controversy surrounding Jackson's removal of federal deposits from the Bank of the United States, 1832-33.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_09_dc6ea846c0367dd7e86b0a3a597a0190_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/143",
+               "name": "Andrew Jackson\u2019s 1830 message to Congress concerning Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_10_5d706f7160cbbda05060c40326f122f4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/144",
+               "name": "Part of an 1830 pamphlet printed by the Cherokee nation discussing Indian Removal.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_11_ac04843058a6215686943bdf9e788d31_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Caroliniana Library via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Wallace, W. \u201cAndrew Jackson,\u201d Digital Public Library of America, https://dp.la/item/25001673ad75357401649bc0f17ea391."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1842 poem written to commemorate the death of Andrew Jackson.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_12_1ab111bfa22ab032705c9ffbff88fd0d_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-jacksonian-democracy",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Ripley High School, West Virginia"
+               },
+               "name": "Adena Barnette"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-11-19",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-11-19",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the two presidential vetoes, explain why Jackson vetoed the [Maysville Road Bill](http://dp.la/primary-source-sets/sources/137) and the [Bank of the United States bill](http://dp.la/primary-source-sets/sources/138). Could these vetoes be seen as democratic or nationalistic?\r\n\r\n2. According to Jackson\u2019s 1833 [message about nullification](http://dp.la/primary-source-sets/sources/139) and the [ode by James Nack](http://dp.la/primary-source-sets/sources/140), what is nullification? What is Jackson\u2019s message to the South Carolinians during the Nullification Crisis? Could Jackson\u2019s words be seen as an act of preserving the union?\r\n\r\n3. While viewing the [images of \u201chard times tokens\u201d](http://dp.la/primary-source-sets/sources/141) and the [political cartoon about public opinion regarding Jackson and bank deposits](http://dp.la/primary-source-sets/sources/142), determine whether a President could/should take actions that affect a country\u2019s economic system. Do you believe Jackson caused the Panic of 1837 by vetoing the Bank of the United States?\r\n\r\n4. Using [Jackson\u2019s message to Congress concerning Indian Removal](http://dp.la/primary-source-sets/sources/143) and the [1830 pamphlet by the Cherokee nation](http://dp.la/primary-source-sets/sources/144), determine whether Indian Removal was a democratic action taken by the federal government or an invasion of Cherokee sovereignty.\r\n\r\n5. Using the [1830 engraving](http://dp.la/primary-source-sets/sources/134), the [illustrations](http://dp.la/primary-source-sets/sources/135), the [printed copy of Jackson\u2019s inaugural address](http://dp.la/primary-source-sets/sources/136), and the [1842 poem](http://dp.la/primary-source-sets/sources/145), explain how Jackson remembered in the American consciousness? Should this memory be preserved or should it change with the times and our understanding of democratic ideals?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Write an essay arguing whether Andrew Jackson\u2019s actions as president were democratic or nationalistic. What do each of these terms mean? Determine your stance through research and discovery and defend your choice by citing specific sources in the document set.\r\n\r\n2. In the [1833 ode](http://dp.la/primary-source-sets/sources/140), the author mockingly compares Andrew Jackson to George Washington. Use this ode and other items in this set to compare the military service and presidency of the two. \r\n\r\n3. In class, hold a mock treason trial of Andrew Jackson, charging him with crimes against humanity for causing the Panic of 1837 and the Trail of Tears. Use items in this set as evidence and to prepare arguments for the trial. (Look especially at the two presidential vetoes, the [images of \u201chard times tokens\u201d](http://dp.la/primary-source-sets/sources/141), the [political cartoon about public opinion regarding Jackson and bank deposits](http://dp.la/primary-source-sets/sources/142), [Jackson\u2019s message to Congress concerning Indian Removal](http://dp.la/primary-source-sets/sources/143), the [1830 pamphlet by the Cherokee nation](http://dp.la/primary-source-sets/sources/144) and the [1842 poem](http://dp.la/primary-source-sets/sources/145)). The two sides of the trial should offer a rich debate on Jackson\u2019s political decisions. Extend your understanding of Jackson by pulling in materials from his military campaigns. Compare Jackson\u2019s choices to those of other historical players. \r\n"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "@type": "CreativeWork",
+            "name": "Jacksonian Democracy?"
+         },
+         "name": "Teaching Guide: Exploring Jacksonian Democracy"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Letters written by Andrew Jackson](http://dp.la/search?page_size=100&partner%5B%5D=National+Archives+and+Records+Administration&q=andrew+jackson&type%5B%5D=text&utf8=%E2%9C%93), National Archives and Records Administration via Digital Public Library of America. \r\n\r\n2. [King Andrew and the Bank](http://www.neh.gov/humanities/2008/januaryfebruary/feature/king-andrew-and-the-bank), *Humanities: The Magazine of the National Endowment for the Humanities*. \r\n\r\n3. [Andrew Jackson](https://www.whitehouse.gov/1600/presidents/andrewjackson), The White House. \r\n\r\n4. [Andrew Jackson: Tough as Old Hickory](http://thehermitage.com/learn/andrew-jackson/), The Hermitage. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "Andrew Jackson\u2019s two terms as President (1829-1837) included many tests of the American Democratic system. Jackson vetoed twelve pieces of legislation, including the Maysville Road Bill and the rechartering of the Second Bank of the United States. Jackson also oversaw Indian Removal and weathered South Carolina\u2019s nullification crisis over what the Carolinians called the Tariff of Abominations. Jackson\u2019s presidency has been known as the \u201cera of the common man,\u201d a time when voting rights were extended to all white men in almost every state. This era also saw the rise of American Democratic Party. However, recent scholarship argues that the 1830s was a time of staunch nationalism as the Southern cottonocracy spread its plantation system further west. The purpose of this primary source set is to weigh both sides of the argument and decide whether Jackson\u2019s presidency was a time of democracy, a time of rising nationalism or a combination of the two. \r\n"
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+         "name": "The Lewis and Clark Expedition",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+         "name": "Manifest Destiny",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+         "name": "The Panic of 1837",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/powhatan-people-and-the-english-at-jamestown",
+         "name": "Powhatan People and the English at Jamestown",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/spanish-missions-in-california",
+         "name": "Spanish Missions in California",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-boston-tea-party",
+         "name": "The Boston Tea Party",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+         "name": "The American Whaling Industry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/patronage-and-populism-the-politics-of-the-gilded-age",
+         "name": "Patronage and Populism: The Politics of the Gilded Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+         "name": "Exploration of the Americas",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-wounded-knee-massacre",
+         "name": "The Wounded Knee Massacre",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/rise-of-conservatism-in-the-1980s",
+         "name": "Rise of Conservatism in the 1980s",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+         "name": "The War of 1812",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/creating-the-us-constitution",
+         "name": "Creating the US Constitution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+         "name": "Secession of the Southern States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-deal",
+         "name": "The New Deal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cross-cultural-colonial-conflicts",
+         "name": "Cross-Cultural Colonial Conflicts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/shays-rebellion",
+         "name": "Shays' Rebellion",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+         "name": "Road to Revolution: 1763-1776",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-indian-boarding-schools",
+         "name": "American Indian Boarding Schools",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Jacksonian Democracy?",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg",
+   "typicalAgeRange": "11-18"
+}

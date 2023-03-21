@@ -1,0 +1,2346 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Emergence of Modern America (1890-1930)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-7"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Social Movements"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "New York City Department of Education"
+         },
+         "name": "Lakisha Odlum"
+      }
+   ],
+   "dateCreated": "2018-02-22",
+   "dateModified": "2020-07-21",
+   "dct:created": "2018-02-22",
+   "dct:modified": "2020-07-21",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the Second Klu Klux Klan and its relationship the film The Birth of a Nation.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_01_60bef864401eb1ba76f4983557909037.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Chicago History Museum via Illinois Digital Heritage Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cKu Klux Klan's flag,\u201d Digital Public Library of America, https://dp.la/item/60bef864401eb1ba76f4983557909037.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A Ku Klux Klan flag, 1865.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+         "text": "This early Ku Klux Klan flag is peach-colored and triangular-shaped with a wide scalloped border of lavender taffeta. There is a large black winged dragon in the center of the flag, surrounded by a Latin motto, which translates in English as: \u201cThat which always, that which everywhere, that which by all had been held to be true,\u201d or \u201cWhat was right for all times and places.\u201d",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2020-07-21",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Avery Research Center at the College of Charleston via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cKu Klux Klan whip,\u201d Digital Public Library of America, https://dp.la/item/160ba100d97d2f892dfa35f035cd8c16. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A Ku Klux Klan whip, ca. 1875.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+         "text": "This Ku Klux Klan whip has \u201cKKK\u201d burned into its wooden handle. The whip is made of a heavy material belt. Members of the First Klan often used whips and other weapons to threaten and harm Unionists and newly emancipated African Americans in the years after the Civil War. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Duke University Libraries via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMembership in the Ku Klux Klan,\u201d Digital Public Library of America, https://dp.la/item/fa1fc80731d276ebda242dcea4a83dc5. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+         "text": "This flyer advocates for \u201cPure Americanism,\u201d and refers to the KKK as a \u201cProtestant\u201d organization. The Ku Klux Klan was anti-Catholic in response to the influx of Irish and German immigrants to the United States and the belief that Catholicism was anti-democratic.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Atlanta History Center via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cFrank, Leo, circa 1913,\u201d Digital Public Library of America, https://dp.la/item/41033d13a61df7a3b49d000272be1854 \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+         "text": "[Leo Frank](https://dp.la/exhibitions/exhibits/show/leo-frank) was a manager at a pencil factory in Marietta, Georgia. Frank was convicted on questionable evidence of the rape and murder of thirteen-year-old Mary Phagan. Shortly after his death sentence was commuted to life in prison, Frank, who was Jewish, was kidnapped and lynched by a group of men. When William J. Simmons heard of Frank\u2019s lynching, he was inspired to create the Second Ku Klux Klan in a ritual that reenacted a cross-burning scene from the film *The Birth of a Nation* at Stone Mountain, Georgia, in 1915. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of New Georgia Encyclopedia (Project) via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWilliam J. Simmons,\u201c Digital Public Library of America, https://dp.la/item/650190d8a72f5ef0a5cce4d8f602d34c.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+         "text": "In this photograph, William J. Simmons sits during a 1921 investigation of the Ku Klux Klan by a US House of Representatives committee. He faces front, and several men sit in the background. Simmons was inspired to reestablish the Klan in 1915 after seeing D. W. Griffith's film, *The Birth of a Nation*, and learning about the Leo Frank trial in Atlanta, Georgia. Simmons designed the hooded uniforms and secret rituals associated with the organization.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cD.W. Griffith,\u201d Digital Public Library of America, https://dp.la/item/34bc9a9a613d4d08175dbb9511b15363.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+         "text": "D. W. Griffith, the son of a Kentucky slave owner, became one of the silent-screen era's most influential directors. He is best remembered for his epic film *The Birth of a Nation* (1915). The film portrayed the Ku Klux Klan as the solution to preventing African Americans from \u201ctaking over\u201d the country during Reconstruction. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Breil, Joseph Carl, D.W. Griffith, G.W. Bitzer, and Thomas Dixon, excerpt from \u201cD.W. Griffith's Birth of a nation,\u201d Digital Public Library of America, https://dp.la/item/c6fd60c4181838394d7cfe79063fbf8f.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+         "text": "This entire  illustrated program includes the cast of characters, an article on D. W. Griffith, a tribute to the motion picture by Rupert Hughes, an article by Thomas Dixon, a plot synopsis, technical details of the motion picture, a selection of favorable reviews, and illustrated scenes from the motion picture. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBirth Of A Nation,\u201c Digital Public Library of America, https://dp.la/item/7c30c0e7238c504aa9835cb239ecfe9a.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+         "text": "*The Birth of a Nation* was controversial because of the way it glorified the Ku Klux Klan\u2014a white supremacist organization. The movie poster depicts a heroic version of a member of the Ku Klux Klan, wearing traditional KKK attire, riding a horse, and holding a burning torch. The KKK often used the flame in ceremonies and rituals and to burn and terrify people of color. Members of the KKK often wore masks to hide their identities and to intimidate others. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Abrams, Alyse, \u201cBirth of a Nation,\u201d Digital Public Library of America, https://dp.la/item/fdfafb7837e7b67435b2c4da4026b418.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+         "text": "This essay from Alyse Abrams\u2019 Writing Program discusses the way *The Birth of a Nation* was received by viewers. Although politicians and African Americans were opposed to the film, the majority of people enjoyed and praised it. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Special Collections and University Archives, University of Massachusetts Amherst Libraries via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cKu Klux Klan secrets exposed,\u201c Digital Public Library of America, https://dp.la/item/043b762ba50b6e14fbc47d610c5522a5.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+         "text": "This book includes various articles about the history, practices, and attitudes of the Ku Klux Klan. It also mentions actions taken against the KKK by various groups.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Temple University via PA Digital."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cKu Klux Klan initation ceremony,\u201d Digital Public Library of America, https://dp.la/item/cf73a9bcc1d6f83d355cfd696ab6c784.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+         "text": "In this photograph, a group of masked men, including United States sailors, is being initiated into the Ku Klux Klan. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_12_0a8f20360f2f479868650de31aefec42.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Ball State University, University Libraries, Archives and Special Collections via Indiana Memory."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cKu Klux Klan parade,\u201d Digital Public Library of America, https://dp.la/item/0a8f20360f2f479868650de31aefec42. \r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+         "text": "In this photograph, a group of KKK members march around a town in Indiana wearing traditional KKK regalia and carrying both the American flag and the KKK flag. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Special Collections and University Archives, University of Massachusetts Amherst Libraries via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Press Service of the National Association for the Advancement of Colored People, \u201cPress releases from the Press Service of the NAACP,\u201d Digital Public Library of America, https://dp.la/item/2ee3719f4e9ea77f36885f121895e398.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+         "text": "This press release includes details of a report written by Walter White, a civil rights activist and journalist, about the lynching of Bertha Lowman. Lowman, her brother, and her cousin were lynched by the Ku Klux Klan in Aiken, South Carolina.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2020-07-21",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2020-07-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+               "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Avery Research Center at the College of Charleston via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cKu Klux Klan uniform,\u201d Digital Public Library of America, https://dp.la/item/9aeaaa8f2f506f66d5c98ab6d3b8ce2f.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A Ku Klux Klan uniform, ca. 1930.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "text": "This Ku Klux Klan uniform is hooded and white. It includes a cord belt and tassel with the KKK insignia. The insignia is a cross with a drop of blood in the middle of it, which represents Christianity and the white supremacist belief in the purity of the white race. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1747",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1733",
+               "name": "A Ku Klux Klan flag, 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_01_60bef864401eb1ba76f4983557909037_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1734",
+               "name": "A Ku Klux Klan whip, ca. 1875.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_02_094d1128ec85491af2ac7d11ef36d1c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1735",
+               "name": "A flyer explaining the purpose of the Ku Klux Klan from the second half of the nineteenth century.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_03_fa1fc80731d276ebda242dcea4a83dc5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1736",
+               "name": "A photograph of Jewish businessman Leo Frank at his murder trial in a courtroom in Marietta, Georgia, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_04_6de7b2fe73bdd50628342c32e83bb2d3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1737",
+               "name": "A photograph of William J. Simmons, the founder of the Second Ku Klux Klan, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_05_fefe9d924cc36c042749cacf71809d9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1738",
+               "name": "A photograph of early twentieth-century filmmaker D. W. Griffith who produced *The Birth of A Nation*, ca. 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_06_34bc9a9a613d4d08175dbb9511b15363_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1739",
+               "name": "An excerpt from a souvenir program for the silent film *The Birth of a Nation*, 1915. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_07_c6fd60c4181838394d7cfe79063fbf8f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1740",
+               "name": "A movie poster for D. W. Griffith\u2019s film *The Birth of a Nation*, 1921.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_08_7c30c0e7238c504aa9835cb239ecfe9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1741",
+               "name": "An essay discussing the reception of *The Birth of a Nation*, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_09_fdfafb7837e7b67435b2c4da4026b418_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1742",
+               "name": "An excerpt from a book entitled *Ku Klux Klan Secrets Exposed*, 1921. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_10_043b762ba50b6e14fbc47d610c5522a5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1743",
+               "name": "A photograph of a Ku Klux Klan initiation ceremony in Philadelphia, Pennsylvania, 1925.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_11_cf73a9bcc1d6f83d355cfd696ab6c784_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1744",
+               "name": "A photograph of a Ku Klux Klan rally in Indiana, 1920s-1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_12_0a8f20360f2f479868650de31aefec42_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1745",
+               "name": "A press release from the National Association for the Advancement of Colored People (NAACP) about a Ku Klux Klan lynching, 1926.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_13_2ee3719f4e9ea77f36885f121895e398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1746",
+               "name": "A Ku Klux Klan uniform, ca. 1930.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Georgia State University Libraries, Special Collections via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cKu Klux Klan mailer asking reader to buy only American goods,\u201d Digital Public Library of America, https://dp.la/item/900f611a6436ec199875fc78f06abea6\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A Ku Klux Klan mailer asking the reader to buy only American goods, 1940.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_rep.jpg",
+         "text": "This letter from the Ku Klux Klan is concerned with Americans buying only from Christian, American businesses. The letterhead at the top says \"The Klan Rides Again. Communism Will Not Be Tolerated.\"",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_15_fe160e79c229c9cc8e2e504171554a82_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-second-ku-klux-klan",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "New York City Department of Education"
+               },
+               "name": "Lakisha Odlum"
+            }
+         ],
+         "dateCreated": "2018-02-22",
+         "dateModified": "2018-02-24",
+         "dct:created": "2018-02-22",
+         "dct:modified": "2018-02-24",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the [KKK flag](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1733), the [KKK whip](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1734), and the [KKK uniform](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1746), analyze the symbols and accessories developed by the KKK. What mood do they create? What similarities and difference do you notice between the objects from the First Klan and the object from the Second Klan? \r\n2. How did the Ku Klux Klan spread their message? According to the [flyer explaining the purpose of the Ku Klux Klan](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1735) and the [mailer asking the reader to buy only American goods](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1747), what values did they want to \u201cprotect\u201d? \r\n3. The Ku Klux Klan is a domestic terrorist organization. Which information in the sources supports this claim? Examine the [KKK whip](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1734), the [excerpt from *Ku Klux Klan Secrets Exposed*](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1742), the [KKK uniform](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1746), and the [press release from the NAACP](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1745), in particular.\r\n4. Compare the [photograph of a KKK initiation ceremony](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1743) and the [photograph of a KKK rally in Indiana](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1744). Who attended KKK rallies? Who is being initiated in the KKK ceremony? What do these sources reveal about who the Ku Klux Klan wanted to recruit? \r\n5. In the [essay discussing the reception of *The Birth of a Nation*](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1741), Alyse Abrams explains reactions to the film on its opening night in 1915. What was the anticipated response and why? What actually happened and what does this reveal about white supremacist ideology during this era? \r\n6. How do the images in the [souvenir program](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1739) reflect ideas about the \u201cpurity\u201d of white womanhood and the Klan\u2019s beliefs about the Civil War that are also perpetuated in the film?\r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Ask students to use this set\u2019s examples of KKK propaganda, the [flyer](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1735) and the [mailer](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1747), along with other sources to create a concept map outlining the main and supporting ideas of the Second Klan\u2019s ideology. Once they have finished concept maps, ask each student to find one recent news story about KKK activity (like this [2017 news story from Waynesboro, Virginia](http://www.whsv.com/content/news/KKK-recruitment-fliers-placed-on-vehicles-in-the-area-457842093.html)). Using the concept maps for reference, discuss as a whole group how the contemporary KKK uses familiar and new strategies to spread their ideology compared to previous versions of the organization.\r\n2. Show clips from the film *The Birth of a Nation* and ask students to review the [souvenir program](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1739), the [movie poster](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1740), and the [essay](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1741) about the film. Have a class discussion about how the film characterizes both African Americans and members of the Ku Klux Klan. Then ask students to write an individual letter to the local newspaper editor detailing and reacting to these portrayals from the film and its promotional materials and addressing the potential impacts on viewers.\r\n3. Using the [flyer explaining the purpose of the Ku Klux Klan](https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1735) and additional research, ask students to consider the KKK\u2019s stance on immigration alongside that of earlier nativist leaders and groups from the nineteenth century. Working individually, students should select one of the following and do research to identify a time period, immigration stance, and sphere of influence: The Know Nothing (or American) Party, The American Protective Association, Denis Kearney, or The Immigration Restriction League. After outside research, each student should write a short essay that makes an argument in response to this question: How did the immigration views of the Second Ku Klux Klan build on or diverge from the views of this leader/group? \r\n4. Ask students to listen to this [talk by Reverend Delmar Dennis](http://americanarchive.org/catalog/cpb-aacip_28-n00zp3wb83) of Meridian, Mississippi, given July 30, 1968, regarding his infiltration of the Ku Klux Klan. Dennis was undercover as a member of the Third Klan in 1960s Mississippi to learn about the murders of civil rights workers James Chaney, Andrew Goodman, and Michael Schwerner by KKK members. After listening to the talk, ask students to work in small groups or as a whole class to generate a list of KKK motivations, strategies, and routines that they learned from the talk and make connections to the sources in this set.\r\n"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+            "@type": "CreativeWork",
+            "name": "Second Ku Klux Klan and *The Birth of a Nation*"
+         },
+         "name": "Teaching Guide: Exploring the Second Ku Klux Klan"
+      },
+      {
+         "name": "Resources",
+         "text": "1. \u201c[When Bigotry Paraded Through the Streets](https://www.theatlantic.com/politics/archive/2016/12/second-klan/509468/),\u201d *The Atlantic*, December 4, 2016. \r\n2. [Digital Collections: Ku Klux Klan](https://lib.msu.edu/branches/dmc/collectionbrowse/?coll=22), Michigan State University.  \r\n3. \u201c[100 Years Later, What's The Legacy Of 'Birth Of A Nation'?](https://www.npr.org/sections/codeswitch/2015/02/08/383279630/100-years-later-whats-the-legacy-of-birth-of-a-nation),\u201d National Public Radio, February 8, 2015.  \r\n4. [*Tragedy in the New South: The Murder of Mary Phagan and the Lynching of Leo Frank*](https://dp.la/exhibitions/exhibits/show/leo-frank), Digital Public Library of America. \r\n5. [KKK Newspapers](https://kkknews.revealdigital.com/), Hate in America: The Rise and Fall of the Ku Klux Klan in the 1920s, Reveal Digital."
+      },
+      {
+         "name": "Overview",
+         "text": "The Ku Klux Klan (KKK) is a historically violent American organization that has operated in three periods to promote white supremacy and white nationalism and resist immigration. Founded after the Civil War as a secret society by Confederate generals, the First Klan\u2019s primary focus was subverting Republican Reconstruction policies and preventing emancipated African Americans from receiving the benefits of citizenship. Despite its success disrupting black political participation through threats and actual violence, federal government efforts to suppress the Klan in 1870-1871 forced in a major decline in its activities. \r\n\r\nThe emergence of the United States as an industrial nation, coupled with the [influx of immigrants](https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930) into the country at the turn of the twentieth century, led to a resurgence of the KKK. Racist propaganda fueled its reorganization and appeal to new members. D. W. Griffith\u2019s massively popular 1915 film *The Birth of a Nation*, set during Reconstruction, is credited with spreading and normalizing the Klan\u2019s racist ideologies. Based on Thomas Dixon\u2019s 1905 novel *The Clansman*, *The Birth of a Nation* used white actors in blackface to portray African Americans as lazy, ignorant, and violent. The film suggests that if granted full citizenship, African Americans would abuse it and threaten the security and \u201cpurity\u201d of the white race. It positions the First Klan as the protectors of whiteness. \r\n\r\nOfficially reorganized as a fraternal organization in 1915, the Second Klan paid full-time recruiters and operated in every state from a national headquarters. At the peak of its popularity in 1924-5, the organization claimed four to five million men as members, or about fifteen percent of the nation's eligible population. It espoused nativist ideologies, discriminated against any group it deemed \u201cun-American,\u201d and supported the culture of Jim Crow segregation with threats and violent acts, such as lynchings. The Second Klan was the KKK\u2019s period of greatest popularity and centralized organization, which lasted until 1944. Today classified as a terrorist organization, the Third and current Klan began in independent local groups in 1946 to oppose the Civil Rights Movement, but its membership numbers remain much lower at 5,000-8,000."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/settlement-houses-in-the-progressive-era",
+         "name": "Settlement Houses in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fake-news-in-the-1890s-yellow-journalism",
+         "name": "Fake News in the 1890s: Yellow Journalism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+         "name": "John Brown's Raid on Harper\u2019s Ferry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frank-lloyd-wright-and-modern-american-architecture",
+         "name": "Frank Lloyd Wright and Modern American Architecture",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/theodore-dreiser-s-sister-carrie-and-the-urbanization-of-chicago",
+         "name": "Theodore Dreiser\u2019s *Sister Carrie* and the Urbanization of Chicago",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beginnings-of-the-american-red-cross",
+         "name": "Beginnings of the American Red Cross",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+         "name": "Blackface Minstrelsy in Modern America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-rise-of-italian-fascism-and-its-influence-on-europe",
+         "name": "The Rise of Italian Fascism and Its Influence on Europe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+         "name": "ACT UP and the AIDS Crisis",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-temperance-movement",
+         "name": "Women and the Temperance Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/when-miners-strike-west-virginia-coal-mining-and-labor-history",
+         "name": "When Miners Strike: West Virginia Coal Mining and Labor History",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+         "name": "Immigration and Americanization, 1880-1930",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/visual-art-during-the-harlem-renaissance",
+         "name": "Visual Art During the Harlem Renaissance",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/art-during-harlem-renaissance_00_b945bc5a8bda295b5e0765a190a3e075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/art-during-harlem-renaissance_00_b945bc5a8bda295b5e0765a190a3e075.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-imperialism-the-spanish-american-war",
+         "name": "American Imperialism: The Spanish-American War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+         "name": "The Panama Canal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

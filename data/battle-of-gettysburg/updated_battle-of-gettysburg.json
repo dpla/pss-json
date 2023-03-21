@@ -1,0 +1,2167 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Civil War and Reconstruction (1850-1877)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-5"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      }
+   ],
+   "dateCreated": "2017-09-18",
+   "dateModified": "2020-07-22",
+   "dct:created": "2017-09-18",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the Battle of Gettysburg during the American Civil War.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The Museum of Modern Art (MoMA) via Metropolitan New York Library Council and Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gardner, Alexander, and Timothy O\u2019Sullivan, \u201cGettysburg, Pennsylvania,\u201d Digital Public Library of America, https://dp.la/item/6a29827ca186a7bbfdb5db2129e6528d."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+         "text": "This photograph of the town of Gettysburg after the arrival of army forces is the work of Civil War photographers Alexander Gardner and Timothy O\u2019Sullivan. With other photographers, Gardner and O\u2019Sullivan captured many scenes at Gettysburg and shared them with the American public through exhibits and publications. Photographers at Gettysburg and other Civil War battles carried heavy, cumbersome equipment onto the field and risked personal safety in order to document the war. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The Museum of Modern Art (MoMA) via Metropolitan New York Library Council and Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gardner, Alexander, and Timothy O\u2019Sullivan, \u201cHead-Quarters Major General George G. Meade (During the Battle of Gettysburg),\u201d Digital Public Library of America, https://dp.la/item/21f484ca9baa33d6aff89488eb45229b."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+         "text": "The Army of the Potomac, commanded by Union Major General George Meade, used Gettysburg resident Lydia Leister\u2019s farm as its headquarters during the Battle of Gettysburg. The farm was chosen because of its position behind the center of the Union lines. This photograph of the farm when it served as Meade\u2019s headquarters is the work of Civil War photographers Alexander Gardner and Timothy O\u2019Sullivan. With other photographers, Gardner and O\u2019Sullivan captured many scenes at Gettysburg and shared them with the American public through exhibits and publications. Photographers at Gettysburg and other Civil War battles carried heavy, cumbersome equipment onto the field and risked personal safety in order to document the war. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Library of Congress."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Ditterline, Theodore, \u201cField of Gettysburg, July 1st, 2nd & 3rd, 1863,\u201d Digital Public Library of America, https://dp.la/item/e3e25b35e49e34dd03d999b7ccbc4b24."
+                  }
+               ]
+            }
+         ],
+         "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+         "text": "This oval-shaped map of Gettysburg during the battle depicts troop and artillery positions, hills and other topographic features indicated by line shading or \u201chachure,\u201d drainage, roads, railroads, and houses with names of residents. Union forces are marked in blue, Confederate forces in red. The map was created by Theodore Ditterline and published in his *Sketch of the Battles of Gettysburg* in 1863.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Library of Congress."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "S. G. Elliott & Co., \u201cElliott's map of the battlefield of Gettysburg, Pennsylvania,\u201d Digital Public Library of America, https://dp.la/item/cb6e219ce2fbc55c4da7d8bfeab4d0f1."
+                  }
+               ]
+            }
+         ],
+         "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+         "text": "This Battle of Gettysburg map indicates major sites of conflict, hills and other topographic features indicated by line shading or \u201chachure,\u201d vegetation, houses, and the names of residents. The legend for the map indicates symbols for Union graves, Confederate \u201cRebel\u201d graves, dead horses, breast works (or temporary fortifications which soldiers could stand behind breast-high), artillery, and rifle pits. The map was published by S. G. Elliott & Co. in 1864.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Western Michigan University Libraries via Michigan Service Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Hodgman, Samuel Chase, \u201cSamuel Hodgman letter, 1863-07-16, United States Civil War,\u201d Digital Public Library of America, https://dp.la/item/badd0106bd03b6f4d593e3ca73b097b4."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+         "text": "Samuel Hodgman served with the Seventh Michigan Volunteer Infantry Unit of the Union Army at the Battle of Gettysburg. This unit was assigned to the Army of the Potomac in 1861 and fought the Confederate Army of Northern Virginia in battles leading up to Gettysburg, including the Battles of Fredericksburg and Chancellorsville. \r\n\r\nTranscription:\r\n\r\nCamp near Sandy Hook Md<br/>\r\nJuly 16, 1863\r\n\r\nDear Brother<br/>\r\nI received your letter yesterday the first I have had from home in some time It has been stirring times with us lately. The other day we were under the fire of 120 guns for nearly two hours. All the protection we had was a slight barricade of rails. There is no use trying to say anything about the cannonade words won\u2019t express it. Somehow we seemed to be out of the range. There seemed to be two strata of the storm one would burst over our heads or after it had passed over us the other would strike in front & ricochet over us. We went in 153 strong &\r\n\r\n[page 2]<br/>\r\n 21 Killed & 40 wounded our Lt Col was killed also W Tripp & W. Smith of Galesburgh (Co. I) I did not get even a scratch. The 7th & 59th N.Y Saved the day on the 2d . Both our flanks were turned and two batteries one each side of us taken by the rebs, yet we stuck to our barricade and fought till they- what were left of them. were glad to come into our lines or skedaddle doublequick Our boys expressed a determination never to retreat one inch from the line as long as they could use bullets or bayonets. We were fully prepared to meet them with either and the only reason that we did not use the bayonet was that we shot them down before they could get to us We have made some tall marches one day 30 miles, another 37 frequently\r\n\r\n[page 3]<br/>\r\n20 to 25. We are now nearly drilled out. & I have nearly all my last months returns to make out, as I could not do it on the march I have to steal time to write this when I am more at leisure I will write more. I send you some money hoping it may be useful to you. Write often Love to Father Mother & Charlie- I saw Ramsdell, S. Harrison, John Dickie & Osmer Cole a day or two ago at Falling Waters. They were well They say Mart Adams was taken prisoner at Hagerstown. I only saw them for a few minutes \r\n\r\nYour Affectionate Brother <br/>\r\nSaml. C. Hodgman \r\n\r\n3d Brigade 2d Div. 2d A.C.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2020-07-22",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Caroliniana Library via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Kerrison, Edwin, \u201cLetter, 7 July 1863,\u201d Digital Public Library of America, https://dp.la/item/b9f59e35405ae287afb2d404cb089235."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+         "text": "Edwin Kerrison fought for the Confederate Army for the Second South Carolina Infantry (also known as the Second Palmetto Regiment), Company I (from Charleston). Part of Joseph Kershaw\u2019s Brigade, this regiment fought at Gettysburg on July 2, 1863 in the Peach Orchard and the Wheatfield, two of the most vicious fights during Gettysburg. By the end of the day, the regiment had lost more than half its men, and soon the remaining soldiers would retreat to Virginia with the rest of the Confederate army. Grape, shell, and canister, mentioned on page 4 of the letter, refer to kinds of ammunition used during the Civil War. Grape, or grapeshot, consists of iron balls, often bound together and fired to disperse across a large area. Shells are hollow iron projectiles filled with a combustible mixture, usually set to go off in the air above the target. A canister is a metal cylinder containing iron or lead balls used to fire a huge shotgun blast at close range.\r\n\r\nTranscription:\r\n\r\nNear Hagerstown<br/>\r\nJuly 7th, 1863\r\n \r\nDear Sister \u2013<br/>\r\nI now write with great haste to let you know where we are. On the evening of the 2nd we fought a desperate battle at Gettysburg in Pa. in which we suffered terribly being compelled to stand the fire of artillery 3 \u00bd hour being within the hundred & fifty yards of said battery.  Our Reg. acted gloriously but has lost many a brave man \u2013 Charly I am sorry to say was wounded not by any means dangerously. He was shot in the thigh with a piece of shell & in the face by a buck\r\n \r\n[page 2]<br/>\r\nshot. He was in fine spirits when I last saw him & doing finely. Among the killed in our company are the Sergt. LaBruce Mortimer, Jos. S. Gadsdin, Sep Miles, E. J. Mills & Lewis Daniels. The wounded are Charly K \u2013 Ed. Gaillard, Preston F. Wescott, Jos. Harley, C. J. Colcock, Wm Lawton, C. P. Bellinger, Leuit S. Bissell & L. Osander a substitute. Gaillard was shot in the arm the ball resting on the bone. Wescott shot through the muscles of one of his legs near the thigh not dangerous. Harley very much the same. Colcock is from Charleston shot in the left hand which was amputated at the wrist. Lawton one arm amputated Belliger shot in the thigh.  \r\n \r\n[page 3]<br/>\r\nLieut Bissell shot in the calf of the leg part of the bone broken. Osander shot in the face & one leg badly shattered Seg\u2019t Moultree Braiesford was slightly wounded in the leg & left to take care of the wounded (from our company). Since we left (the 5th) our wounded have been all captured by the Yankees \u2013 Charly among the number. They will receive more attention & be more comfortable than if they were with us. Charly was doing first rate & may possibly get home for a short time after being exchanged. Do if you can let the families of the men I have mentioned in my letter [know]\r\n \r\n[page 4]<br/>\r\nof their fates. We advanced on a battery in an open field under a most terrific fire of grape shell & canister. We have only 8 or 9 men for duty in the company now. Our Regt has but two\r\nCaptains left \u2013 Dr. Elliot & Capt Graham. Col. Kennedy was shot in the arm & Capt Wallace was shot in the arm also. Wallace was acting major at the time. Our Regt carried in some three hundred & odd & had 169 killed & wounded. I have not time to write particulars of the fight now as I am in haste.\r\n \r\nWith best love to all I am as ever your aff brother\r\n \r\nEdwin\r\n \r\n{Written along left margin} We expect to fight another battle soon at Sharpsburg.  \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Wisconsin Historical Society via Recollection Wisconsin."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Rollins, Nathaniel, \u201cDiary excerpts from Gettysburg Battlefield, June 30-July 6, 1863,\u201d Digital Public Library of America, https://dp.la/item/4e3fa9b37457abb7712c91208f891430."
+                  }
+               ]
+            }
+         ],
+         "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+         "text": "Captain Nathaniel Rollins of the Union Army\u2019s Second Wisconsin Infantry kept a daily diary throughout the Civil War. Writing about everything from the weather to presidential inspections and meals he cooked while on kitchen duty, Rollins provided a comprehensive portrait of the daily life of a soldier in the Civil War. These excerpts describe his capture and encounter with General Robert E. Lee, commander of the Confederate Army at Gettysburg. After the Battle of Gettysburg, Rollins spent the remainder of the war in Confederate prisons. In this diary excerpt, Rollins mentions parole, a military agreement with specific terms. Parole called for captured prisoners to be released in exchange for agreeing not to take up arms against their captors until they were formally exchanged for an enemy captive of equal rank. Both armies initially used this system because neither had the capacity to manage large numbers of captured prisoners, especially after a big battle. As the war continued, the parole system became unmanageable and captured soldiers were sent to prison camps instead. \r\n\r\nTranscription:\r\n\r\nJune 30th<br/>\r\nWe have finally reached the last day of June. This morning at 8 we moved and after marching about two miles crossed the line into Pennsylvania. This is the first time since the war began that we have been obliged to go into a free state. Tonight we are encamped in a wood some two miles north of the state line. The people are loyal and seriously in earnest. The weather continues wet, rains at night and showers during the day. The Regt. was mustered today by Col. Fairchild.\r\n\r\n[page 2]<br/>\r\nJuly 1st<br/>\r\nThis morning at 8 we moved forward & at 11 got up with the rebels one mile W. of Gettysburg. The 2nd W[is.] V.[olunteers] came up first of the infantry, and coming forward into line engaged them at once. We drove Genl Archer's brigade back through the woods, losing very heavily. I took into action 27 muskets, had 4 killed dead and 13 wounded. Also, Lt. Winegar killed. We held the ground undisturbed until about 2:30PM when about 50,000 rebels advanced on us, entirely outflanking us and the Iron Brigade fell back as they were flanked, but entirely destroying the rebel lines in our front. In this second fight we lost very heavily, but in going through the village the flanking force cut us off and I, with many others of our brigade, were captured. About 5,000 of our men are now in a field for the night.\r\n\r\n[page 3]<br/>\r\nJuly 2d<br/>\r\nThis morning we woke at day light and until near noon were kept at the same place, when the rebels removed us to a field nearly west of the town in rear of their army. Here an officer came to us from Genl. [Robert E.] Lee wishing us to all accept parole but inasmuch as Gel. Halleck had prohibited paroling on the battle field, we didn't conclude to accept. The rebel officers seeing that most of the officers with us were discouraging the enlisted men from taking parole, separated the officers from the men and after that would not permit us to communicate together. At 4P.M. the battle opened vigorously on both sides and continued with terrible fury until 10 at night\r\n\r\n[page 4]<br/>\r\nJuly 2d<br/>\r\nDuring the fighting, Genl. Chilton of Lee's staff came out to have us paroled but they showed too much anxiety for our comfort in this respect to look honest. This evening they promised us some rations but gave us none. Most of the officers have treated us gentlemanly.\r\n\r\n[July] 3d.<br/>\r\nThis morning at about 4 firing opened, and until one P.M. was kept up rather quietly, when there opened on our left a cannonading that for three full hours sounded like one perpetual thunder, and at intervals from then until dark has been kept up. Our fire has seemed to gain toward our left all day. This morning the rebel officers\r\n\r\n[page 5]<br/>\r\nJuly 3d<br/>\r\nmanifested a renewed anxiety that we should accept the parole but by the majority of us standing out obstinately the whole refused to accept it, and at about 10 A.M. we were moved about one mile to the rear. The day has been cool and clear. The battle still hangs undecided.\r\n\r\n[July] 4th<br>\r\nThis morning was clear. Lt. Dahl [?] and I slept under a tree last night without blankets, the same as we slept the night before. There are now with us 170 officers, ten of whom are from the 4th Brig, 4th Div, 1st Corps. Their autographs I will procure on the next page. Since morning, we have been moved up stream.\r\n\r\n[page 6]<br/>\r\nJuly 4<br/>\r\nAt about noon we were fallen in and marched some two miles out on the Chambersburg road, halted an hour or two while the road full of rebel trains & wounded were passing to the rear. While stopping here a terrible thunder-storm came up and lasted until night. At 3:30 we were marched back toward Gettysburg to the road leading south toward Hagerstown, thence down this road three miles and halted for the night. There has been but little fighting today. We celebrated the Nation's birthday by singing patriotic songs and making ourselves jolly generally.\r\n\r\n[July] 5 Sunday<br/>\r\nIt rained nearly all last night.\r\n\r\n[page 7]<br/>\r\nJuly 5<br/>\r\nI, having no blankets or shelter of any kind, laid down on the bare earth and slept until wakened by the storm. This morning at 6 we were moved out & forwarded [?] on toward Hagerstown. But near the mountain we are now (2 P.M.) halted. Artillery & Infantry are going to the front. The road through this gap is said to be held by our cavalry. Genl. [Robert E.] Lee rode past an hour since. He is quite gray, wearing full beard, appears dignified and self-possessed. His salute was very elegant & soldier-like. He certainly has the external appearance of a General. He wore a blue loose coat & a black hat, sits finely on his horse. His face indicates high living. Capt. Baldwin of 2d joined us\r\ntoday, having been taken on 1st\r\n\r\n[page 8]<br/>\r\nJuly 5<br/>\r\nWhile marching, and at about 4 P.M., our artillery opened on the rebel rear some three miles behind us, but in full view. The firing was brisk and continued some time. After this they hurried us and hurried their train until at about 12 at night we reached Monterey Springs on the top of South\r\nMountain's range. The rebels are making all possible speed for Va.\r\n\r\n6th<br/>\r\nThis morning the rebel officers tried the parole game again but it has all ended in smoke. Last night some officers & men escaped. At 6 A.M. we moved out and marched two miles past Waynesville and halted until 6 P.M. when we started again. During the afternoon\r\n\r\n[page 9]<br/>\r\nJuly 6th<br/>\r\nthe rebel train has been passing as fast as they could drive. \r\n\r\nThis is about the last of this book and while under rebel protection I must use paper to continue this journal.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Tennessee State Library and Archives via Digital Library of Tennessee."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Robinson, George Franklin, \u201cGeorge Franklin Robinson letter describing Battle of Gettysburg,\u201d Digital Public Library of America, https://dp.la/item/7633733ecaa58307ca72dd784e5f2514."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+         "text": "This letter from George Franklin Robinson to his wife, Elvira Jane Griffin, was sent following the Battle of Gettysburg on July 18, 1863. On the second page, Robinson draws a map of his unit's march from Fredericksburg, Virginia, to Gettysburg, Pennsylvania. Robinson was a member of the Confederate Seventh Infantry Regiment (Company A) of the South Carolina Battalion in Joseph Kershaw\u2019s Brigade. He enlisted in June 1862 and was discharged from the Federal prison camp at Point Lookout, Maryland, in June 1865; he had been taken prisoner in November 1864. \r\n\r\nTranscription:\r\n\r\nWinchester July 18, 1963\r\n \r\nDear Elvira,\r\n \r\nI take my pen in hand to rite you a few lines to let you no tho I am at Winchester I have bin [lately?] bad off for some 10 or 12 days I come to Winchester da[y] before yesterday  but I am giting well. I will be able to go back to my regt in a few days. I am at a convalescent camp, just in tents. I was taken with high fever & akin all over but I taken a dos of brimstone & the soarness left me & I have bin weak & no stomach to eat but I am giting harty now.  Elviry I had rote to you but once since the fite & that was at hagerstown Maryland. I think we paid dearly for our trip in to [Pennsylvania?] we gave 20 thousand mens lives for a few cattle horses & wagons. I think our confederacy is gone up the spout. they say old lee is going back in Maryland if he does I think it will end the war our men had most as soon dy as to start back to Maryland our men is badly disheartened they are beginning to think this [war] wont end til we are all killed & it wont take long if they make many such [raids] as they have bin making. I rote to you that Off Smith & [Col] Williams was wounded they say the yankees has got them.  Elviry I got a letter dated June 19 & glad to hear to hear you was all well & doing [well] you said miles & [unclear?] be as at home if they had miles out hear he would be safe. Elviry don\u2019t greave about me if you don\u2019t hear from me I will do the best I can I thank god for his kind blessings to me.  \r\n \r\nMay god bless you & my sweet little children.\r\n \r\nG F Robinson E J Robinson \r\n \r\n[Text written above map]\r\nI have draud off a sorter of a map of our rout and battle ground you will commence at Fredrick & go on round back to Hamburg when we SOMETHING on the same road the figure will sho you the distant from town to another them dots is the battle field between the lins",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Langlade County Historical Society via Recollection Wisconsin."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Deleglise, Francis, \u201cFrancis Deleglise letter from Baltimore, Maryland to father, August 14, 1863,\u201d Digital Public Library of America, https://dp.la/item/56ae20ecda7b56fdf5fd732121ca8701."
+                  }
+               ]
+            }
+         ],
+         "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+         "text": "Born in Switzerland, Francis Deleglise immigrated to the United States in 1848 and settled in Wisconsin. During the Civil War, Deleglise served in the Sixth Wisconsin Volunteer Infantry Regiment and was badly wounded at the Battle of Gettysburg. This letter is written in French (pages 2 and 3) but an English translation is provided in the first page and below.\r\n\r\nTranslation:\r\n\r\nTo his father from Baltimore, August 14, 1863. \r\n\r\nDear Father,<br/>\r\nI received your letter of the fourth yesterday. At the battle of Gettysburg I was a prisoner of the enemy from the first of July to the fourth, and I was in the same place up till the sixth, during which time I was given no attendance, and had nothing to eat, except such as I asked for and received of the soldiers. But everyday I kept the full length of the wound wet with very cold water. This kept my thigh as natural as if it had never been hurt. I did the same thing for two days at Gettysburg. On the eighth I was brought to a good bed in a fine room. Here I was given a bath. On the eleventh I was put on a railroad train, and, although I was comfortably tucked up in a bed, yet, because of the jostling of the train, I was in a worse state when I arrived here than I had yet been, and that for more than a week was not able to write at all. At present, I change from one hand to the other. It is very slow, but I am getting better at it. \r\n\r\nWard A. West Building Hospital<br/>\r\nBaltimore <br/>\r\nMd. <br/>\r\nLately Ward B has been filled with Confederates, and the Federals are assigned to Ward A.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of North Carolina Department of Natural and Cultural Resources via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Futch, John, \u201cLetter: John Futch to Martha Futch, Aug. 6, 1863,\u201d Digital Public Library of America, https://dp.la/item/bfce4c27c6a2055d887bed8e638af107."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+         "text": "In this letter, Confederate soldier John Futch responds to a request from his wife Martha for more information about the death of his brother Charles during the Battle of Gettysburg. Both John and Charles were soldiers from New Hanover County, North Carolina, in the Confederate Army\u2019s Third Regiment, North Carolina Infantry, Company K. In September 1863, just two months after Charles\u2019s death at Gettysburg, John Futch was court-martialed and shot for desertion.\r\n\r\nTranscription:\r\n\r\nOringe Court House va<br/>\r\nAugust 6th 1863 \r\n\r\nMy Dear Wife <br/>\r\nYour very kind and affectionate letter of 2d Inst. came safely to hand and found me as well as usual Its arrival was anticipated and it is not necessary for me to assure you its contents were perused with the most pleasurable feelings Especially that portion that assured me you <??> in the full Enjoyment of that the greatest of blessings health You expressed a desire To know the particulars of Brother Charlys death I will endeavor to give them to you as well as I can When our Regt charged the enemies entrenchments on the <???> near Gettysburg Pa on the night of July the 3d he was wounded on or near the top of his head it did not pass through the brain but I think it must have bruised them as he did not speak after he was hit he was lying down loading at the time I carried him out he seemed anxious to talk to me but could not He lingered till about two o\u2019clock on the 3d when he died. I remained with him from the time he was wounded until he died we buried him on the night of the 3d Only God knows the bitter\r\n\r\n[page 2]<br/>\r\nanguish this sad berevement sent thrilling through my sad heart It seems hard to part forever from those our heart treasures But the Lords will be done Let us put our trust in Him He alone can comfort the grief stricken soul and bind up the broken heart - - When you write again I wish you to tell me whether you have drawed anything yet or not and all about it as I felt very anxious to Know We are camped at this place but I cant say how long we will remain here - - You cant imagine how much I want to see you it seems I would give every thing I possess to be with you if only for a short while I trust I shall see you before very long Write as soon as you get this \r\n\r\nYour Devoted husband John Futch",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Maine State Archives via Digital Maine."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cList of Deceased Soldiers of the 19th Maine Regiment, Gettysburg, 1863,\u201d Digital Public Library of America, https://dp.la/item/2e4863880f172f44044dddc09fd233b3."
+                  }
+               ]
+            }
+         ],
+         "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+         "text": "This list from the Medical Director\u2019s Records at Gettysburg documents soldiers from the Nineteenth Maine Volunteer Infantry Regiment who died in or near the Second Corps Hospital at Gettysburg. The record for each death includes the soldier's name, company, regiment, residence, type of disease or injury, and remarks.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Cornell University via ARTstor."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gardner, Alexander, \u201cHome of the Rebel Sharpshooter,\u201d Digital Public Library of America, https://dp.la/item/9bb3c5dc2e2cc238bb22168d1a8562c4."
+                  }
+               ]
+            }
+         ],
+         "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+         "text": "The subject of this photograph was one of between twenty-three thousand and twenty-eight thousand casualties suffered by Confederate forces at Gettysburg. His body was one of eight thousand soldiers and three thousand horses (from both armies) who died on the battlefield. Because it was the height of summer, bodies needed to be buried quickly to minimize smell and preserve public health. The Union Army was only responsible for its own dead, and the Confederates had retreated, so local residents of Gettysburg likely buried the Confederate dead out of necessity.\r\n\r\nThis photograph of a dead Confederate soldier at Gettysburg is the work of Civil War photographer Alexander Gardner. With other photographers, Gardner captured many scenes of violence at Gettysburg and shared them with the American public through exhibits and publications. Photographers at Gettysburg and other Civil War battles carried heavy, cumbersome equipment onto the field and risked personal safety in order to document the war. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "O'Sullivan, Timothy H., \u201cUnion dead at Gettysburg,\u201d Digital Public Library of America, https://dp.la/item/b18e7ec243ff8afdaf8b1a5d879f1b9a."
+                  }
+               ]
+            }
+         ],
+         "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+         "text": "The subjects of this photograph were among the twenty-three thousand casualties suffered by Union forces at Gettysburg. They were some of the eight thousand soldiers and three thousand horses (from both armies) who died on the battlefield. Because it was the height of summer, bodies needed to be buried quickly to minimize smell and preserve public health. The Union Army, being victorious, could remain after the battle at Gettysburg to bury the Union dead.\r\n\r\nThis photograph of the Gettysburg battlefield was selected from an album attributed to famous Civil War photographer Mathew Brady. However, many were not taken by Brady himself, but by his team of unrecognized assistants or by former associates. This Timothy O'Sullivan photograph shows unshod Union dead, who probably fell behind enemy lines. It is likely their boots were looted by retreating Confederate soldiers.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-20",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+               "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Museum of American History, Kenneth E. Behring Center via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBox of relics from Gettysburg,\u201d Digital Public Library of America, https://dp.la/item/6c958a3af7c2e9461f62505c80da6ca0."
+                  }
+               ]
+            }
+         ],
+         "name": "A box of relics collected at the battlefield at Gettysburg.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+         "text": "This wooden box full of metal shrapnel and debris from Gettysburg was presented in 1885 to Major General Winfield Scott Hancock. A little more than two decades earlier, Hancock led Union troops on the battlefield in order to repel Pickett's Charge. On July 3, 1863 he was shot through the thigh. Engraved names identify where the relics were found in different areas of the battlefields of Gettysburg.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1483",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-27",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1464",
+               "name": "A photograph of the town of Gettysburg, Pennsylvania in early July 1863 by Alexander Gardner and Timothy O\u2019Sullivan.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_01_6a29827ca186a7bbfdb5db2129e6528d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1465",
+               "name": "A photograph of the headquarters of General Meade, commander of the Union Army, by Alexander Gardner and Timothy O\u2019Sullivan, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_02_21f484ca9baa33d6aff89488eb45229b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1466",
+               "name": "A map of military action during the Battle of Gettysburg, July 1-3, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1467",
+               "name": "A map of military action, graves, and local landmarks during the Battle of Gettysburg, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_04_cb6e219ce2fbc55c4da7d8bfeab4d0f1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1468",
+               "name": "A letter from Union soldier Samuel Hodgman to his brother about his experience during the Battle of Gettysburg, July 16, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_05_badd0106bd03b6f4d593e3ca73b097b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1469",
+               "name": "A letter from Confederate soldier Edwin Kerrison to his sister about his experience during the Battle of Gettysburg, July 7, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_06_863eb4cc37d93961ab9115f734b95a7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1470",
+               "name": "Excerpts from the diary of Union soldier Nathaniel Rollins about being taken prisoner during the Battle of Gettysburg, June 30-July 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_07_4e3fa9b37457abb7712c91208f891430_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1471",
+               "name": "A letter from Confederate soldier George Franklin Robinson to his wife describing army morale and movements after Gettysburg, July 18, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_08_7633733ecaa58307ca72dd784e5f2514_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1472",
+               "name": "A translation and original letter, in French, from Union soldier Francis Deleglise to his father about his wounds and imprisonment at Gettysburg, August 14, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_09_56ae20ecda7b56fdf5fd732121ca8701_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1473",
+               "name": "A letter from Confederate soldier John Futch to his wife about the death of his brother during the Battle of Gettysburg, August 6, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_10_bfce4c27c6a2055d887bed8e638af107_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1474",
+               "name": "A list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment who died at Gettysburg, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_11_2e4863880f172f44044dddc09fd233b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1479",
+               "name": "*(Warning: graphic material)* \u201cHome of a Rebel Sharpshooter,\u201d a photograph of a Gettysburg soldier by Alexander Gardner, July 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_12_9bb3c5dc2e2cc238bb22168d1a8562c4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1480",
+               "name": "*(Warning: graphic material)* A photograph of Union dead at Gettysburg by Timothy O\u2019Sullivan, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_13_b18e7ec243ff8afdaf8b1a5d879f1b9a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1482",
+               "name": "A box of relics collected at the battlefield at Gettysburg.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_14_6c958a3af7c2e9461f62505c80da6ca0_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of California Historical Society via University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cHand-written manuscripts of the Gettysburg Address (1863) and a letter to Mrs. Bixby, 1864,\u201d Digital Public Library of America, https://dp.la/item/20a3bfd12be18ab2a0006fa4d3a49ac2."
+                  }
+               ]
+            }
+         ],
+         "name": "Handwritten copies of Abraham Lincoln\u2019s 1863 Gettysburg Address given at the Gettysburg National Cemetery and letter to Mrs. Bixby, 1864.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_rep.jpg",
+         "text": "President Abraham Lincoln delivered his famous Gettysburg Address on the afternoon of Thursday, November 19, 1863, at the dedication of the Soldiers' National Cemetery in Gettysburg, Pennsylvania. Lincoln used the speech to honor fallen Union soldiers at Gettysburg and reshape the purpose of the war, speaking four and a half months after the Union armies defeated Confederate forces at the Battle of Gettysburg. Lincoln\u2019s letter to Lydia Parker Bixby of Boston, Massachusetts, expressed condolences because she was thought to have lost five sons in the Union Army during the Civil War. These documents are most likely copies of Lincoln\u2019s Gettysburg Address and letter to Mrs. Bixby preserved together. Copies such as these were frequently produced and sold, making both documents famous and widely-read. \r\n\r\nTranscription:\r\n\r\nAddress delivered at the dedication of the Cemetery at Gettysburg. \r\n\r\nFour score and seven years ago our fathers brought forth on this continent a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal. Now we are engaged in a great civil war, testing whether that nation, or any nation so conceived and so dedicated, can long endure. We are met on a great battlefield of that war. We have come to dedicate a portion of that field, as a final resting place for those who here gave their lives that that nation might live. It is altogether fitting and proper that we should do this. \r\n\r\nBut, in a larger sense, we can not dedicate\u2014we can not consecrate. We can not hallow this ground. The brave men living and dead, who struggled here have consecrated to far above our poor power to add or detract. The world will little note, nor long remember what we say here, but it can never forget what they did here. It is for as the living, rather, to be dedicated here to the unfinished work which they who fought here have thus far so nobly advanced. It is rather for us to be here dedicated to the great task remaining before us\u2014that from these honored dead we take increased devotion to that cause for which they gave the last full measure of devotion that we here highly resolve that these dead shall not have died in vain\u2014that this nation, under God, shall have a new birth of freedom\u2014and that government of the people, by the people, for the people, shall not perish from the earth. \r\n\r\nAbraham Lincoln,<br/>\r\nNovember 19, 1863.\r\n\r\n[page 2]<br/>\r\nExecutive Mansion. <br/>\r\nWashington, Nov 21, 1864. \r\n\r\nTo Mrs. Bixby, Boston, Mass, <br/>\r\nDear Madam, I have been shown in the files of the War Department a statement of the Adjutant General of Massachusetts that you are the mother of five sons who have died gloriously on the field of battle. I feel how weak and fruitless must be any word of mine which should attempt to beguile you from the grief of a loss so overwhelming. But I cannot refrain from tendering you the consolation that may be found in the thanks of the republic they died to save. I pray that our Heavenly Father may assuage the anguish of your bereavement, and leave you only the cherished memory of the loved and lost, and the solemn pride that must be yours to have laid so costly a sacrifice upon the altar of freedom. \r\n\r\nYours very sincerely and respectfully, <br/>\r\nA. Lincoln.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_15_20a3bfd12be18ab2a0006fa4d3a49ac2_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-battle-of-gettysburg",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-27",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-27",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. In July 1863, Gettysburg, Pennsylvania was a town of 2,400 people who happened to live at the place where Union and Confederate forces engaged. What was the impact of the Battle of Gettysburg on the people of Gettysburg? Cite specific evidence from the [photograph of Gettysburg in early July 1863](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1464), the [photograph of the headquarters of General Meade](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1465), the [map of military action during the Battle of Gettysburg](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1466), or other sources in this set to support your answer.\r\n2. Examine the [map of military action during the Battle of Gettysburg](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1466) and the [map of military action, graves, and local landmarks](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1467) during the Battle of Gettysburg. Which army appears to have the offensive position and which the defensive? Thinking strategically, why were hills like Cemetery Hill, Culp\u2019s Hill, and Big Round Top important sites for battle?\r\n3. Read the soldiers\u2019 accounts of the Battle of Gettysburg in the [letter from Samuel Hodgman](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1468), the [letter from Edwin Kerrison](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1469), the [excerpts from Nathaniel Rollins\u2019s diary](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1470), the [letter from George Franklin Robinson](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1471), the [letter from Francis Deleglise](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1472), and the [letter from John Futch](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1473). Collectively, what do they tell us about the experience of soldiers during the Battle of Gettysburg? What similarities and differences exist among the Union and Confederate soldiers\u2019 accounts of Gettysburg? How might these letters have been received at home?\r\n4. Read the [letter from Samuel Hodgman](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1468) closely. What changed for the Union Army on July 2 at Gettysburg? How did this shape Samuel Hodgman\u2019s ideas about the battle before and after July 2?\r\n5. How do the [letter from Edwin Kerrison](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1469) and the [letter from George Franklin Robinson](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1471) describe Confederate morale during the battle and in its aftermath? Use specific textual evidence to support your analysis.\r\n6. The [excerpts from Nathaniel Rollins\u2019s diary](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1470) and the [letter from Francis Deleglise](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1472) describe the prisoner-of-war experience for Union soldiers at Gettysburg. Compare and contrast the two sources. Why might Francis Deleglise have been captured for such a short period? According to Nathaniel Rollins, what is \u201cparole\u201d and why would soldiers refuse it?\r\n7. What do the [letter from John Futch](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1473), the [list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1474), the \u201c[Home of the Rebel Sharpshooter](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1479)\u201d photograph, and the [photograph of Union dead](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1480) indicate about the violence and death involved in war? In the [list of soldiers of the Nineteenth Maine Volunteer Infantry Regiment](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1474), what stories about soldiers\u2019 death and burial do these records tell? What does \u201chome\u201d refer to in the title the photographer chose for his \u201c[Home of the Rebel Sharpshooter](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1479)\u201d photograph? Using evidence from these sources, describe the psychological impact on soldiers of witnessing this violence. \r\n8. The Civil War was the first major American conflict to be photographed. Images like the [photograph of Gettysburg in early July 1863](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1464), the [photograph of the headquarters of General Meade](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1465), the \u201c[Home of the Rebel Sharpshooter](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1479)\u201d photograph, and the [photograph of Union dead](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1480) were displayed at exhibits in major Northern cities and later republished as engravings in newspapers and magazines. How did this documentary evidence shape public perception of the war? \r\n9. Identify specific items in the [box of relics collected at the battlefield at Gettysburg](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1482). What stories do they help viewers remember about the battle?\r\n10. In the early years of the Civil War, Union politicians described the war\u2019s purpose as the preservation of the Union. The [Gettysburg Address](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1483), delivered to honor fallen Union soldiers at Gettysburg, broadened this purpose. According to the speech, what was the goal of the Civil War? How did Lincoln use the Union victory at Gettysburg to support this goal? How does the letter to Mrs. Bixby reflect Lincoln\u2019s new thinking after 1863?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Ask students to imagine that they are residents of Gettysburg, Pennsylvania in 1863, and to write a diary entry for one of the first days of July describing what they see, hear, and experience. Students should use specific information from the [map of military action during the Battle of Gettysburg](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1466) and the [map of military action, graves, and local landmarks](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1467) during the Battle of Gettysburg to add places and historically accurate events to their entries as well as other sources to understand the sensory experience of the battle.\r\n2. Ask students to pick one of the photographs in this set (the [photograph of Gettysburg in early July 1863](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1464), the [photograph of the headquarters of General Meade](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1465), the \u201c[Home of the Rebel Sharpshooter](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1479)\u201d photograph, and the [photograph of Union dead](https://dp.la/primary-source-sets/battle-of-gettysburg/sources/1480)) and to write a 300-500 word newspaper article about the Battle of Gettysburg that their photograph might have been used to illustrate. Students should consider what evidence the photograph offers and what particular emotions the photograph might arouse in their article\u2019s audience."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/battle-of-gettysburg",
+            "@type": "CreativeWork",
+            "name": "Battle of Gettysburg"
+         },
+         "name": "Teaching Guide: Exploring the Battle of Gettysburg"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Gettysburg](https://www.civilwar.org/learn/civil-war/battles/gettysburg), Civil War Trust. \r\n2. [Gettysburg National Military Park](https://www.nps.gov/gett/learn/historyculture/index.htm), National Park Service. \r\n3. \u201c[A Cutting-Edge Second Look at the Battle of Gettysburg](http://www.smithsonianmag.com/history/A-Cutting-Edge-Second-Look-at-the-Battle-of-Gettysburg-1-180947921/),\u201d *Smithsonian Magazine*, June 27, 2013. \r\n4. \u201c[The Battle of Gettysburg: 150 Years Ago](https://www.theatlantic.com/photo/2013/07/the-battle-of-gettysburg-150-years-ago/100545/),\u201d *The Atlantic*, July 3, 2013. "
+      },
+      {
+         "name": "Overview",
+         "text": "In late June 1863, more than two years into the American Civil War, Union and Confederate military forces converged on the town of Gettysburg, Pennsylvania. After a series of military successes, Confederate Commander Robert E. Lee led his Army of Northern Virginia into Union territory in his second invasion of the North. He hoped that a Confederate victory in Pennsylvania would convince Northern politicians to abandon the war. The Union Army of the Potomac, led initially by General Joseph Hooker and then General George Meade, crossed the Potomac River to pursue Lee\u2019s forces. \r\n\r\nOn July 1, Confederate forces attacked the Union lines at Gettysburg from the northwest and north, initially pushing the Union army back. By July 2, both Confederate and Union armies had fully assembled, with seventy thousand and ninety-four thousand men, respectively. Confederates launched assaults on the Union left at sites like Little Round Top, the Wheatfield, and the Peach Orchard. On the Union right, Confederates charged Culp's Hill and Cemetery Hill. Across these sites and despite significant losses, the Union held its lines. On July 3, fighting resumed, most notably on Cemetery Ridge, where 12,500 Confederates charged the center of the Union line during Pickett's Charge. Union rifle and artillery fire repulsed the charge at great loss to the Confederate army. On July 4, Lee led his army on a difficult retreat back to Virginia.\r\n\r\nSome fifty thousand soldiers from both armies died in the three-day battle at Gettysburg, making it the most deadly military battle in US history. The town of Gettysburg had to deal with the aftermath of this brutal conflict: Bodies covered fields, wounded soldiers flooded hospitals, and property was destroyed. The Battle at Gettysburg is considered a turning point in the Civil War because it ended Lee\u2019s long run of victories and marked the Confederate Army\u2019s last attempt to invade the North. On November 19, 1863, President Abraham Lincoln used the dedication ceremony for the Gettysburg National Cemetery to honor the fallen Union soldiers and redefine the war in his historic Gettysburg Address."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+         "name": "John Brown's Raid on Harper\u2019s Ferry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+         "name": "Women in the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/northern-draft-riots-during-the-civil-war",
+         "name": "Northern Draft Riots During the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/northern-draft-riots-civil-war_01_649f367dc5b658216d83844037d7b4f3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+         "name": "Secession of the Southern States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Battle of Gettysburg",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/battle-gettysburg_03_e3e25b35e49e34dd03d999b7ccbc4b24_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

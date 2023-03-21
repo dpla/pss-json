@@ -1,0 +1,1476 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Science and Technology"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Postwar United States (1945 to early 1970s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-9"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "New York City Department of Education/New York City School Library System"
+         },
+         "name": "Melissa Jacobs"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2016-04-11",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2016-04-11",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection use primary sources to explore the polio epidemic and the development of the polio vaccine.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/946",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "no-cure-polio_01_dd17d526846cd2939a0d9217177e557a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Roosevelt Warm Springs Institute for Rehabilitation via Digital Library of Georgia. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPhotograph of a group of Georgia Warm Springs Foundation patients holding parts of a giant birthday card for Franklin Delano Roosevelt during the first year of the nationwide President's Birthday Ball fundraiser for polio treatment and research,\u201d Digital Public Library of America, https://dp.la/item/b7308b36c14d60f7eb6dc1e521d4e74b.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+         "text": "President Franklin D. Roosevelt frequently visited Warm Springs, Georgia, using the springs to help heal his legs, which were damaged from polio. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/947",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Georgia Archives via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPhotograph of polio patients watching as Franklin Roosevelt's body leaves Warm Springs, Warm Springs, Meriwether County, Georgia, 1945 Apr. 13,\u201d Digital Public Library of America, https://dp.la/item/2c54e4b3c0f23fa425be5361e3d620de."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+         "text": "President Roosevelt used the therapeutic waters of the warm springs in Warm Springs, Georgia and visited annually. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/948",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Indiana Memory."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cFredrick Goodall,\u201d Digital Public Library of America, https://dp.la/item/98a4c77f44e317a2eaec15e256f9f130."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/949",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Museum of American History, Kenneth E. Behring Center via the Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSalk Polio Vaccine, Mahoney Strain,\u201d Digital Public Library of America, https://dp.la/item/21b28a7a1dff36da98d2f0fd4e4505b1."
+                  }
+               ]
+            }
+         ],
+         "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+         "text": "The children were residents of the D. T. Watson Home for Crippled Children near Pittsburgh, Pennsylvania. The purpose of vaccinating children already suffering from polio was to demonstrate an increased immunity to the disease. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/950",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_05_008ca9bb13c315c698d7bc55e7510277.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_05_008ca9bb13c315c698d7bc55e7510277.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_05_008ca9bb13c315c698d7bc55e7510277.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WSB-TV, Walter J. Brown Media Archives and Peabody Awards Collection via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMan Says Polio Vaccine Will Probably Be Available This Fall,\u201d Digital Public Library of America, https://dp.la/item/a4f8d96d84fb503c5cc374d7edfd9d75."
+                  }
+               ]
+            }
+         ],
+         "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961.",
+         "text": "The interview discusses the likelihood that the oral polio vaccine developed by Albert Sabin would not be available in time for \u201cpolio season\u201d during the summer months. Polio was easily spread in parks, pools, and other popular public summer locations. "
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/951",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-11",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-11",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Yale University, Cushing/Whitney Medical Library and Medical Heritage Library via Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Taylor, Charles Fayette, excerpt from \u201cInfantile paralysis, and its attendant deformities,\u201d Digital Public Library of America, https://dp.la/item/52ba61d41ab9a8ba6aa9065cd0c187d6.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+         "text": "Dr. Taylor discusses treatment options using various apparatus designed to stretch the specified muscles in patients. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/952",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_07_f17150ada57de555c1fc07e372f342b0.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_07_f17150ada57de555c1fc07e372f342b0.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_07_f17150ada57de555c1fc07e372f342b0.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WSB-TV, Walter J. Brown Media Archives and Peabody Awards Collection via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cDr. Albert Sabin Comments on a More Intense Polio Vaccine,\u201d Digital Public Library of America, https://dp.la/item/52eae8f9479010692fc7664e5b2e4189."
+                  }
+               ]
+            }
+         ],
+         "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. ",
+         "text": " Dr. Sabin stresses the continued need for the vaccine even though case numbers dropped substantially."
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/953",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMedicine and Public Health - Exhibit on polio with iron lung,\u201d Digital Public Library of America, https://dp.la/item/7449cbb9b9b106a39f37f6500c99d865."
+                  }
+               ]
+            }
+         ],
+         "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+         "text": "The exhibit included an iron lung, used with patients that could not breathe independently.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/954",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of George State University Libraries Special Collections via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cChild in an iron lung, Grady Hospital, Atlanta, Georgia, circa 1940s,\u201d Digital Public Library of America, https://dp.la/item/67d9ac05499ed21ab67bef3d535f9f66."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/955",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/956",
+               "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "no-cure-polio_10_643ca67e4a408eede6965bdfa396c234.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of East Carolina University via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMan with March of Dimes sign,\u201d Digital Public Library of America, https://dp.la/item/643ca67e4a408eede6965bdfa396c234."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/956",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/946",
+               "name": "A 1934 photograph of patients at the Georgia Warm Springs Foundation holding a giant card for President Roosevelt as part of a fundraiser.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_01_dd17d526846cd2939a0d9217177e557a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/947",
+               "name": "A photograph of polio patients watching President Franklin D. Roosevelt's funeral procession, April 1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_02_654aacff3cc8f7a3e2b708aef78c700c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/948",
+               "name": "A photograph of Fredrick Goodall, aged six, doing leg exercises with his nurse. Goodall contracted polio during a 1930s epidemic. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_03_98a4c77f44e317a2eaec15e256f9f130_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/949",
+               "name": "The syringe and vial used to test the Salk polio vaccine on children who already had polio, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04_21b28a7a1dff36da98d2f0fd4e4505b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/950",
+               "name": "A news film of an unidentified man interviewed about the distribution of an oral polio vaccine, 1961."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/951",
+               "name": "An excerpt from an 1867 publication by Dr. Charles Fayette Taylor called *Infantile Paralysis, and Its Attendant Deformities.* ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_06_52ba61d41ab9a8ba6aa9065cd0c187d6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/952",
+               "name": "A news film of Dr. Albert Sabin, who developed the oral polio vaccine, commenting on the vaccine in 1961. "
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/953",
+               "name": " A photograph of a 1939 World\u2019s Fair exhibit on infantile paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_08_7449cbb9b9b106a39f37f6500c99d865_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/954",
+               "name": "A 1940s photograph of a child in an iron lung, used to treat polio patients that could not breathe on their own due to paralysis.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_09_c94df9d22daf4976aa5ee18e43967f44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/955",
+               "name": "A photograph of a man with a sign to raise money for the March of Dimes Foundation to help prevent \u201cbirth defects, arthritis, and polio.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_10_643ca67e4a408eede6965bdfa396c234_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "no-cure-polio_11_dbf119e441c33feccad352e477d6e26a.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Flexner, Simon, excerpt from \u201cThe nature, manner of conveyance and means of prevention of infantile paralysis,\u201d Digital Public Library of America, https://dp.la/item/dbf119e441c33feccad352e477d6e26a."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1916 pamphlet on infantile paralysis delivered before the New York Academy of Medicine by Dr. Simon Flexner.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_11_dbf119e441c33feccad352e477d6e26a_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-polio-epidemic-and-vaccine",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "New York City Department of Education/New York City School Library System"
+               },
+               "name": "Melissa Jacobs"
+            }
+         ],
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the [syringe and vial](http://dp.la/primary-source-sets/sources/949), the [news film about distribution of a polio vaccine](http://dp.la/primary-source-sets/sources/950), and the [news film about Dr. Albert Sabin](http://dp.la/primary-source-sets/sources/952), explain how Dr. Salk\u2019s and Dr. Sabin\u2019s responses to polio compare to doctors currently fighting Ebola, HIV, AIDS, or Zikka Virus.\r\n2. Using the [syringe and vial](http://dp.la/primary-source-sets/sources/949), the [news film about distribution of a polio vaccine](http://dp.la/primary-source-sets/sources/950), and the [news film about Dr. Albert Sabin](http://dp.la/primary-source-sets/sources/952), assess the importance of the Salk and Sabin vaccines. \r\n3. In the [photograph of a child in an iron lung](http://dp.la/primary-source-sets/sources/954), both the nurse and the child are models. The child did not have polio. Why do you think this photograph was taken with models and not an actual patient using the iron lung?\r\n4. Consider the [photograph of patients with a giant card](http://dp.la/primary-source-sets/sources/946) and the [photograph of patients watching President Franklin D. Roosevelt\u2019s funeral procession](http://dp.la/primary-source-sets/sources/947). Using these photographs and what you have learned from additional sources, assess whether President Roosevelt\u2019s personal experiences with polio influenced the race to find a vaccine. \r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "The March of Dimes Birth Defects Foundation was founded in 1938 by President Franklin D. Roosevelt, who was a polio survivor, in response to the polio epidemics sweeping the nation. Using the [photograph of a man with a sign](http://dp.la/primary-source-sets/sources/955) for inspiration, divide students into several groups and ask them to develop a 1940s radio or print advertisement for the foundation to raise money and awareness of polio. Have each group present to the class. \r\n"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+            "@type": "CreativeWork",
+            "name": "There is No Cure for Polio"
+         },
+         "name": "Teaching Guide: Exploring the Polio Epidemic and Vaccine"
+      },
+      {
+         "name": "Resources",
+         "text": "1. \u201c[Whatever happened to polio?](http://amhistory.si.edu/polio/),\u201d Smithsonian National Museum of American History. \r\n2. [Jonas Salk and Albert Bruce Sabin](http://www.chemheritage.org/discover/online-resources/chemistry-in-history/themes/pharmaceuticals/preventing-and-treating-infectious-diseases/salk-and-sabin.aspx), Chemical Heritage Foundation. \r\n3. \u201c[FDR and Polio](http://www.fdrlibrary.marist.edu/aboutfdr/polio.html),\u201d Franklin D. Roosevelt Presidential Library and Museum. \r\n4. \u201c[Polio Eradication](https://apps.nlm.nih.gov/againsttheodds/index.cfm?startrow=20),\u201d *Against the Odds: Making a Difference in Global Health*, US National Library of Medicine. \r\n5. [The Polio Crusade](http://www.pbs.org/wgbh/americanexperience/features/introduction/polio-introduction/), PBS American Experience. "
+      },
+      {
+         "name": "Overview",
+         "text": "There are few diseases in the United States associated so closely with panic and terror as poliomyelitis (polio), a highly contagious illness that lives in the throat and intestinal tract. In the twentieth century, polio epidemics killed and disabled tens of thousands of children, causing paralysis, muscle atrophy, breathing and swallowing problems, and a myriad of other complications. What first appeared as a cold or flu could quickly become a debilitating disability and even end in death. President Franklin Delano Roosevelt was left permanently disabled, without use of his legs, after a diagnosis of polio at age 39. The polio vaccine developed in the 1950s by Jonas Salk and an oral vaccine later developed by Albert Sabin ultimately eradicated polio in the United States. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+         "name": "The Atomic Bomb and the Nuclear Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/space-race",
+         "name": "Space Race",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-yellow-fever-epidemic-of-1878",
+         "name": "The Yellow Fever Epidemic of 1878",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-columbian-exchange",
+         "name": "The Columbian Exchange",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/pop-art-in-the-us",
+         "name": "Pop Art in the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-invention-of-the-telephone",
+         "name": "The Invention of the Telephone",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/electrifying-america",
+         "name": "Electrifying America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/postwar-rise-of-the-suburbs",
+         "name": "Postwar Rise of the Suburbs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-impact-of-television-on-news-media",
+         "name": "The Impact of Television on News Media",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "There is No Cure for Polio",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

@@ -1,0 +1,2345 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Emergence of Modern America (1890-1930)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-7"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Asian Americans"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Migration"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Michelle Bickert"
+      }
+   ],
+   "dateCreated": "2018-02-22",
+   "dateModified": "2018-02-28",
+   "dct:created": "2018-02-22",
+   "dct:modified": "2018-02-28",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Asian immigration through the Angel Island Immigration Station between 1910 and 1940.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Department of Commerce and Labor, Bureau of Immigration and Naturalization, \u201cLetter from Banker John Alton to Secretary of State John Hay Regarding the Chinese Exclusion Act,\u201d Digital Public Library of America, https://dp.la/item/44e97c13e71f6236d04e259e95724e2f. "
+                  }
+               ]
+            }
+         ],
+         "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+         "text": "In this letter, Los Angeles banker John Alton writes to John Hay, Secretary of State under President William McKinley, who was visiting California. Alton asks Hay to reevaluate a part of the Chinese Exclusion Act that only allows the wealthiest immigrants to visit their home country. Congress passed the Chinese Exclusion Act of 1882 in response to American anxiety about the growing number of Chinese immigrants in the United States. It targeted unskilled laborers for exclusion, allowing only merchants, diplomats, students, and other privileged classes to enter the country and visit their homes. While many white Americans feared Chinese immigrants would take their jobs, others benefitted from Chinese immigration by employing Chinese workers at low wages. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Department of Justice, Immigration and Naturalization Service, \u201cLetter on Sing Fat Co. Stationary to H.H. North, Commissioner of Immigration, San Francisco,\u201d Digital Public Library of America, https://dp.la/item/96a985cc5dee672bb681af447e1c740b."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+         "text": "In this letter, Tong Bong, the president of Chinese and Japanese goods retailer Sing Fat & Company, writes to the Commissioner of Immigration in San Francisco requesting he remove two names from the company\u2019s partnership list. Companies could provide a list of employees to immigration officials to help immigrants enter the country. Under the Chinese Exclusion Act, only merchants and other wealthy immigrants with certification paperwork were allowed into the US, so sponsorship from an employer was critical in making a case for an individual to enter the country.\r\n\r\nTranscription:\r\n\r\nSan Francisco, Cal., Aug. 12th, 1905<br>\r\nHon. H.H. North<br>\r\nCommissioner of Immigration<br>\r\n\r\nDear Honourable,<br>\r\nWe beg to inform you, please cancel our partnership list. The name of Wong Chong & Wong Chung no more interest in our firm. \r\n& Oblige\r\n\r\nWe remain<br>\r\nVery respectfully<br>\r\nSing Fat & Co Inc<br>\r\nPresident<br>\r\nTong Bong",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of California Historical Society via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Bamford, Mary, excerpt from \u201cAngel Island: the Ellis Island of the West,\u201d Digital Public Library of America, https://dp.la/item/4a0921a2bd0bd6e7ca456bd456fc12dd. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+         "text": "Baptist missionary Mary Bamford visited Angel Island frequently with fellow missionaries to meet with immigrants and give them Bibles in their native languages. In this excerpt from her book, she describes the journey to Angel Island, the buildings, and the immigrants she meets. As part of their work spreading Christianity, missionaries like Bamford offered immigrants English lessons and help getting settled in their new community once they arrived. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Department of the Treasury, Public Health Service, \u201cPhotograph of Immigrants Arriving at the Immigration Station on Angel Island,\u201d Digital Public Library of America, https://dp.la/item/0e5d179427c087217f72e40de07f9b6b. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+         "text": "In this photograph, a group of immigrants arrives at Angel Island, disembarking from a ferry boat. Most immigrants from Asia endured a roughly three-week journey across the Pacific Ocean. Upon arriving in San Francisco, immigration officials came on board to inspect passengers\u2019 papers. Anyone who required further review\u2014usually based on nationality or medical condition\u2014were then ferried to Angel Island. Upon arrival, immigrants were separated and housed by nationality and gender, though children under age twelve were allowed to stay with their mothers. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Department of the Treasury, Public Health Service, \u201cAngel Island Hospital,\u201d Digital Public Library of America, https://dp.la/item/1d42dabc4485bb7e473a9a99d8b35e46. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+         "text": "In this photograph, young men stand outside the hospital. After being sorted by nationality and gender upon arrival at Angel Island\u2019s administration building, a medical exam was the first test awaiting new arrivals. One of the reasons immigration officials placed the station on an island was to help prevent the spread of disease. If immigrant applicants were found to be in poor health, they might be detained longer in the station hospital or face deportation back to their country of origin.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Berndt, Jerry, \u201cAngel Island Chinese immigrant detention center, dormitory room interior. San Francisco Bay, San Francisco, California, 2003,\u201d Digital Public Library of America, https://dp.la/item/3239507048ccf85353a2c7f5c2055871. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+         "text": "Immigrants were housed by nationality and gender at Angel Island, with as many as two hundred people in a dormitory at a time. Detainees played dominoes, read books, and wrote poetry while they waited for their cases to be approved. This photograph of the dormitory\u2019s stacked wire cots was taken in 2003, almost sixty years after the Immigration Station closed. After years of activism within the Bay Area Asian American community and nearly a decade of restorations, some of the immigration station buildings opened to the public in 1983. For the first time in decades, the public could glimpse what accommodations were like for people waiting to enter America.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Department of the Treasury, Public Health Service, \u201cImmigration Interview on Angel Island,\u201d Digital Public Library of America, https://dp.la/item/bf55992da67c0773d5ab7ab2a8c2dae6. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "text": "In this photograph, three immigration officials ask questions to an immigration applicant. Since the Chinese Exclusion Act only allowed certain people entry to the United States, such as merchants and relatives of American citizens, officials used a lengthy interview process to determine whether applicants were who they claimed to be. Witnesses gave interviews to support immigrants\u2019 cases for entry, but these testimonies also served as a test. Officials asked applicants the same questions then compared responses to check for similar information and details. If a witness was coming from across the country, a detainee could wait weeks for a hearing. If their cases was denied, immigrants could face months or even years of waiting on the island for an appeal.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of San Francisco Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cDeaconess Katherine Maurer and a group of immigrants on Angel Island,\u201d Digital Public Library of America, https://dp.la/item/5d672b01310e0f6daebf6836fec77fd6. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+         "text": "In this photograph, Deaconess Katherine Mauer conducts a language class for women. Mauer, called the \u201cAngel of Angel Island,\u201d was a member of the Women\u2019s Missionary Society of the Pacific Coast. The organization helped immigrant women, particularly those rescued from Chinatown\u2019s slave trade, learn English and other necessary skills. Mauer served Angel Island detainees and the immigrant community in San Francisco from 1912 until 1951. Other religious and volunteer organizations also visited Angel Island regularly, which provided detainees with educational and recreational activities while they waited.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Berndt, Jerry, \u201cPoems of dispair carved into the walls of dormitory room, Angel Island Interment Camp, Angel Island, San Francisco, California, 2003,\u201d Digital Public Library of America, https://dp.la/item/8a34097426ba35a0ae94e42557307e65. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+         "text": "This photograph shows a segment of a Chinese poem carved into a dormitory wall. Unlike their counterparts at Ellis Island who were usually granted entry to the United States after several hours, immigrants processed through Angel Island waited weeks, months, and sometimes years to enter the US. Most of that time waiting was spent in the dormitories where Chinese immigrants carved poetry into the walls. These poems communicate the sadness, loneliness, frustration, and hope detainees felt as they waited to enter the United States and begin their new lives. \r\n\r\nRediscovered in 1970 by a California state park ranger, the poems were one of the factors that helped save the buildings from demolition. The poems are still visible on the dormitory walls, as seen in this 2003 photograph, and more than 200 poems have been preserved. One poem (not pictured) reads, \u201cWith a hundred kinds of oppressive laws, they mistreat us Chinese. / It is still not enough after being interrogated and investigated several times; / We also have to have our chests examined while naked.\u201d ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of California State University, Chico via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cLee Family,\u201d Digital Public Library of America, https://dp.la/item/2da637457d827b93d6d7fa35d2b05741. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+         "text": "In this family portrait, the Lees pose with their seven children and their \u201cpaper son.\u201d Relatives of American citizens were allowed to enter the country under the Chinese Exclusion Act, so many immigrants purchased false identities and pretended to belong to a family who had already immigrated; they were relatives on paper only. Paper relatives had to remember the details of their \u201cfamily\u201d long after leaving Angel Island, as they could still face future inspections from the Bureau of Immigration. The Lee family immigrated from China through San Francisco and later moved north to Chico, California in 1924.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-26",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-26",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of San Francisco Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cAngel Island immigration station,\u201d Digital Public Library of America, https://dp.la/item/c5ce35aed466b60512fb42d1c6a36935. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+         "text": "The caption on this photograph reads: \u201cAngel Island, which in spite of its heavenly name has been a storm center of the Immigration service, will be abandoned now for an immigrant station in San Francisco if the recent report of Secretary Davis is accepted.\u201d The caption suggests that Angel Island Immigration Station would soon close, and immigrants would be processed in San Francisco instead. As with the location on the San Francisco wharf used before 1910, the Chinese community in San Francisco argued that conditions were not safe at the immigration station. In November 1940, the immigration station relocated to San Francisco.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of San Francisco Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBurned administration building on Angel Island,\u201d Digital Public Library of America, https://dp.la/item/59e5581cdb49e3fa42cd49ae1372849f. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+         "text": "This photograph shows an aerial view of the damage to the administration building when it burned down on August 12, 1940, due to an electrical fire. The fire proved critics of the station right: the building was hazardous. In November 1940, the immigration station relocated to San Francisco. In 1941, Angel Island was once again designated for military use: the dormitories and hospital were updated, and Angel Island was renamed \u201cFort Garrison.\u201d ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Berndt, Jerry, \u201cNote written by Japanese POW, released and returning to Japan, November 7, 1945, Angel Island, Detention Center, San Francisco Bay, San Francisco, California, 2003,\u201d Digital Public Library of America, https://dp.la/item/547b066c889fdd84341e2c0c1ba7a101. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+         "text": "This photograph of an exhibit at Angel Island State Park shows a note left by a Japanese prisoner of war (POW), and a panel translating the note to English for park visitors. The POW wrote the note on the wall before he returned to Japan on November 7, 1945\u2014two months after Japan surrendered. This detainee had previously been at Fort McCoy, Wisconsin, another prisoner of war camp. \r\n\r\nDuring World War II, Angel Island housed Japanese, German, and Italian prisoners of war, some of whom were detained for almost the entire war. Additionally, Japanese Americans from Hawaii were temporarily housed in the dormitories at Angel Island before being sent to internment camps. West coast Japanese Americans deemed dangerous by the US government were imprisoned in the US Army camp on another part of the island, before being sent to detention centers like Fort McCoy rather than internment camps with their families. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+               "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Santa Barbara, Library, Department of Special Research Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Wong, Leland, \u201cAngel Island, an exhibition of the Chinese experience at the immigration station,\u201d Digital Public Library of America, https://dp.la/item/88a3414d4bbf3acb5a235fa0c4937db8. "
+                  }
+               ]
+            }
+         ],
+         "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+         "text": "The exhibition advertised in this poster was held during a time when the public became interested in the history of the immigration station. After World War II, Angel Island Immigration Station buildings were no longer used and fell into disrepair. The California Department of Parks and Recreation took over the island in 1963. In 1970, a state park ranger rediscovered the poems written on the walls and contacted local experts to research and document them. Asian Americans in the San Francisco Bay Area formed a committee to preserve the immigration station\u2019s history. In July 1976, a few months after this exhibition closed, the State of California dedicated $250,000 to preserve the immigration station as a state monument. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1844",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1830",
+               "name": "A 1901 letter from a Los Angeles banker asking US Secretary of State John Hay to reconsider a portion of the Chinese Exclusion Act.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_01_44e97c13e71f6236d04e259e95724e2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1831",
+               "name": "A letter from a Sing Fat & Company executive asking immigration officials to cancel sponsorship for two employees, 1905.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_02_96a985cc5dee672bb681af447e1c740b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1832",
+               "name": "An excerpt from *Angel Island: The Ellis Island of the West* by Mary Bamford, 1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_03_4a0921a2bd0bd6e7ca456bd456fc12dd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1833",
+               "name": "A photograph of immigrants arriving at Angel Island, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_04_0e5d179427c087217f72e40de07f9b6b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1834",
+               "name": "A photograph of young immigrants standing outside Angel Island\u2019s hospital, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_05_1d42dabc4485bb7e473a9a99d8b35e46_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1835",
+               "name": "A photograph of an Angel Island dormitory room as it looked when the immigration station was in use, 2003.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_06_3239507048ccf85353a2c7f5c2055871_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1836",
+               "name": "A photograph of immigration officials interviewing an Angel Island detainee, 1923.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1837",
+               "name": "A photograph of a missionary conducting an English lesson for a group of immigrant women, 1933.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_08_5d672b01310e0f6daebf6836fec77fd6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1838",
+               "name": "A photograph of a Chinese poem carved into an Angel Island dormitory wall by a detainee.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_09_8a34097426ba35a0ae94e42557307e65_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1839",
+               "name": "A photograph of the Lee family, including their \u201cpaper son,\u201d in San Francisco, ca. 1920.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_10_2da637457d827b93d6d7fa35d2b05741_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1840",
+               "name": "A photograph of the Angel Island administration building soon before the station\u2019s closure, 1930s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_11_c5ce35aed466b60512fb42d1c6a36935_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1841",
+               "name": "A photograph of the Angel Island administration building on fire, August 12, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_12_59e5581cdb49e3fa42cd49ae1372849f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1842",
+               "name": "A photograph of a note left by a Japanese prisoner of war held at Angel Island during World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_13_547b066c889fdd84341e2c0c1ba7a101_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1843",
+               "name": "A poster advertising a San Francisco art gallery\u2019s exhibition about the Chinese experience at Angel Island, 1976.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_14_88a3414d4bbf3acb5a235fa0c4937db8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Berndt, Jerry, \u201cMan of Chinese origin with his family. He was detained at Angel Island Internment Camp, Angel Island, San Francisco, California, 2003,\u201d Digital Public Library of America, https://dp.la/item/c3109dde3d2816b347a7e478b2364903. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a former Angel Island detainee returning with his family, 2003.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_rep.jpg",
+         "text": "In this photograph, a man of Chinese origin looks around the exhibit in the interrogation room with his family, several decades after being there as a detainee. The photographer, Jerry Berndt, was a photojournalist known for his work documenting struggles for civil and human rights. \r\n\r\nIn 1999, sixteen years after opening to the public, Angel Island Immigration Station became a National Historic Landmark and received funding from the National Park Service and the National Trust for Historic Preservation to restore the facilities. The Angel Island Immigration Station Foundation works closely with California State Parks to preserve the buildings and provide educational materials, keeping alive the stories of the island and the people who were there.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_15_c3109dde3d2816b347a7e478b2364903_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-angel-island-immigration-station",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Michelle Bickert"
+            }
+         ],
+         "dateCreated": "2018-02-22",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-22",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. After reading the [letter from a Los Angeles banker](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1830) and the [letter from a Sing Fat & Company executive](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1831), consider how immigration policy regarding Chinese laborers impacted the authors of each letter. Why might a California business owner want Chinese immigrants to be able to visit home more easily? Why might a Chinese business ask to no longer sponsor immigration for two Chinese individuals? \r\n2. In the excerpt from [*Angel Island: The Ellis Island of the West*](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1832), missionary Mary Bamford writes, \u201cWhen the inmates realize that the visitor is giving away Gospels in Chinese, a small mob sometimes closes around her, a good-natured mob, of course, and the yellow hands are thrust out for the Gospels faster than she can get them out of the bag.\u201d Based on her descriptions of the immigrants, their nationalities, and their interest in Christian texts, what does Bamford think of the detainees? Did she welcome them to America? Use evidence from the book excerpt to support your claim.\r\n3. Examine the photographs of [immigrants arriving at Angel Island](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1833), [immigrants standing outside Angel Island\u2019s hospital](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1834), and [the missionary conducting an English lesson](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1837). Describe the immigrants that appear in these photographs. How old are they? How are they dressed? What can you infer about their journey from their appearance?\r\n4. Compare and contrast the [photograph of immigration officials interviewing an Angel Island detainee](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1836) and the [photograph of a former Angel Island detainee returning with his family](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1844), both of which were taken in the interrogation room. The photographs were taken seventy years apart\u2014one when the station was in use, and the other when it was an exhibit. Describe the thoughts and emotions each man might have in each scene. Who are the other people in the room in each photograph? How had the room changed? \r\n5. The 1970s saw a renewed interest in the history of Angel Island Immigration Station, and the people who were there. When the exhibition advertised in the [poster](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1843) opened, no immigrants and no members of the public had been to the station for at least thirty years. To capture the experience at this place, what would an exhibition need to have? What kinds of photographs, objects, or other sources might have appeared in the exhibition?\r\n6. Consider the two messages left on the walls of Angel Island buildings: the [Chinese poem](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1838) and the [note left by a Japanese prisoner of war](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1842). Imagine the experiences these two people had on Angel Island. What were they waiting for, and how might those waits have differed? What fears and hopes might each individual have had there? Why did they choose to write on the walls where they were detained?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Ask students to imagine they are an immigrant detained at Angel Island between 1910-1940. Using the photographs of immigrants and spaces on the island\u2014[arriving at Angel Island](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1833), [standing outside Angel Island\u2019s hospital](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1834), the [dormitory room](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1835), the [missionary conducting an English lesson](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1837), and the [Chinese poem](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1838)\u2014have students write a poem, diary entry, or letter about their experience there. Students should consider the following questions to add details to their writing: Where are they from, and why did they leave? Do they know anyone else with them? How long have they been detained? What is daily life like? What will they do once they are in the United States?\r\n2. Ask students to take the perspective of someone who is not immigrating through Angel Island, but who is concerned with whether and how immigrants enter the country. Students can choose an identity from those found in the sources: a white American business owner such as the [Los Angeles banker](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1830), an Asian-American member of the local community such as the [Sing Fat & Company executive](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1831), a missionary or other volunteer such as [Mary Bamford](https://dp.la/primary-source-sets/immigration-through-angel-island/sources/1832), or an immigration officer. Have students write a letter to the editor of a local newspaper detailing changes you would like to see made to the immigration process in San Francisco. Should the United States expand or limit the number of immigrants coming through Angel Island? Do detainees need better facilities or treatment? Should the interrogations be faster, or more thorough? \r\n3. Have students break into small groups to compare and contrast the immigration experience at Angel Island between 1910-1930 and immigration to the United States through Ellis Island during the same period. Each group will focus on a different aspect of the immigration experience, such as: What were the primary countries of origin for immigrants at each location and what were the forces driving people to immigrate to the US? What were the facilities at each immigration station like? What procedures and processes did immigrants go through before entering the US? What kind of treatment did immigrants encounter once they successfully entered the country? What laws or policies influenced the immigration experience at each location? Students should use this primary source set, the primary source set on [Immigration and Americanization, 1880-1930](https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930), and outside research to explore their assigned topic. Each group will share their findings with the class in a PowerPoint presentation, using evidence from primary sources. "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+            "@type": "CreativeWork",
+            "name": "Immigration through Angel Island"
+         },
+         "name": "Teaching Guide: Exploring the Angel Island Immigration Station"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Angel Island Immigration Station Foundation](https://www.aiisf.org/).\r\n2. [Immigrant Voices Oral History collection](https://www.aiisf.org/immigrant-voices/), Angel Island Immigration Station Foundation. \r\n3. \u201c[The Lost Poetry of the Angel Island Detention Center](https://www.newyorker.com/books/page-turner/the-lost-poetry-of-the-angel-island-detention-center),\u201d *The New Yorker*, February 22, 2017. \r\n4. [Angel Island: Immigrant Journeys of Chinese Americans](http://www.angel-island.com/). "
+      },
+      {
+         "name": "Overview",
+         "text": "Angel Island Immigration Station was the entryway to America for hundreds of thousands of immigrants, mainly from Asian countries, during its operation from 1910 to 1940. [Chinese immigration](https://dp.la/primary-source-sets/sets/early-chinese-immigration-to-the-us/) to the United States had increased steadily since the mid-nineteenth century, and some Americans worried that Chinese employment as low-wage workers threatened American jobs. Congress passed the Chinese Exclusion Act in 1882 to reduce the number of Chinese immigrants entering the country and make immigration more difficult. Federal officials initially processed immigrants in San Francisco upon arrival but relocated the screening center to Angel Island, a strategically-ideal location north of the city in the San Francisco Bay. There, detainees had limited contact with other immigrants who might coach them on passing their interrogations, less risk of spreading infectious diseases, and fewer chances of escaping.\r\n\r\nAlthough Angel Island is often called the \u201cEllis Island of the West,\u201d the process for entering the United States was very different for Asian immigrants on the West Coast compared to the experiences of European immigrants in the East. Because of the Chinese Exclusion Act\u2019s rules about who was allowed to enter the country, immigration was a frustrating, expensive, and lengthy process for Asian, and specifically Chinese, immigrants. While a European immigrant might expect to spend a few hours at Ellis Island (or at any station on the West Coast), Asian immigrants spent weeks or months detained on Angel Island. \r\n\r\nThe exact number of immigrants who passed through Angel Island is unknown; estimates vary between 300,000 and one million people. While Angel Island was most consistently processing Chinese and Japanese immigrants, immigrants also arrived from India, Korea, the Philippines, Russia, Mexico, and seventy-five other countries. In the 1970s, thirty years after the immigration station closed, Asian American communities and the State of California began working to preserve both the physical station and the stories it represented. Today, the immigration station is open to the public and reminds visitors of the bravery, despair, anger, and hope of the people who dreamed of coming to America."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/early-chinese-immigration-to-the-us",
+         "name": "Early Chinese Immigration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+         "name": "Immigration and Americanization, 1880-1930",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+         "name": "Exodusters: African American Migration to the Great Plains",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frank-lloyd-wright-and-modern-american-architecture",
+         "name": "Frank Lloyd Wright and Modern American Architecture",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/theodore-dreiser-s-sister-carrie-and-the-urbanization-of-chicago",
+         "name": "Theodore Dreiser\u2019s *Sister Carrie* and the Urbanization of Chicago",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+         "name": "Blackface Minstrelsy in Modern America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beginnings-of-the-american-red-cross",
+         "name": "Beginnings of the American Red Cross",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/settlement-houses-in-the-progressive-era",
+         "name": "Settlement Houses in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fake-news-in-the-1890s-yellow-journalism",
+         "name": "Fake News in the 1890s: Yellow Journalism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/when-miners-strike-west-virginia-coal-mining-and-labor-history",
+         "name": "When Miners Strike: West Virginia Coal Mining and Labor History",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-imperialism-the-spanish-american-war",
+         "name": "American Imperialism: The Spanish-American War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+         "name": "Mexican Labor and World War II: The Bracero Program",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+         "name": "The Panama Canal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Immigration through Angel Island",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

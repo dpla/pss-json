@@ -1,0 +1,2292 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Migration"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Worcester State University, Massachusetts"
+         },
+         "name": "Tona Hangen"
+      }
+   ],
+   "dateCreated": "2017-09-19",
+   "dateModified": "2018-06-13",
+   "dct:created": "2017-09-19",
+   "dct:modified": "2018-06-13",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Mormon migration.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_01_8082a546e25a2bd15e5196be27c0d751.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Mitchell, S. Augustus, \u201cNew map of Texas, Oregon, and California with the regions adjoining,\u201d Digital Public Library of America, https://dp.la/item/8082a546e25a2bd15e5196be27c0d751."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+         "text": "Augustus Mitchell\u2019s map was the latest and most accurate map available to westward travelers in 1846. Brigham Young bought copies of Mitchell\u2019s map to use in planning the Latter-day Saints\u2019 departure and route. The Salt Lake Valley, located in a region the map called \u201cUpper or New California,\u201d was the Mormons\u2019 intended destination, in part because of its geographic isolation. The starting point for the Mormon migration was Nauvoo, Illinois, on the western border of Illinois between Burlington, Iowa and St. Francisville, Missouri, just above the 40\u00b0 latitude line on this map\u2019s right-hand edge. Although Nauvoo is not noted on the map, it was located approximately where the \u201cMi\u201d in \u201cMississippi River\u201d is printed. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Princeton University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cMormon difficulties : report of the governor in relation to the difficulties in Hancock County,\u201d Digital Public Library of America, https://dp.la/item/62c5ea3a9df1d5dfef6c8bf09db19667."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+         "text": "In this document, Governor Thomas Ford reports to the Illinois Senate on the situation around Nauvoo, Illinois, summarizing the conflict between Mormons and anti-Mormons in Illinois from the fall of 1845 to the end of 1846. He documents vigilante violence and loss of property experienced by the remaining Mormon settlers, most of whom are planning to move west as soon as they could outfit themselves for the trail. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2018-05-07",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2018-05-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_03_1d178923d61d4ec0bae5926368556953.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Brigham Young University - Harold B. Lee Library via Mountain West Digital Library. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEliza R. Snow letter to Elizabeth Ann Smith Whitney and Vilate Murray Kimball,\u201d Digital Public Library of America, https://dp.la/item/1d178923d61d4ec0bae5926368556953."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+         "text": "Eliza R. Snow was a prominent female leader and poet among the Nauvoo Mormons. She addressed this letter to her friends and \u201cSisters and Mothers\u201d in the \u201cCamp of Israel.\u201d Mormons often likened their migration to that of Jews seeking a promised land in Israel, as chronicled in the Bible\u2019s book of Exodus. Snow wrote from Garden Grove, Iowa, one of the makeshift towns the Mormons established in 1846 while they were scattered between Nauvoo, Illinois and Council Bluffs, Nebraska. \r\n\r\nTranscription:\r\n\r\nMrs. Whitney & Mrs. Kimball\r\n \r\nJune 30th, 1846\r\n \r\nDear Sister & Mother,\r\n \r\nI do not like to let the present opportunity pass without jogging your memories that I am at a distance from you, lest you might forget me. Father Morley expects to start for your camp in an hour or two & I shall have time to write you but a few lines. I feel truly thankful to our Father in heaven for the good news I have heard from you from time to time & the prosperity which has attended you. I pray that you may continually be blest and forwarded on to the place appointed. I long for your society, which I think I have learn\u2019d to appreciate, for I assure you I estimate it very highly yet under existing circumstances I have [section torn] moment regretted that br. M. gave up his means, for the assistance of others. I shall avail myself of the first opportunity that presents for me to come but there is no prospect at present, and while any exertion on my part would be unavailing I am perfectly at ease, thinking that when the Lord sees best for me to come, he will open the way; his will is my pleasure whenever I understand it. I am now living with my brother, about a mile above Mount Pisgah he has been very sick, since you left is better.\r\n \r\nThe last intelligence Sir Markham had from br. M., he was engaged with Col. Backington in the defense of the City what the result will be the Lord only knows. ____ I have received a letter from S. M. Kimball, she intends writing to her Mother Kimball soon. ____ Please give my respects to Prest. Young & wife tell him I remember his promise daily. My love to the girls, particularly Sarah Ana, & Helen. I have had a chat with S. about Joseph in my sleep.\r\n \r\nWill Sir Kimball please say to Whiting that his people here are all well and in good spirits \u2013 his mother is ever glad that he went on \u2013 was rejoic\u2019d to hear that he is contented and often expresses a desire that he may be faithful & be very useful. My letter is called for.\r\n \r\nWith every sentiment of esteem,<br/>\r\nEliza R. Snow\r\n \r\n[page 2]<br/>\r\nMrs. Elizabeth Ann Whitney &<br/>\r\nMrs. Vilate Kimball\r\n \r\nCamp of Israel ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Brigham Young University - Harold B. Lee Library via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Bullock, Thomas, \u201cPlan of Winter Quarters of the Camp of Israel on their journey to the West, Winter of 1846-1847,\u201d Digital Public Library of America, https://dp.la/item/85ba8c40ab601080c81e671f5edb3b8b."
+                  }
+               ]
+            }
+         ],
+         "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+         "text": "The Mormon clerk Thomas Bullock drew this map of the Mormon town of Winter Quarters, located just north of present-day Omaha, Nebraska, probably in December 1846. The community\u2019s layout shows the influence of Joseph Smith\u2019s urban-design model called the Plat of Zion. Winter Quarters served as temporary headquarters for Brigham Young and many of the apostles. Mormons called their migration the \u201cCamp of Israel,\u201d likening themselves to Jews seeking a promised land in Israel, as as chronicled in the Bible\u2019s book of Exodus. Since the population of Winter Quarters never exceeded four thousand, Bullock\u2019s map suggests that more than seven thousand other westward-moving members established themselves in ninety other known communities on the east side of the Missouri River, or in a variety of temporary Mormon settlements spread across Iowa. Winter Quarters was abandoned in 1848. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_05a_448621cb7f3a0974ad907cf0cd90912b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Brigham Young University - Harold B. Lee Library via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Snow, William, \u201cSnow, William,\u201d Digital Public Library of America, https://dp.la/item/448621cb7f3a0974ad907cf0cd90912b."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+         "text": "William Snow (1806-1879) traveled from Council Bluffs, Nebraska to Salt Lake City, Utah in 1850 as the captain of a group of ox-drawn wagons. His diary excerpt describes efforts to maintain unity among the group, religious worship along the way, and some deaths due to an outbreak of cholera in the camp. \r\n\r\nTranscription:\r\n\r\nJune 21, 1850 <br/>\r\nFriday morning 21st we started from the river Traveled about 12 miles to water & tim -ber Br J M Grant was Just leaving the ground with his waggons Br Roundays teams were there Same Evening Br Woodruf came up with his company this day Br Cole had a child die with boul complaint about two years old was buried that Evening \r\n\r\nJune 22, 1850 <br/>\r\nnext morning Sat 22d we met to arrang our traviling when Br Warren Smith left the company un Seremonously with out the consent of the company with 14 waggons as capt of the Same when I discovered he was going I went to him & asked him if he was going acording to order he Said he was not I told him If he left in this way he went without the Sanction of this company & with ^out the good feelings prayrs & faith he Still ^+ went on Same morning we Started with 60 waggons leaving \r\n\r\n[page 3] <br/>\r\nby aunanimous vote of company leaving 62 in the 2d company of 10 50 to follow we Traviled about 10 miles to Rock ^Creek overtook Br Grants Com -pany camped here over Sunday Some raney after noon held meeting tords night Br Wroodruff came up Br Grant moved of we remained on the ^ground \r\n\r\nJune 24, 1850 <br/>\r\nmondy 24 rainy we did not Start I went back 3 miles to Squaw creek where 2d 50 was camped found Some Sick with bowl complaints one case of colery father Sweet but he was getting better when I returned to our commp I found Several of the company was Sick we remained untill Tuesday ^morning 25th when we Startd Tr 3 miles to the first creek over took Some of Elder Woodrufs camp that had gon ahead we passed 6 graves nuly made on the ^hill we had two bad places to cross this day camped 6 miles from the upper crossing of Rock creek on the ^prarie \r\n\r\n[page 4] <br/>\r\nJune 26, 1850 <br/>\r\nwednesday 26th we Traviled 6 miles to Rock Creek crosed over foornoon on the west Bank of this creek we Saw three graves of the Saints Viz M McDougal Alfred Brown a child by the name of Webb continued our Journey on this afternoon to where we found water on the prairie without timber about 4 miles from the creek here we campd this night Clark Campbell aged 26 [ink blot] years Died with Cholra also a little girl of Geo Catlins 4 years old. \r\n\r\nJune 27, 1850 <br/>\r\nThursday 27th continued our Journey to P came to Salt creek crosed over passed over Br whipple & company Tr about 5 miles where we encamped for the night here 2 children died with cholra mobus Br Barn hams & Br Fawet Smiths \r\n\r\nJune 28, 1850 <br/>\r\nFriday 28 Tr about 10 mils camped on prarie with out wood had a heavy Shour \r\n\r\nJune 29, 1850 <br/>\r\nSat 29th Traviled about 5 miles to wood & water where we camped for the night here Wm A[- - -] Died. we remained over \r\n\r\n[page 5] <br/>\r\nSunday Dried Some things from our waggons with cholra aged 18 years Sister Bibee was confined Same night gave Birth to a fine girl \r\n\r\nJune 30, 1850 <br/>\r\nSunday 30 we remained in camp Br Joseph Pring Taken with cholera & Died Same Evening this weath Evening camp th came to gether prayed for health of camp & the Monday morning B. Berried Br Pring Br James Mcleland \r\n\r\nJuly 1850 \r\n\r\nJuly 1, 1850 <br/>\r\nJuly 1st had 2 children Very Sick But we started on Travel -ed about 13 miles This day we met the mail from the valley one of Br Mcclelans children died Tues [-] buried Br Mccleland child Tr 10 miles camped for the night Br Whippl camped one Side of us Br Woodruff the other whealth of camp very good wednesday [-] Tr about 14 miles to Platt bottom wher we camped weather fine heath much better than had been for Some time \r\n\r\nJuly 4, 1850 <br/>\r\nThursday 4th July Tr 12 miles to clear Creek Stoped women commenced to wash this Evening camp met to See if we Should Friday 5th Stayed divide comp but could not agree to Seperate a few wished to goo ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2018-06-13",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2018-06-13",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Utah - J. Willard Marriott Library via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPaisley shawl owned by Sagamore Camp of Daughters of Utah Pioneers, Centerville, Utah,\u201d Digital Public Library of America, https://dp.la/item/4a9edf1de23f3053a3c8a5ebbe9cd431."
+                  }
+               ]
+            }
+         ],
+         "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+         "text": "While most Mormon pioneers crossed the Great Plains, 238 of them began their journey to refuge in the West with a twenty-four-thousand-mile sea voyage on a chartered Yankee trading ship. These travelers included Eliza Kittleman, the owner of this paisley shawl. The *Brooklyn* group, led by Samuel Brannon, departed New York on February 4, 1846, the same day Mormons in Illinois began to depart Nauvoo traveling west across the Mississippi. The ship\u2019s hold contained not only the 238 people but water barrels, crates of chickens, two cows, forty pigs, tools for eight hundred farmers, two sawmills, a gristmill, and a printing press. Over the next six months, storms blew the passengers eastward almost as far as the Cape Verde islands before they sailed successfully around Cape Horn to Chile\u2019s Juan Fernandez islands, and then to the Hawaiian islands, eventually landing in San Francisco just three weeks after the American flag had been planted there at the end of the Mexican-American War. About two-thirds of the *Brooklyn* migrants stayed in California, founding the town of New Hope. The remaining third traveled eastward to Utah in 1847 to reunite with the other Mormon settlers. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_07_658f42290cd4842c82b7dfea81be8af8.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Brigham Young University - Harold B. Lee Library via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cMormon Battalion Company A return list,\u201d Digital Public Library of America, https://dp.la/item/658f42290cd4842c82b7dfea81be8af8."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+         "text": "War with Mexico broke out in April 1846, just as some ten thousand Mormons attempting to leave the United States were making slow progress across Iowa, many of them sick and destitute. President Polk requested a battalion of five hundred Mormon men to fight in the Mexican-American War. Despite having just been denied legal recourse in Illinois, the Latter-day Saints complied, as the soldiers\u2019 salaries would provide much-needed cash to supply the westward journey. The Mormon Battalion was the only religiously-based military unit in United States history; approximately 550 men served, along with 33 women laundresses. The unit marched two thousand miles from Fort Leavenworth, Kansas, to San Diego, California along the Sante Fe trail without encountering battle; a contingent of sick wintered over in Pueblo, Colorado and arrived in the Salt Lake Valley the same month as Brigham Young\u2019s 1847 group. Once the war was over, some members of the Battalion stayed in California at the beginning of the gold rush to raise funds; others rejoined their families in the Salt Lake Valley. The Company A list includes name, rank, place of origin, birthdate, family situation, supplies, and wages; the first page of four is included here. \r\n\r\nTranscription:\r\n\r\nMormon Battalion Council Bluff<br/>\r\nJuly 16 1846<br/>\r\nReturn List of Company A\r\n \r\nContains a list of members of Company A of the Mormon Battalion.\r\n \r\nThe columns at the top of the list in order from left to right read: Name, Rank, Town, County, State, Date [of Birth], Number in Family, Wife\u2019s Name, wagons, horses, oxen, cows, sheep, hogs, Situation of Family, Wishes concerning family, and Disposal of Wages.\r\n \r\n\u201cSituation of Family\u201d refers to whether the family would accompany the member of the battalion, were \u201con the way\u201d, or would remain at Council Bluff<br/>\r\n\u201cWishes Concerning Family\u201d refer to the care of the family in case of death, whether they were to \u201cgo on\u201d or left in the care of an individual named by the member of the battalion <br/>\r\n\u201cDisposal of Wages\u201d refers to the use of the monthly wages on order of council, to benefit of family, or combination of both\r\n \r\nDocument is signed by Jefferson Hunt, Capt., William W. Willis Orderly, Sgt, and James Ferguson, clerk. Dated July 16, 1846",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-10-06",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-10-06",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of David Rumsey."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cRoute of the Mormon pioneers from Nauvoo to Great Salt Lake,\u201d Digital Public Library of America, https://dp.la/item/5aee4f458349cc38bc1cc636cf28bb86."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "text": "This colorful schematic map was printed in Denver for the New Wilson European Hotel in Salt Lake City in 1897, one year after Utah statehood, to commemorate the fifty-year anniversary of the Mormons\u2019 arrival. The map is a chronological depiction of the Saints\u2019 progress in 1847 across the Midwest and Plains, with miles traveled daily, and with vignettes showing a wagon train, a group of tepees, a buffalo herd, and numerous other scenes from the journey. The map includes place names, rivers, and mountains. Campsites along the route are noted with the dates on which the first emigrant party stayed at each site. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_09_bf445667bfca7887b064dcc5a2d23889.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Brigham Young University - Harold B. Lee Library via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Clayton, William, excerpt from \u201cThe Latter-day Saints' emigrants' guide,\u201d Digital Public Library of America, https://dp.la/item/bf445667bfca7887b064dcc5a2d23889."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+         "text": "William Clayton accompanied Brigham Young in the first wagons to reach Salt Lake in 1847, making detailed notes about the route for those to follow. He compiled those notes into a twenty-four-page booklet, published in St. Louis, that served as the authoritative trail guide for later wagon and handcart companies along the Mormon, Oregon, and California trails. The booklet noted the locations of water, campsites, timber, and other trail features. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2018-06-13",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2018-06-13",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_10_754ea30780ff37446b7288033a9807a6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Utah State Historical Society via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cRoadometer P.1; No. 9447,\u201d Digital Public Library of America, https://dp.la/item/adbaade507ab7a8c244ab4ab5a99ce53."
+                  }
+               ]
+            }
+         ],
+         "name": "A trail roadometer designed and used by William Clayton, 1847.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+         "text": "William Clayton was among the first pioneer group to reach the Salt Lake Valley. In May 1847 he designed, and Appleton Harmon built, this wagon odometer to measure road distances along what would become the Mormon trail. Clayton found that his wagon wheel turned 360 times per mile. The carved, wooden, gear-driven counter, mounted on the wagon, registered complete revolutions of his wheel to measure accurate mileage between campsites, landmarks, and river crossings for the benefit of travelers following after. Clayton used those distances to compile his \u201c[Emigrants\u2019 Guide](https://api.dp.la/primary-source-sets/sources/1600).\u201d",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Berkeley Bancroft Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Palmer, Francis Florabond, \u201cThe Rocky Mountains: emigrants crossing the plains,\u201d Digital Public Library of America, https://dp.la/item/9ffcbfaf8d53efbcc43e23908b410a6a."
+                  }
+               ]
+            }
+         ],
+         "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+         "text": "This 1866 Currier and Ives color lithograph is by artist Francis Florabond Palmer, in the style of the [Hudson River School](https://dp.la/primary-source-sets/sets/the-hudson-river-school). Against a snow-capped mountain landscape, a long train of ox-drawn wagons crosses a river valley accompanied by two Indian guides on horseback. Women and children sit in the wagons, men drive the oxen with whips, and a camp is visible in the background. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2018-01-30",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2018-01-30",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_12_68de172780d743e7f4516d3445a8876a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Berkeley Bancroft Library via California Digital Library. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Roberts, E. C., \u201cUtah Valley, 1850,\u201d Digital Public Library of America, https://dp.la/item/68de172780d743e7f4516d3445a8876a."
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration showing a view of the Utah Valley in 1850.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+         "text": "This 1850 illustration shows a rough-hewn start to Mormon settlement in Utah, with some people still living in covered wagon boxes while others build log cabins. By 1857, ten years after their first arrival, about forty-five thousand Mormons lived in the Utah territory.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2018-06-13",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2018-06-13",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_13_4fd982a138c05b562176742f46a39733.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Utah State Historical Society via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cDeseret Alphabet,\u201d Digital Public Library of America, https://dp.la/item/1a90bdef89c879357c787c967f0295f4."
+                  }
+               ]
+            }
+         ],
+         "name": "A printed page showing the Deseret Alphabet, around 1850.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+         "text": "Between 1847 and 1854, the Mormon-founded University of Deseret developed and promoted an alternative phonetic alphabet, modeled partly on Pitman shorthand, to ease English-language learning and cultural assimilation among new immigrants from Europe. \u201cDeseret\u201d was the *Book of Mormon* word for a beehive, and it lent both its name and visual symbol to the Mormon western territory that encompassed what is now Utah, Nevada, and the surrounding areas. Between 1854 and 1869, the Deseret alphabet could be seen in Mormon newspapers, street signs, and books, including an English-Hopi dictionary, but its use declined after the 1870s. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2018-06-13",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2018-06-13",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+               "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_14_53d20593c91509f1b31d711d35c44631.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Utah State Historical Society via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Carter, C.W., \u201cEagle Emporium,\u201d Digital Public Library of America, https://dp.la/item/8722a15545fb3418c72784d94d530ba9."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+         "text": "Concerned about commercial competition and eager to achieve Mormon economic self-sufficiency, Utah territorial governor Brigham Young founded ZCMI as one of the US\u2019s earliest department stores. ZCMI\u2019s first downtown location was a block of stores known as Eagle Emporium, here shown in 1869 with a group of Native American and other men posing in front. The sign on the building reads \u201cHoliness to the Lord,\u201d a phrase affixed to the exterior of Mormon temples and other buildings dedicated for religious purposes. \r\n\r\nMormons believed Native Americans were part of the lost tribes of Israel, and they felt a responsibility to convert, educate, and assimilate them. Several tribes lived in the Utah Valley at the time Mormons arrived there, including Utes and Shoshones. The rapid influx of Anglo-Europeans sparked conflict not unlike that in other areas of the West, as local Indian peoples resisted religious conversion and dispossession of their lands. Native American persistence within and around Mormon settlements can be seen in this photograph. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1606",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1592",
+               "name": "An 1846 map by Augustus Mitchell \u201cof Texas, Oregon and California, with regions adjoining.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_01_8082a546e25a2bd15e5196be27c0d751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1593",
+               "name": "An excerpt from a report from Illinois Governor Thomas Ford reporting on \u201cMormon difficulties,\u201d December 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_02_62c5ea3a9df1d5dfef6c8bf09db19667_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1594",
+               "name": "A letter from Eliza R. Snow to Elizabeth Ann Smith Whitney and Vilate Murray Kimball, June 30, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_03_1d178923d61d4ec0bae5926368556953_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1595",
+               "name": "A plan of Winter Quarters, Nebraska, during the winter of 1846 to 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_04_85ba8c40ab601080c81e671f5edb3b8b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1596",
+               "name": "An excerpt from the trail diary of Mormon pioneer William Snow, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_05_448621cb7f3a0974ad907cf0cd90912b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1597",
+               "name": "A paisley shawl brought by Eliza Kittleman from Philadelphia to Utah on the Ship *Brooklyn*, 1849. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_06_17688c150c89c6fe57a6551d5385fa1d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1598",
+               "name": "An excerpt from a roster for Company A of the Mormon Battalion in the Mexican-American War, 1846.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_07_658f42290cd4842c82b7dfea81be8af8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1599",
+               "name": "An 1897 map of the route of the Mormon pioneers from Nauvoo to Salt Lake.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1600",
+               "name": "An excerpt from William Clayton\u2019s booklet, \u201cThe Latter-day Saints\u2019 Emigrants\u2019 Guide,\u201d 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_09_bf445667bfca7887b064dcc5a2d23889_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1601",
+               "name": "A trail roadometer designed and used by William Clayton, 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_10_754ea30780ff37446b7288033a9807a6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1602",
+               "name": "A color lithograph from 1866 called *The Rocky Mountains: Emigrants Crossing the Plains*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_11_9ffcbfaf8d53efbcc43e23908b410a6a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1603",
+               "name": "An illustration showing a view of the Utah Valley in 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_12_68de172780d743e7f4516d3445a8876a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1604",
+               "name": "A printed page showing the Deseret Alphabet, around 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_13_4fd982a138c05b562176742f46a39733_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1605",
+               "name": "A photograph of Zion\u2019s Commercial Mercantile Institution (ZCMI) in Salt Lake City, with Native Americans on horseback, 1869.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_14_53d20593c91509f1b31d711d35c44631_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Gleason Public Library via Digital Commonwealth. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPromontory Point, Utah Brigham camps,\u201d Digital Public Library of America, https://dp.la/item/a0bd0e14b9448a34c718dac0e566fe39."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of the transcontinental railroad at Promontory Point, Utah, May 10, 1869.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_rep.jpg",
+         "text": "This photograph commemorates the joining of the Union Pacific and Central Pacific railroads, marking the beginning of transcontinental railroad travel across the United States. A previous owner of the photograph has drawn an ink hand and written a name to identify someone in the center of the image. \r\n\r\nWith the advent of relatively inexpensive rail travel, westbound settlers no longer needed to purchase oxen and wagons, pull their own handcarts, or navigate by ship around South America. The coming of the railroad also opened up the Utah region, previously isolated within the Rocky Mountains, to economic and cultural influences from the rest of the nation. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_15_a0bd0e14b9448a34c718dac0e566fe39_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-mormon-migration",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Worcester State University, Massachusetts"
+               },
+               "name": "Tona Hangen"
+            }
+         ],
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the [report from Thomas Ford](https://dp.la/primary-source-sets/mormon-migration/sources/1593), the [letter from Eliza R. Snow](https://dp.la/primary-source-sets/mormon-migration/sources/1594), and the [trail diary of William Snow](https://dp.la/primary-source-sets/mormon-migration/sources/1596), explain what compelled the Latter-day Saints to head west as a group in 1846. How might Mormon motivations have been similar to or different from those of other Anglo-American migrants who moved into the American West? \r\n2. Consider the [plan of Winter Quarters, Nebraska](https://dp.la/primary-source-sets/mormon-migration/sources/1595), the [roster for Company A of the Mormon Battalion](https://dp.la/primary-source-sets/mormon-migration/sources/1598), and the \u201c[The Latter-day Saints\u2019 Emigrants\u2019 Guide](https://dp.la/primary-source-sets/mormon-migration/sources/1600)\u201d. How did Mormons structure their journey during the initial relocation from Nauvoo to the Great Salt Lake Valley from 1846 to 1848? How did the Church of Jesus Christ of Latter-day Saints help thousands of others to make the same journey to the territory of Deseret from 1848 to 1869? \r\n3. Compare the [1846 map](https://dp.la/primary-source-sets/mormon-migration/sources/1592) by Augustus Mitchell, the 1897 [map of the route of the Mormon pioneers](https://dp.la/primary-source-sets/mormon-migration/sources/1599), and the color [lithograph from 1866](https://dp.la/primary-source-sets/mormon-migration/sources/1602) to explore how and why Mormons traversed the plains and Rocky Mountains to their particular destination and whom they encountered in the region. \r\n4. This primary source set contains two material culture objects, [Eliza Kittleman\u2019s shawl](https://dp.la/primary-source-sets/mormon-migration/sources/1597) and [William Clayton\u2019s roadometer](https://dp.la/primary-source-sets/mormon-migration/sources/1601). What might these objects reveal about different kinds of Mormon migration experiences? How does gender inform your interpretation of these objects and their significance to the Mormon migration? \r\n5. Using the [illustration showing the Utah Valley in 1850](https://dp.la/primary-source-sets/mormon-migration/sources/1603), the printed page showing the [Deseret Alphabet](https://dp.la/primary-source-sets/mormon-migration/sources/1604), and the [photograph of Zion\u2019s Commercial Mercantile Institution](https://dp.la/primary-source-sets/mormon-migration/sources/1605), describe communities in the Utah territory between 1847 and 1897. Who lived in them, and what were some of their economic and cultural features?\r\n6. Use the [trail diary of William Snow](https://dp.la/primary-source-sets/mormon-migration/sources/1596), [Eliza Kittleman\u2019s shawl](https://dp.la/primary-source-sets/mormon-migration/sources/1597), the [1897 map of the route of the Mormon pioneers](https://dp.la/primary-source-sets/mormon-migration/sources/1599), the \u201c[The Latter-day Saints\u2019 Emigrants\u2019 Guide](https://dp.la/primary-source-sets/mormon-migration/sources/1600),\u201d the color [lithograph from 1866](https://dp.la/primary-source-sets/mormon-migration/sources/1602), the [photograph of Zion\u2019s Commercial Mercantile Institution](https://dp.la/primary-source-sets/mormon-migration/sources/1605), and/or the [photograph of the transcontinental railroad](https://dp.la/primary-source-sets/mormon-migration/sources/1606) to compare modes of travel in the American West used between 1845 and 1900. How did travel options change over time? What effect did these developments in transportation have on immigration into the region and how might they have impacted relations between Native Americans and newer settlers? \r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "1. For students: Imagine that you are a Mormon leader tasked with locating a place to which twenty to sixty thousand Latter-day Saints could safely relocate. Using maps, documents, and resources that would have been available to you in the 1840s, design a favorable route and destination and represent it either visually or in writing. What pros and cons arise as you consider various options? What challenges would be presented by the place you select, and how would you overcome them? Compare your own findings with the actual choices made and challenges faced by Mormon pioneers. \r\n2. For students: Select one document, image, or object in this primary source set and transform it into a different genre. For example: make a map or drawing from a trail description; write a fictionalized letter, newspaper article, or story about the places or people shown in a photograph or map; craft a timeline from a route map or document; or transcribe a sentence using the Deseret Alphabet. Present your transformed object and reflect, in writing or orally, about how this activity deepened your understanding of the Mormon Migration in its historical context. "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "@type": "CreativeWork",
+            "name": "Mormon Migration"
+         },
+         "name": "Teaching Guide: Exploring the Mormon Migration"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Mormon Migration](https://mormonmigration.lib.byu.edu/), Brigham Young University. \r\n2. \u201c[Bill of Particulars](https://www.nps.gov/parkhistory/online_books/mopi/hrsab.htm),\u201d the recommended supply list for each household departing westward from Nauvoo, Illinois, published in the *Nauvoo Neighbor*, October 29, 1845, National Park Service. \r\n3. [The Great Mormon Migration](http://www.pbs.org/mormons/peopleevents/e_migration.html), PBS. \r\n4. [Overland Trail Diaries](http://overlandtrails.lib.byu.edu/), Brigham Young University. \r\n5. Brigham Young, \u201c[Second General Epistle](http://nationalhumanitiescenter.org/pds/triumphnationalism/religion/text8/epistle.pdf)\u201d from Salt Lake, October 12, 1849, National Humanities Center. "
+      },
+      {
+         "name": "Overview",
+         "text": "Geographic mobility had been a necessity for members of the Church of Jesus Christ of Latter-day Saints almost since the Church\u2019s founding in 1830. Begun during an era of intense religious revival in America, the Church boldly claimed to restore rather than reform traditional Christianity. The faith became popularly known as \u201cMormonism,\u201d and its people \u201cMormons,\u201d after the publication of a new book of scripture, *The Book of Mormon*. Mormons, who called themselves \u201cSaints\u201d or \u201cLatter-day Saints\u201d (LDS), established successive religious communities in frontier Ohio, Missouri, and Illinois in the 1830s and 1840s; each time they were forcibly driven out and dispossessed of their property because of their religious beliefs and practices. Conflicts in Illinois, particularly over rumors of a ceremony that permitted some men to marry multiple wives, led to the 1844 murder of the LDS prophet Joseph Smith and to the 1845 revocation of their city\u2019s charter. Tensions continued to rise through the winter of 1846, when the Mormons under their new leader Brigham Young fled Illinois over the Mississippi River with covered wagons and livestock, becoming refugees in their own country. From 1846 to 1848 some twelve thousand Mormons clustered in rough camps across present-day Iowa and Nebraska, before organizing to emigrate further west into what was then Mexico. \r\n\r\nIn July 1847, Young\u2019s initial expedition arrived at the Great Salt Lake Valley, a territory that had just been acquired for the United States during the Mexican-American War. Over the next decade, tens of thousands followed the Mormon trail to Utah in search of a new \u201cZion\u201d\u2014a holy community where they could worship without persecution. Close to sixty thousand were immigrant converts fresh from the British Isles and Scandinavia. They journeyed by ox-drawn wagon or\u2014less commonly\u2014by handcarts until the era of transcontinental railroad travel began in 1869. The sources in this set help place the Mormon migration in geographic, political, religious, and cultural contexts, including other westward movement motivated by [Manifest Destiny](https://dp.la/primary-source-sets/sets/manifest-destiny)."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+         "name": "Exodusters: African American Migration to the Great Plains",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+         "name": "The American Whaling Industry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+         "name": "The Panic of 1837",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+         "name": "Immigration and Americanization, 1880-1930",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+         "name": "The War of 1812",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+         "name": "Manifest Destiny",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+         "name": "The Lewis and Clark Expedition",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+         "name": "Mexican Labor and World War II: The Bracero Program",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/early-chinese-immigration-to-the-us",
+         "name": "Early Chinese Immigration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Mormon Migration",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

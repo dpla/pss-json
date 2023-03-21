@@ -1,0 +1,2217 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Contemporary United States (1968 to the present)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-state-era-10"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Social Movements"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2020-07-22",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the activism of ACT UP during the AIDS Crisis of the 1980s.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Public Radio via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cIn 50 years, huge strides for gay-rights movement,\u201d Digital Public Library of America, https://dp.la/item/1cfa77365f32d894b7dc578e7f07eb35."
+                  }
+               ]
+            }
+         ],
+         "name": "A news story outlining the history of the gay rights movement.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of North Texas Archives via The Portal to Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "National March on Washington Committee, \u201c[Pamphlet: March on Washington for Lesbian & Gay],\u201d Digital Public Library of America, https://dp.la/item/661bef1abccc97f5f2e585949c822d5b."
+                  }
+               ]
+            }
+         ],
+         "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of North Texas Archives via The Portal to Texas History."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201c[Talk by Neil R. Schram, M.D.],\u201d Digital Public Library of America, https://dp.la/item/eba949c8c9bc2dfb5ca94b5114b260d8."
+                  }
+               ]
+            }
+         ],
+         "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+         "text": "This speech was given by Dr. Neil R. Shram at a conference for the American Association of Physicians for Human Rights. Dr. Shram details his disdain for Paul Cameron, a now discredited physician, who used medical conversations about AIDS as a platform for his homophobic views. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2020-07-22",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340.jpeg",
+                     "fileFormat": "jpeg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Historical Society via Minnesota Digital Library.\r\n"
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cAIDS/ACT UP t-shirt,\u201d Digital Public Library of America, https://dp.la/item/482c9d4eccd851d25e593e10199d04e2."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+         "text": "ACT UP used \u201cSilence=Death\u201d as a slogan for the movement starting in 1987. A pink triangle was the symbol used to mark gays in Nazi concentration camps. Keith Haring, an artist and advocate for AIDS awareness, died of AIDS-related complications on February 16, 1990 at the age of thirty-one.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-27",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Los Angeles Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Sergieff, Mike, \u201cAIDS protest targets Wilson,\u201d Digital Public Library of America, https://dp.la/item/7f0f0aab11a7772f9bb810f116891d2e.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+         "text": "The original photograph caption reads, \"Protesters gather at Sen. Pete Wilson's Los Angeles office to protest his support of the [Jesse] Helms Amendment cutting off federal funds to AIDS service groups. The protesters, associated with the local chapter of the National March on Washington for Lesbian and Gay Rights, staged a sit-down protest and were arrested for trespassing. Bail was set at $500 for each misdemeanor. Their names were not released.\" \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2017-08-31",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2017-08-31",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Kennesaw State University, Department of Archives, Rare Books and Records Management via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cSouthern voice, August 31, 1989,\u201d Digital Public Library of America, https://dp.la/item/19447869355a890774f7d61abd6560f2.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+         "text": "This letter discusses the River Expo Committee\u2019s response to the distribution of safe-sex materials at a local event for Atlanta\u2019s gay community. *Southern Voice*, also known as SOVO, was an alternative news source for lesbians and gay men in the greater Atlanta area and the Southeast for over twenty years. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-06-27",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Los Angeles Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Gellar, Marc, \u201cAIDS quilt displayed on the Mall,\u201d Digital Public Library of America, https://dp.la/item/484b56331b72eacec8b40f735e4447e7."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+         "text": "The NAMES Project AIDS Memorial Quilt, a project begun by gay rights activists, sought to represent the devastating impact of AIDS. Each panel of the quilt represents an individual; most commemorate the life of someone who died of AIDS. On October 11, 1987, the quilt was displayed for the first time on the National Mall in Washington, DC, during the second National March on Washington for Lesbian and Gay Rights. It initially included 1,920 panels and through a subsequent national tour grew to more than 6,000 panels. The quilt raised $500,000 for hundreds of AIDS service organizations. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cACT UP. [Protesters being arrested.],\u201d Digital Public Library of America, https://dp.la/item/b5e46260508afcf1d841f7937a483d1e."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+         "text": "This action drew nearly 3,000 protestors to City Hall in New York City in the largest AIDS activist demonstration to date. ACT UP protested the inadequacy of New York's AIDS policy under Mayor Edward Koch. About 200 participants were arrested. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lemos, David, \u201cNames Project letter to the community regarding the \u2018Return to Washington D.C.,\u2019 October 9-11, 1992,\u201d Digital Public Library of America, https://dp.la/item/8aebf7ceafcd8e84a37ee780192856c9."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+         "text": "The NAMES Project AIDS Memorial Quilt was an important project that brought national attention to the impact of AIDS.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2017-08-31",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2017-08-31",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Kennesaw State University, Department of Archives, Rare Books and Records Management via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cSouthern voice, June 10 and 16, 1993,\u201d Digital Public Library of America, https://dp.la/item/fcbbcb9922d7380b7e4dd5427a064895."
+                  }
+               ]
+            }
+         ],
+         "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+         "text": "*Southern Voice* newspaper, also known as SOVO, was an alternative news source for lesbians and gay men in the greater Atlanta area and the Southeast for over twenty years. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_11_0a51594403209153cb3c622059c54794.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "ACT UP New York, \u201cSilence = Death,\u201d Digital Public Library of America, https://dp.la/item/0a51594403209153cb3c622059c54794."
+                  }
+               ]
+            }
+         ],
+         "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+         "text": "The text on the bottom of the poster reads: \u201cWhy is Reagan silent about AIDS? What is really going on the Center for Disease Control, the Federal Drug Administration, and the Vatican? Gays and lesbians are not expendable... Use your power...Vote...Boycott...Defend yourselves...Turn anger, fear, pain into action.\u201d A pink triangle was the symbol used to mark gays in Nazi concentration camps.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2017-08-31",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2017-08-31",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Kennesaw State University, Department of Archives, Rare Books and Records Management via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cSouthern voice, August 26 and Spetember 1, 1993,\u201d Digital Public Library of America, https://dp.la/item/d90b339e1dcf1e695f3a6476b57cbcd7. "
+                  }
+               ]
+            }
+         ],
+         "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+         "text": "This article pulls excerpts from an interview that Larry Kramer did with *Playboy* magazine. *Southern Voice* newspaper, also known as SOVO, was an alternative news source for lesbians and gay men in the greater Atlanta area and the Southeast for over twenty years.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "ACT UP New York, \u201cHow many of us will be alive for Stonewall 35?,\u201d Digital Public Library of America, https://dp.la/item/098fcabf9130bc167822ee5b8f49e9d8."
+                  }
+               ]
+            }
+         ],
+         "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+         "text": "\u201cStonewall\u201d on this poster refers to the Stonewall riots, a series of demonstrations by members of the gay community against a police raid that took place on June 28, 1969, at the Stonewall Inn in New York City. These riots are considered a seminal event in the gay liberation movement in the United States.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-11",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-11",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+               "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "ACT UP New York, \u201cDead women can't vote. Cure AIDS.,\u201d Digital Public Library of America, https://dp.la/item/d989a8a8739206708094e7b8a05642eb."
+                  }
+               ]
+            }
+         ],
+         "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+         "text": "The slogan \u201cdead women can\u2019t vote\u201d has a longer history as an activist statement about suffrage and domestic violence protection and policy.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1267",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1253",
+               "name": "A news story outlining the history of the gay rights movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_01_325c1ddc8cbe334a62d16eb6e9eb2a06_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1254",
+               "name": "A pamphlet for the March on Washington for Lesbian and Gay Rights, containing demands, related events, and a call to action, October 1979.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_02_661bef1abccc97f5f2e585949c822d5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1255",
+               "name": "A transcript of a speech given by Dr. Neil Shram about physician Paul Cameron\u2019s views of AIDS and homosexuality, February 10, 1986. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_03_eba949c8c9bc2dfb5ca94b5114b260d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1256",
+               "name": "A photograph of an ACT UP T-shirt with artwork by Keith Haring, 1987. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_04_4020f1ad6806744a495f2bd4f585a340_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1257",
+               "name": "A photograph of protesters against the Helms Amendment, which cut off federal funds to AIDS service groups, December 6, 1987.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_05_f1a39768d5d3735e09262e9f4e0e73ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1258",
+               "name": "An open letter to the River Expo Committee from ACT UP Atlanta published in *Southern Voice*, August 31, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_06_0fa04885c3095b43ff74c454d247ca30_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1259",
+               "name": "A photograph of crowds examining the NAMES Project AIDS Memorial Quilt on display at the National Mall in Washington, DC, April 1988. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_07_50a03f5fc28dbfa9dd1e30fc21c0c62d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1260",
+               "name": "A photograph of protesters being arrested at City Hall in New York during ACT UP\u2019s second anniversary protest, March 28, 1989.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_08_b5e46260508afcf1d841f7937a483d1e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1261",
+               "name": "A letter from David Lemos, executive director of the NAMES Project, about the \"Return to Washington DC\" event, October 9-11, 1992.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_09_8aebf7ceafcd8e84a37ee780192856c9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1262",
+               "name": "An article from *Southern Voice* titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s,\u201d June 10, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_10_95afa57e10e354c6cebe01778e7d550c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1263",
+               "name": "A poster distributed by ACT UP New York with the slogan \u201cSilence=Death.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1264",
+               "name": "An article about an interview with ACT UP founder Larry Kramer in *Southern Voice*, August 26, 1993.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_12_0540ec444f6093cfc9c1c744d16442db_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1265",
+               "name": "An ACT UP poster with the question \u201cHow many of us will be alive for Stonewall 35?\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_13_098fcabf9130bc167822ee5b8f49e9d8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1266",
+               "name": "An ACT UP poster with the slogan \u201cDead women can't vote.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_14_d989a8a8739206708094e7b8a05642eb_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "ACT UP New York, \u201cThomas A. Coughlin, III. The ACT UP Golden Shaft Award,\u201d Digital Public Library of America, https://dp.la/item/3286ac6bf2aee85d795e8acc8d686677."
+                  }
+               ]
+            }
+         ],
+         "name": "An ACT UP \u201cgolden shaft\u201d award for Thomas A. Coughlin, III, commissioner of the New York State Department of Correctional Services.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_15_3286ac6bf2aee85d795e8acc8d686677_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-act-up-and-the-aids-crisis",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2016-04-10",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-10",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Considering the [news story outlining the history of the gay rights movement](http://dp.la/primary-source-sets/sources/1253) and the [pamphlet for the March on Washington for Lesbian and Gay Rights](http://dp.la/primary-source-sets/sources/1254), explain how ACT UP grew out of a longer history of activism in the US and gay rights activism in particular.\r\n2. Use the [transcript of a speech given by Dr. Neil Shram](http://dp.la/primary-source-sets/sources/1255), the [open letter to the River Expo Committee](http://dp.la/primary-source-sets/sources/1258), and the [article about an interview with Larry Kramer](http://dp.la/primary-source-sets/sources/1264) to detail the challenges faced by ACT UP and other AIDS activists of this era.\r\n3. Use the [ACT UP T-shirt](http://dp.la/primary-source-sets/sources/1256), the [photograph of protesters against the Helms Amendment](http://dp.la/primary-source-sets/sources/1257), the poster with the slogan \u201c[Silence=Death](http://dp.la/primary-source-sets/sources/1263)\", the poster with the question \u201c[How many will be alive for Stonewall 35?](http://dp.la/primary-source-sets/sources/1265),\" and the poster with the slogan \u201c[Dead women can't vote](http://dp.la/primary-source-sets/sources/1266)\" to characterize ACT UP\u2019s particular methods of campaigning for AIDS awareness. Who were their audiences? What strategies did they use?\r\n4. Do a close reading of the poster with the slogan \u201c[Silence=Death](http://dp.la/primary-source-sets/sources/1263).\" What is its central message? Explain the analogy it employs. How does Larry Kramer explain the analogy in the [article about an interview with Larry Kramer](http://dp.la/primary-source-sets/sources/1264)? How does this depiction of the \u201cSilence = Death\u201d slogan compare to that of the [ACT UP T-shirt](http://dp.la/primary-source-sets/sources/1256)?\r\n5. Compare the political strategies employed by the NAMES Project, evident in the [photograph of crowds examining the national AIDS quilt](http://dp.la/primary-source-sets/sources/1259) and the [letter from David Lemos](http://dp.la/primary-source-sets/sources/1261), to those employed by ACT UP. What are the pros and cons of each?\r\n6. What do the [article titled \u201cAtlanta\u2019s ACT UP won't die like D.C.\u2019s\u201d](http://dp.la/primary-source-sets/sources/1262) and the [article about an interview with Larry Kramer](http://dp.la/primary-source-sets/sources/1264) tell us about internal political tensions within the ACT UP network?\r\n7. Consider the poster with the slogan \u201c[Dead women can't vote](http://dp.la/primary-source-sets/sources/1266).\u201d What is the political strategy used to express the central message of this poster? Where do the experiences of women appear in the other sources? What does this tell us about gender in AIDS activism of this period?\r\n8. What can you infer about the [ACT UP \u201cgolden shaft\u201d award](http://dp.la/primary-source-sets/sources/1267)? Who are the recipients of this award? Why are they chosen?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Divide students into small groups and ask each group to pick a time period in the [chronology of events](http://www.actupny.org/documents/capsule-home.html) published by ACT UP: 1987-88, 1989, 1990, 1991,1992, or 1993-94. Each group should summarize the major events and concerns of ACT UP during the time period, examining the challenges they faced and the particular strategies they used. Ask students to use evidence from sources in this set. Groups should present summaries of their time periods in order, then collectively discuss the ways in which ACT UP\u2019s public image and central concerns evolved over time.\r\n2. Many have criticized the gay, white, male focus of AIDS activism in the late 1980s and early 1990s. Ask students to research and write essays about the role of women in both ACT UP and AIDS activism in general. Individual research papers might focus on one of the following topics:\r\n\r\n  * the work of ACT UP\u2019s Women\u2019s Caucus <br>\r\n  * the work of lesbian activists during the AIDS Crisis <br>\r\n  * the changing demographics of HIV/AIDS since the mid-1990s and their impact on women\u2019s lives<br>\r\n  * women\u2019s work in contemporary HIV/AIDS activism<br>\r\n(Alternatively, this research could be about the role of people and communities of color in ACT UP and AIDS activism in general.)"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/act-up-and-the-aids-crisis",
+            "@type": "CreativeWork",
+            "name": "ACT UP and the AIDS Crisis"
+         },
+         "name": "Teaching Guide: Exploring ACT UP and the AIDS Crisis"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [ACT UP New York Records](http://digitalcollections.nypl.org/collections/act-up-new-york-records), The New York Public Library. \r\n2. [ACT UP Capsule History](http://www.actupny.org/documents/capsule-home.html), ACT UP. \r\n3. [The AIDS Epidemic: 1981-1987](https://partners.nytimes.com/library/national/science/aids/timeline80-87.html), *The New York Times*. \r\n4. Claire Gordin, \u201c[Act Up\u2019s 25th Anniversary Offers Chance To Reflect On AIDS Activism\u2019 Evolution](http://www.huffingtonpost.com/2012/04/26/act-up-25th-anniversary-aids-activism_n_1452597.html),\u201d Huffington Post. "
+      },
+      {
+         "name": "Overview",
+         "text": "In 1981, doctors began to identify the disease that would come to be known as HIV/AIDS in young gay men in Los Angeles, New York City, and San Francisco. Because of high rates of infection in gay communities and misconceptions about the disease\u2019s origin and transmission, public perception conceived of AIDS as a \u201cgay plague.\u201d By the end of 1986, 11,932 AIDS-related deaths had been reported in the United States and the disease was spreading rapidly across demographics and through multiple forms of transmission. However, the US government had done little to advance education and prevention. \r\n\r\nIn March 1987, gay rights advocate Larry Kramer and an initial group of approximately 300 activists formed the AIDS Coalition To Unleash Power (ACT UP) in meetings at the Lesbian and Gay Community Services Center in New York. Angered by US government homophobia that led to inaction and mismanagement of the AIDS Crisis, ACT UP sought to improve the quality of medical and social services for persons with HIV/AIDS and raise international awareness about the disease and its devastating impact. Tactics included non-violent protests, targeted demands, and poster campaigns. Major urban areas with large gay and lesbian populations, like New York and San Francisco, became centers of ACT UP work, but active chapters organized in a loose network appeared in cities across the country in the late 1980s and early 1990s. Working alongside\u2014and sometimes in tension with\u2014other AIDS-awareness projects like the NAMES Project AIDS Memorial Quilt, ACT UP was known for its radical protest strategies. Targets of these protests included numerous politicians, the Center for Disease Control (CDC), and the US Food and Drug Administration (FDA).\r\n\r\nBy the early 1990s, the original ACT UP network was splintered by internal political conflict, but its impact was clear. Through its advocacy, the organization had helped to lower of the price of drugs, transform the FDA\u2019s approval process for them, include patients with AIDS in new drug trials, diminish the social stigma of AIDS, and educate people about prevention. This work supported medical advances that, by the mid-1990s, helped reduce the number of AIDS-related deaths for persons infected with HIV. This primary source set uses documents, photographs, posters, and other promotional materials to tell the story of ACT UP during the AIDS Crisis of the late 1980s and early 1990s."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-temperance-movement",
+         "name": "Women and the Temperance Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/john-brown-s-raid-on-harper-s-ferry",
+         "name": "John Brown's Raid on Harper\u2019s Ferry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/john-brown_01_05271b3a1cd86a43f35c2d7cf740d541_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/attacks-on-american-soil-pearl-harbor-and-september-11",
+         "name": "Attacks on American Soil: Pearl Harbor and September 11",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/rise-of-conservatism-in-the-1980s",
+         "name": "Rise of Conservatism in the 1980s",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "ACT UP and the AIDS Crisis",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/act-up-aids-crisis_11_0a51594403209153cb3c622059c54794_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

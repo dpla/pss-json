@@ -1,0 +1,2286 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Science and Technology"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Samantha Gibson"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2017-02-23",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2017-02-23",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the development of the steam engine and its impact on transportation in the nineteenth century.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Georgia Archives via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSteam Engine Patent,\u201d Digital Public Library of America, https://dp.la/item/ea3d32b72a945e7f44d275f2ac1aff39.\r\n"
+                  }
+               ]
+            }
+         ],
+         "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+         "text": "Isaac Briggs was an engineer and surveyor and William Longstreet was an inventor. They used their steam engine to power a steamboat along the Savannah River in 1807, but Robert Fulton had successfully piloted his steamboat, the *Clermont*, in New York several days earlier. This patent, issued by the State of Georgia, was granted before the formation of the U.S. Patent Office. \r\n\r\nTranscript:\r\n\r\nAn Account Of The Construction And Principles Of Briggs' And Longstreet's Steam Engine, For The Exclusive Use Of Which A Privilege Was Granted To The Investors, For Fourteen Years, By An Act Of The Legislature Passed At Augusta, The First Day Of February, 1788.\r\n\r\nThis engine consists of a Boiler, two Cylinders and a Condenser, constructed in the following manner, viz.:\r\n\r\nThe Boiler<br>\r\nConsists of two metallic vessels, globular, or nearly so, placed one within the other, so as to leave a small interstice between, in which interstice the boiling water is contained. The inner vessel contains the fuel, the flame of which passes through a spiral flue winding round the outside of the outer vessel from the bottom to the top. The steam is conveyed by a pipe from the boiler into an interstice between\r\n\r\nThe Two Cylinders<br>\r\nWhich are placed, horizontally, one within the other, from whence it is admitted alternately into each end of the inner cylinder, in which it impels a piston to vibrate both ways with equal force. It is also admitted alternately to pass from each end of the inner cylinder (all the communications, to and from which, are opened and shut by a single cock) by means of pipes into\r\n\r\nThe Condenser,<br>\r\nWhich is a metallic vessel having a large surface in contact with cold water. The condensed steam or warm water is drawn out of it by a pump.\r\n\r\nI. Briggs,<br>\r\nWm. Longstreet. <br>\r\nRecorded 30th Jan. 1789.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lardner, Dionysius, excerpts from \u201cA rudimentary treatise on the steam engine: for the use of beginners,\u201d Digital Public Library of America, https://dp.la/item/6008cf5c0fc081dcfe1e102a101ae4d1."
+                  }
+               ]
+            }
+         ],
+         "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cRobert Fulton - Inventions,\u201d Digital Public Library of America, https://dp.la/item/7776e7cfd939ff756bb870dea3488493."
+                  }
+               ]
+            }
+         ],
+         "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+         "text": "Robert Fulton\u2019s *Clermont* was not the first steamboat, but his design was the first to be commercially successful. On its first journey, the *Clermont* brought Fulton and business partner Robert Livingston from New York City up the Hudson River to Albany, NY.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cChart of steam vessels built in City of New York by Robert Fulton,\u201d Digital Public Library of America, https://dp.la/item/ff056c8168aeda1fce272131bd1c3ae4."
+                  }
+               ]
+            }
+         ],
+         "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+         "text": "After Fulton\u2019s first journey on the *Clermont*, he continued to build and design steamboats to serve routes throughout greater New York and New Jersey.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2017-02-23",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2017-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Nyack Library via Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBroadside of steamboat service between Nyack and New York,\u201d Digital Public Library of America,  https://dp.la/item/7d6d32546571db10329387fe914107da."
+                  }
+               ]
+            }
+         ],
+         "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+         "text": "Nyack is a town on the Hudson River, approximately twenty-five miles north of Manhattan.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-06-27",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Yuba County Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSteamboat Linda,\u201d Digital Public Library of America, https://dp.la/item/ba7c0acab0a66e26fdf0819cc019ee12."
+                  }
+               ]
+            }
+         ],
+         "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of California Historical Society via University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cA steamboat in New Orleans, Louisiana,\u201d Digital Public Library of America, https://dp.la/item/2e5e6a82ee1133ce415374920efc33b8."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+         "text": "Multi-level steamboats became popular in the Great Lakes and on the Mississippi River as a means of transporting goods and travellers.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cCotton on the levee, New Orleans, LA,\u201d Digital Public Library of America, https://dp.la/item/39a345dfc3ee4a04b7a63dd79b7cf282."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Fiske Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cRailroad Car,\u201d Digital Public Library of America, https://dp.la/item/8c352b820cf89e43445a2487ddc3b6c5."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+         "text": "Early railroads were essentially horse-drawn stage coaches on tracks.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWaiting for the train,\u201d Digital Public Library of America, https://dp.la/item/5dd083701859c534274fa8a01918c947."
+                  }
+               ]
+            }
+         ],
+         "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-06-27",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of San Francisco Public Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSteam train locomotive \u2018Pioneer\u2019,\u201d Digital Public Library of America, https://dp.la/item/edf3406667cb11a565e44735f55e695e."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+         "text": "The note on back of image reads: \"Built in Boston and brought around Cape Horn to San Francisco in 1855, this locomotive was christened the \u2018Elephant\u2019 because of its size, and went to work grading San Francisco sand hills. In 1856 it was sold to the Sacramento Valley Railroad and rechristened the \u2018C. K. Garrison.\u2019 By a third christening in 1868, it became the \"Pioneer\" in recognition of its distinction of being the first locomotive used on a California railroad and probably the first on the Pacific coast.\u201d ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-10",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-10",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Tennessee State Library and Archives via Tennessee Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEast Tennessee and Virginia Railroad Company bond,\u201d Digital Public Library of America, https://dp.la/item/5e43229ea7fbd766be94f30d0ac6e844."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "text": "The engraving depicts a typical steam locomotive of the time. Bonds were often sold to finance construction of the railroads.\r\n\r\nTranscript:\r\n\r\n[left]<br>\r\n$500<br>\r\nKnow all men by these Presents,<br>\r\nThat there is due from<br>\r\nThe County of Washington<br>\r\nIn the State of Tennessee\r\n\r\n[center]<br>\r\nState of Tennessee, <br>\r\nNo. 37 County of Washington, No. 37\r\n\r\n[right]<br>\r\n$500<br>\r\nTo the East Tennessee and Virginia Railroad Company,<br>\r\nOr Bearer,<br>\r\nFive Hundred Dollars,\r\n\r\nLawful money of the United States, with interest at the rate of six per centum per annum, payable semiannually on the 1st day of January and July, in each year, at the BANK OF AMERICA, in the City of New York, on the presentation and surrender of the Coupons, duly signed by the Clerk of the County Court of said County, and hereto annexed.  The principal is re-imbursable on the presentation of this Bond at the Bank of America in said city, at the expiration of thirty years from the date hereof.  For the performance of all of which the taxable property of said County of washington is irrevocably pledged.  As these obligations are created in pursuance, and under the provisions of an Act of General Assembly of said State, entitled: \u201cAn Act to incorporate the Nashville, Franklin, and Columbia Railroad Company,\u201d passed February 28th, 1852, all of the pertinent sections of which act are hereto referred to for further information.\r\n\r\nIn Witness Whereof, I Lewis A. Markwood, Chairman of the County Court of said County, have hereunto signed my name and caused the same to be countersigned by the Clerk of said County Court, and the Seal of said County to be affixed, at Jonesborough, on this first day of January, 1853.\r\n\r\nW. H. Smith, Clerk  Lewis A. Markwood, Chairman\r\n\r\n[perpendicular]\r\n\r\nCancelled April 12, 1876, CW Meek, Ch. Co. Court (6 times)\r\n\r\n[stamps at the bottom]\r\n\r\nThe Trustee of the County of Washington in the State of Tennessee Will Pay the East Tennessee and Virginia Railroad Company, or Bearer, Fifteen Dollars at the Bank of America in the City of New York, on the first day of [date changes on each stamp: July 1877 to January 1883), being the semi-annual interest then falling due on Bond No. 37<br>\r\n$15. W.H.Smith, Clerk",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2017-02-23",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2017-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The Erie Canal Museum via Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBroadside for Red Bird Line,\u201d Digital Public Library of America, https://dp.la/item/66484a6f1b0abe0573c51ea35bbe76e7."
+                  }
+               ]
+            }
+         ],
+         "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+         "text": "The Red Bird steamship line ran along the Erie Canal route parallel to the Utica and Schenectady Railroad.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+               "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Disturnell, John, \u201cTraveller's map of the middle, northern, eastern states and Canada showing all the railroad, steamboat, canal, and principal stage routes,\u201d Digital Public Library of America, https://dp.la/item/daf5728a9aa459cb12bd8e4f1c4ca80a."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1112",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-09",
+         "dateModified": "2016-04-09",
+         "dct:created": "2016-04-09",
+         "dct:modified": "2016-04-09",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1098",
+               "name": "A patent granted by the Georgia Assembly to Isaac Briggs and William Longstreet for their steam engine, 1789. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_01_c5687782a9217f84276915f3854bbbcc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1099",
+               "name": "Excerpts from *A Rudimentary Treatise on the Steam Engine* by Dionysius Lardner, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_02_6008cf5c0fc081dcfe1e102a101ae4d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1100",
+               "name": "A print depicting Robert Fulton\u2019s steamboat, the *Clermont*, which had its first successful journey in 1807.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_03_7776e7cfd939ff756bb870dea3488493_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1101",
+               "name": "A chart of steam vessels built in New York City by Robert Fulton or according to his design, 1790-1816.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_04_ff056c8168aeda1fce272131bd1c3ae4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1102",
+               "name": "A broadside advertising the steamboat Nyack, which offered ferry service between Nyack, New York and New York City, 1827. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_05_f509fea63111fc5df4fb5a52986697ad_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1103",
+               "name": "An advertisement for the steamboat *Linda*, traveling among Sacramento, Marysville, and Yuba City, California along the Feather River, 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_06_820c0b3b10cbf52c6fc0d09ef5b7e944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1104",
+               "name": "A photograph of a multi-level steamboat in New Orleans, Louisiana. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_07_2e5e6a82ee1133ce415374920efc33b8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1105",
+               "name": "A photograph of cotton on the levees in New Orleans with river steamboats in background, ca. 1870s-1880s. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_08_39a345dfc3ee4a04b7a63dd79b7cf282_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1106",
+               "name": "A photograph of a railroad car before steam locomotives, ca. 1834. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_09_8c352b820cf89e43445a2487ddc3b6c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1107",
+               "name": "A stereograph of passengers at a train station in New Hampshire\u2019s White Mountains, ca. 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_10_5dd083701859c534274fa8a01918c947_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1108",
+               "name": "A photograph of the Pioneer, a steam locomotive, which was built in Boston and put into service in San Francisco, ca. 1868. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_11_fddeb28389f4c8a41e32badd2adf38c5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1109",
+               "name": "An 1863 bond sold by the East Tennessee and Virginia Railroad.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1110",
+               "name": "A broadside advertising the Red Bird line as a travel alternative in \u201copposition to the railroad,\u201d 1847.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_13_c48a9170a722b29f77620e8c65c79398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1111",
+               "name": "An 1850 map with the title \u201cTraveller\u2019s Map of New England and Canada Showing all the Railroad, Steamboat, Canal and Stage Routes.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_14_daf5728a9aa459cb12bd8e4f1c4ca80a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpts from \u201cDisturnell's new and complete railway and steamship guide : giving the railroad and steamboat routes, time, distances, fares, and connections, throughout the United States and Canada,\u201d Digital Public Library of America, https://dp.la/item/965ccd48847dd26afc75564911f38790."
+                  }
+               ]
+            }
+         ],
+         "name": "Excerpts from *Disturnell\u2019s New and Complete Railroad and Steamship Guide*, 1857. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_15_965ccd48847dd26afc75564911f38790_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Samantha Gibson"
+            }
+         ],
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-05-10",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-05-10",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the [1789 patent](http://dp.la/primary-source-sets/sources/1098) and the description in [*A Rudimentary Treatise*](http://dp.la/primary-source-sets/sources/1099), explain the fundamental elements of a steam engine. Try to match the steam engine parts described in the book to those in the frontispiece illustration. Hypothesize how the machine works using the illustration and confirm if you were correct using the book\u2019s description.\r\n2. Compare the ads for the [Nyack ferry](http://dp.la/primary-source-sets/sources/1102) and the [Steamboat *Linda*](http://dp.la/primary-source-sets/sources/1103). Who would have been the audience for each? What do they have in common? What had changed in the twenty-three years between the advertisements?\r\n3. Using the [Nyack ferry advertisement](http://dp.la/primary-source-sets/sources/1102), the [list of Fulton\u2019s boats](http://dp.la/primary-source-sets/sources/1101), the [Traveller\u2019s map](http://dp.la/primary-source-sets/sources/1111), and the ads in [*Disturnell\u2019s Guide*](http://dp.la/primary-source-sets/sources/1112), explain the impact of steam-powered transportation on local, national, and international travel.\r\n4. Based on the image of the [*Clermont*](http://dp.la/primary-source-sets/sources/1100) and the [image of the steamboat in New Orleans](http://dp.la/primary-source-sets/sources/1104), what can you infer about the environmental impact of steam technology?\r\n5. The adoption of new forms of transportation reflects social and racial inequalities of the time. Using the [photograph of cotton on the New Orleans dock](http://dp.la/primary-source-sets/sources/1105) and your outside knowledge, explain how innovation in railroad and maritime transportation impacted the institution of slavery and the trade in goods produced by enslaved labor. Do you think these new forms of transportation were equally accessible to groups such as women and African Americans?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Have students work in pairs. Ask each student to select a city or town (perhaps from a \u201chat\u201d) and then use the [Traveller\u2019s map](http://dp.la/primary-source-sets/sources/1111) and [*Disturnell\u2019s Guide*](http://dp.la/primary-source-sets/sources/1112) to figure out the route they would take to get from place A to place B in 1857 and how long it would have taken. Ask students to consider the past, present, and future; what might that journey have consisted of prior to the invention of the steam engine? How would you make that journey today? How might people make that journey 100 years from now?\r\n2. STEM Extension: As a class, construct a model steam engine. Try to match the modern components of the model with the steam engine parts described in the [1789 patent](http://dp.la/primary-source-sets/sources/1098) and the description in [*A Rudimentary Treatise*](http://dp.la/primary-source-sets/sources/1099). See instructions here: [http://www.instructables.com/id/A-Simple-Steam-Engine-Anyone-Can-Build/](http://www.instructables.com/id/A-Simple-Steam-Engine-Anyone-Can-Build/). Also see YouTube videos: [https://www.youtube.com/watch?v=FWPrHLiR-W8](https://www.youtube.com/watch?v=FWPrHLiR-W8) and [https://www.youtube.com/watch?v=3iWAvuycP7w](https://www.youtube.com/watch?v=3iWAvuycP7w). "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "@type": "CreativeWork",
+            "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+         },
+         "name": "Teaching Guide: Exploring the Steam Engine and Transportation in the Nineteenth Century"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [*Building the First Transcontinental Railroad*](http://dp.la/exhibitions/exhibits/show/transcontinental-railroad) online exhibit, Digital Public Library of America. \r\n2. [*America on the Move exhibition resources*](http://amhistory.si.edu/onthemove/exhibition/exhibition_1_2.html), Smithsonian National Museum of American History. \r\n3. [The Transportation Revolution](http://www.pbslearningmedia.org/resource/biogam.soc.ush.transrev/transportation-revolution-roads-canals-and-railroads/), Annenberg Center via PBS Learning Media. "
+      },
+      {
+         "name": "Overview",
+         "text": "Steam engines harness the pressure of hot steam to create mechanical power. They revolutionized transportation and industry in the nineteenth century. The first steam engines were invented in the early 1700s in England and improved during the mid-eighteenth century. By the late 1780s, European inventors were experimenting with steam-powered boats and American engineers followed suit. Following Robert Fulton\u2019s successful demonstration of his steamboat, the *Clermont*, on the Hudson River in 1807, steamboats quickly became one of the most popular means of trade and travel in America. Steamboat routes emerged along major rivers, across the Great Lakes, in the Caribbean, and on transatlantic routes between the US and Europe. In the 1840s and 1850s, steamboats also helped facilitate settlement on the West Coast, including California and Oregon.\r\n\r\nThe steam engine also transformed the railroad industry. Steam locomotives and railroad systems were created in England, but by 1830, inventor and industrialist Peter Cooper had designed the first American-built steam locomotive, called the Tom Thumb. Together, steamboats and steam-powered trains offered unprecedented speed and efficiency for travel, trade, and communication between distant parts of the country and world. The steam engine played crucial roles in the Industrial Revolution and westward expansion. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-yellow-fever-epidemic-of-1878",
+         "name": "The Yellow Fever Epidemic of 1878",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/space-race",
+         "name": "Space Race",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+         "name": "The American Whaling Industry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+         "name": "The Panic of 1837",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-columbian-exchange",
+         "name": "The Columbian Exchange",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/columbian-exchange_13_f587acd2680838b85166d18e086dbd93_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-invention-of-the-telephone",
+         "name": "The Invention of the Telephone",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+         "name": "California Gold Rush",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+         "name": "There is No Cure for Polio",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/electrifying-america",
+         "name": "Electrifying America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+         "name": "The War of 1812",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+         "name": "Manifest Destiny",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+         "name": "The Lewis and Clark Expedition",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+         "name": "The Atomic Bomb and the Nuclear Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

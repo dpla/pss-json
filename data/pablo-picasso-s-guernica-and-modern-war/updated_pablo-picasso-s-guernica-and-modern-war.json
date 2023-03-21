@@ -1,0 +1,1963 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Great Depression and World War II (1929-1945)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-8"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "World History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Arts"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Independent Art Historian"
+         },
+         "name": "Virginia B. Spivey"
+      }
+   ],
+   "dateCreated": "2018-02-22",
+   "dateModified": "2020-07-20",
+   "dct:created": "2018-02-22",
+   "dct:modified": "2020-07-20",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Pablo Picasso&#39;s painting Guernica, its Spanish Civil War context, and its commentary on modern war.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2020-07-20",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2020-07-20",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_01_49cadd8ac625447aea9b575dd0c9a001.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minneapolis Institute of Arts via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Seymour, David, \u201cPablo Picasso and detail of \u2018Guernica,\u2019 France,\u201d Digital Public Library of America, https://dp.la/item/c2423a2a55be574a9b3611500cfef3f8."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+         "text": "This photograph gives some idea of the painting\u2019s large scale. A figure on a burning balcony that appears on the upper right side of the composition is visible in the background.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_02_81170b174c68f134ef58431122daa6d1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The Museum of Modern Art (MoMA) via Metropolitan New York Library Council and Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Picasso, Pablo, \u201cPlate (folio 4) from Sue\u00f1o y mentira de Franco,\u201d Digital Public Library of America, https://dp.la/item/81170b174c68f134ef58431122daa6d1."
+                  }
+               ]
+            }
+         ],
+         "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+         "text": "This is one of two sheets of prints that constitute Picasso\u2019s *Sue\u00f1o y mentira de Franco*. Picasso began this work in January 1937 and the prints were initially intended to be sold as postcards denouncing Spanish Nationalist General Federico Franco and raising funds for the Spanish government. Four of the scenes, created after the April bombing of Guernica, suggest preliminary sketches of Picasso\u2019s final painting. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_03_44f9c0085c6cdb04886877b89ed63edf.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Solomon R. Guggenheim Museum Library via Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Breton, Andr\u00e9, and Marcel Duchamp, excerpt from \u201cFirst papers of surrealism: hanging by Andr\u00e9 Breton, his twine Marcel Duchamp,\u201d Digital Public Library of America, https://dp.la/item/44f9c0085c6cdb04886877b89ed63edf. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+         "text": "Surrealism was a literary and artistic movement that developed in Europe in the years after World War I. Surrealist artists, like Picasso, were interested in the irrational and uncontrollable ideas held deep in the subconscious, which led them to emphasize human emotions through distorted forms and jarring imagery. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_04_ce32bfb5fe42147d95dde14b26c6d24a.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Nevada, Reno, University Libraries via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cRuins of Guernica,\u201d Digital Public Library of America, https://dp.la/item/ce32bfb5fe42147d95dde14b26c6d24a. "
+                  }
+               ]
+            }
+         ],
+         "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+         "text": "This black and white photograph shows Guernica, Spain after it was bombed April 26, 1937, as part of Operation R\u00fcgen, a joint strike by the German Luftwaffe's Condor Legion and the Italian Fascist Aviazione Legionaria during the Spanish Civil War (July 17, 1936 - April 1, 1939).",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_05_f17ef3969fc95c5b86a54532445abbf4.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Hoffmann, Heinrich, \u201cAfter entering the Brandenburg Gate, the victorious Condor Legion marches past the Fuhrer,\u201d Digital Public Library of America, https://dp.la/item/f17ef3969fc95c5b86a54532445abbf4. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+         "text": "The Condor Legion was a group of German Army and Air Force (Luftwaffe) volunteers who fought for Franco's Nationalist forces. Germany had developed its air force in secret, but the Spanish Civil War provided the opportunity to give pilots combat experience and demonstrate its military power to the world.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_06_296c52dda989d05b47106af8e0dae329.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Southworth Spanish Civil War Collection, Special Collections & Archives, UC San Diego via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cL'ouvre des defenseurs de la religion et de la civilisation : (photographies du bombardment de Barcelone, le 30 janvier 1938),\u201d Digital Public Library of America, https://dp.la/item/296c52dda989d05b47106af8e0dae329. "
+                  }
+               ]
+            }
+         ],
+         "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+         "text": "This photomontaged poster pairs a quote from Nationalist sources suggesting the raid\u2019s destruction of key military sites in Barcelona with graphic images of dead children and civilians alongside the bombed-out remains of buildings in the town. In English, the heading reads, \u201cThe work of the defenders of religion and civilization. (Photographs of the bombardment of Barcelona, January 30, 1938).\u201d ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Department of Defense, excerpt from \u201cWar Comes to America,\u201d Digital Public Library of America, https://dp.la/item/7d67ccc702c3e5994cf09ef6623e795b."
+                  }
+               ]
+            }
+         ],
+         "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+         "text": "The US Department of Defense produced this film titled *Why We Fight*, which documents the events leading up to World War II and includes film footage from the Spanish Civil War. The narrator comments that newsreels like this one were the first time people in the US saw such graphic images of the destruction carried out by German and Italian air raids.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_08_20d280a956fe6830a7b5fc09a2d364cf.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC San Diego, Library, Special Collections and Archives via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cJanuary 1939 - France - Perpignan - Associated Press of Great Britain Ltd,\u201d Digital Public Library of America, https://dp.la/item/20d280a956fe6830a7b5fc09a2d364cf. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+         "text": "Much of the international press coverage of the Spanish Civil War focused on the refugees pouring into France over the Pyrenees frontier. This photo highlights children, made orphans by the war, on the road near the border town of Perpignan, France. They are wrapped in or carrying blankets, their only protection against the bitter cold of the Pyrenees.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_09_e3f9aa682e033d4f549eb4757b5b33b4.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC San Diego, Library, Special Collections and Archives via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Carnegie Institute of Spain, \u201cChildren's Drawings, Spanish Civil War,\u201d Digital Public Library of America, https://dp.la/item/e3f9aa682e033d4f549eb4757b5b33b4. "
+                  }
+               ]
+            }
+         ],
+         "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+         "text": "This drawing by an eleven-year-old child is one of over 600 collected in Spain and French refugee camps by the Spanish Board of Education and the Carnegie Institute of Spain. Sixty-one of the drawings were published in the book *They Still Draw Pictures* in 1938 to raise money to help child refugees from the war.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_10_a451bcf99a316eed8d8b99cce9009630.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston College Libraries via Boston Library Consortium and Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Curran, Edward Lodge, excerpt from \u201cSpain in arms : with notes on communism,\u201d Digital Public Library of America, https://dp.la/item/a451bcf99a316eed8d8b99cce9009630."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+         "text": "This is a 1936 political pamphlet by Edward Lodge Curran, a Roman Catholic priest from New York, written in support of the Nationalist rebellion and denouncing the Spanish Republic for its communist and anti-religious ideas. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_11_c60ab9616f436dbd154a7b0d76a3b292.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston College Libraries via Boston Library Consortium and Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Talbot, Francis X., excerpt from \u201cCatholics reply to open letter of 150 Protestant signatories on Spain,\u201d Digital Public Library of America, https://dp.la/item/c60ab9616f436dbd154a7b0d76a3b292. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+         "text": "This letter, originally published on October 4, 1937, in *The New York Times* was reprinted in the pamphlet *Catholic Mind* on November 22, 1937. While most democratic counties supported the Spanish Republican government for its anti-fascist stance, the Republicans\u2019 alignment with communist and anarchist ideas concerned political conservatives in the United States, underscoring ideological differences of the time.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_12_9438fba6e8143b832263885e4390b6cc.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC San Diego, Library, Special Collections and Archives via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Renau Montoro, Jos\u00e9, \u201cVictoria hoy m\u00e1s que nunca,\u201d Digital Public Library of America, https://dp.la/item/9438fba6e8143b832263885e4390b6cc."
+                  }
+               ]
+            }
+         ],
+         "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+         "text": "This poster reads \u201cVictoria hoy m\u00e1s que nunca\u201d (Today more than ever, victory). Made in Barcelona, the Subsecretar\u00eda de Propaganda (Undersecretariat of Propaganda) issued this poster in homage to the Republican Air Force. In the image, the planes are in a V-formation as the first letter of the word \u201cVictoria,\u201d and display the flag of the Republic on their wings.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+               "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_13_16b45a32de0910d96e5c2ebabf7b4c20.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The Museum of Modern Art (MoMA) via Metropolitan New York Library Council and Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Augusto, Robert Capa, \u201c\u00bfQue Fais-Tu Pour Emp\u00eacher Cela?,\u201d Digital Public Library of America, https://dp.la/item/16b45a32de0910d96e5c2ebabf7b4c20. "
+                  }
+               ]
+            }
+         ],
+         "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+         "text": "Hungarian photojournalist Robert Capa helped establish the field of combat photography through images that capture the range of human emotion seen in times of war and violent conflict. This Republican propaganda poster features his photograph of a frightened mother and child against the backdrop of warplanes and a building in ruins.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1872",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1859",
+               "name": "A 1937 photograph by David Seymour of Pablo Picasso in front of his painting *Guernica*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_01_49cadd8ac625447aea9b575dd0c9a001_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1860",
+               "name": "A sheet of sketches from Picasso\u2019s *Sue\u00f1o y mentira de Franco* (*The Dream and Lie of Franco*), 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1861",
+               "name": "An excerpt from a catalog for a Surrealist art exhibition in New York, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_03_44f9c0085c6cdb04886877b89ed63edf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1862",
+               "name": "A newspaper photograph of destroyed buildings in Guernica after the bombing on April 26, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_04_ce32bfb5fe42147d95dde14b26c6d24a_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1863",
+               "name": "A photograph of soldiers from the German Luftwaffe\u2019s Condor Legion marching past Adolf Hitler, 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_05_f17ef3969fc95c5b86a54532445abbf4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1864",
+               "name": "*(Warning: graphic material)* A propaganda poster including photographs of dead civilians after the bombing of Barcelona on January 30, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_06_296c52dda989d05b47106af8e0dae329_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1865",
+               "name": "*(Warning: graphic material)* An excerpt of footage taken during the Spanish Civil War from a US propaganda film, 1942.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_07_7d67ccc702c3e5994cf09ef6623e795b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1866",
+               "name": "A photograph from the Associated Press of Great Britain documenting Spanish war refugees entering France, January 1939.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_08_20d280a956fe6830a7b5fc09a2d364cf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1867",
+               "name": "A Spanish child\u2019s drawing of ground soldiers and planes dropping bombs, created between 1936 and 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_09_e3f9aa682e033d4f549eb4757b5b33b4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1868",
+               "name": "An excerpt from a US propaganda pamphlet supporting the Nationalists in the Spanish Civil War, 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_10_a451bcf99a316eed8d8b99cce9009630_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1869",
+               "name": "An excerpt from a letter written by a Catholic group in the US denouncing the Spanish Republic\u2019s anti-religious beliefs, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_11_c60ab9616f436dbd154a7b0d76a3b292_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1870",
+               "name": "A Spanish propaganda poster honoring the Republican Air Force, 1938.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_12_9438fba6e8143b832263885e4390b6cc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1871",
+               "name": "A Republican propaganda poster featuring a mother and child, 1937.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_13_16b45a32de0910d96e5c2ebabf7b4c20_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "guernica_14_17d2778e0d9b19ed76b9139bd60cad90.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The Museum of Modern Art (MoMA) via Metropolitan New York Library Council and Empire State Digital Network."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Picasso, Pablo, \u201cThe Charnel House,\u201d Digital Public Library of America, https://dp.la/item/17d2778e0d9b19ed76b9139bd60cad90. "
+                  }
+               ]
+            }
+         ],
+         "name": "Pablo Picasso\u2019s painting *The Charnel House*, 1944-1945.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_rep.jpg",
+         "text": "Painted by Picasso in 1944-1945 but left unfinished, *The Charnel House* echoes Guernica in its pyramidal composition, abstracted forms, and black-and-white palette inspired by newspaper war photographs. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_14_17d2778e0d9b19ed76b9139bd60cad90_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-pablo-picasso-s-guernica",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Independent Art Historian"
+               },
+               "name": "Virginia B. Spivey"
+            }
+         ],
+         "dateCreated": "2018-02-22",
+         "dateModified": "2018-02-26",
+         "dct:created": "2018-02-22",
+         "dct:modified": "2018-02-26",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Compare the images in the [sketches from *Sue\u00f1o y mentira de Franco*](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1860). Describe any differences you see in the images made before the Guernica bombing and those Picasso drew after (the sketches on the bottom row and in the middle square on the left). Compare the [sketches from *Sue\u00f1o y mentira de Franco*](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1860) with the finished painting [*Guernica*](http://www.museoreinasofia.es/sites/default/files/obras/DE00050_0.jpg) as well. How might changes in Picasso\u2019s drawing style and imagery suggest his own changing impressions of the war?\r\n2. Compare ways the artists use airplanes as symbols in the [poster honoring the Republican Air Force](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1870) and the [poster featuring a mother and child](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1871). In what ways do both posters function as propaganda for their particular side in the Spanish Civil War?\r\n3. Read the preface in the [excerpt from a catalog for a Surrealist art exhibition](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1861). In what ways do you see surrealist concepts demonstrated in Picasso\u2019s artworks, such as [*Guernica*](http://www.museoreinasofia.es/sites/default/files/obras/DE00050_0.jpg), [sketches from *Sue\u00f1o y mentira de Franco*](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1860), and [*The Charnel House*](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1872)? How do these artworks compare to other images in the catalog?\r\n4. Compare the [photograph of destroyed buildings in Guernica](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1862), the [photograph of German soldiers](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1863), the [propaganda poster after the bombing of Barcelona](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1864), and the [photograph of Spanish war refugees](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1866). How are people represented? Are they recognizable or meant to remain anonymous? Why do you think the photographer chose to depict them in this way? How do they help to communicate the photographer\u2019s message? \r\n5. Read the [excerpt from a US propaganda pamphlet](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1868) and the [excerpt from a letter written by a Catholic group](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1869). What issues seem most important to the authors? What words and phrases do they use that suggests their ideological bias? Find specific passages that support your response.\r\n6. Compare the [excerpt from a US propaganda pamphlet](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1868) and the [excerpt from a letter written by a Catholic group](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1869) to the narration in the [excerpt from the film *Why We Fight*](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1865). How do the speakers/authors use language and tone to persuade their audience?\r\n7. Compare the [Spanish child\u2019s drawing](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1867) to Picasso\u2019s imagery in [*Guernica*](http://www.museoreinasofia.es/sites/default/files/obras/DE00050_0.jpg), the [sketches from *Sue\u00f1o y mentira de Franco*](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1860), and the war photographs in this set. Which details of the child\u2019s drawing are similar to these other images? How does knowing the artist was a child affect your response to the image? \r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Ask students to research incidents where Picasso\u2019s [*Guernica*](http://www.museoreinasofia.es/sites/default/files/obras/DE00050_0.jpg) has been in the news and share findings in a presentation to the class. Follow up with a class discussion or individual reflection papers exploring how the particular circumstances of each incident affected how people interpreted the painting\u2019s meaning or cultural significance.  Some incidents students might investigate include: 1) Where was the painting kept for the thirty-six years of Francisco Franco\u2019s dictatorship in Spain? When was it first viewed in Spain? Where is it now? 2) What controversy arose around [*Guernica*](http://www.museoreinasofia.es/sites/default/files/obras/DE00050_0.jpg) in 2003 when Colin Powell spoke to the United Nations Security Council about the US war with Iraq? 3) Why was [*Guernica*](http://www.museoreinasofia.es/sites/default/files/obras/DE00050_0.jpg) vandalized in 1974? What issues are raised by the destruction or attempts to destroy works of art? \r\n4) Where are some of the places [*Guernica*](http://www.museoreinasofia.es/sites/default/files/obras/DE00050_0.jpg) has been reproduced? How might the painting\u2019s meaning change when it is seen in different contexts?\r\n2. Have students look for recent photographs that depict refugees of the war and civil violence in Syria, South Sudan, or Myanmar and share them with the class. Ask students to compare these contemporary images to the [photograph of destroyed buildings in Guernica](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1862), the [photograph of German soldiers](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1863), the [propaganda poster after the bombing of Barcelona](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1864), and the [photograph of Spanish war refugees](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1866) and identify visual similarities. Have students develop concept maps linking visual details to different words, emotions, ideas, or other meaning they might communicate to the viewer. End with a discussion whether [*Guernica*](http://www.museoreinasofia.es/sites/default/files/obras/DE00050_0.jpg)\u2019s themes of pain, sorrow, loss, and fear still seem relevant to the experience of war today.\r\n3. Have students work alone or with a partner to make a propaganda poster. Lead a discussion about social, political, or environmental issues and have them choose a topic for their poster. In a class discussion, identify key features and characteristics of the posters in this set: the [propaganda poster after the bombing of Barcelona](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1864), the [poster honoring the Republican Air Force](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1870), and the [poster featuring a mother and child](https://dp.la/primary-source-sets/pablo-picasso-s-guernica-and-modern-war/sources/1871). Encourage students to consider other items in this set that shaped public opinion and brainstorm how they could use similar strategies in their own posters. Before they begin work on their posters, have students research their topic, looking for images or visual symbols that will enhance or illustrate key points, and choosing short phrases and words to communicate their message in a clear and persuasive way. "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/pablo-picasso-s-guernica-and-modern-war",
+            "@type": "CreativeWork",
+            "name": "Pablo Picasso's *Guernica* and Modern War"
+         },
+         "name": "Teaching Guide: Exploring Pablo Picasso\u2019s *Guernica* "
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Rethinking *Guernica*](http://guernica.museoreinasofia.es/en#investigacion), Museo Reina Sof\u00eda. \r\n2. [Shots of War: Photojournalism During the Spanish Civil War](http://libraries.ucsd.edu/speccoll/swphotojournalism/index.html), University of California San Diego.    \r\n3. [Guernica: Testimony of War](http://www.pbs.org/treasuresoftheworld/a_nav/guernica_nav/main_guerfrm.html). PBS. \r\n4. [Adhesive Propaganda: Stamps of the Spanish Civil War](http://libraries.ucsd.edu/speccoll/swstamps/#revenue), University of California San Diego. "
+      },
+      {
+         "name": "Overview",
+         "text": "First shown at the 1937 International Exposition in Paris, [*Guernica*](http://www.museoreinasofia.es/sites/default/files/obras/DE00050_0.jpg) stands today as a universal statement against the horror of modern warfare. The painting was the response of the Spanish-born artist Pablo Picasso to the bombing of Guernica, a small Basque town in northern Spain that was destroyed on April 26, 1937, during the Spanish Civil War. \r\n\r\nPicasso initially rejected the invitation to represent his native country in the prestigious exhibition. Spain was embroiled in a bloody Civil War. In 1936, Nationalist forces, supported by the military and groups loyal to the Spanish monarchy, rebelled against a new Republican government, which was founded on the democratic and communist principles of Spain\u2019s working classes. Nationalist General Francisco Franco, who became Spain\u2019s dictator in 1939 until his death in 1975, allied himself with fascist governments in Italy and Germany to take advantage of their powerful industrialized militaries.\r\n\r\nPicasso\u2019s change of heart reflected the international public outcry that followed the bombing of Guernica. The attack was one of the first demonstrations of a full-scale aerial bombardment. Carried out by the German Luftwaffe's Condor Legion and the Italian Aviazione Legionaria, the three-hour raid left the ancient town in ruins and many children among the civilian dead. Guernica served as a frightening show of Germany\u2019s military might and an intentional warning to other nations in the years before World War II.\r\n\r\nPicasso\u2019s painting, however, includes no obvious references to the Guernica bombing or the Spanish Civil War. The mammoth eleven-foot by twenty-five-foot canvas is a synthesis of modern painting styles. Picasso\u2019s compressed pictorial space and fragmented forms are characteristic of Cubism. The heightened emotion and disjointed imagery reflects Surrealism\u2019s interest in the workings of the inner mind, imagined through dreams, or in this case, nightmares. The monochromatic color scheme recalls Cubism, but also the black and white newspapers that broadcast the devastating effects of the bombing around the world. Captured clearly in photographs and newsreels, images of the bombing\u2019s aftermath altered people\u2019s perceptions of modern war, its toll on individuals, and its essential inhumanity."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-ii-s-eastern-front-operation-barbarossa",
+         "name": "World War II\u2019s Eastern Front: Operation Barbarossa",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eastern-front_07_c3df95885d8d110d22e49382e48ea883_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eastern-front_07_c3df95885d8d110d22e49382e48ea883_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/elie-wiesel-s-night-and-the-holocaust",
+         "name": "Elie Wiesel's *Night* and the Holocaust",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/truth-justice-and-the-birth-of-the-superhero-comic-book",
+         "name": "Truth, Justice, and the Birth of the Superhero Comic Book",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/superhero-comic-book_01_5d5ca6ee70196ed8a3b2c959f5dda5a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/superhero-comic-book_01_5d5ca6ee70196ed8a3b2c959f5dda5a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-rise-of-italian-fascism-and-its-influence-on-europe",
+         "name": "The Rise of Italian Fascism and Its Influence on Europe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/attacks-on-american-soil-pearl-harbor-and-september-11",
+         "name": "Attacks on American Soil: Pearl Harbor and September 11",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/social-realism",
+         "name": "Social Realism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/social-realism_02_5f0e830051a5f3d81f4d7bad7fdfeb87_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/social-realism_02_5f0e830051a5f3d81f4d7bad7fdfeb87_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jitterbugs-swing-kids-and-lindy-hoppers",
+         "name": "Jitterbugs, Swing Kids, and Lindy Hoppers",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jitterbugs-swing-kids-lindy-hoppers_08_b27acdd210e9ed661f529e5f2c515da1-sm_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jitterbugs-swing-kids-lindy-hoppers_08_b27acdd210e9ed661f529e5f2c515da1-sm.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Pablo Picasso's *Guernica* and Modern War",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/guernica_02_81170b174c68f134ef58431122daa6d1_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

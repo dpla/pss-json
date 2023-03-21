@@ -1,0 +1,1247 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "American Literature"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Civil War and Reconstruction (1850-1877)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-5"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Women"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Amy Rudersdorf"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2020-07-22",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Louisa May Alcott&#39;s novel, Little Women.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/160",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/161",
+               "name": "A photograph from the mid-1800s of a woman knitting.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/162",
+               "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/163",
+               "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/164",
+               "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/165",
+               "name": "A clothes iron from 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/166",
+               "name": "A medicine chest, circa 1860-1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/167",
+               "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/168",
+               "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/169",
+               "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Notman, James, \u201cLouisa Alcott,\u201d Digital Public Library of America, https://dp.la/item/86a0b69d881ede0609c5478d9bedf4b1."
+                  }
+               ]
+            }
+         ],
+         "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/161",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/162",
+               "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/163",
+               "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/164",
+               "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/165",
+               "name": "A clothes iron from 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/166",
+               "name": "A medicine chest, circa 1860-1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/167",
+               "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/168",
+               "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/169",
+               "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/160",
+               "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Houghton Library, Harvard University."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWoman knitting,\u201d Digital Public Library of America, https://dp.la/item/8a5b0ed743d4fba765821859b6049091."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph from the mid-1800s of a woman knitting.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/162",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/163",
+               "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/164",
+               "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/165",
+               "name": "A clothes iron from 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/166",
+               "name": "A medicine chest, circa 1860-1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/167",
+               "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/168",
+               "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/169",
+               "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/160",
+               "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/161",
+               "name": "A photograph from the mid-1800s of a woman knitting.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the State Historical Society of Missouri via Missouri Hub.\r\n"
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Trefts, Charles, \u201cGroup in Historic Costume,\u201d Digital Public Library of America, https://dp.la/item/9e814394adaedb698028b97f437796f5."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/163",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/164",
+               "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/165",
+               "name": "A clothes iron from 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/166",
+               "name": "A medicine chest, circa 1860-1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/167",
+               "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/168",
+               "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/169",
+               "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/160",
+               "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/161",
+               "name": "A photograph from the mid-1800s of a woman knitting.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/162",
+               "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cYoung Misses And Children\u2019s Fashions For July,\u201d Digital Public Library of America, https://dp.la/item/df55361b78dcf68e263a671a19cd2e5b."
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/164",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/165",
+               "name": "A clothes iron from 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/166",
+               "name": "A medicine chest, circa 1860-1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/167",
+               "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/168",
+               "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/169",
+               "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/160",
+               "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/161",
+               "name": "A photograph from the mid-1800s of a woman knitting.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/162",
+               "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/163",
+               "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Brandeis University Libraries via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lally, Michael, \u201cLetter from Michael Lally to his wife and children,\u201d Digital Public Library of America, https://dp.la/item/6e22c799c0416f6bd3b662a3f8e58d73."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+         "text": "Transcription:\r\n\r\nCamp Baker  \r\nJanuary 20 1861 [added: 1862]\r\n \r\nDear wife and children  \r\nI Set down to write A few Loynes [lines] to ye Hoping it will find ye In good Health\u2014\r\nI aim to Inform you that I have been Sick this two weeks and is not Able to do Any Duty but How I this day Is much Better than usul [usual]. I got a bad Cold and in A[c]count of way of Sleeping we Have Here It turned in to Ap ploerisy [pleurisy] but with the Help of god I will get over it and I I am not giting better nex[t] week I will Try to git Home\r\n \r\n*[page two]*\r\n \r\nDear wife you Must Excuse Me for Sending you Such A Small Sum as two dollars which you can get as you got it before by Delivering this Recei[p]t. I would Send $20 more but for fear I would not ^get Better that I Should get A furlow [furlough] to go Home then I would want it. Let Patrick [k]now that I got His Letter Last week and being So sick that I was not Able to write but with the Help[-] of god I will be Able to write to Him next week. Give my Love to Father and All the Family and Remember me to the Children. No More At present for Michael Lally\r\n \r\n*[page three]*\r\n \r\nDirect your letter as before\r\n \r\nLet me [k]now is James Sullivan in Roxbury or Has He the two children with Him I was Dream of them A few nights Ago\u2014\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/165",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2020-07-22",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/166",
+               "name": "A medicine chest, circa 1860-1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/167",
+               "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/168",
+               "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/169",
+               "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/160",
+               "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/161",
+               "name": "A photograph from the mid-1800s of a woman knitting.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/162",
+               "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/163",
+               "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/164",
+               "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Minnesota Historical Society via Minnesota Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cIron,\u201d Digital Public Library of America, https://dp.la/item/4428bb63d34b70e367b1eae8b3a8b19a."
+                  }
+               ]
+            }
+         ],
+         "name": "A clothes iron from 1862.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/166",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/167",
+               "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/168",
+               "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/169",
+               "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/160",
+               "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/161",
+               "name": "A photograph from the mid-1800s of a woman knitting.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/162",
+               "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/163",
+               "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/164",
+               "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/165",
+               "name": "A clothes iron from 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of East Carolina University via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMedicine chest,\u201d Digital Public Library of America, https://dp.la/item/a7f265af31779c982fb09bb1a119d92d."
+                  }
+               ]
+            }
+         ],
+         "name": "A medicine chest, circa 1860-1880.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/167",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2020-07-22",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/168",
+               "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/169",
+               "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/160",
+               "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/161",
+               "name": "A photograph from the mid-1800s of a woman knitting.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/162",
+               "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/163",
+               "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/164",
+               "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/165",
+               "name": "A clothes iron from 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/166",
+               "name": "A medicine chest, circa 1860-1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_08a_683a83dc4c00349d08c4ed359b149598.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, South Caroliniana Library via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cKnitting the Socks,\u201d Digital Public Library of America, https://dp.la/item/463097fd57e13a1fd160b8a9d379f3c6."
+                  }
+               ]
+            }
+         ],
+         "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/168",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-15",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-15",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/169",
+               "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/160",
+               "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/161",
+               "name": "A photograph from the mid-1800s of a woman knitting.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/162",
+               "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/163",
+               "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/164",
+               "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/165",
+               "name": "A clothes iron from 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/166",
+               "name": "A medicine chest, circa 1860-1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/167",
+               "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_09a_329221835a9f94fdcebaee8c27cb435e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Internet Archive."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Weston, Anne Warren, \u201cDear Maria,\u201d Digital Public Library of America, https://dp.la/item/329221835a9f94fdcebaee8c27cb435e."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+         "text": "Transcription:\r\n\r\nWeymouth, October 23. 1838.  \r\nDear Maria,  \r\nI am sorry to have bad news to communicate, but ought to be thankful on the whole that it is no worse. Lizzy's illness was all a reality, and to come to the point at once her complaint is scarlet fever. She laid on the sofa all the afternoon after you left but did not complain much but in the evening her fever became quite high, she grew red partially, and complained much of her eyes. I slept with her and she was in the room all night, we managed in the most [approved?] way and gave her saffron and catnip and mullein tea and after midnight her complaint of her eyes abated and she slept considerable. This morning as soon as light Ma sent for Dr. Fifier[?] who came and left her an emetic which she has taken and which has operated very well. She has thrown up a great deal of bilious matter and appears better. The Dr. called it scarlet fever, but not a complaint with much disease of the throat. In fact she complains very little of her throat. Send out by Mr. Kingsbury all her woolen clothes that came in & whatever gowns you think will be the most useful to her. Also her slippers & a few lemons. Don\u2019t send her cotton stockings but her woolen ones. You need not think of coming out. For Ma & I shall be able to take the best of care of her & now think it likely as not that little Ann \r\n\r\n*[page two]*\r\n\r\nwill have the complaint. I will write in by Linfield every morning while she is sick. It would be impossible for the wisest of grown women to behave any better than she does. Takes every thing without a word of difficulty and in short makes her point in the most complete means[?]. She can describe all her own symptoms & appears to have all her faculties[?] in very full perspective[?].\r\nI do not think you have any cause for alarm. I think she will be only comfortably sick, but at any note, I will write to you every day. Tell M. Chapman not to make herself uneasy about Lizzy more than is right, for I do not feel as though there was cause. Little Henry appears to be improving, and we have[?] keep him out of Lizzy\u2019s way.\r\nLizzy sends her love & says she should like Parley\u2019s magazine sent out.\r\nMr. Joseph Porter has been fined $10 & bound over to keep the peace.  \r\nYrs [yours] truly A. W. Weston.  \r\nIf D. is in town tell her to write.\r\n\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/169",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-15",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-15",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/160",
+               "name": "A photographic portrait of Louisa May Alcott, circa 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_01_86a0b69d881ede0609c5478d9bedf4b1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/161",
+               "name": "A photograph from the mid-1800s of a woman knitting.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_02_8a5b0ed743d4fba765821859b6049091_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/162",
+               "name": "A photograph of models in the 1940s posing in 1860s fashions.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_03_9e814394adaedb698028b97f437796f5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/163",
+               "name": "An illustration of everyday girls\u2019 fashions from the 1860s.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_04_df55361b78dcf68e263a671a19cd2e5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/164",
+               "name": "A letter from a Massachusetts soldier serving in the Civil War to his wife and children, January 20, 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_05_6e22c799c0416f6bd3b662a3f8e58d73_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/165",
+               "name": "A clothes iron from 1862.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_06_b42767e281a478c50b4617de0abfa114_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/166",
+               "name": "A medicine chest, circa 1860-1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_07_a7f265af31779c982fb09bb1a119d92d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/167",
+               "name": "A poem about women hand-knitting socks for Civil War soldiers.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_08_683a83dc4c00349d08c4ed359b149598_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/168",
+               "name": "A letter describing the symptoms of scarlet fever suffered by a young girl in Weymouth, Massachusetts, circa 1838.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_09_329221835a9f94fdcebaee8c27cb435e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of North Carolina at Chapel Hill via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPen used to sign North Carolina's Ordinance of Secession, 1861,\u201d Digital Public Library of America, https://dp.la/item/eed0d959d47a589b8958e254d4131ddf."
+                  }
+               ]
+            }
+         ],
+         "name": "A dip pen, used in the 1860s, which would have been dipped into an inkwell to write.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_10_eed0d959d47a589b8958e254d4131ddf_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-little-women",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-10-14",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-10-14",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the letter from a Massachusetts soldier and the poem about women knitting socks, describe how the March women might have supported the war effort.\r\n\r\n2. Compare and contrast the experiences of Lizzy in the letter describing symptoms of scarlet fever with the book\u2019s description of Beth\u2019s sickness.\r\n\r\n3. Using the items in this set, describe some of the challenges of life in the 1860s. What were some challenges faced by women specifically?\r\n\r\n4. Compare and contrast the photograph of models in the 1940s and the illustration from the 1860s. What are the differences between formal and everyday clothing? How can these clothes help us understand the changing circumstances of Amy in *Little Women*?\r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "Pick one of the March girls and write a letter from this character to her father away at war. Use the details from this set to describe your everyday life in Concord and the problems you face."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+            "@type": "CreativeWork",
+            "name": "*Little Women* by Louisa May Alcott"
+         },
+         "name": "Teaching Guide: Exploring *Little Women*"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Little Women](http://dp.la/item/1aa8487276675919ad321bb35ca46f31), by Louisa May Alcott, HathiTrust, Digital Public Library of America. \r\n\r\n2. [Louisa May Alcott, her life, letters, and journals](http://dp.la/item/59a7ebdae463abceb386a6e99818e862), Internet Archive, Digital Public Library of America. \r\n\r\n3. [Little Woman: the devilish, dutiful daughter Louisa May Alcott](http://www.neh.gov/humanities/2009/novemberdecember/feature/little-woman), *Humanities: the Magazine of the National Endowment for the Humanities*. \r\n\r\n4. [Alcott: 'Not The Little Woman You Thought She Was'](http://www.npr.org/templates/story/story.php?storyId=121831612), National Public Radio. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "Louisa May Alcott\u2019s novel *Little Women* tells the story of the four March girls as they make the transition to womanhood and struggle to conform to society\u2019s strict ideals of femininity in the midst of poverty. The story is set in 1860s Massachusetts during the Civil War and is loosely based on Alcott\u2019s own childhood. The collection of resources here, made up of photographs, illustrations, letters, and physical objects, helps explain the era in which the March family lived and the challenges they faced, from the books they read and the clothes they wore to the struggles of war and illness. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+         "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_00_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_00_529f51e7ae782956e47f5ce8288bff17.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beloved-by-toni-morrison",
+         "name": "*Beloved* by Toni Morrison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+         "name": "Women in the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+         "name": "The Poetry of Emily Dickinson",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-adventures-of-huckleberry-finn-by-mark-twain",
+         "name": "*The Adventures of Huckleberry Finn* by Mark Twain",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/adventures-huckleberry-finn-mark-twain_07_cde90e20b3061d5df96d5387b650d076_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/adventures-huckleberry-finn-mark-twain_07_cde90e20b3061d5df96d5387b650d076_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-maya-angelou",
+         "name": "The Poetry of Maya Angelou",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+         "name": "*To Kill a Mockingbird* by Harper Lee",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/their-eyes-were-watching-god-by-zora-neale-hurston",
+         "name": "*Their Eyes Were Watching God* by Zora Neale Hurston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-woman-warrior-by-maxine-hong-kingston",
+         "name": "*The Woman Warrior* by Maxine Hong Kingston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-awakening-by-kate-chopin",
+         "name": "*The Awakening* by Kate Chopin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/a-raisin-in-the-sun-by-lorraine-hansberry",
+         "name": "*A Raisin in the Sun* by Lorraine Hansberry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "*Little Women* by Louisa May Alcott",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_00_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_00_eed0d959d47a589b8958e254d4131ddf.jpg",
+   "typicalAgeRange": "11-18"
+}

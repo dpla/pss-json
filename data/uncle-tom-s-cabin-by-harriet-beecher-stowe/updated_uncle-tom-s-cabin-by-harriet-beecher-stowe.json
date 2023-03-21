@@ -1,0 +1,1581 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "American Literature"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Civil War and Reconstruction (1850-1877)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-5"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Women"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Community College of Philadelphia, Pennsylvania"
+         },
+         "name": "Melissa Strong"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2020-07-22",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Harriet Beecher Stowe&#39;s Uncle Tom&#39;s Cabin.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/330",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Davis, Theodore R., \u201cA Slave Auction At The South,\u201d Digital Public Library of America, https://dp.la/item/8069b56ea587e8148d76bbf6898001e7."
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/331",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Allen County Public Library via Indiana Memory."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWilson, Charley, Rebecca & Rosa, Slaves from New Orleans,\u201d Digital Public Library of America, https://dp.la/item/8feecafdb1414356a26d9db69414331c."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/332",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Seaver, C., \u201cThe Scourged Back,\u201d Digital Public Library of America, https://dp.la/item/ea89fdb64e935c6986127c0a87745e8e."
+                  }
+               ]
+            }
+         ],
+         "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/333",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEva and Topsy,\u201d Digital Public Library of America, https://dp.la/item/529f51e7ae782956e47f5ce8288bff17."
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/334",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201c\u2018Down, you dog!\u2019 said Legree.,\u201d Digital Public Library of America, https://dp.la/item/437f6df16c6cceece513b3c4f45bcd99."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/335",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cHarriet Beecher Stowe, 1811-96,\u201d Digital Public Library of America, https://dp.la/item/d1dd96636e2d13daeafa56f56e50eac7."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/336",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Beecher, Lyman, excerpt from \u201cThe ballot box a remedy for national crimes,\u201d Digital Public Library of America, https://dp.la/item/2ae9895546dccc4500dbe84b86e8c3bb."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/337",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_08_2e5945ac8f45d97b9f0de2c7bb6b4886.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of East Carolina University via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cFugitive Slave Bill,\u201d Digital Public Library of America, https://dp.la/item/2e5945ac8f45d97b9f0de2c7bb6b4886."
+                  }
+               ]
+            }
+         ],
+         "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/338",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2020-07-22",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cUncle Tom's cabin,\u201d Digital Public Library of America, https://dp.la/item/ba6ce88b19d9997ccf0de6cbdbddcb22."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/339",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_10a_7d521b4598d731772f972a1f8b70abb7.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Virginia Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cUncle Tom's Cabin! At Vestry of M.E. Church, Hudson, Wednesday & Thursday evenings, Feb. 26th and 27th, 1879,\u201d Digital Public Library of America, https://dp.la/item/7d521b4598d731772f972a1f8b70abb7."
+                  }
+               ]
+            }
+         ],
+         "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/340",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2018-06-13",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2018-06-13",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/341",
+               "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Utah State Historical Society via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMercur, Utah-Life and Customs p.5,\u201d Digital Public Library of America, https://dp.la/item/f4ac76b36e3bad939d53de1c01a400e8."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/341",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/330",
+               "name": "An illustration of a slave auction created by Theodore R. Davis in 1865.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_01_8069b56ea587e8148d76bbf6898001e7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/331",
+               "name": "An 1864 carte de visite, a type of small photograph frequently exchanged and sold during the war, depicting so-called white slaves.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_02_8feecafdb1414356a26d9db69414331c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/332",
+               "name": "\u201cThe Scourged Back,\u201d a carte de visite depicting a slave who was severely whipped, 1863.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_03a_ea89fdb64e935c6986127c0a87745e8e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/333",
+               "name": "An illustration of Topsy and Eva, two of the novel\u2019s characters with the greatest cultural impact.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_04_529f51e7ae782956e47f5ce8288bff17_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/334",
+               "name": "An 1897 illustration of Uncle Tom and Simon Legree.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_05_437f6df16c6cceece513b3c4f45bcd99_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/335",
+               "name": "A photograph of Harriet Beecher Stowe, circa 1860.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_06_d1dd96636e2d13daeafa56f56e50eac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/336",
+               "name": "An excerpt from a 1838 sermon against slavery by Lyman Beecher, father of Harriet Beecher Stowe.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_07_2ae9895546dccc4500dbe84b86e8c3bb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/337",
+               "name": "A broadside announcing the 1850 passage of the Fugitive Slave Bill.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_08a_2e5945ac8f45d97b9f0de2c7bb6b4886_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/338",
+               "name": "An 1852 review of *Uncle Tom\u2019s Cabin* in *Fraser\u2019s Magazine*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_09_ba6ce88b19d9997ccf0de6cbdbddcb22_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/339",
+               "name": "The printed announcement of a theatrical performance of *Uncle Tom\u2019s Cabin* at Methodist Episcopal Church in Hudson, New Hampshire in 1879. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_10_7d521b4598d731772f972a1f8b70abb7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/340",
+               "name": "A photograph of actors in blackface for an 1896 minstrel show in Mercur, Utah.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_11_15baf3c996ad2da502edd1f00546d96f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The State Historical Society of Missouri via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Fitzpatrick, Daniel Robert, \u201cWill Eliza Never Get Across?,\u201d Digital Public Library of America, https://dp.la/item/09845d50a643ab16da3bf6aa80e68c21."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1936 illustration depicting Europe as Eliza from *Uncle Tom's Cabin* crossing the ice floes of crises that led to World War II.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_12_09845d50a643ab16da3bf6aa80e68c21_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-uncle-tom-s-cabin",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Community College of Philadelphia, Pennsylvania"
+               },
+               "name": "Melissa Strong"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-11-01",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-11-01",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Read Chapter XII of *Uncle Tom\u2019s Cabin*, which addresses the sale of slaves. Identify the characters who argue for or against slavery, and list the different arguments these characters make. Now look at the [illustration of the slave auction](http://dp.la/primary-source-sets/sources/330). Connect the image with one of the character\u2019s arguments for or against slavery. How could the character use the image to support the argument?\r\n\r\n2. *Uncle Tom\u2019s Cabin* is best known for creating controversy and sparking opinions and emotions on an important issue of its time. Discuss how \"[The Scourged Back](http://dp.la/primary-source-sets/sources/332)\" may have contributed to controversy over slavery and abolition. What other literary works have created controversies or addressed social issues? \r\n\r\n3. A review of the novel in the *Southern Literary Messenger* argues that Harriet Beecher Stowe \u201cintermeddle[s] with things which concern her not\u201d and as a result, has \u201cforfeited the claim to be considered a lady.\u201d What could be the things in which Stowe is accused of meddling? Brainstorm reasons why this meddlesome behavior might cause her to be considered unladylike in 1852. Discuss what it means to be a lady today, and how this compares with the era of Uncle Tom\u2019s Cabin. Finally, compare the *Southern Literary Messenger* review with the [review from *Fraser\u2019s Magazine*](http://dp.la/primary-source-sets/sources/338).\r\n\r\n4. Discuss adaptations of *Uncle Tom\u2019s Cabin*. Look at the illustrations of [Topsy and Eva](http://dp.la/primary-source-sets/sources/333) and [Tom and Legree](http://dp.la/primary-source-sets/sources/334), the [announcement of the stage adaptation](http://dp.la/primary-source-sets/sources/339), the [minstrel show](http://dp.la/primary-source-sets/sources/340), and the [World War II political cartoon](http://dp.la/primary-source-sets/sources/341). Identify ways that the story, the characters, and the telling changed over time. Compare the adaptations of and changes to *Uncle Tom\u2019s Cabin* to a more recent text that has been adapted for the stage or screen.\r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "Divide students into groups. Give each group one of these images from the set: the [illustration of the slave auction](http://dp.la/primary-source-sets/sources/330), the [illustration of Topsy and Eva](http://dp.la/primary-source-sets/sources/333), the [illustration of Tom and Legree](http://dp.la/primary-source-sets/sources/334), the [1864 carte de visite](http://dp.la/primary-source-sets/sources/331), and \"[The Scourged Back](http://dp.la/primary-source-sets/sources/332).\" Each group will discuss the ways in which African Americans are represented in their image. Next, groups will compare the image to a contemporary representation of African Americans during slavery and the Civil War, such as the films *Twelve Years a Slave* and *Lincoln*."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+            "@type": "CreativeWork",
+            "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe"
+         },
+         "name": "Teaching Guide: Exploring *Uncle Tom\u2019s Cabin*"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [*Uncle Tom\u2019s Cabin*](http://dp.la/item/7709e9556bb0de7db7a7c9efb8f47e5f) by Harriet Beecher Stowe, HathiTrust, Digital Public Library of America. \r\n\r\n2. [Slave narratives and Uncle Tom's Cabin](http://www.pbs.org/wgbh/aia/part4/4p2958.html), PBS. \r\n\r\n3. [Uncle Tom\u2019s Cabin](https://www.harrietbeecherstowecenter.org/utc/), the Harriet Beecher Stowe Center. \r\n\r\n4. [Uncle Tom\u2019s Cabin and American Culture](http://utc.iath.virginia.edu/), the University of Virginia. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "*Uncle Tom\u2019s Cabin* caused an uproar when it was published in 1852 and it has sparked controversy ever since. Abraham Lincoln is said to have called the author, Harriet Beecher Stowe, \u201cthe little woman who wrote the book that made this great war.\u201d The novel was hugely popular and everyone had an opinion about its depiction of slavery. Many Northern readers saw the novel as revealing the horrors of the \u201cpeculiar institution,\u201d and abolitionists characterized it as a gift from God. In the South, *Uncle Tom\u2019s Cabin* generated outrage; slave owners criticized it as hyperbolic and untruthful. Stowe, daughter of the famous Congregational minister Lyman Beecher, achieved her goal, to write a work of fiction protesting slavery. However, *Uncle Tom's Cabin* also addresses women\u2019s roles and Christian themes. Stowe wrote many other works during her lifetime, but she is best remembered for *Uncle Tom\u2019s Cabin*. The story\u2019s popularity continued for decades, generating stage shows and \u201cTom shows\u201d that combined basic elements of Stowe\u2019s novel with the blackface minstrel tradition.\r\n"
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+         "name": "*Little Women* by Louisa May Alcott",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_00_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_00_eed0d959d47a589b8958e254d4131ddf.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beloved-by-toni-morrison",
+         "name": "*Beloved* by Toni Morrison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+         "name": "Women in the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+         "name": "The Poetry of Emily Dickinson",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-adventures-of-huckleberry-finn-by-mark-twain",
+         "name": "*The Adventures of Huckleberry Finn* by Mark Twain",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/adventures-huckleberry-finn-mark-twain_07_cde90e20b3061d5df96d5387b650d076_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/adventures-huckleberry-finn-mark-twain_07_cde90e20b3061d5df96d5387b650d076_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-maya-angelou",
+         "name": "The Poetry of Maya Angelou",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+         "name": "*To Kill a Mockingbird* by Harper Lee",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/their-eyes-were-watching-god-by-zora-neale-hurston",
+         "name": "*Their Eyes Were Watching God* by Zora Neale Hurston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-woman-warrior-by-maxine-hong-kingston",
+         "name": "*The Woman Warrior* by Maxine Hong Kingston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-awakening-by-kate-chopin",
+         "name": "*The Awakening* by Kate Chopin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/a-raisin-in-the-sun-by-lorraine-hansberry",
+         "name": "*A Raisin in the Sun* by Lorraine Hansberry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_00_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_00_529f51e7ae782956e47f5ce8288bff17.jpg",
+   "typicalAgeRange": "11-18"
+}

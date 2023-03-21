@@ -1,0 +1,2463 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Development of the Industrial United States (1870-1900)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-6"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Emergence of Modern America (1890-1930)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-7"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Arts"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "African Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "New York City Department of Education"
+         },
+         "name": "Lakisha Odlum"
+      }
+   ],
+   "dateCreated": "2017-09-18",
+   "dateModified": "2020-03-24",
+   "dct:created": "2017-09-18",
+   "dct:modified": "2020-03-24",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore blackface minstrelsy in modern America.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Kentucky via Kentucky Digital Library. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Page, Thomas Nelson, excerpt from \u201cNegro : the southerner's problem,\u201d Digital Public Library of America, https://dp.la/item/cfa3180c577f5810cefca2b4aff3721c."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+         "text": "Southern author Thomas Nelson Page\u2019s book discusses his perspective on the race problem in the South after slavery. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2020-03-24",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2020-03-24",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Wisconsin Digital Collections via Recollection Wisconsin."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cNeil O'Brien and the Great American Super-Minstrels,\u201d Digital Public Library of America, https://dp.la/item/6b319b219a0d09312025c5ada0bc4321."
+                  }
+               ]
+            }
+         ],
+         "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "text": "This poster advertises a minstrel show created by Neil O\u2019Brien, a popular blackface actor. The image shows a man in blackface with a giant rooster in the background, perpetuating stereotypes of African Americans\u2019 relationship to chicken. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Duke University Libraries via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cNew Orleans Minstrels preliminary pictorial,\u201d Digital Public Library of America, https://dp.la/item/9aef6a84117483ff3020c96dd0b789bf."
+                  }
+               ]
+            }
+         ],
+         "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+         "text": "This four-page pamphlet announces an upcoming show by the Original New Orleans Minstrels to be held January 6, 1876. The show announcement is accompanied by images of happy African Americans on plantations. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Private Collection of T. Bradford Willis via The Portal to Texas History. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cActing Troupe in Blackface,\u201d Digital Public Library of America, https://dp.la/item/1fb0961faa7cec6fcb12c30fce53550f."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+         "text": "This photograph shows an acting troupe, all men, in blackface. One of them, in the back row, is dressed as a woman, with a blouse and a feathered hat. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Courtright, William, excerpts from \u201cThe complete minstrel guide, containing gags, jokes, parodies, speeches, farces, and full directions for a complete minstrel show,\u201d Digital Public Library of America, https://dp.la/item/c9d1532e9d1ca98a655c3a26f8544824."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+         "text": "This guidebook, \u201ccontaining gags, jokes, parodies, speeches, farces, and full directions for a complete minstrel show,\u201d taught performers how to create a successful minstrel show. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Illinois via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpts from \u201cThe darkey drama : a collection of approved Ethiopian acts, scenes, interludes, etc., etc. ... Part first /,\u201d Digital Public Library of America, https://dp.la/item/201c1c2a3c84455a202b7f6933b9aafb."
+                  }
+               ]
+            }
+         ],
+         "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+         "text": "This collection of successfully executed minstrel shows, curated by Henry L. Williams, Jr., shares the minstrel shows that were the most popular. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cOh Susanna : as sung by The Ethiopian Serenaders,\u201d Digital Public Library of America, https://dp.la/item/34c2d6fbd090f41e842b847d0e9ca751."
+                  }
+               ]
+            }
+         ],
+         "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+         "text": "The minstrel song \u201cOh Susanna\u201d became a popular American song. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cI'se come from Louisiana (Alabama) with my banjo on my knee,\u201d Digital Public Library of America, https://dp.la/item/1af1d37709784b4a51c39430720b6f67."
+                  }
+               ]
+            }
+         ],
+         "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+         "text": "This photograph shows two minstrels singing the popular minstrel song \u201cOh Susanna.\u201d",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Santa Barbara Library, Department of Special Research Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cThe Peerless Minstrels,\u201d Digital Public Library of America, https://dp.la/item/dc3418dcdcde6c7a56b49d72811a8880."
+                  }
+               ]
+            }
+         ],
+         "name": "An audio recording of The Peerless Minstrels, 1910.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+         "text": "This recording, a combination of music, singing, and acting, presents The Peerless Quartette and Co. performing a minstrel show.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cThree-quarter length portrait of Bert Williams, entertainer,\u201d Digital Public Library of America, https://dp.la/item/1173cc8f7c4547410bf76baa94a4d26c."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+         "text": "This photograph shows the famous African American minstrel actor Bert Williams. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPublicity portrait of entertainer Bert Williams in blackface,\u201d Digital Public Library of America, https://dp.la/item/6b99aa702af41e8a4267f44021e0140c."
+                  }
+               ]
+            }
+         ],
+         "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+         "text": "This image shows the famous African American minstrel actor Bert Williams dressed in formal minstrel-show attire and wearing blackface. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Santa Barbara Library, Department of Special Research Collections via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Williams, Bert, \u201cNobody Abyssinia,\u201d Digital Public Library of America, https://dp.la/item/140a75b9037b11ee3872e478c0c8cee9."
+                  }
+               ]
+            }
+         ],
+         "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+         "text": "This recording presents the famous African American minstrel actor Bert Williams singing the \u201ccoon song,\u201d \u201cNobody Abyssinia.\u201d So-called \u201ccoon songs\u201d were a kind of music that included stereotypical images of African Americans. They were particularly popular at the turn of the twentieth century but have been existence since the antebellum period.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Williams, Bert, \u201cMiss Brown's cake-walk,\u201d Digital Public Library of America, https://dp.la/item/2d66f2730a6d429727d301a39179758e."
+                  }
+               ]
+            }
+         ],
+         "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+         "text": "The song \u201cMiss Brown's Cake Walk\u201d was composed by the famous African American minstrel actor Bert Williams. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+               "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Special Collections and University Archives, University of Massachusetts Amherst Libraries via Digital Commonwealth. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Nickens, J. F., \u201cLetter from J. F. Nickens to W. E. B. Du Bois,\u201d Digital Public Library of America, https://dp.la/item/54197ebb4692e1cf9e1dd4e10a109440."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+         "text": "This handwritten letter from J. F. Nickens asks the famous African American scholar W. E. B. Du Bois to give his opinion on the controversy regarding minstrel shows in schools.\r\n\r\nTranscription:\r\n\r\n714 Spadina ave<br/>\r\nFebruary 16, 52\r\n \r\nDear Dr. Du Bois,\r\n \r\nWill you please help a fellow out of difficulties? I\u2019ve been asked to speak on \u201cWhy Minstrel Show\u2019s should not be given.\r\nThe subject is causing a great amount of ill feelings, if you would please be kind enough some reason you could think the same should be out of school shall be greatly appreciated.\r\nThanks for any consideration given this request.\r\n \r\nYours truly,\r\n \r\nJ.F. Nickens \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1436",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1422",
+               "name": "An excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*, published in 1904, which discusses the \u201crace problem\u201d in the South.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_01_cfa3180c577f5810cefca2b4aff3721c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1423",
+               "name": "A poster advertising Neil O'Brien and the Great American Super-Minstrels, 1895. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02_6b319b219a0d09312025c5ada0bc4321_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1424",
+               "name": "A pamphlet announcing a performance of the Original New Orleans Minstrels, 1876.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_03_9aef6a84117483ff3020c96dd0b789bf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1425",
+               "name": "A photograph of a blackface acting troupe in Texas, 1911-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_04_1fb0961faa7cec6fcb12c30fce53550f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1426",
+               "name": "An excerpt from *The Complete Minstrel Guide*, published in 1901.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_05_c9d1532e9d1ca98a655c3a26f8544824_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1427",
+               "name": "A collection of minstrel shows excerpted from *The Darkey Drama: A Collection of Approved Ethiopian Acts, Scenes, Interludes, Etc.*, 1867.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_06_201c1c2a3c84455a202b7f6933b9aafb_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1428",
+               "name": "The sheet music of \u201cOh Susanna,\u201d as sung by The Ethiopian Serenaders, 1863-1872.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_07_34c2d6fbd090f41e842b847d0e9ca751_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1429",
+               "name": "A stereographic photograph of minstrels singing \u201cOh Susanna,\u201d 1900.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_08_1af1d37709784b4a51c39430720b6f67_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1430",
+               "name": "An audio recording of The Peerless Minstrels, 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_09_dc3418dcdcde6c7a56b49d72811a8880_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1431",
+               "name": "A photograph of the African American minstrel actor Bert Williams, 1911.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_10_1173cc8f7c4547410bf76baa94a4d26c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1432",
+               "name": "A publicity portrait of Bert Williams in blackface, 1900-1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_11_6b99aa702af41e8a4267f44021e0140c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1433",
+               "name": "A recording of \u201cNobody Abyssinia\u201d by Bert Williams, 1906. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_12_140a75b9037b11ee3872e478c0c8cee9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1434",
+               "name": "Sheet music for \u201cMiss Brown's Cake Walk\u201d by Bert Williams, 1896.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_13_2d66f2730a6d429727d301a39179758e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1435",
+               "name": "A letter from J. F. Nickens to W. E. B. Du Bois requesting his opinion of minstrel shows in schools, 1952.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_14_54197ebb4692e1cf9e1dd4e10a109440_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Special Collections and University Archives, University of Massachusetts Amherst Libraries via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Du Bois, W. E. B., \u201cBert Williams,\u201d Digital Public Library of America, https://dp.la/item/af919be3a07d1656cb97329a49037712."
+                  }
+               ]
+            }
+         ],
+         "name": "A draft eulogy written by W. E. B. Du Bois about Bert Williams, 1922.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_rep.jpg",
+         "text": "In this short draft of an eulogy of Bert Williams, written by the famous African American scholar W. E. B. Du Bois, Du Bois praises Williams for beings \u201ca great comedian, a great Negro, a great man.\u201d",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_15_af919be3a07d1656cb97329a49037712_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-blackface-minstrelsy-in-modern-america",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "New York City Department of Education"
+               },
+               "name": "Lakisha Odlum"
+            }
+         ],
+         "dateCreated": "2017-09-19",
+         "dateModified": "2017-09-19",
+         "dct:created": "2017-09-19",
+         "dct:modified": "2017-09-19",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the [collection of minstrel shows excerpted from *The Darkey Drama*](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1427), the [poster advertising Neil O'Brien and the Great American Super-Minstrels](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1423), and the [audio recording of The Peerless Minstrels](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1430), describe some of the ways African Americans were represented in blackface minstrel shows. What stereotypes do you see in these performances?\r\n2. One of Du Bois\u2019s most famous quotations about the experience of African Americans in the United States, from his book *The Souls of Black Folk*, states, \u201cOne ever feels his two-ness,\u2014an American, a Negro; two souls, two thoughts, two unreconciled strivings; two warring ideals in one dark body, whose dogged strength alone keeps it from being torn asunder.\u201d Review the [photograph of Bert Williams](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1431), the [publicity portrait of Bert Williams](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1432), and the [draft eulogy written by W. E. B. Du Bois](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1436). Analyze the relationship between the images and Du Bois\u2019s quotation from *The Souls of Black Folk*. Which image represents what it meant to be an \u201cAmerican\u201d during that era? Which one represents what it meant to be a \u201cNegro\u201d during that era? How do the images reflect the \u201ctwo warring ideals\u201d Du Bois speaks of? How does the eulogy comment on the double consciousness Williams dealt with? \r\n3. Read pages 7-10 of the [excerpt from Thomas Nelson Page\u2019s *The Negro: A Southerner\u2019s Problem*](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1422). What does this text reveal about the tension between white Northerners and white Southerners after the Civil War? Why does Page believe that the white Southerners understood African Americans best? According to Page, why do Northerners not trust Southerners? What do you think about the argument Page makes regarding \u201crespectable\u201d African Americans and those who are not \u201crespectable\u201d? \r\n4. How does the cover of the [sheet music](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1434) for \u201cMiss Brown's Cake Walk\u201d subvert common perceptions of blackness perpetuated in blackface minstrel shows? \r\n5. In the [excerpt from *The Complete Minstrel Guide*](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1426), William Courtright states on page 3, \"I therefore know the weight of every line and its effect.\u201d What does Courtright mean? How can this statement also apply to the impact his work had on race relations in the United States?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. Ask students to use the [collection of minstrel shows excerpted from *The Darkey Drama*](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1427), the [sheet music](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1428) of \u201cOh Susanna,\u201d the [audio recording of The Peerless Minstrels](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1430), and the [sheet music](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1434) for \u201cMiss Brown's Cake Walk\u201d to identify the key elements of minstrel shows, including mood or tone, topics addressed, personalities of characters, and common settings. After students have identified the key elements, ask them to discuss how the mood and tone of the minstrel shows conflict with the mood of the United States with regard to race relations during the late nineteenth and early twentieth century. \r\n2. Spike Lee\u2019s film *Bamboozled* addresses black racial identity in the year 2000 through the metaphor of blackface minstrelsy. Ask students to analyze the documents in this primary source set in relation to the film. Using the [photograph of Bert Williams](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1431), the [publicity portrait of Bert Williams](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1432), the [recording](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1433) of \u201cNobody Abyssinia,\u201d the [sheet music](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1434) for \u201cMiss Brown's Cake Walk\u201d, and the [draft eulogy written by W. E. B. Du Bois](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1436), students can compare and contrast the experience of Bert Williams and the experiences of two characters in Spike Lee\u2019s film, \u201cMantan\u201d and \u201cSleep\u2019n Eat.\u201d\r\n3. Ask students to practice visual literacy by analyzing the [photograph of Bert Williams](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1431) and the [publicity portrait of Bert Williams](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1432). Students should describe his body language in both images. What message does it convey and how does it set the mood of each image? Students should then analyze Bert Williams\u2019s gaze in each image. Finally, ask students to compare and contrast similar elements\u2014the cigarette and the shadow. How do body language, gaze, and other aspects of the pictures affect the way the viewer interprets/understands each image? \r\n4. Use sources from this set to complement a lesson on the development of African American music. The abolitionist Frederick Douglass wrote that slave songs \u201ctold a tale of woe which was then altogether beyond my feeble comprehension; they were tones loud, long, and deep; they breathed the prayer and complaint of souls boiling over with bitterest anguish. Every tone was a testimony against slavery.\u201d The same \u201cwoe\u201d and \u201canguish\u201d evident in slave songs marks other African American genres like the blues. Ask students to analyze the [recording](https://dp.la/primary-source-sets/blackface-minstrelsy-in-modern-america/sources/1433) of \u201cNobody Abyssinia,\u201d alongside Langston Hughes\u2019s poem \u201cThe Weary Blues,\u201d and to identify the ways in which these resources align with what Douglass says about slave songs. How did these artists use their work as a coping mechanism, a tool for advocacy, and/or an expression of their cultural experiences? A follow-up activity may ask students to reflect on the role of music in their lives and how it may serve similar purposes. \r\n"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+            "@type": "CreativeWork",
+            "name": "Blackface Minstrelsy in Modern America"
+         },
+         "name": "Teaching Guide: Exploring Blackface Minstrelsy in Modern America"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [History of Minstrelsy](http://exhibits.lib.usf.edu/exhibits/show/minstrelsy/jimcrow-to-jolson/blackface): From \u201cJump Jim Crow\u201d to \u201cThe Jazz Singer,\u201d University of South Florida Libraries. \r\n2. [The History of the Banjo and Black Face Minstrelsy](https://music.si.edu/video/history-banjo-and-black-face-minstrelsy), Smithsonian Music. \r\n3. [Minstrelsy and the Construction of Race in America](http://library.brown.edu/cds/sheetmusic/afam/minstrelsy.html), African American Sheet Music, Brown University. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "Blackface minstrelsy was a popular nineteenth-to-early-twentieth-century American musical and theatrical art form. Although the genre began during slavery, the primary sources in this set reflect blackface minstrelsy after the American Civil War. During this era the South was at its most vulnerable point. African Americans were trying to make sense of their new found freedom and the racial violence inflicted upon them, while white Southerners were dealing with living in a newly integrated society and the financial burden of redeveloping the South\u2019s economy without slave labor. Many white Southerners were nostalgic for the \u201cgood old days,\u201d and used various forms of artistic expression to convey their dissatisfaction with their new way of life. \r\n\r\nNineteenth-century writers such as Joel Chandler Harris and Thomas Nelson Page developed the Plantation Tradition, a genre of writing that glamorized the relationship between whites and blacks during slavery, and represented African Americans in demeaning ways. This genre emphasized the inability of African Americans to use their freedom \u201cresponsibly.\u201d A similar aesthetic was adopted in the musical-theater industry through the minstrel-show genre. Minstrel shows were elaborate musical and sketch performances that consisted of white actors dressed in \u201cblackface,\u201d who would use comedy and music to imitate and mock African American vernacular and experiences\u2014both on the plantation and in post-emancipation society. African American actors also performed in minstrel shows, sometimes wearing blackface. Bert Williams became the most famous African American minstrel artist, and his controversial career is a reflection of the complexities of the African American experience during this era. \r\n\r\nBy the beginning of the twentieth century, blackface minstrelsy had lost its momentum, but its impact could be seen globally. As historian and scholar Eric Lott suggests, blackface minstrelsy \u201crationalized racial oppression.\u201d The most powerful aspect of the genre was its ability to shape the way the world viewed African Americans. Stereotypes of African Americans as lazy, ignorant, and dependent on white Americans were perpetuated through blackface minstrelsy and are still the root of much racial violence and inequality in the twenty-first century. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/visual-art-during-the-harlem-renaissance",
+         "name": "Visual Art During the Harlem Renaissance",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/art-during-harlem-renaissance_00_b945bc5a8bda295b5e0765a190a3e075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/art-during-harlem-renaissance_00_b945bc5a8bda295b5e0765a190a3e075.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beginnings-of-the-american-red-cross",
+         "name": "Beginnings of the American Red Cross",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-blues",
+         "name": "Women and the Blues",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-and-the-blues_04_a0e2019640b28b0f46c5d0c1a3ff12b4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-and-the-blues_04_a0e2019640b28b0f46c5d0c1a3ff12b4_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/theodore-dreiser-s-sister-carrie-and-the-urbanization-of-chicago",
+         "name": "Theodore Dreiser\u2019s *Sister Carrie* and the Urbanization of Chicago",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+         "name": "Exodusters: African American Migration to the Great Plains",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frank-lloyd-wright-and-modern-american-architecture",
+         "name": "Frank Lloyd Wright and Modern American Architecture",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+         "name": "Immigration and Americanization, 1880-1930",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/truth-justice-and-the-birth-of-the-superhero-comic-book",
+         "name": "Truth, Justice, and the Birth of the Superhero Comic Book",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/superhero-comic-book_01_5d5ca6ee70196ed8a3b2c959f5dda5a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/superhero-comic-book_01_5d5ca6ee70196ed8a3b2c959f5dda5a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/pop-art-in-the-us",
+         "name": "Pop Art in the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-invention-of-the-telephone",
+         "name": "The Invention of the Telephone",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invention-telephone_12_a1e65e930e131d0dec50f2dea71dc207_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-yellow-fever-epidemic-of-1878",
+         "name": "The Yellow Fever Epidemic of 1878",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-fever-epidemic-1878_02_3dbff6cbf1849cc86e70148a071f5698_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/settlement-houses-in-the-progressive-era",
+         "name": "Settlement Houses in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/when-miners-strike-west-virginia-coal-mining-and-labor-history",
+         "name": "When Miners Strike: West Virginia Coal Mining and Labor History",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/patronage-and-populism-the-politics-of-the-gilded-age",
+         "name": "Patronage and Populism: The Politics of the Gilded Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fake-news-in-the-1890s-yellow-journalism",
+         "name": "Fake News in the 1890s: Yellow Journalism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-strike",
+         "name": "The Homestead Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-strike_04_5e348bddb7180bd530acaf6886991ff6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-strike_04_5e348bddb7180bd530acaf6886991ff6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-populist-movement",
+         "name": "The Populist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/populist-movement_06_ac2f9e212ed45f762f3faf7f8594a2a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/populist-movement_06_ac2f9e212ed45f762f3faf7f8594a2a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-wounded-knee-massacre",
+         "name": "The Wounded Knee Massacre",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-temperance-movement",
+         "name": "Women and the Temperance Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/electrifying-america",
+         "name": "Electrifying America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/electrifying-america_13_447a8d01e4271f5903fc23097638c5ab_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-imperialism-the-spanish-american-war",
+         "name": "American Imperialism: The Spanish-American War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/early-chinese-immigration-to-the-us",
+         "name": "Early Chinese Immigration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+         "name": "The Panama Canal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-indian-boarding-schools",
+         "name": "American Indian Boarding Schools",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Blackface Minstrelsy in Modern America",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

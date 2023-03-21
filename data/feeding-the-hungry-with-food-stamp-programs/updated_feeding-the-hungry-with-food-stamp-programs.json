@@ -1,0 +1,1451 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Great Depression and World War II (1929-1945)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-8"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Postwar United States (1945 to early 1970s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-9"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Law and Government"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "New York City Department of Education/New York City School Library System"
+         },
+         "name": "Melissa Jacobs"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2017-09-14",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2017-09-14",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the history of US food stamp programs.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/936",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-06-27",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-06-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/937",
+               "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/938",
+               "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/939",
+               "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/940",
+               "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/941",
+               "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/942",
+               "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/943",
+               "name": "A photograph of surplus commodities ca. 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/944",
+               "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/945",
+               "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Los Angeles Public Library via California Digital Library. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPurchasing food stamps,\u201d Digital Public Library of America, https://dp.la/item/6d4db90ce2ba6543dc00899976ff2003."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/937",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/938",
+               "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/939",
+               "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/940",
+               "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/941",
+               "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/942",
+               "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/943",
+               "name": "A photograph of surplus commodities ca. 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/944",
+               "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/945",
+               "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/936",
+               "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Cornell University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cUse of blue stamps under the Food Stamp Plan, May 1939-September 1940,\u201d Digital Public Library of America, https://dp.la/item/b47014bbeb8fec477d5cbbbae087bb27."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/938",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-11",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-11",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/939",
+               "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/940",
+               "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/941",
+               "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/942",
+               "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/943",
+               "name": "A photograph of surplus commodities ca. 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/944",
+               "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/945",
+               "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/936",
+               "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/937",
+               "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of North Carolina at Greensboro via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cFood stamp changes,\u201d Digital Public Library of America, https://dp.la/item/8d1d01b1a19b417893042e7705ccce9e."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/939",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/940",
+               "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/941",
+               "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/942",
+               "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/943",
+               "name": "A photograph of surplus commodities ca. 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/944",
+               "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/945",
+               "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/936",
+               "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/937",
+               "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/938",
+               "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Virginia via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cShopping with food stamps,\u201d Digital Public Library of America, https://dp.la/item/9ae61de8d08ae9a9ead76546acca689d."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/940",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/941",
+               "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/942",
+               "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/943",
+               "name": "A photograph of surplus commodities ca. 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/944",
+               "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/945",
+               "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/936",
+               "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/937",
+               "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/938",
+               "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/939",
+               "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Southern California Libraries."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPresenting check to Sam Seelig at Seelig Market, Inglewood, CA, 1940,\u201d Digital Public Library of America, https://dp.la/item/1ebcd2374fbd7f800448956f47fe34be."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/941",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/942",
+               "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/943",
+               "name": "A photograph of surplus commodities ca. 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/944",
+               "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/945",
+               "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/936",
+               "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/937",
+               "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/938",
+               "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/939",
+               "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/940",
+               "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Tennessee State Library and Archives via Tennessee Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBluntly, He'd Rather Not Have that Bozo Introduced,\u201d Digital Public Library of America, https://dp.la/item/fa12c04728464dd26a164d7f0e2a2e90"
+                  }
+               ]
+            }
+         ],
+         "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+         "text": "The cartoon is called, \u201cBluntly, He\u2019d Rather Not Have That Bozo Introduced.\u201d Congress is acting aloof and not \u201caccepting new acquaintances.\u201d\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/942",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/943",
+               "name": "A photograph of surplus commodities ca. 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/944",
+               "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/945",
+               "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/936",
+               "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/937",
+               "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/938",
+               "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/939",
+               "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/940",
+               "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/941",
+               "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cNear Bakersfield, California. Applicants for surplus food stamp grants by Farm Security Administration,\u201d Digital Public Library of America, https://dp.la/item/fa2a8577d396a8b860e8430451932c0d."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/943",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/944",
+               "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/945",
+               "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/936",
+               "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/937",
+               "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/938",
+               "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/939",
+               "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/940",
+               "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/941",
+               "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/942",
+               "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Archives and Records Administration. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cSurplus Commodities,\u201d Digital Public Library of America, https://dp.la/item/e38609d058a2a790b4e6ec738eeb0241."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of surplus commodities ca. 1936.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+         "text": "Signs read \u201cThis is one of the U.S. Government Surplus Foods\u201d and \u201c17 Foods at Big Bargains.\u201d",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/944",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-08",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-08",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/945",
+               "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/936",
+               "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/937",
+               "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/938",
+               "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/939",
+               "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/940",
+               "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/941",
+               "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/942",
+               "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/943",
+               "name": "A photograph of surplus commodities ca. 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_09_f6525171979103e0f2b811b5fa8ffd16.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_09_f6525171979103e0f2b811b5fa8ffd16.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_09_f6525171979103e0f2b811b5fa8ffd16.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of WSB-TV, Walter J. Brown Media Archives and Peabody Awards Collection via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMan Explains New Food Stamps,\u201d Digital Public Library of America, https://dp.la/item/6d24fa0660be4d3befe998d14ab6c8f3."
+                  }
+               ]
+            }
+         ],
+         "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/945",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-08",
+         "dateModified": "2017-02-11",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2017-02-11",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/936",
+               "name": "A photograph of someone purchasing food stamps in Los Angeles, California, 1940.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_01_0ef3601ded3c8e45dd77669f1dd44020_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/937",
+               "name": "An excerpt from a 1940 booklet describing the use of blue food stamps under the Food Stamp Program.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_02_b47014bbeb8fec477d5cbbbae087bb27_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/938",
+               "name": "A 1972 pamphlet by the US Department of Agriculture describing reforms to the Food Stamp Program after legislation of January 11, 1971.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_03_8d1d01b1a19b417893042e7705ccce9e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/939",
+               "name": "A 1975 booklet by the US Department of Agriculture for shoppers using food stamps, including tips on \u201chow to shop, store, and use foods.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04_9ae61de8d08ae9a9ead76546acca689d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/940",
+               "name": "A photograph of a grocery store in 1940 with a display for food stamp recipients, including a sign saying \u201cOrange and Blue Stamps Redeemed.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_05_1ebcd2374fbd7f800448956f47fe34be_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/941",
+               "name": "A 1939 political cartoon depicting President Franklin D. Roosevelt\u2019s introduction of the Food Stamp Program to Congress.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_06_fa12c04728464dd26a164d7f0e2a2e90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/942",
+               "name": "A photograph of applicants for the Food Stamp Program in 1940. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_07_fa2a8577d396a8b860e8430451932c0d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/943",
+               "name": "A photograph of surplus commodities ca. 1936.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_08_e38609d058a2a790b4e6ec738eeb0241_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/944",
+               "name": "A television news clip from April 18, 1961 discussing \u201cfood paper money\u201d in a pilot food stamps program for eight parts of the country."
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of United States Government Publishing Office (GPO)."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Tiehen, Laura, \u201cAlleviating poverty in the United States the critical role of SNAP benefits,\u201d Digital Public Library of America, https://dp.la/item/3bffc1f65a90a6b39062f18de46a5001."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from analysis by the US Dept. of Agriculture on the impact of federal food subsidy programs, 2012.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_10_843882628c4de6c97f51defde44e9ab4_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-history-of-food-stamp-programs",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "New York City Department of Education/New York City School Library System"
+               },
+               "name": "Melissa Jacobs"
+            }
+         ],
+         "dateCreated": "2016-04-08",
+         "dateModified": "2016-04-11",
+         "dct:created": "2016-04-08",
+         "dct:modified": "2016-04-11",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the [1940 booklet](http://dp.la/primary-source-sets/sources/937), [1972 pamphlet](http://dp.la/primary-source-sets/sources/938), and [1975 booklet](http://dp.la/primary-source-sets/sources/939), describe the original Food Stamp Program established by President Franklin D. Roosevelt in the New Deal and discuss how the program has transformed over time. How would you compare and contrast the program of the 1940s with the program of the 1970s and today\u2019s Supplemental Nutrition Assistance Program (SNAP)? How would you improve today\u2019s SNAP program? \r\n2. Using the [1972 pamphlet](http://dp.la/primary-source-sets/sources/938), explain why you think reforms were needed to the Food Program of 1964. Do you think the reforms were successful? Why or why not? \r\n3. Using the [1940 booklet](http://dp.la/primary-source-sets/sources/937) and the [2012 analysis](http://dp.la/primary-source-sets/sources/945), explain whether or not you think that food stamp programs play a critical role in alleviating poverty. \r\n4. Based on the [1939 political cartoon](http://dp.la/primary-source-sets/sources/941), why do you think Congress presented opposition to President Franklin D. Roosevelt\u2019s food subsidy program? \r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "Divide the class into small groups with some students using 1939 resources and others using guidelines from today\u2019s SNAP. Provide a week\u2019s worth of food coupons to each group. Using the appropriate guidelines for each era, ask students to develop a shopping list and a week\u2019s list of meals to feed a family of four based on research about the price of food in the late 1930s. Does each group have enough food stamps to feed the entire family? Are each of the meals balanced? Was each group able to purchase everything it needed? Why did each group choose the items purchased? \r\n"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+            "@type": "CreativeWork",
+            "name": "Feeding the Hungry with Food Stamp Programs"
+         },
+         "name": "Teaching Guide: Exploring the History of Food Stamp Programs"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [*America\u2019s Great Depression and Roosevelt\u2019s New Deal*](http://dp.la/exhibitions/exhibits/show/new-deal) online exhibit, Digital Public Library of America.  \r\n2. \u201c[The History of SNAP](http://www.snaptohealth.org/snap/the-history-of-snap/)\u201d timeline, SNAP to Health. \r\n3. \u201c[A History of Food Stamps Use and Policy](http://www.nytimes.com/interactive/2010/02/11/us/FOODSTAMPS.html?_r=0)\u201d timeline, *The New York Times*. \r\n4. [A Short History of SNAP](http://www.fns.usda.gov/snap/short-history-snap), US Department of Agriculture Food and Nutrition Service. "
+      },
+      {
+         "name": "Overview",
+         "text": "The Food Stamp Program was a federal aid program that started in 1939 to allow poor and unemployed people to purchase food and to assist farmers by consuming surplus crops. The color-coded stamp program provided orange and blue stamps that could be exchanged for groceries. Originally, eligible participants purchased orange stamps that could be used to the purchase any type of food. For every dollar of orange stamps purchased, participants received fifty cents worth of blue stamps, which could be used to purchase food the US Government labeled as surplus. By the late 1990s, most states had phased out actual stamps in favor of a debit card system known as Electronic Benefit Transfer (EBT).\r\n\r\nThe Food Stamp Program, now known as the Supplemental Nutrition Assistance Program (SNAP) has been amended several times since its inception, experiencing periods of growth in the 1960s and early 1970s and restriction in the 1980s. Participation in the programs have varied throughout its history with greater need during economic downturns, recessions, and temporary disasters. SNAP remains a crucial governmental assistance program to those living below poverty levels, with 46.5 million people in 22.7 million households receiving benefits as of September 2014."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-deal",
+         "name": "The New Deal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/there-is-no-cure-for-polio",
+         "name": "There is No Cure for Polio",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/no-cure-polio_04a_21b28a7a1dff36da98d2f0fd4e4505b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/elie-wiesel-s-night-and-the-holocaust",
+         "name": "Elie Wiesel's *Night* and the Holocaust",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/truth-justice-and-the-birth-of-the-superhero-comic-book",
+         "name": "Truth, Justice, and the Birth of the Superhero Comic Book",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/superhero-comic-book_01_5d5ca6ee70196ed8a3b2c959f5dda5a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/superhero-comic-book_01_5d5ca6ee70196ed8a3b2c959f5dda5a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/pop-art-in-the-us",
+         "name": "Pop Art in the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/pop-art-15_43038b7e46781ef2a77dee8cccb800e8_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/stonewall-and-its-impact-on-the-gay-liberation-movement",
+         "name": "Stonewall and Its Impact on the Gay Liberation Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/stonewall_10_d806011815801aae4c25c918279b2c5a_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/space-race",
+         "name": "Space Race",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/space-race_05a_ec9defa3f41f7682c5b61254c8a0a442_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-rise-of-italian-fascism-and-its-influence-on-europe",
+         "name": "The Rise of Italian Fascism and Its Influence on Europe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+         "name": "The American Indian Movement, 1968-1978",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-united-farm-workers-and-the-delano-grape-strike",
+         "name": "The United Farm Workers and the Delano Grape Strike",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/united-farm-workers-delano-grape-strike_12_120f5910e4e2256e9bcd312f99442fda_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-boston-tea-party",
+         "name": "The Boston Tea Party",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/patronage-and-populism-the-politics-of-the-gilded-age",
+         "name": "Patronage and Populism: The Politics of the Gilded Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+         "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/attacks-on-american-soil-pearl-harbor-and-september-11",
+         "name": "Attacks on American Soil: Pearl Harbor and September 11",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/attacks-american-soil-pearl-harbor-september-11_13a_624c119f80cb9de5df65136922aadd43_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/rise-of-conservatism-in-the-1980s",
+         "name": "Rise of Conservatism in the 1980s",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/creating-the-us-constitution",
+         "name": "Creating the US Constitution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+         "name": "Secession of the Southern States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/shays-rebellion",
+         "name": "Shays' Rebellion",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/postwar-rise-of-the-suburbs",
+         "name": "Postwar Rise of the Suburbs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/postwar-american-suburbs_00_e97b6d5fda18f2e1a7b6dd02720296f6.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-impact-of-television-on-news-media",
+         "name": "The Impact of Television on News Media",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/television-news-media_00_17279c23423453a0c8a9fad233dd88b7.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+         "name": "Mexican Labor and World War II: The Bracero Program",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+         "name": "Road to Revolution: 1763-1776",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-ii-women-on-the-home-front",
+         "name": "World War II: Women on the Home Front",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-atomic-bomb-and-the-nuclear-age",
+         "name": "The Atomic Bomb and the Nuclear Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/atomic-bomb-nuclear-age_00_8b47935c636a0624671121831591800d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Feeding the Hungry with Food Stamp Programs",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

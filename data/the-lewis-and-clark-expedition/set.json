@@ -1,0 +1,517 @@
+{
+  "@context": {
+  "@vocab": "http://schema.org/",
+  "ccss": "http://www.corestandards.org/",
+  "dct": "http://purl.org/dc/terms/",
+  "dcmitype": "http://purl.org/dc/dcmitype/",
+  "edm": "http://www.europeana.eu/schemas/edm",
+  "ore": "http://www.openarchives.org/ore/terms/",
+  "text": {
+    "@id": "http://schema.org/text",
+    "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+  },
+  "name": {
+    "@id": "http://schema.org/text",
+    "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+  }
+}
+,
+  "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+  "@type": "CreativeWork",
+  "dct:type": "dcmitype:InteractiveResource",
+  "name": "The Lewis and Clark Expedition",
+    "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg",
+    "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+  "dateCreated": "2015-10-14",
+  "dct:created": "2015-10-14",
+  "dateModified": "2018-06-13",
+  "dct:modified": "2018-06-13",
+    "about": [
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Subject",
+          "name": "US History"
+        },
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Time Period",
+          "name": "Expansion and Reform (1801-1861)",
+            "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+        },
+        {
+          "@type": "Thing",
+            "disambiguatingDescription": "Subject",
+          "name": "Native Americans"
+        }
+    ],
+    "description": "This collection uses primary sources to explore the Lewis and Clark Expedition.",
+    "author": [
+        {
+          "@type": "Person",
+            "affiliation": {
+              "@type": "Organization",
+              "name": "Digital Public Library of America"
+            },
+          "name": "Amy Rudersdorf"
+        }
+    ],
+  "publisher": {
+    "@id": "//dp.la/",
+    "@type": "Organization",
+    "name": "Digital Public Library of America",
+    "email": "info@dp.la"
+  },
+  "hasPart": [
+        {
+          "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-lewis-and-clark-expedition",
+          "@type": "CreativeWork",
+          "name": "Teaching Guide: Exploring the Lewis and Clark Expedition",
+          "disambiguatingDescription": "guide"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/146",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_01_9c4fb38670ed7e318d6fca731802da85_rep.jpg",
+          "name": "A photograph of a portrait of Captain Meriwether Lewis, 1918. ",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/147",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_02_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+          "name": "A letter from Meriwether Lewis requesting payment for supplies used on the Lewis and Clark expedition, 1806. ",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/148",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_03_b5da6546ea5351e2800eb3984f32ddab_rep.jpg",
+          "name": "A letter from Meriwether Lewis to President James Madison about Lewis’s journey to deliver papers to Washington, 1809.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/149",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_04_898df2f39aeddabad178fc971b36d451_rep.jpg",
+          "name": "Meriwether Lewis’s telescope, manufactured in 1795.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/150",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_05_2638c6ebd7901dd8aab8f24c408918b0_rep.jpg",
+          "name": "A list of presents for Native Americans purchased by Meriwether Lewis in preparation for his expedition, 1803.",
+          "mainEntity": [
+            {
+                  "@type": "MediaObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/151",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_06_980729f9329919e14b4bc26204640edc_rep.jpg",
+          "name": "A drawing by expedition sergeant Patrick Gass in 1807 of the men building their camps as they traveled.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/152",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_07a_525da571492f728c5e570f1f7897e497_rep.jpg",
+          "name": "A map of the Lewis and Clark expedition route overlaid on a map of the US in 1945.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/153",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_08_19fa4d96b851d1ce45b4d6744dffd021_rep.jpg",
+          "name": "A US dollar coin, minted in 2000, showing Lewis and Clark’s Shoshone guide, Sacagawea.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/154",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_09_e80ea3f29dfc08cae764df5e8097dfbf_rep.jpg",
+          "name": "A 1903 map of the land gained through the Louisiana Purchase.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/155",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_10_b88dc0abe68fe76f2725fd5d263c34a8_rep.jpg",
+          "name": "A picture of a Shoshone women and children, circa 1888-1892.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/156",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_11_beef7eef2873ae0a0498e6ae6baeb8df_rep.jpg",
+          "name": "A photo of Mandan lodge made of sod similar to ones encountered by the Lewis and Clark Expedition.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/157",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_12_fea0c19c16bc42569b6c3a7cf81b4ff0_rep.jpg",
+          "name": "A portrait of William Clark, circa 1790-1820.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/158",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_13_4d539a3a0192576478579409d5154e1a_rep.jpg",
+          "name": "A portrait of Thomas Jefferson, who was president when the Louisiana Territory was purchased and commissioned Lewis and Clark’s expedition.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sources/159",
+          "@type": "CreativeWork",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_thumb.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_14_90eb8507e807a3d6db8b16f4176234b9_rep.jpg",
+          "name": "A photograph of a 1905 sculpture of Sacagawea by Alice Cooper located in Portland, Oregon.",
+          "mainEntity": [
+            {
+                  "@type": "ImageObject"
+            }
+          ],
+          "disambiguatingDescription": "source"
+        },
+      {
+        "name": "Resources",
+        "text": "1. [Teaching With Documents: The Lewis and Clark Expedition](https://www.archives.gov/education/lessons/lewis-clark/), the National Archives and Records Administration. \r\n\r\n2. [Lewis \u0026 Clark](http://www.nationalgeographic.com/lewisandclark/), National Geographic. \r\n\r\n3. [Lewis \u0026 Clark: The Journey of the Corps of Discovery](http://www.pbs.org/lewisandclark/), PBS. \r\n\r\n4. [Journals of the Lewis and Clark Expedition](http://lewisandclarkjournals.unl.edu/), University of Nebraska Lincoln. \r\n"
+      },
+      {
+        "name": "Overview",
+        "text": "The Lewis and Clark expedition was commissioned by Thomas Jefferson to explore and map the newly purchased Louisiana Territory, to identify a practical route to the Pacific Ocean, and to learn more about the native peoples who lived in the region. Headed by Captain Meriwether Lewis and Second Lieutenant William Clark, the Corps of Discovery Expedition took place from May 1804 to September 1806. Lewis and Clark and the rest of the exploration party were the first Americans to travel through what became the western United States. The expedition included a Shoshone woman named Sacagawea who served as a translator, guide, and diplomat to the many native tribes they encountered. Jefferson was also interested in the flora and fauna of the European-untraveled West, and had hundreds of specimens sent back to Virginia during the two-year undertaking. This collection of images, letters, and maps provides information about the expedition leaders, the president that made the expedition possible, and the people they encountered along the way."
+      }
+  ],
+    "isRelatedTo": [
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+          "name": "Jacksonian Democracy?"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+          "name": "Manifest Destiny"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+          "name": "Cherokee Removal and the Trail of Tears"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/spanish-missions-in-california",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/spanish-missions-california_08_058746342900ae4b3ceb3280c2bcbac0_rep.jpg",
+          "name": "Spanish Missions in California"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+          "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+          "name": "The American Whaling Industry"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+          "name": "The Panic of 1837"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+          "name": "Mormon Migration"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+          "name": "Victorian Era"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+          "name": "Nineteenth-Century Schools for the Deaf and Blind"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/powhatan-people-and-the-english-at-jamestown",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jamestown_04_542bdd500c8a11131130c1d4dedbe3ec_rep.jpg",
+          "name": "Powhatan People and the English at Jamestown"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-american-indian-movement-1968-1978",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_sm.jpeg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-movement_11_325c1ddc8cbe334a62d16eb6e9eb2a06_rep.jpeg",
+          "name": "The American Indian Movement, 1968-1978"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+          "name": "Commodore Perry’s Expedition to Japan"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+          "name": "Texas Revolution"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+          "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+          "name": "Women of the Antebellum Reform Movement"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/exploration-of-the-americas",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exploration-of-the-americas_03a_053e2477d310990f0617fcb154c112c5_rep.jpg",
+          "name": "Exploration of the Americas"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-wounded-knee-massacre",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/wounded-knee-massacre_02_caa8a579fd61cd23388d3ee4d7c9e567_rep.jpg",
+          "name": "The Wounded Knee Massacre"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+          "name": "The War of 1812"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+          "name": "Cotton Gin and the Expansion of Slavery"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+          "name": "Henry Clay: The Great Compromiser"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/cross-cultural-colonial-conflicts",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cross-cultural-colonial-conflicts_05_a9c21ea70b7318f2983551607ebdffb8_rep.jpg",
+          "name": "Cross-Cultural Colonial Conflicts"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+          "name": "The American Abolitionist Movement"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+          "name": "California Gold Rush"
+        },
+        {
+          "@id": "https://dp.la/primary-source-sets/sets/american-indian-boarding-schools",
+            "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5.jpg",
+            "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-indian-boarding-schools_00_f7b6ae7adfd4a9c9ecbceaf3af5fa8b5_rep.jpg",
+          "name": "American Indian Boarding Schools"
+        }
+    ],
+  "inLanguage": [
+    {
+      "@id": "http://lexvo.org/id/term/eng/English",
+      "@type": "Language",
+      "name": "English"
+    }
+  ],
+  "learningResourceType": "Source Set",
+  "license": "http://dp.la/info/terms/",
+  "typicalAgeRange": "11-18",
+  "accessbilityFeature": [
+    "captions",
+    "structuralNavigation",
+    "audioControl",
+    "videoControl"
+  ],
+  "accessibilityHazard": [
+    "noFlashingHazard",
+    "motionSimulation",
+    "noSoundHazard"
+  ],
+  "accessibilityControl": [
+    "fullMouseControl"
+  ],
+  "educationalAlignment": [
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+      "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+      "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+      "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+      "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+    },
+    {
+      "@type": "AlignmentObject",
+      "alignmentType": "requires",
+      "educationalFramework": "Common Core State Standards",
+      "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+      "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+    }
+  ]
+}

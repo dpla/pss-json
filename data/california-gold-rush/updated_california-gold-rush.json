@@ -1,0 +1,2292 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Migration"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Samantha Gibson"
+      }
+   ],
+   "dateCreated": "2018-02-22",
+   "dateModified": "2018-06-13",
+   "dct:created": "2018-02-22",
+   "dct:modified": "2018-06-13",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the Gold Rush that began in California in 1848.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of David Rumsey."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Ensigns & Thayer, \u201cMap of the Gold Regions of California, Showing the Routes via Chagres and Panama, Cape Horn, &c,\u201d Digital Public Library of America, https://dp.la/item/ec1f0392ebe9d61292b47259ee08b371. "
+                  }
+               ]
+            }
+         ],
+         "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+         "text": "This map with travel guide was published in New York and distributed both individually as a broadside and as an insert in pioneer Thomas J. Farnham\u2019s popular book, *Life, Adventures, and Travels in California* in 1851. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-24",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-24",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_02_071bc74ca90f37fae986ac2653898843.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Berkeley, Bancroft Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Nagel, Louis, and Ridendo Castigat, \u201cCalifornia: departure for the Gold Regions: \u2018Gold is no chimera!\u2019,\u201d Digital Public Library of America, https://dp.la/item/071bc74ca90f37fae986ac2653898843. "
+                  }
+               ]
+            }
+         ],
+         "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+         "text": "Approximately ninety percent of \u201cforty-niners\u201d were men, many of whom left their families at home with plans to return once they had found their fortune in gold. While this print depicts women and children \u201cin line\u201d to depart for California, that may more accurately reflect that they were waiting to bid farewell to their male relatives than the typical makeup of California gold prospectors. The subtitle of this print reads, \u201cGold is No Chimera!\u201d A chimera is an illusion or a figment of the imagination. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-06-13",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-06-13",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_03_b1a37441d726cbb73da287231823137d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Utah - J. Willard Marriott Library via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Keller, George, excerpt from \u201cA trip across the plains, and life in California,\u201d Digital Public Library of America, https://dp.la/item/04c84fc39fea8519e11dbcc80a830937. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+         "text": "In this book, Ohio native George Keller documents his experiences during his travels to California via an overland route across the western United States. He records major stops and landmarks along the route, observations about the scenery and landscape and his group\u2019s encounters with Native Americans, as well as notes on the mining experience in California and gold extraction techniques. Chapter 1 documents how Keller decided to embark on this journey to California for gold and the first stages of his travels. In the final pages of his book, Keller provides a \u201cGuide to California by the Overland Route\u201d for future emigrants. In this section, he helpfully details the supplies required for the journey as well as step by step directions from St. Joseph, Missouri to California.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_04_39a6ece6d93df9547fd46851b7862543.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Claremont Colleges Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Chandler, N. A., \u201cArrival in California,\u201d Digital Public Library of America, https://dp.la/item/39a6ece6d93df9547fd46851b7862543. "
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+         "text": "Newton Chandler (1818?-1880) left his home in Hartland, Vermont for California in 1855. In this letter to his wife, Chandler, a relative late-comer to the Gold Rush, describes his accommodations during his travels by ship, his arrival in San Francisco, and plans for gold prospecting.\r\n\r\nTranscription:\r\n\r\n[page 1]<br>\r\n[some periods added for clarity]\r\n\r\nSan Francisco Jan. 15th 1855\r\n\r\nI am here and well and hope these few lines will find you and the children well and comfortable. I have had a first rate passage and enjoyed it well. I have directed a letter to father today giving some description of the journey which you will see the fare or living on the boats for deck passengers was very bad vis.[?] salt, musty beef & pork & sea biscuit for a meal then course torn[?] meal. Mush & poor molasses for another. Then boiled dried apple & hard bread another. Been [sic] soup another and so on. Pretty hard fare but one can get along with seerage[?] fare & I should advise any man who wants to save 100 dollars to Lay on[?] from five to ten dollars in bread and cheese dried beef &c then he can come along comfortable. It cost me more than 25 dollars for what I had to buy of the stewarts [sic], 25 [each?] for a piece of soft Bread so large as your four fingers & every thing at the same rate still they throw overboard good bread and meat &c the leavings of the cabin fare. They won\u2019t give the deck people even a crust that is soft, they drive to buy. But when I get ready for you to come with the children we will take cabin fare if you conclude to come I think I shall like the country well. But can tell better after trial. the weather is September Like here the wild geese & ducks are plenty.\r\n\r\n[page 2]<br>\r\nWe had some for dinner today we have first rate living here Salmon & all kinds of fish plenty--- we start for the mines at 4 o\u2019clock today. Stonecutters get seven dollars per day on the custom house building I think I could get a chance there but must try the mines first. I don\u2019t know where I shall stop, but am going North first, near the Yuba I shall write when located, I want you to write once a month at least, and remember that you & the children are with me ever [sic] day & night Tell Willee I shall want him to come out with me next time I come so he must go to school and get his learning cause there is no chance here. Kiss Lis for me a dozen times & say good night for me, I shall try and make enough to square up with all my friends as soon as possible. You shall hear from me as soon as possible. Tell George to write to me direct to Sacramento Cal. I can get letters by express from any part I may be in. \r\n\r\nTell Lucian I shall write to him and wish him to do the same by me. Give my respects to Father & Mother Alexander & Tell all the folks that I hope to see them again in good spirits. I have some things to get before we go which is in 2 hours by steamboat so good day.\r\n\r\nFrom N. A. Chandler<br>\r\nTo Jane M. Chandler",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Berkeley, Bancroft Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Brooks, B. V., \u201cCalifornia pioneers around a campfire,\u201d Digital Public Library of America, https://dp.la/item/61287669c0bb5b5b5cf197778ad6b14d. "
+                  }
+               ]
+            }
+         ],
+         "name": "A painting of California gold miners around a campfire, ca. 1850.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+         "text": "Little is known about the background and identity of painter B. V. Brooks. This painting depicts a group of \u201cCalifornia pioneers\u201d by a campfire in a rural setting. Pickaxes, popular tools used for mining, are visible leaning against the log cabin.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_06_53f15802980c977833c3b30a41a9a398.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Berkeley, Bancroft Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cAlonzo J. Doolittle in miner's clothing with a bag of gold,\u201d Digital Public Library of America, https://dp.la/item/53f15802980c977833c3b30a41a9a398."
+                  }
+               ]
+            }
+         ],
+         "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+         "text": "Originally from in Vermont, Alonzo J. Doolittle was a surveyor who came to California during the Gold Rush. He mapped the gold fields of California and published several western maps in the 1860s. In this photograph, Doolittle stands next to two \"gold pokes,\" or small bags used to hold gold nuggets. His shirt, trousers, hat, and two-piece round belt buckle were typical of the attire worn by California gold miners.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of California State Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Starkweather, Joseph B., \u201cSpanish Flat, 1852,\u201d Digital Public Library of America, https://dp.la/item/5c95a64ae569a2071d1bdf5a308f9ac7."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+         "text": "Photographer Joseph Blaney Starkweather captured this scene at Spanish Flat, a mining community in El Dorado County, California. Starkweather was originally from the East Coast, but by the 1860s, he had established a photography studio in San Francisco. \r\n\r\nAt the outset of the Gold Rush, California\u2019s African American community was small and, while African Americans did not constitute a large percentage of Gold Rush migrants, both free and formerly enslaved African Americans participated. Some enslaved African Americans were also brought to California by their fortune-seeking enslavers. African Americans in California often encountered virulent racism but, as this photograph indicates, the Gold Rush also provided opportunities for black and white prospectors to work side-by-side.\r\n\r\nThe sluice box pictured here was a popular tool for gold prospecting. It works by pouring water, or diverting water from a river or stream, through the long box. The flowing water then separates gold nuggets from other dirt and rocks by trapping them in the bottom of the box.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of California State Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cHead of Auburn Ravine, 1852,\u201d Digital Public Library of America, https://dp.la/item/f6965380aff6a11fed85f812f71f9a01. "
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+         "text": "Photographer Joseph Blaney Starkweather captured this scene in Auburn Ravine, a mining settlement founded in 1848. Starkweather was originally from the East Coast, but by the 1860s, he had established a photography studio in San Francisco. \r\n\r\nThe Gold Rush attracted more than 25,000 Chinese immigrants to California in search of the rumored \u201cgold mountain\u201d promoted in Chinese cities and towns. Instead of a gold mountain, Chinese immigrants encountered the difficult and uncertain work of mining and rampant discrimination. Many were forced to work claims already abandoned by other prospectors or perform hard labor as \u201ccoolies,\u201d or unskilled workers, to support the mining industry, such as constructing equipment like sluice boxes or clearing roads between mining camps. \r\n\r\nThe sluice box, an example of which is pictured here, was a popular tool for gold prospecting. It works by pouring water, or diverting water from a river or stream, through the long box, which then separates gold nuggets from other dirt and rocks by trapping them in the bottom of the box. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_09_c98b791435837c8c8442b80e393fb164.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Washington."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "McElroy, Thornton F., \u201cThornton F. McElroy letter to his wife Sarah about gold mining in California, June 19, 1850,\u201d Digital Public Library of America, https://dp.la/item/c98b791435837c8c8442b80e393fb164. "
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+         "text": "Thornton F. McElroy (1825-1885) traveled to California in the spring of 1849 via an overland route from Pittsfield, Illinois. After the Gold Rush, McElroy and his family settled on the West Coast, moving to Oregon and Washington, where McElroy worked in newspaper publishing.\r\n\r\nTranscription:\r\n\r\n[page 1]<br>\r\nPlacerville, June 19th 1850\r\n\r\nMy Dear Sally <br>\r\nAs good luck or good fortune would have it, I am again enjoying perfect health, when I wrote to you last I was just recovering from a long and severe spell of sickness, which came very near putting me under the sod, you may judge how near dead I was when I tell you that all my friends and acquaintances despaired of my ever getting up again and made preparations to bury me. This will account to you the reason of my not writing oftener to you during the winter, I wrote to you from Oregon, and when I landed at San Francisco, and after I got up here the 3 day of December, and sent two letters by John Mudd. Soon after Mudd left I was taken sick, I worked during the month of December, done very well, and had learned something about mining so that when I was taken I was making from an ounce to two ounces a day, the last day I worked I made 20 dollars. It is hard enough for a man in good health to get along in California and when it comes to being sick it is still worse and very expensive. I made in the month of December between three and four hundred dollars, the first of January taken sick and for eight weeks kept growing worse and in that time no change for the better. After I took a change for the better it seemed\r\n\r\n[page 2]<br>\r\nas though I never would regain my health and flesh and strength again, it came slow but sure, I am now enjoying better health that I ever did in my life. I weigh 170 pounds which is more by 10 pounds than I ever weighed before. It cost me thirty dollars per week to have some person to wait on me and take care of me, besides other necessary expenses, which, in the time I was sick and before I was able to work again took nearly all I had made. I was not able to work until the middle of April, since that time I have done only tolerable well as this is the dullest time in the year for mining. Where there is one miner making half an ounce a day there is twenty that is doing nothing. There is but few at work in any of the mines at this time, the rivers are all very high and consequently no mining can be done till they fall, about the middle of July, in the dry diggins like these where I am, there is but little mining going on, the water is drying up very fast. In the best ravines for gold the water is entirely gone, there will be nothing of consequence done in these diggins until the rainy season commences again in December. California is a great country for lice and fleas, in the winter the lice will almost eat a \"feller\" up, when the warm weather begins to come the lice retire in disgust and the fleas begin to come thick and fast, and during the night they wake a \"feller\" up\r\n\r\n[page 3]<br>\r\nand make him say his prayers very often, and during the day in danger of being eaten up by snakes and lizzards [sic], and a small animal in the shape of a toad, with horns on it. During the months of April and May California is the most delightful country in the world, the mountains are covered with snow, the hills and valleys are covered with grass and the most beautiful flowers of every hue and color and the air is filled with delightful perfume from the flowers, but about the time the scene changes, and in a short time every thing will be dried and parched up in consequence of there being no rain during the spring summer or fall but it rains all winter. When I wrote you last I intended to start in a few days for the mountains on the middle fork, but I learned from a good many acquaintances who had went up there and could do nothing and come back again to this place. I shall be here for two weeks yet I think, and then go up in the mountains. I think I shall return home this fall or next spring certain. Norton is up in the mountains on the middle fork, went there about the first of April, the \"diggins\" up there are rather poor in consequence of the high water and none of the miners are making more than expenses. Doctor Clemens, the bearer of this letter to you can tell you more about Nort than I can, he came down from the mountains a few days ago. I have not room to write any more at this time, I want you to write me all the news about Pittsfield, write often \r\n\r\nOn side of page:<br>\r\nand still direct your letters to Sacramento City. I have written several letters to mother but have never recieved [sic] any from her, if you hear from her let me know, from your affectionate Mc",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of the Pacific via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Hibbard, Augustin, excerpt from \u201cLetter from Augustin Hibbard to William Hibbard 1850 Sept. 4,\u201d Digital Public Library of America, https://dp.la/item/35629183857b6cb8b1af2ff1b5c65ef5. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+         "text": "In this letter, Canadian Augustin Hibbard describes in detail his experience as a gold prospector. He relates his impressions of San Francisco, journey to the gold mines via Sacramento, encounters with fellow miners and local Native Americans, and attempts to find his fortune in gold. This excerpt begins as Hibbard is describing his arrival in the gold fields near Coloma, California.\r\n\r\nTranscription:\r\n\r\n[end of previous page]<br>\r\nColoma I found to be a very pretty location in a vally [valley] on the\r\n\r\n[page 6]<br>\r\nthe south fork of the American river about 20 miles above its junction with that stream. The town then consisted of two or three canvass houses and some twenty or thirty tents.\r\nI went next morning to the Sutter Mill and saw the race in which the gold was first discovered. While there I heard the race, the gold, and the men who discovered it. Most bitterly cursed by a poor wretch, who said, that he had given up a business at home that supported himself & family comfortably, and sacrificed property to raise enough to support the family while here, and a thousand dollars to bring out with him. His thousand dollars were gone, and his health lost. [Sickly] and destitute as he was, he knew not what to do. I gave him a trifle for but a small sum, I had, thinking that soon, I might be in the same situation.\r\n\r\nThis, my dear brother, is only one out of many cases of the same that I have witnessed. After looking about a few days (which is here called prospecting) we commenced digging for gold, and we soon found that, although, in imagination it might be agreeable work, yet in reality, it was the most laborious and in the majority of cases the most unsatisfactory [occupation] that men could be engaged in. This no doubt may seem strange to you, for I am well aware what kind of reports go home from this country. In many instances, the most unblushing false-hoods might be traced to vile speculations. In others, (and rarely it is that they occur) where a man is fortunate enough during the mining season, (which is from 6 [to] 8 months, to take out from 20 to [$50000] it is trumpeted abroad in such a manner as to give reason to suppose that all in the region where that raise was made, are doing about or equally as well. Thus these reports go home, and people come out here [assured], that they, are certain of doing the same.\r\n\r\n[page 7]<br>\r\nBut alas, how woefully are they disappointed, for I [tell] you that it is the truth for I know it to be the case. That not one in 500 make $50000 a year. And not more than one in a hundred, that makes more than his expenses. We were fortunate enough however to fall in with a party of men who had found very good diggings, they took us to the place and were very kind in giving us all necessary instructions. At first we could only make from 3 to $5.00 a day which would hardly board us but in a short time we improved so that we could make from 12 to 16 dollars a day. \r\n\r\nAfter working about a month I was taken sick with the fever & ague. It was then & not until then that I realized what I had sacrificed in coming here. Instead of the soft couch, with the hand of affection to arrange the pillow for my [your] burning head, it was a blanket or two spread upon the ground & the hands of strangers that ministered to my wants. Often in my troubled dreams was I at home receiving all those attentions which I so much needed and awoke to find myself alone in the tent burning with fever, parched with thirst and no one to give me a drink or to [m] relieve me in any way.\r\nThe poorest kind of medical attendance was all that could be procured, and all the alleviating necssaries [necessaries], and petits soins which a sick person needs were out of the question, they could not at that time be procured. After laying on my bed a month I got better and in strolling about got acquainted with a family from Missouri by the name of Hamilton. Mrs. H. was very kind to me. And to her & a kind of providence I owe my life. Having got somewhat better, the party that I was with having got out of diggings that would pay were obliged to go and look for others one offered to remain with me, but I did not think it necessary, I was so much better. They therefore left with the intention of\r\n\r\n[page 8]<br>\r\nbeing two weeks absent. The next day after they left I was seized with a relaps [relapse] of the fever attended by inflamations [inflammations] of the kidneys, and for three days remained alone in my tent and probably would have died alone had it not been for Mrs. Hamilton. She thought of me and as she did not see me walking about, as I had been the week previous and knowing that I was alone she thought I was ill and came to see me. God only knows what my feeling were when I heard the voice of Mrs. H. outside of the tent, calling me, to know whether I was within or not. A visit from an Angel of Heaven could not have been more welcome. It quite unmaned [unmanned] me, for before she came my heart was full to overflowing with a sense of my lonely and wretched condition. This [drop] of kindness was too much, and it was only by my sobs that I could thank her. It was six weeks long long weeks that I lay up[p]on my bed burning with fever and racked with pain. I thought I should die and wrote a letter to Ashley to be sent by a friend in case that I did. But a mercifull God saw fit to spare me a while longer, and through Him and Mrs. H., I was once more restored to health, but alas poor in spirit, poor in body, and poor in purse.\r\n\r\nThe rainy season was then close at hand and I knew not what to do to enable me to lay in the provisions necessary to keep me through it. The party that I had come to the mines with had broken up and part had returned to San Francisco. After some trouble I succeeded in finding a trader amongst the miners who offered me something more than my board for my services during the rainy season. I had decided to accept it, when I came acrost [across] one of the party with whom, I had left San Francisco. He told me that he had enough to live upon during the rainy season for both of us, and that as I was not able to work, I should not work until I was.\r\n\r\n[page 9]<br>\r\nBut should winter with him. I thankfully accepted his offer and we have remained together ever since. He is a Frenchman by the name of Keenan. I first got acquainted with him in Mexico. We wintered in the mountains about ten miles from Coloma, where there were very good [ravine] diggings. I worked very little during the winter, although in the course a month or two, the mountain air had completely restored me to health, as I did not like to expose myself to a return of the chills & fever. I had, had enough of them.\r\n\r\nShortly after I had gone to the mountains with Keenan I was picking some 8 or 10 dollars out of a crevasse in the bed rock of a ravine, one day, when two or three men came along prospecting they sat down where I was working and asked me if I thought there was a right smart chance for gold in them diggings, I told them I thought there was a small sprinkling of it round there. Which they did not doubt as they said they had made up their minds that there was a heap of good diggings in that quarter from the show they had seen. After this interesting conversation had taken place one of them asked me what state I was from. I told him that unfortunately I was form no state, but from the province of Canada. They then told me that there was a man from that country camped near them that he was from Montreal and had come acrost [across] the plains. I asked them if they knew his name, they said that all they knew was that his company called him charley. I asked [didn\u2019t] they think it was Perry, one of them after thinking awhile said he thought he had heard him called by that name.\r\n\r\nI immediately threw down my pick. Sheathed my crevassing knife. Saddled the mule and started to find Perry. I was told that",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Boston Public Library via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Jackson, William A., \u201cMap of the mining district of California,\u201d Digital Public Library of America, https://dp.la/item/9562a6a62c121e50eec67c89c0832f2f. "
+                  }
+               ]
+            }
+         ],
+         "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+         "text": "In addition to information about towns, settlements, and gold mining camps, this map shows rivers and waterways in the region and uses hachures, or short parallel lines, to show areas of elevation. The terms used to describe places also provide clues as to the type of mining taking place there. \u201cBar\u201d claims referred to places where gold could be found in shallow sand or gravel in riverbeds. \u201cDry Diggings\u201d referred to ravines where gold could be mined from the ground during the summer but would be flooded, or \u201cwet,\u201d in the winter. Names associated with a location suggest the person or group who had staked a claim to that particular location and the gold that was discovered there.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_12_e544b1080183969702773660cc535af4.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Berkeley, Bancroft Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Nahl, Charles Christian, \u201cA road scene in California,\u201d Digital Public Library of America, https://dp.la/item/e544b1080183969702773660cc535af4. "
+                  }
+               ]
+            }
+         ],
+         "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+         "text": "German immigrant Charles Christian Nahl created this print. He and his brother Arthur (Hugo Wilhelm Arthur) immigrated to Brooklyn, New York in 1848, where they soon learned of the gold strike and headed west. They were unsuccessful as gold miners, but became prominent artists in San Francisco, specializing in engravings, photographs, and paintings.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of California State Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cColumbia, Southern Mines, California,\u201d Digital Public Library of America, https://dp.la/item/5d5877ce2d183ce5031942ecb3d45a7c. "
+                  }
+               ]
+            }
+         ],
+         "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+         "text": "Columbia is an example of a Gold Rush boomtown. It was founded in 1850 when gold was discovered nearby. Within a few years, Columbia had numerous businesses including banks, stores, bars, and hotels, as well as community institutions like churches. This print features the town at the center, surrounded by images of buildings, businesses, and community institutions. Mining infrastructure and equipment are also visible in the bird\u2019s eye view of the town.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-23",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-23",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+               "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Taylor, Bayard, excerpt from \u201cEldorado : or, Adventures in the path of empire,\u201d Digital Public Library of America, https://dp.la/item/3a274274a2dcc61742de2e199e77e1bd. "
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+         "text": "*New York Tribune* correspondent Bayard Taylor (1825-1878) traveled to California in August of 1849 by sea, crossing through Panama. In *Eldorado*, Taylor recounts his journey to California and detailed observations of the people and places he encountered. In this excerpt, Taylor describes the transformation of the city of San Francisco as a result of the Gold Rush and his impressions of the traits and factors that made California\u2019s Gold Rush society unique compared to the eastern United States.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1917",
+         "@type": "CreativeWork",
+         "dateCreated": "2018-02-23",
+         "dateModified": "2018-02-27",
+         "dct:created": "2018-02-23",
+         "dct:modified": "2018-02-27",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1903",
+               "name": "A map showing the gold mining region of California and routes for traveling there, 1849.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_01_ec1f0392ebe9d61292b47259ee08b371_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1904",
+               "name": "A print depicting a long line of men, women, and families waiting to depart for the gold regions of California, 1848.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_02a_071bc74ca90f37fae986ac2653898843_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1905",
+               "name": "An excerpt from *A trip across the plains, and life in California* by George Keller, 1851. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_03_b1a37441d726cbb73da287231823137d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1906",
+               "name": "A letter from gold prospector Newton Chandler to his wife Jane after arriving in San Francisco, January 15, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_04_39a6ece6d93df9547fd46851b7862543_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1907",
+               "name": "A painting of California gold miners around a campfire, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_05_61287669c0bb5b5b5cf197778ad6b14d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1908",
+               "name": "A portrait of surveyor Alonzo Doolittle posing with a bag of gold, ca. 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_06_53f15802980c977833c3b30a41a9a398_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1909",
+               "name": "A photograph of African American and white gold prospectors working together at Spanish Flat, California, 1852.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1910",
+               "name": "A photograph of a group of white and Chinese miners at a sluice box in Auburn Ravine, 1852. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_08_f6965380aff6a11fed85f812f71f9a01_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1911",
+               "name": "A letter from Thornton McElroy to his wife Sarah about his gold mining experience since arriving in California, June 19, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_09_c98b791435837c8c8442b80e393fb164_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1912",
+               "name": "An excerpt of a letter from Augustin Hibbard to his brother William about his early days in California and gold mining experience, September 4, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_10_35629183857b6cb8b1af2ff1b5c65ef5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1913",
+               "name": "A map of the gold mining districts of California showing mining locations and Native American villages, 1850.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_11_9562a6a62c121e50eec67c89c0832f2f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1914",
+               "name": "A print depicting a road scene in Gold Rush California, with Native Americans, Chinese immigrants, settlers, and gold prospectors, 1856.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_12_e544b1080183969702773660cc535af4_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1915",
+               "name": "A print of a bird\u2019s eye view of the town of Columbia, California surrounded by images of the town\u2019s major buildings, 1855.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_13_5d5877ce2d183ce5031942ecb3d45a7c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1916",
+               "name": "An excerpt from *Eldorado: or, Adventures in the Path of Empire* by Bayard Taylor, originally published in 1850. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_14_3a274274a2dcc61742de2e199e77e1bd_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "california-gold-rush_15_6f776fd76530edaa796e9552717646b3.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of UC Berkeley, Bancroft Library via California Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Currier, Nathaniel, \u201cThe way they come to California,\u201d Digital Public Library of America, https://dp.la/item/6f776fd76530edaa796e9552717646b3. "
+                  }
+               ]
+            }
+         ],
+         "name": "A satirical print depicting a ship departing with gold prospectors from California, 1849.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_rep.jpg",
+         "text": "This print was created by lithographer Nathaniel Currier and published in New York. In the dialogue bubbles, \u201cSolomon\u201d and \u201cOphir\u201d are Biblical references. In the Bible, King Solomon was fantastically wealthy, and Ophir was the name of the place from which Solomon received regular shipments of gold, silver, and other precious materials.\r\n\r\nTranscription: \r\n\r\nThe text bubbles on this print read:\r\n\r\n[Left side]<br/>\r\nIt\u2019s no use talking, cant take any more, we have gold enough aboard to sink a navy.<br/>\r\nBill I\u2019m afraid this old concern will sink and then what\u2019ll become of all our gold?<br/>\r\nIt will go to the D__l and you with it. \r\n\r\n[Right side]<br/>\r\nYou wont catch me going away from home agin [sic] without my mother knows I\u2019m out.<br/>\r\nOh for the wisdom of Solomon!<br/>\r\nThey say that this is the \u201cOphir\u201d where he sent for gold, but he was too wise to go himself.<br/>\r\nCaptain, you know we were to go shares, when we left home, you\u2019ve got yours aboard and now are scoundrel enough to leave me here to starve. <br/>\r\nTake me aboard. I\u2019m starving I\u2019ll give you a Million!<br/>",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_15_6f776fd76530edaa796e9552717646b3_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-california-gold-rush",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Samantha Gibson"
+            }
+         ],
+         "dateCreated": "2018-02-22",
+         "dateModified": "2018-02-24",
+         "dct:created": "2018-02-22",
+         "dct:modified": "2018-02-24",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Using the [map of California\u2019s gold regions](https://dp.la/primary-source-sets/california-gold-rush/sources/1903), the [print depicting the line of people waiting to depart](https://dp.la/primary-source-sets/california-gold-rush/sources/1904), and [George Keller\u2019s account](https://dp.la/primary-source-sets/california-gold-rush/sources/1905) of how he decided to leave for California, what can you infer about the ways that Gold Rush \u201cfever\u201d spread in other parts of the country?\r\n2. Based on [Newton Chandler\u2019s letter to his wife](https://dp.la/primary-source-sets/california-gold-rush/sources/1906), what can you infer about what he may have been feeling upon arriving in San Francisco? \r\n3. Do a close reading of the [photograph featuring African American workers](https://dp.la/primary-source-sets/california-gold-rush/sources/1909) and the [photograph featuring Chinese workers](https://dp.la/primary-source-sets/california-gold-rush/sources/1910). In each, do you think they are participating in the mining venture on equal terms with the white prospectors? Why or why not?\r\n4. Use the [map of California\u2019s gold regions](https://dp.la/primary-source-sets/california-gold-rush/sources/1903) to identify Native American groups of northern California at the outset of the Gold Rush. Considering the [print depicting the roadside scene](https://dp.la/primary-source-sets/california-gold-rush/sources/1914) as well, what can you infer about how the Gold Rush impacted Native Americans and their land? \r\n5. What does the [print depicting the roadside scene](https://dp.la/primary-source-sets/california-gold-rush/sources/1914) suggest about the population dynamics between the different groups pictured? What people or groups pictured do you perceive are coming? Who do you perceive are going? \r\n6. Using the photographs, [Thornton McElroy\u2019s letter](https://dp.la/primary-source-sets/california-gold-rush/sources/1911), and [Augustin Hibbard\u2019s letter](https://dp.la/primary-source-sets/california-gold-rush/sources/1912), how would you characterize the experience of living and working in California\u2019s gold mining camps? Consider factors such as living conditions, the work of gold mining, the natural environment, and interactions with other people. Compare and contrast the view of the mining experience offered in the [painting of miners around a campfire](https://dp.la/primary-source-sets/california-gold-rush/sources/1907) with the details from the photos and letters.\r\n7. Based on the [print of the town of Columbia](https://dp.la/primary-source-sets/california-gold-rush/sources/1915), how might life in a town like this one be similar or different to life in the mining camps? \r\n8. Both [Augustin Hibbard\u2019s letter](https://dp.la/primary-source-sets/california-gold-rush/sources/1912) and [Thornton McElroy\u2019s letter](https://dp.la/primary-source-sets/california-gold-rush/sources/1911) describe successfully finding gold. Based on their letters, how do you think each of them felt about these findings? Had they \u201chit it rich\u201d?\r\n9. Do a close reading of the [print depicting the ship leaving California](https://dp.la/primary-source-sets/california-gold-rush/sources/1917). Does this print advertise the Gold Rush as a boundless opportunity to find fortune or as a cautionary tale? Use evidence from the print to support your argument. \r\n10. Based on the [excerpt from *Eldorado*](https://dp.la/primary-source-sets/california-gold-rush/sources/1916), what does the author think made Gold Rush society unique compared to other parts of the US? "
+            },
+            {
+               "name": "Activity",
+               "text": "This set includes letters written by gold-seekers home to members of their families, but all are by people from a similar demographic\u2014 white, male fortune seekers. In this activity, students will diversify this record and explore the Gold Rush from other people\u2019s perspectives. Divide students into small groups and ask each group of students to do further research about another group of people who participated in or were impacted by the Gold Rush. Assigned groups might include African Americans, Chinese immigrants, women, Native Americans, and Latin American gold-seekers. Using their research and inspired by the \u201c[Gold is No Chimera!](https://dp.la/primary-source-sets/california-gold-rush/sources/1904)\u201d print and the [print depicting the ship leaving California](https://dp.la/primary-source-sets/california-gold-rush/sources/1917), ask students in each group to work together to create an image or political cartoon about the Gold Rush from the perspective of their assigned group. Post the images or posters around the room and use them to spark a discussion about how each different group experienced the Gold Rush and how people from disparate backgrounds may have interacted with each other."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/california-gold-rush",
+            "@type": "CreativeWork",
+            "name": "California Gold Rush"
+         },
+         "name": "Teaching Guide: Exploring the California Gold Rush"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Gold Rush](http://www.pbs.org/wgbh/americanexperience/films/goldrush/), PBS.  \r\n2. [The Gold Rush Era](https://calisphere.org/exhibitions/t3/gold-rush/), 1848-1865, Calisphere. \r\n3. [*Staking Claims: The Gold Rush in Nineteenth-Century America*](https://dp.la/exhibitions/exhibits/show/gold-rush), Digital Public Library of America. \r\n4. [*1849 California Gold Rush*](http://www.sfmuseum.org/hist1/index0.1.html#gold), The Virtual Museum of the City of San Francisco. "
+      },
+      {
+         "name": "Overview",
+         "text": "On January 24, 1848, carpenter James Marshall discovered gold at Sutter\u2019s Mill, a sawmill on the American River in Coloma, California. This news quickly spread across the country and around the world, igniting the California Gold Rush. Between 1848 and 1855, 300,000 fortune-seekers came to California, transforming its population, landscape, and economy. The largest wave of migrants\u2014about 90,000 people\u2014arrived in 1849, earning them the nickname \u201cforty-niners.\u201d\r\n\r\nIn 1848, the US had just taken California from Mexico as a result of the Mexican-American War, and the region\u2019s population consisted primarily of Native Americans and people of Spanish or Mexican descent. Gold seekers arrived by both sea and overland routes across the West like the California Trail. As people flooded into mining camps, \u201cboomtowns,\u201d and the city of San Francisco, the Gold Rush brought together Europeans, South Americans, Chinese immigrants, and Americans from all walks of life. The tremendous influx of people, paired with open contempt for Native American claims to their ancestral land, resulted in devastating losses for California\u2019s Native American population. Gambling, violence, and vigilante groups were common as local government and law enforcement were often nonexistent or ill-equipped to deal with the flood of new arrivals. \r\n\r\nFor fortune-seekers, gold mining was difficult work and hitting \u201cpay dirt\u201d was no guarantee. Miners would \u201cstake a claim\u201d to a particular location, securing the rights to any gold that they found there. Early gold mining techniques included various forms of panning\u2014using sieve-like devices such as rockers or sluice boxes to separate gold nuggets from rocks and dirt by pouring water through them. As the Gold Rush progressed, miners used more invasive techniques like hydraulic blasting. Some, particularly early Gold Rushers who arrived in 1848, found impressive fortunes in California gold, but most prospectors failed to strike it rich. For those who found gold, it often became currency to pay for food, supplies, and other necessities so they could keep looking for more; local merchants who catered to the miners are the ones who really hit it rich. The sources in this set document the broad \u201cforty-niner\u201d experience."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cherokee-removal-and-the-trail-of-tears",
+         "name": "Cherokee Removal and the Trail of Tears",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cherokee-removal_01_35b35b794c8f639d385d80e2033ee9a3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mormon-migration",
+         "name": "Mormon Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/mormon-migration_08_7102c301d9f3a440ba1ba0eae23afcb3_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/puerto-rican-migration-to-the-us",
+         "name": "Puerto Rican Migration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/puerto-rican-migration-us_02_1b035a9dd18f8bf638622086cf0300d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/commodore-perry-s-expedition-to-japan",
+         "name": "Commodore Perry\u2019s Expedition to Japan",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/commodore-perry_07a_1b7ea66200ccd4d6db13f970dbda21ed_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cuban-immigration-after-the-revolution-1959-1973",
+         "name": "Cuban Immigration After the Revolution, 1959-1973",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cuban-immigration_05a_3ff00f75a69470d1dcc849a84f0a7701_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/exodusters-african-american-migration-to-the-great-plains",
+         "name": "Exodusters: African American Migration to the Great Plains",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/exodusters_12_3e4f991e93db4673247a0c4d4bea2115_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-whaling-industry",
+         "name": "The American Whaling Industry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-whaling-industry_01_30071d8f8ed1b2a66f4bbb615f15eaf5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panic-of-1837",
+         "name": "The Panic of 1837",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panic-1837_02_352b22c62314cc50a42f1a42e40d9920_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/cotton-gin-and-the-expansion-of-slavery",
+         "name": "Cotton Gin and the Expansion of Slavery",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/cotton-gin_02_84f0ff53a04e2536d1f59de01fabb2b6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/nineteenth-century-schools-for-the-deaf-and-blind",
+         "name": "Nineteenth-Century Schools for the Deaf and Blind",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/nineteenth-century-schools_13_a62588352f03b54598df02429a6d76f5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/victorian-era",
+         "name": "Victorian Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/victorian-era_06_4bfa2555906d65e472d862ba7caec770_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/full-steam-ahead-the-steam-engine-and-transportation-in-the-nineteenth-century",
+         "name": "Full Steam Ahead: The Steam Engine and Transportation in the Nineteenth Century",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/full-steam-ahead-steam-engine-transportation-nineteenth-century_12_5e43229ea7fbd766be94f30d0ac6e844_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+         "name": "Immigration and Americanization, 1880-1930",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-war-of-1812",
+         "name": "The War of 1812",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/war-of-1812_06_583c0b101b9d669db262b7f9cdef8f8d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/manifest-destiny",
+         "name": "Manifest Destiny",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/manifest-destiny_04_e606ebe2044769b88a5ad7ccb661adc2_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-lewis-and-clark-expedition",
+         "name": "The Lewis and Clark Expedition",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/lewis-and-clark_00_77108df4a0ce1448e69116a5d6ac8d40.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/mexican-labor-and-world-war-ii-the-bracero-program",
+         "name": "Mexican Labor and World War II: The Bracero Program",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/bracero-program_00_f0a7655e4709da7063de9d1a88a03085.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/early-chinese-immigration-to-the-us",
+         "name": "Early Chinese Immigration to the US",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/early-chinese-immigration_00_35ece19593244b3f3e772ec4414e0058.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-american-abolitionist-movement",
+         "name": "The American Abolitionist Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/abolition-movement_00_821567a4509c13c237dc63f2eb7fdb92.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-transatlantic-slave-trade",
+         "name": "The Transatlantic Slave Trade",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/transatlantic-slave-trade_00_bef1458b2e0f2b0fe1d657fef0e1f40a.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "California Gold Rush",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/california-gold-rush_07_5c95a64ae569a2071d1bdf5a308f9ac7_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

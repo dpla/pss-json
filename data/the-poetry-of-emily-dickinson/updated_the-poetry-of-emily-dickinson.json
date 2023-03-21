@@ -1,0 +1,1258 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "American Literature"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Women"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Community College of Philadelphia, Pennsylvania"
+         },
+         "name": "Melissa Strong"
+      }
+   ],
+   "dateCreated": "2016-04-07",
+   "dateModified": "2017-10-06",
+   "dct:created": "2016-04-07",
+   "dct:modified": "2017-10-06",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the poetry of Emily Dickinson.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/828",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/829",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/830",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/831",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/832",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/833",
+               "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/834",
+               "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/835",
+               "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/836",
+               "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/837",
+               "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEmily Dickinson,\u201d Digital Public Library of America, https://dp.la/item/0eea529242d56e0e64c15389d8668e5c."
+                  }
+               ]
+            }
+         ],
+         "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/829",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/830",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/831",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/832",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/833",
+               "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/834",
+               "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/835",
+               "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/836",
+               "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/837",
+               "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/828",
+               "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Emily Dickinson Archive via Harvard Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Dickinson, Emily, \"\u2018Hope\u2019 is the thing with feathers,\u201d Digital Public Library of America, https://dp.la/item/8643a746bc8a5c3eed1c0d04e1f85684."
+                  }
+               ]
+            }
+         ],
+         "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+         "text": "\"Hope\" is the thing with <br>\r\nfeathers - <br>\r\nThat perches in the soul - <br>\r\nAnd sings the tune without<br>\r\nthe words - <br>\r\nAnd never stops - at all - <br>\r\nAnd sweetest - in the Gale - <br>\r\nis heard - <br>\r\nAnd sore must be the storm - <br>\r\nThat could abash the <br>\r\nlittle Bird <br>\r\nThat kept so many warm - <br>\r\nI've heard it in the chillest <br>\r\nland - <br>\r\nAnd on the strangest Sea - <br>\r\nYet - never - in Extremity, <br>\r\nIt asked a crumb - of me. <br>",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/830",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/831",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/832",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/833",
+               "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/834",
+               "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/835",
+               "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/836",
+               "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/837",
+               "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/828",
+               "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/829",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Emily Dickinson Archive via Harvard Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Dickinson, Emily, \u201cI felt a funeral in my brain,\u201d Digital Public Library of America, https://dp.la/item/caac4558c85641374e528950181f32ed."
+                  }
+               ]
+            }
+         ],
+         "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+         "text": "I felt a Funeral, in my Brain, <br>\r\nAnd Mourners to and fro <br>\r\nKept treading - treading - till <br>\r\nit seemed <br>\r\nThat Sense was breaking through - <br>\r\nAnd when they all were seated, <br>\r\nA Service, like a Drum - <br>\r\nKept beating - beating - till <br>\r\nI thought <br>\r\nMy mind was going numb - <br>\r\nAnd then I heard them <br>\r\nlift a Box <br>\r\nAnd creak across my Brain my <br>\r\nSoul <br>\r\nWith those same Boots of <br>\r\nLead, again,  <br>\r\nThen Space - began to toll, <br>\r\nAs all the Heavens were <br>\r\na Bell, <br>\r\nAnd Being, but an Ear, <br>\r\nAnd I, and Silence, some <br>\r\nstrange Race <br>\r\nWrecked, solitary, here - <br>\r\nAnd then a Plank in <br>\r\nReason, broke, <br>\r\nAnd I dropped down, and<br>\r\ndown - <br>\r\nAnd hit a World, at every<br>\r\nCrash - plunge, <br>\r\nAnd Got through - Finished knowing - then - \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/831",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/832",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/833",
+               "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/834",
+               "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/835",
+               "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/836",
+               "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/837",
+               "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/828",
+               "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/829",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/830",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Emily Dickinson Archive via Harvard Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Dickinson, Emily, \u201cNo prisoner be,\u201d Digital Public Library of America, https://dp.la/item/e9ef971abdadc42aab4943728e4c11c8."
+                  }
+               ]
+            }
+         ],
+         "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+         "text": "No Prisoner be - <br>\r\nWhere Liberty - <br>\r\nHimself - abide with Thee - <br>",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/832",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/833",
+               "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/834",
+               "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/835",
+               "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/836",
+               "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/837",
+               "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/828",
+               "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/829",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/830",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/831",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Emily Dickinson Archive via Harvard Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Dickinson, Emily, \u201cA narrow fellow in the grass,\u201d Digital Public Library of America, https://dp.la/item/551abe6c1370b38ac7d54a6c21d1b351."
+                  }
+               ]
+            }
+         ],
+         "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+         "text": "A narrow Fellow <br>\r\nin the Grass  <br>\r\nOccasionally rides -  <br>\r\nYou may have <br>\r\nmet him? <br>\r\nDid you not  <br>\r\nHis notice instant is - <br>\r\nThe Grass divides <br>\r\nas with a Comb -  <br>\r\nA spotted Shaft <br>\r\nis seen,  <br>\r\nAnd then it closes  <br>\r\nat your Feet  <br>\r\nAnd opens <br>\r\nfurther on -  <br>\r\nHe likes a <br>\r\nBoggy Acre -  <br>\r\nA Floor too <br>\r\ncool for Corn -  <br>\r\nBut when a <br>\r\nBoy and Barefoot <br> \r\nI more than <br>\r\nonce at Noon <br>\r\nHave passed <br>\r\nI thought a <br>\r\nWhip Lash  <br>\r\nUnbraiding in the <br>\r\nSun  <br>\r\nWhen stooping <br>\r\nto secure it  <br>\r\nIt wrinkled <br>\r\nAnd was gone -  <br>\r\nSeveral of <br>\r\nNature's People <br> \r\nI know and they <br>\r\nknow me  <br>\r\nI feel for <br>\r\nthem a transport <br> \r\nOf Cordiality <br>\r\nBut never met <br>\r\nthis Fellow  <br>\r\nAttended or <br>\r\nalone  <br>\r\nWithout a <br>\r\ntighter Breathing <br> \r\nAnd Zero at <br>\r\nthe Bone.  ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/833",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2017-10-06",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2017-10-06",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/834",
+               "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/835",
+               "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/836",
+               "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/837",
+               "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/828",
+               "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/829",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/830",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/831",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/832",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_06a_e52f7b817884ad5696c6c0bf423e44d1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of David Rumsey."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Adams, Charles B. and Alonzo Gray, \u201cA map of Amherst. With a view of the College and Mount Pleasant Institution,\u201d Digital Public Library of America, https://dp.la/item/41fa9078b2eb774d4f6c4caecd2171cb."
+                  }
+               ]
+            }
+         ],
+         "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/834",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/835",
+               "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/836",
+               "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/837",
+               "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/828",
+               "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/829",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/830",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/831",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/832",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/833",
+               "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Amherst College Archives & Special Collections via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Dickinson, Emily, excerpt from \u201cEmily Dickinson letter to Lavinia Dickinson,\u201d Digital Public Library of America, https://dp.la/item/5eddac1d6d7e4435c8b230c5757d758b."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+         "text": "Transcript:\r\n\r\nDoes Vinnie think of Sister? Sweet news. Thank Vinnie.\r\n\r\nEmily may not be able as she was, but all she can, she will.\r\n\r\nFather told me that you were going. I wept for the little Plants, but rejoiced for you.\r\n\r\nHad I loved them as well as I did, I \r\n\r\n[page 2]\r\n\r\ncould have begged you to stay with them, but they are Foreigners, now, and all, a Foreigner.\r\n\r\nI have been sick so long I do not know the Sun.\r\n\r\nI hope they may be alive, for Home would be strange except them, now the World is dead.\r\n\r\nAnna Norcross lives \r\n\r\n[page 3]\r\n\r\nhere, since Saturday, and two new people more, a person and his wife, so I do little but fly, yet always find a nest.\r\n\r\nI shall go Home in two weeks. You will get me at Palmer, yourself. Let no one beside come.\r\n\r\nLove for Eliza, and Mr Dudley.,<br>\r\nSister\r\n\r\n[cover]\r\n\r\nVinnie.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/835",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/836",
+               "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/837",
+               "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/828",
+               "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/829",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/830",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/831",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/832",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/833",
+               "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/834",
+               "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Amherst College Archives & Special Collections via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Dickinson, Emily, \u201cEmily Dickinson letter to T.W. Higginson,\u201d Digital Public Library of America, https://dp.la/item/8554e9eee6046e276bdfdea56e95869d."
+                  }
+               ]
+            }
+         ],
+         "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+         "text": "Dear Friend, -- No \u201csonnet\u201d had George Eliot. The sweet acclamation of Death is forever bounded.<br>\r\nThere is no trumpet like the tomb \u2014 <br>\r\nThe Immortality she gave<br>\r\nWe borrowed at her grave.<br>\r\nFor just one plaudit famishing,<br>\r\nThe might of human love.<br>\r\nBeautiful as it is, its criminal shortness maims it.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/836",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/837",
+               "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/828",
+               "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/829",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/830",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/831",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/832",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/833",
+               "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/834",
+               "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/835",
+               "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Michigan via HathiTrust. "
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Wells, Henry W., excerpt from \u201cIntroduction to Emily Dickinson,\u201d Digital Public Library of America, https://dp.la/item/07cab7dd2831f158b24cd9d843c8299c."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/837",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/828",
+               "name": "An undated image of the Dickinson children: Emily, Austin, and Lavinia.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_01_0eea529242d56e0e64c15389d8668e5c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/829",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201c\u2018Hope\u2019 is the thing with feathers,\u201d ca. 1861.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/830",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cI felt a funeral in my brain,\u201d ca. 1861. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_03_caac4558c85641374e528950181f32ed_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/831",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cNo prisoner be,\u201d ca. 1863, which appears at the bottom of the page.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_04_e9ef971abdadc42aab4943728e4c11c8_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/832",
+               "name": "The manuscript of Dickinson\u2019s poem beginning \u201cA narrow fellow in the grass,\u201d ca. 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_05_551abe6c1370b38ac7d54a6c21d1b351_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/833",
+               "name": "A map of Amherst, Massachusetts, attributed to Charles B. Adams and Alonzo Gray, published by Pendleton\u2019s Lithography in 1833. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_06_e52f7b817884ad5696c6c0bf423e44d1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/834",
+               "name": "An excerpt from an undated letter from Emily Dickinson to her younger sister, Lavinia. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_07_5eddac1d6d7e4435c8b230c5757d758b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/835",
+               "name": "An undated letter from Emily Dickinson to Thomas Wentworth Higginson, ca. 1880.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_08_8554e9eee6046e276bdfdea56e95869d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/836",
+               "name": "An excerpt from *Introduction to Emily Dickinson* by Henry W. Wells, 1959. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_09_07cab7dd2831f158b24cd9d843c8299c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Duke University Libraries via North Carolina Digital Heritage Center."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cGodey's Lady's Book, 1857. Godey's greatest effort! Fifty-fourth and fifty-fifth volumes,\u201d Digital Public Library of America, https://dp.la/item/da088eccd45bd98ba537a0cb75865a61."
+                  }
+               ]
+            }
+         ],
+         "name": "A page from an 1857 *Godey\u2019s Lady\u2019s Book*, a popular and influential magazine for women during Emily Dickinson\u2019s lifetime.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_rep.jpg",
+         "text": "*Godey\u2019s Lady\u2019s Book* focused on topics such as fashion, raising children, and household management. It also featured stories and poems by male and female authors. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_10_da088eccd45bd98ba537a0cb75865a61_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-poetry-of-emily-dickinson",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Community College of Philadelphia, Pennsylvania"
+               },
+               "name": "Melissa Strong"
+            }
+         ],
+         "dateCreated": "2016-04-07",
+         "dateModified": "2016-04-07",
+         "dct:created": "2016-04-07",
+         "dct:modified": "2016-04-07",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Henry Wells claims that Dickinson \u201ctranscended both her genius and her sex, her provincial world and her personal relationships\u201d (xiii). Think about the poet\u2019s isolation and consider the relationship between imagination and freedom. Use [Wells\u2019 overview](http://dp.la/primary-source-sets/sources/836) of Emily Dickinson\u2019s poetry, the [map of Amherst](http://dp.la/primary-source-sets/sources/833), and Dickinson\u2019s poems to explore how limitations and boundaries may encourage creativity. Now discuss why you agree or disagree with Wells\u2019 statement that Dickinson\u2019s poetry transcends the boundaries of physical isolation.\r\n2. Few of Emily Dickinson\u2019s poems were published in her lifetime. When she died she left her possessions, including more than 800 poems, to her sister Lavinia. Look at the [letter Dickinson wrote to Lavinia](http://dp.la/primary-source-sets/sources/834). In it she writes, \u201cDoes Vinnie think of Sister? Sweet news. Thank Vinnie. Emily may not be as able as she was, but all she can, she will.\u201d Analyze Dickinson\u2019s use of third person for herself and her sister. Why does she call herself \u201cEmily\u201d instead of \u201cI\u201d and use the nickname \u201cVinnie\u201d instead of \u201cyou\u201d? Hypothesize a connection between the letter\u2019s use of third person and the themes of Dickinson\u2019s poems, such as separateness, loss, and transcendence.\r\n3. Look at the [letter Dickinson wrote to T.W. Higginson](http://dp.la/primary-source-sets/sources/835). It begins, \u201cDear Friend, no \u2018sonnet\u2019 had George Eliot. The sweet acclamation of Death is forever bounded.\u201d Research Higginson, George Eliot, and sonnets. Next, discuss their potential connections to the four Dickinson poems in this set."
+            },
+            {
+               "name": "Activity",
+               "text": "1. Use the [page from the 1857 issue of Godey\u2019s Lady's Book](http://dp.la/primary-source-sets/sources/837) to identify what the magazine calls \u201cthe wants of the ladies of America\u201d at that time. Divide students into groups and give each group a recent issue of a contemporary magazine for women, such as *Family Circle*, *O: The Oprah Magazine*, or *Real Simple*. Each group will compare female magazine readers\u2019 interests in the 1850s to those today. Finally, assign each group of students a poem by Emily Dickinson, who turned 27 the year this issue of *Godey\u2019s* was published. Discuss the similarities and differences between the poem\u2019s interests and the interests *Godey\u2019s* identifies.\r\n2. After studying the form and content of Emily Dickinson\u2019s poetry, ask students to list its distinct features, such as dashes, free verse, and themes of loss and freedom. Challenge students to write a poem in Dickinson\u2019s style. Compile the poems in a booklet, as Dickinson did. Small groups might discuss which poems are their favorites or evaluate which best match Dickinson\u2019s style."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+            "@type": "CreativeWork",
+            "name": "The Poetry of Emily Dickinson"
+         },
+         "name": "Teaching Guide: Exploring the Poetry of Emily Dickinson"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Resources](http://www.edickinson.org/resources), Emily Dickinson Archive. \r\n2. [Emily Dickinson](http://www.emilydickinsonmuseum.org/about_emily_dickinson), The Emily Dickinson Museum. \r\n3. \u201c[Her Own Society: A new reading of Emily Dickinson](http://www.newyorker.com/magazine/2008/08/04/her-own-society),\u201d *New Yorker*. "
+      },
+      {
+         "name": "Overview",
+         "text": "Emily Dickinson (1830-1886) was an American writer who lived during the Civil War and the first wave of feminism, during which women fought for suffrage and other rights. Dickinson lived a famously isolated existence but read widely and used letters to stay connected to the world. Dickinson\u2019s inventive poems experiment with punctuation, syntax, metaphors, and diction to explore themes including nature, freedom, death, power, and faith. Though she published little during her lifetime, Dickinson wrote almost 1,800 poems and hundreds of letters. Today, Dickinson is one of the most read and studied American writers. Dickinson\u2019s innovations in poetic form and examination of unexpected topics inspired writers in future generations, both in the US and around the world; her influence can be seen, for example, in modernist poetry of the twentieth century."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-awakening-by-kate-chopin",
+         "name": "*The Awakening* by Kate Chopin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scarlet-letter-by-nathaniel-hawthorne",
+         "name": "*The Scarlet Letter* by Nathaniel Hawthorne",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scarlet-letter-nathaniel-hawthorne_12_319a1532a52a1d99f2d2eda5c88f8657_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scarlet-letter-nathaniel-hawthorne_12_319a1532a52a1d99f2d2eda5c88f8657_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-maya-angelou",
+         "name": "The Poetry of Maya Angelou",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beloved-by-toni-morrison",
+         "name": "*Beloved* by Toni Morrison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+         "name": "*To Kill a Mockingbird* by Harper Lee",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/their-eyes-were-watching-god-by-zora-neale-hurston",
+         "name": "*Their Eyes Were Watching God* by Zora Neale Hurston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+         "name": "\"The Raven\" by Edgar Allan Poe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-woman-warrior-by-maxine-hong-kingston",
+         "name": "*The Woman Warrior* by Maxine Hong Kingston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/woman-warrior-maxine-hong-kingston_03_9f09290d1c186af7ece259a0cb6fe25b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/uncle-tom-s-cabin-by-harriet-beecher-stowe",
+         "name": "*Uncle Tom's Cabin* by Harriet Beecher Stowe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_00_529f51e7ae782956e47f5ce8288bff17_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/uncle-toms-cabin-harriet-beecher-stowe_00_529f51e7ae782956e47f5ce8288bff17.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/little-women-by-louisa-may-alcott",
+         "name": "*Little Women* by Louisa May Alcott",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_00_eed0d959d47a589b8958e254d4131ddf_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/little-women-louisa-may-alcott_00_eed0d959d47a589b8958e254d4131ddf.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/a-raisin-in-the-sun-by-lorraine-hansberry",
+         "name": "*A Raisin in the Sun* by Lorraine Hansberry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "The Poetry of Emily Dickinson",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

@@ -1,0 +1,1518 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "American Literature"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Expansion and Reform (1801-1861)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-4"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      }
+   ],
+   "dateCreated": "2016-01-15",
+   "dateModified": "2016-01-20",
+   "dct:created": "2016-01-15",
+   "dct:modified": "2016-01-20",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Edgar Allan Poe&#39;s &quot;The Raven.&quot;",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/758",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cEdgar Allan Poe,\u201d Digital Public Library of America, https://dp.la/item/c2390179de33316293c12da566a3a97d."
+                  }
+               ]
+            }
+         ],
+         "name": "A portrait of Edgar Allan Poe. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/759",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_02_95557105d08993516702587b5982e293.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Lefort, Henri-Emile, \u201cEdgar Allan Poe,\u201d Digital Public Library of America, https://dp.la/item/95557105d08993516702587b5982e293."
+                  }
+               ]
+            }
+         ],
+         "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/760",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cIrving's letter to Edgar Allen Poe, in Philadelphia,\u201d Digital Public Library of America, https://dp.la/item/08f8e2767ca0dc0b87320b607c9e6fb9."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+         "text": "Newburg, November 6, 1839,\r\n\r\nDear Sir, \u2014 The magazine you were so kind as to send me, being directed to New York, instead of Tarrytown, did not reach me for some time. This, together with an unfortunate habit of procrastination, must plead my apology for the tardiness of my reply. I have read your little tale of \u201cWilliam Wilson\u201d  with much pleasure. It is managed in a highly picturesque style, and the singular and mysterious interest is well sustained throughout. I repeat what I have said in regard to a previous production, which you did me the favor to send me, that I cannot but think a series of articles of like style and merit would be extremely well received by the public.\r\n\r\n[page two]\r\n\r\nI could add for your private ear, that I think the last tale much the best, in regard to style. It is simpler. In your first you have been too anxious to present your picture vividly to the eye, or too distrustful of your effect, and have laid on too much coloring. It is erring on the best side\u2014the side of luxuriance. That tale might be improved by relieving the style from some of the epithets. There is no danger of destroying its graphic effect, which is powerful. \r\n\r\nWith best wishes for your success,\r\n\r\nI am, my dear sir, yours respectfully,\r\n\r\nWashington Irving.\r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/761",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-18",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-18",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Hawthorne, Nathaniel, \u201cLowell, James Russell, ALS to. May? 1843\u201d Digital Public Library of America, https://dp.la/item/0dd3aa0318aa894d9ae5b9415d2c8c44."
+                  }
+               ]
+            }
+         ],
+         "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+         "text": "I am greatly troubled about that contribution for Mr. Poe. Hitherto, I have never \r\nbeen accustomed to write during summer weather; and now I find that my thoughts \r\nfly out of the open window, and will not be enticed back again. I am compelled, \r\nindeed, to write a worthy article for the Democratic, but is with great pain and dolor, \r\nand only by the utmost force of self-com-pultion. If I am to read anything to Mr. Poe, \r\nI should wish it to be worth his reception; but I am conscious of no power to \r\nproduce anything good, at present.  When you write to him, do make my apologies, \r\nand tell him that I have no more brains than a cabbage\u2014which is absolutely true. He \r\nshall hear from me after the first frost\u2014possibly sooner.\r\nI shall not forget your promised [?]\r\n\r\nTruly your friend,\r\n\r\nNath Hawthorne.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/762",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Manet, \u00c9douard, \u201cThe raven on the bust of Pallas,\u201d Digital Public Library of America, https://dp.la/item/8ad359639b26a30a96792e3a65a071f6."
+                  }
+               ]
+            }
+         ],
+         "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/763",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Virginia Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cThe raven,\u201d Digital Public Library of America, https://dp.la/item/7deb09be4a0d5b7d4caaf734479cde31."
+                  }
+               ]
+            }
+         ],
+         "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/764",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Poe, Edgar Allan, excerpt from \u201cThe poetical works of Edgar Allan Poe, together with his essay on the philosophy of composition,\u201d Digital Public Library of America, https://dp.la/item/b9310d403dfecda3edda7fc96bde699c."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/765",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cSouthern quarterly review,\u201d Digital Public Library of America, https://dp.la/item/2fcfd53baa16b06767ed74a582c46c50."
+                  }
+               ]
+            }
+         ],
+         "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/766",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of California via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cThe raven,\u201d Digital Public Library of America, https://dp.la/item/c9cc5b27edeaf8322716f1781c46012b."
+                  }
+               ]
+            }
+         ],
+         "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/767",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Library of Congress via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Scott, John W., excerpt from \"The dove: a parody on \u2018The raven\u2019,\u201d Digital Public Library of America, https://dp.la/item/fbf153baa2559511c6fc684c5a890f69."
+                  }
+               ]
+            }
+         ],
+         "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/768",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/769",
+               "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Poe, Edgar Allan, excerpt from \u201cLenore,\u201d Digital Public Library of America, https://dp.la/item/3b40d9eed07a397d09ce8119fa730a84."
+                  }
+               ]
+            }
+         ],
+         "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/769",
+         "@type": "CreativeWork",
+         "dateCreated": "2016-01-19",
+         "dateModified": "2016-01-19",
+         "dct:created": "2016-01-19",
+         "dct:modified": "2016-01-19",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/758",
+               "name": "A portrait of Edgar Allan Poe. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/759",
+               "name": "An etching of Edgar Allan Poe by Henri-Emile Lefort, 1894. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_02_95557105d08993516702587b5982e293_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/760",
+               "name": "A letter from Washington Irving to Edgar Allan Poe that gives feedback on Poe\u2019s writing, 1839. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_03_08f8e2767ca0dc0b87320b607c9e6fb9_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/761",
+               "name": "A letter from Nathaniel Hawthorne to James Russell Lowell about Hawthorne\u2019s potential contribution to the *Democratic Review*, 1843. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_04_0dd3aa0318aa894d9ae5b9415d2c8c44_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/762",
+               "name": "An illustration for \u201cThe Raven\u201d by \u00c9douard Manet, 1875. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_05_8ad359639b26a30a96792e3a65a071f6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/763",
+               "name": "A book cover from an 1883 printing of \u201cThe Raven\u201d illustrated by William Ladd Taylor. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_06_7deb09be4a0d5b7d4caaf734479cde31_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/764",
+               "name": "An 1846 essay, \u201cThe Philosophy of Composition,\u201d in which Poe discusses his approach to writing \u201cThe Raven.\u201d ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_07_b9310d403dfecda3edda7fc96bde699c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/765",
+               "name": "A review of \u201cThe Raven\u201d published in *The Southern Quarterly Review*, 1848. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_08_2fcfd53baa16b06767ed74a582c46c50_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/766",
+               "name": "\u201cThe Parrot,\u201d a parody of \u201cThe Raven\u201d published in 1865. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_09_c9cc5b27edeaf8322716f1781c46012b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/767",
+               "name": "A parody of \u201cThe Raven\u201d by J.W. Scott titled \u201cThe Dove,\u201d 1874. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_10_fbf153baa2559511c6fc684c5a890f69_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/768",
+               "name": "An 1886 illustrated publication of Poe\u2019s poem, \u201cLenore,\u201d first published in 1843.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_11_3b40d9eed07a397d09ce8119fa730a84_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The State Historical Society of Missouri via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Fitzpatrick, Daniel Robert, \u201cAnd the Raven, Never Flitting, Still is Sitting, Still is Sitting Just Above My Chamber Door,\u201d Digital Public Library of America, https://dp.la/item/02dfb0a2afe299e1d5f1414f8241f084."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1956 political cartoon that uses \u201cThe Raven\u201d as a commentary on lobbyists and the U.S. Senate. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_12_02dfb0a2afe299e1d5f1414f8241f084_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-raven",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Franky Abbott"
+            }
+         ],
+         "dateCreated": "2016-01-18",
+         "dateModified": "2016-01-20",
+         "dct:created": "2016-01-18",
+         "dct:modified": "2016-01-20",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Examine the two portraits of Poe. How does each portrait characterize Poe as an artist within Gothic literature/Dark Romanticism? Cite specific evidence from the portraits to support your ideas.\r\n2. After reading the letters from [Washington Irving](http://dp.la/primary-source-sets/sources/760) and [Nathaniel Hawthorne](http://dp.la/primary-source-sets/sources/761), describe their relationships to Poe. If you have read additional works by these authors, how do Poe\u2019s themes and subjects compare/contrast with theirs? Do you see their influence in \u201cThe Raven\u201d?\r\n3. Closely examine the [Manet illustration](http://dp.la/primary-source-sets/sources/762) and the [1883 book cover](http://dp.la/primary-source-sets/sources/763). Which themes and ideas from \u201cThe Raven\u201d do they capture? How do they depict the relationship between the poem\u2019s speaker and the raven? How do they describe the setting? Any details that surprise you based on your own interpretation of the poem?\r\n4. According to Poe\u2019s essay, \u201c[The Philosophy of Composition](http://dp.la/primary-source-sets/sources/764),\u201d what were Poe\u2019s primary considerations and motivations for writing \u201cThe Raven?\u201d What questions does the essay raise for you as a reader of the poem? What does it tell us about the way poetry was discussed in Poe\u2019s time? \r\n5. Read the two parodies of \u201cThe Raven\u201d: \u201c[The Parrot](http://dp.la/primary-source-sets/sources/766)\u201d and \u201c[The Dove](http://dp.la/primary-source-sets/sources/767).\u201d These are only two of the many parodies that have been made of \u201cThe Raven.\u201d What commentary do they provide on the original poem? What does the degree to which it has been parodied tell us about \u201cThe Raven\u201d?\r\n6. Examine the [1848 book review](http://dp.la/primary-source-sets/sources/765) from *The Southern Quarterly Review*. What is the author\u2019s assessment of Poe and \u201cThe Raven\u201d? With which points do you agree/disagree?\r\n7. Read Poe\u2019s poem, \u201c[Lenore](http://dp.la/primary-source-sets/sources/768).\u201d Compare the role of Lenore in \u201cThe Raven\u201d with the subject of \u201cLenore.\u201d\r\n8. How does the [1956 political cartoon](http://dp.la/primary-source-sets/sources/769) use \u201cThe Raven\u201d as a metaphor? What does \u201cThe Raven\u201d represent?"
+            },
+            {
+               "name": "Activity",
+               "text": "Ask students to write a letter to the editor in response to either Poe\u2019s essay, \u201c[The Philosophy of Composition](http://dp.la/primary-source-sets/sources/764),\u201d or the [1848 book review](http://dp.la/primary-source-sets/sources/765). Use the following questions to guide the letter writing:\r\n\r\n* What, in your opinion, are the most compelling and/or troubling things about the poem?\r\n* To what extent do you agree with the author?\r\n* Where does he get it wrong?\r\n* What ideas about \u201cThe Raven\u201d would you like to have seen him address?\r\n* What questions do you have after reading his piece?\r\n\r\nStudents can also stage this activity as a debate in which they take positions for and against the review in *The Southern Quarterly Review*."
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/the-raven-by-edgar-allan-poe",
+            "@type": "CreativeWork",
+            "name": "\"The Raven\" by Edgar Allan Poe"
+         },
+         "name": "Teaching Guide: Exploring \u201cThe Raven\u201d"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Edgar Allan Poe Resources](http://aig.alumni.virginia.edu/raven/poe-resources/), The Raven Society, University of Virginia. \r\n2. [Edgar Allan Poe](http://www.eapoe.org/index.htm), The Edgar Allan Poe Society of Baltimore. \r\n3. [Poe\u2019s Life](http://www.poemuseum.org/life.php), Poe Museum. "
+      },
+      {
+         "name": "Overview",
+         "text": "Edgar Allan Poe\u2019s poem \u201cThe Raven\u201d appeared in early 1845 in two publications: the *Evening Mirror* in January and the *American Review* (under the pseudonym \u201cQuarles\u201d) in February. Poe was already an established writer of poetry and prose as well as a literary critic. He wrote in the Gothic tradition (also known as Dark Romanticism), often reacting against the optimism of his transcendentalist contemporaries. With \u201cThe Raven,\u201d he became a household name; the poem was praised, reprinted, and parodied internationally. It has become Poe\u2019s most famous piece of writing and one of the most popular literary works of the period. With compelling musicality, \u201cThe Raven\u201d explores the darker aspects of human existence by telling the story of a man mourning a lost love. In the poem, the narrator is visited in his grief by a raven whose repetitive refrain drives him towards madness. This primary source set includes portraits, illustration, correspondence, and commentaries that provide context for and different perspectives on the poem and its creator."
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scarlet-letter-by-nathaniel-hawthorne",
+         "name": "*The Scarlet Letter* by Nathaniel Hawthorne",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scarlet-letter-nathaniel-hawthorne_12_319a1532a52a1d99f2d2eda5c88f8657_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scarlet-letter-nathaniel-hawthorne_12_319a1532a52a1d99f2d2eda5c88f8657_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-emily-dickinson",
+         "name": "The Poetry of Emily Dickinson",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-emily-dickinson_02_8643a746bc8a5c3eed1c0d04e1f85684_sm.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "\"The Raven\" by Edgar Allan Poe",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raven-edgar-allen-poe_01_c2390179de33316293c12da566a3a97d_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

@@ -1,0 +1,1808 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "American Literature"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "Postwar United States (1945 to early 1970s)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-9"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "African Americans"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Bowling Green State University, Ohio"
+         },
+         "name": "Jolie Sheffer"
+      }
+   ],
+   "dateCreated": "2017-09-19",
+   "dateModified": "2020-07-22",
+   "dct:created": "2017-09-19",
+   "dct:modified": "2020-07-22",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore Invisible Man by Ralph Ellison.",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_01_61c03e72fe9f8c827459fa25c724438d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of National Portrait Gallery via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Adolph Friedlander Lithography Company, \u201cJack Johnson,\u201d Digital Public Library of America, https://dp.la/item/61c03e72fe9f8c827459fa25c724438d."
+                  }
+               ]
+            }
+         ],
+         "name": "A poster of the boxer Jack Johnson, circa 1910.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+         "text": "This German poster featuring Jack Johnson, the first black world heavyweight boxing champion, advertises a film of his 1910 fight with Jim Jeffries. The Johnson-Jeffries fight was billed in the United States as pitting \u201cthe Negroes\u2019 Deliverer\u201d against the \u201cHope of the White Race,\u201d and became known as the fight of the century. Johnson\u2019s physical dominance over his white opponent challenged the supposed superiority of the white race. This German poster, created by a Hamburg company best known for circus advertising, makes no reference to the racial overtones of the match.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Nevada, Reno, University Libraries via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cJack Johnson and his wife,\u201d Digital Public Library of America, https://dp.la/item/217681b06beb3c8dfec4fa0fb670bedf."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+         "text": "The first black world heavyweight boxing champion, Jack Johnson drew controversy not only because of his physical dominance over white boxers but also because of his lavish lifestyle and multiple marriages to white women.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of New Georgia Encyclopedia via Digital Library of Georgia."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cBooker T. Washington,\u201d Digital Public Library of America, https://dp.la/item/51edbb73946d58431ded91a6570dc662."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1904 photograph of Booker T. Washington.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+         "text": "This photograph shows Booker T. Washington in his office at the Tuskegee Normal and Industrial Institute in Tuskegee, Alabama. Under Washington\u2019s leadership, the school focused on industrial and agricultural training for African Americans. Washington delivered his famous \"Atlanta Compromise\" speech in 1895 at the Cotton States Exposition. The speech outlined his \"accommodationist\" approach to southern race relations, seeking to find common ground between those who didn\u2019t believe in equality between the races but still supported some forms of African American improvement and reformers who sought full equality for African Americans in American life. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_04_be600bc3e54258fcca5a8bab2b555c90.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Harvard University via HathiTrust."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Du Bois, W. E. B., excerpt from \u201cThe souls of Black folk : essays and sketches,\u201d Digital Public Library of America, https://dp.la/item/be600bc3e54258fcca5a8bab2b555c90."
+                  }
+               ]
+            }
+         ],
+         "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+         "text": "In this famous excerpt from *The Souls of Black Folk*, W. E. B. Du Bois explains the concept of the veil and African American double consciousness.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_05_ea5cde58e371e91eb63801c9f249b1df.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cThe Negro Motorist Green Book: 1950,\u201d Digital Public Library of America, https://dp.la/item/ea5cde58e371e91eb63801c9f249b1df."
+                  }
+               ]
+            }
+         ],
+         "name": "*The Negro Motorist Green Book*, 1950.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+         "text": "First published in 1937 by Victor H. Green & Company, *The Negro Motorist Green Book* provided African American travelers with a national guidebook for navigating segregated facilities on US highways, including hotels, restaurants, and gas stations. The Green Book (later renamed *The Negro Travelers\u2019 Green Book*) became an essential reference for African Americans to travel more safely and comfortably during the Jim Crow era, when black travelers were regularly denied services, treated with hostility, and threatened with physical harm simply for seeking accommodations, food, or gas from white providers. The guidebook included recommendations and warnings for every state, highlighting the fact that racism made travel dangerous across the country, not just in the segregated south. This edition of the Green Book would have been one that readers of *Invisible Man* in 1952 might have referred to for their own travels. The last guidebook was published in 1966. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2020-03-24",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2020-03-24",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_06_70635367eafa43ab1e899f784671efb3.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of Wisconsin Digital Collections via Recollection Wisconsin."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cNeil O'Brien Minstrels,\u201d Digital Public Library of America, https://dp.la/item/70635367eafa43ab1e899f784671efb3."
+                  }
+               ]
+            }
+         ],
+         "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+         "text": "This poster is typical of blackface minstrelsy, in which white (or sometimes black) actors darkened their faces and performed exaggerated variety-show routines, including musical and dance numbers, for comical effect. [Blackface minstrelsy](https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america) developed in the early nineteenth century and continued to influence popular culture during the Jim Crow era that Ellison depicts in *Invisible Man*. Performances centered on scenes of the plantation South, featuring grotesque caricatures of African American types such as the \u201cSambo\u201d and the dandy.\r\n\r\nThis particular image portrays Neil O'Brien (circa 1868-1954), the leader of \"Neil O'Brien's Great American Minstrels.\u201d O\u2019Brien, in blackface, sits alongside a railroad track and inspects the large hole in his boot while he scratches his head. The caption at bottom reads \"It's a long way to Alabama.\u201d O'Brien began his career in Lew Dockstader's minstrel troupe, became a solo act after 1913, and then founded his own troupe. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_07_1794b1352a08455e79337ef324f692e5.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Special Collections and University Archives, University of Massachusetts Amherst Libraries via Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cCollage of newspaper clippings related to African American issues,\u201d Digital Public Library of America, https://dp.la/item/1794b1352a08455e79337ef324f692e5."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+         "text": "This 1921 collage of newspaper clippings by the Henry Romeike clipping service includes a variety of articles discussing Marcus Garvey and his ideas about African American social development. Garvey founded the Universal Negro Improvement Association and advocated for Pan-Africanism and the back-to-Africa movement for American blacks. Born in Jamaica in 1887, Garvey came to the United States in 1916 after being influenced by Booker T. Washington\u2019s ideas for African American improvement through manual training. He was a popular speaker in New York City and around the country. He clashed with other African American leaders like W. E. B. Du Bois, who believed in the necessity of fighting for social equality in the United States.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Temple University via PA Digital."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Barnes, Dr. and Shorter, Charles A., \u201cRe: The Negro Population of Philadelphia and Sub-standard Housing Conditions,\u201d Digital Public Library of America, https://dp.la/item/5ad51fe7bf87a4dea9cea01358b25acc."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+         "text": "This memo from is dated October 25, 1939, and comes from the Urban League of Philadelphia, a local chapter of the National Urban League, an organization founded \"to enable African Americans to secure economic self-reliance, parity, power and civil rights.\" The memo outlines key statistical differences between white and black Philadelphians, particularly with regard to housing. The memo makes clear that African Americans were disproportionately living in substandard conditions, and paying higher rents, with profound implications for health and crime. It suggests that contemporary housing policy did not address the issues facing black residents and that more would have to be done to address systemic inequalities.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_09_857b2e136c322558566fed3df8cba689.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Smithsonian American Art Museum via Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Johnson, William H., \u201cMoon over Harlem,\u201d Digital Public Library of America, https://dp.la/item/857b2e136c322558566fed3df8cba689."
+                  }
+               ]
+            }
+         ],
+         "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+         "text": "William H. Johnson\u2019s painting *Moon over Harlem* commemorates the Harlem Riot of 1943. The riot began after Robert Bandy, an African American soldier, witnessed a black woman's arrest for disorderly conduct in a hotel. Police claimed Bandy assaulted the officer, who then shot Bandy as he fled. Bystanders mistakenly reported that Bandy died at the hospital, leading to two days of protests and the destruction of white-owned businesses in Harlem. Residents were responding to longstanding conditions, including political disenfranchisement, employment discrimination, segregation in the US military, wartime food shortages, and police brutality by predominantly white officers.\r\n\r\nWilliam H. Johnson (1901-1970) was an African American painter born in Florence, South Carolina. He studied art at the National Academy of Design in New York City before moving to Europe, where he was influenced by modernist art and Scandinavian folk art. A collection of his paintings, watercolors, and prints is held by the Smithsonian American Art Museum. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_10_c1a7b8ceb327a92b139420137be2df1f.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Washington University in St. Louis via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "FBI, excerpt from \u201cEllison, Ralph,\u201d Digital Public Library of America, https://dp.la/item/c1a7b8ceb327a92b139420137be2df1f."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+         "text": "FBI Files on Ralph Ellison. In the twentieth century the Federal Bureau of Investigation monitored and targeted many artists, and prominent African American writers in particular, for communist beliefs, revolutionary sympathies, and/or other left-wing activity. This information was used by the House Un-American Activities Committee, created in 1938 to investigate people and organizations suspected of communist ties. HUAC became notorious for its \u201cred-baiting\u201d techniques, using Congressional powers to force innocent citizens and organizations to be questioned and pressured into (often falsely) identifying other potential targets.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2020-07-22",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2020-07-22",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of University of South Carolina, Irvin Department of Rare Books and Special Collections via South Carolina Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Ellison, Ralph, \u201cTQS from Invisible Man,\u201d Digital Public Library of America, https://dp.la/item/b2b977a092cc837e84278c216a769bbc."
+                  }
+               ]
+            }
+         ],
+         "name": "A typed quotation from *Invisible Man*.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+         "text": "A typed quotation from *Invisible Man*, signed by Ralph Ellison. This quotation, from the novel\u2019s epilogue, asks what is lost when African Americans are expected to assimilate into the white mainstream. It takes on added resonance in the current era of \u201ccolorblind\u201d rhetoric. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+               "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "AudioObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018.mp3",
+                     "fileFormat": "mp3"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018.m4a",
+                     "fileFormat": "m4a"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Pacifica Radio Archives via American Archive of Public Broadcasting and Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cHarlem by Ellison and Powell,\u201d Digital Public Library of America, https://dp.la/item/9fc8dcf0f8bf8d03a9e913f582a8b018."
+                  }
+               ]
+            }
+         ],
+         "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+         "text": "In 1966, Ralph Ellison testified on the topic of social conditions in Harlem in front of the Senate Committee on Government Operations\u2019 subcommittee on executive reorganization. The committee was chaired by Senator Abraham Ribicoff, former governor of Connecticut. Ellison discusses coming to New York City during the Great Depression and learning to navigate where African Americans were and were not welcome. He also describes the difference between race relations in the rural South and race relations in the urban North.",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/1619",
+         "@type": "CreativeWork",
+         "dateCreated": "2017-09-21",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-21",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1607",
+               "name": "A poster of the boxer Jack Johnson, circa 1910.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_01_61c03e72fe9f8c827459fa25c724438d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1608",
+               "name": "A photograph of Jack Johnson and wife, circa 1905-1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_02_217681b06beb3c8dfec4fa0fb670bedf_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1609",
+               "name": "A 1904 photograph of Booker T. Washington.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_03_7dbd84b762ab0bdb854a2cadf4307d74_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1610",
+               "name": " An excerpt from *The Souls of Black Folk* by W. E. B. Du Bois about  double consciousness, 1903.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_04_be600bc3e54258fcca5a8bab2b555c90_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1611",
+               "name": "*The Negro Motorist Green Book*, 1950.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_05_ea5cde58e371e91eb63801c9f249b1df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1612",
+               "name": "A theatrical poster for Neil O'Brien as a blackface minstrel performer, 1915.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_06_70635367eafa43ab1e899f784671efb3_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1613",
+               "name": "A 1921 collage of newspaper clippings about Marcus Garvey and African American activism.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_07_1794b1352a08455e79337ef324f692e5_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1614",
+               "name": "A 1939 memo about \u201cThe Negro Population of Philadelphia and Sub-Standard Housing Conditions.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_08_5ad51fe7bf87a4dea9cea01358b25acc_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1615",
+               "name": "The painting *Moon over Harlem* by William H. Johnson, circa 1943-1944. ",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_09_857b2e136c322558566fed3df8cba689_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1616",
+               "name": "An excerpt from FBI files on Ralph Ellison\u2019s communist activities, 1950-1964.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_10_c1a7b8ceb327a92b139420137be2df1f_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1617",
+               "name": "A typed quotation from *Invisible Man*.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/1618",
+               "name": "An audio recording of Ralph Ellison testifying before the US Senate about Harlem, 1966.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_12_9fc8dcf0f8bf8d03a9e913f582a8b018_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "VideoObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6.mp4",
+                     "fileFormat": "mp4"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6.webm",
+                     "fileFormat": "webm"
+                  },
+                  {
+                     "contentUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6.ogg",
+                     "fileFormat": "ogg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Wyoming PBS via American Archive of Public Broadcasting and Digital Commonwealth."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cMain Street, Wyoming; Black Experience in Wyoming w/Todd Guenther,\u201d Digital Public Library of America, https://dp.la/item/1ca0b0adbaf461193a87d93ee7f984c6."
+                  }
+               ]
+            }
+         ],
+         "name": "An excerpt from a 1992 episode of the PBS television program \u201cMain Street, Wyoming\u201d that discusses *Invisible Man*. ",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_rep.jpg",
+         "text": "In this interview, part of the Wyoming PBS program, \u201cMain Street, Wyoming,\u201d Todd Guenther, curator of the South Pass City (Wyoming) Historical Site, discusses African Americans in Wyoming through the lens of Ralph Ellison\u2019s *Invisible Man*. In this conversation, Guenther details some of the overlooked history of African Americans in the US West in the nineteenth century. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_13_1ca0b0adbaf461193a87d93ee7f984c6_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-invisible-man-by-ralph-ellison",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Bowling Green State University, Ohio"
+               },
+               "name": "Jolie Sheffer"
+            }
+         ],
+         "dateCreated": "2017-09-20",
+         "dateModified": "2017-09-21",
+         "dct:created": "2017-09-20",
+         "dct:modified": "2017-09-21",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Carefully read the \u201cBattle Royal\u201d scene in chapter one of *Invisible Man* and study the [poster of the boxer Jack Johnson](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1607) and the [photograph of Jack Johnson and wife](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1608). How do these texts show black masculinity on display for white viewers? For other black men? How do white women function as symbols of America? \r\n2. Study the [photograph of Booker T. Washington](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1609). How does the photograph represent Washington, through clothing, decor, and body language, as a respectable and non-threatening person? Now compare the photo to Ellison\u2019s description of Dr. Bledsoe in chapter four of *Invisible Man*. How does Ellison depict Bledsoe? In what ways are the two leaders similar? How are they different?\r\n3. Read the [first chapter of *The Souls of Black Folk*](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1610) by W. E. B. Du Bois, concentrating on his description of double consciousness. How does the novel\u2019s treatment of invisibility as a motif reflect Du Bois\u2019s idea about life behind the veil? \r\n4. Carefully look at the [theatrical poster for Neil O'Brien as a blackface minstrel performer](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1612). What stereotypes does the poster rely on for its portrayal of blackness? Now consider the ad in relation to chapter thirteen of *Invisible Man* and consider how the narrator feels both trapped and liberated by his desire to eat a baked yam, a Southern comfort food. What do these moments suggest about African Americans\u2019 awareness of racial stereotypes and white audiences\u2019 reactions? Recently, the comedian Dave Chappelle walked away from his hit television show after growing uncomfortable with how some white audience members interpreted his comedy. Can you think of other examples of [blackface minstrelsy](https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america) re-appearing in popular culture?\r\n5. Read through the [collage of newspaper clippings about Marcus Garvey](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1613) and consider the ways in which Ras the Destroyer in chapter seven, as well as the narrator himself in chapter seventeen, echo some of these views in their public speeches in Harlem. What revisions does Ellison make, and to what effect?\r\n6. In the painting [*Moon over Harlem*](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1615), William H. Johnson depicts the same 1943 riot that Ellison fictionalizes in chapter twenty of *Invisible Man*. Johnson based his painted figures on photographs of rioters arrested by white officers, but made changes to the scene. Compare Ellison\u2019s and Johnson\u2019s treatment of the 1943 Harlem riots. What similarities do you see? What differences do you notice? How does each portray the causes of the rioting? \r\n7. Read the [excerpt from FBI files on Ralph Ellison\u2019s communist activities](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1616), and consider how the Brotherhood in the novel represents the promise of the American Communist Party. In what ways does the novel reveal Ellison\u2019s increasing skepticism about the Party? \r\n8. Read the [typed quotation signed by Ralph Ellison](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1617), which appears towards the end of *Invisible Man*. How might this quotation serve as a summary of the novel\u2019s theme? How does it echo W. E. B. Du Bois\u2019s concept of double consciousness? What does the quotation mean within its particular context in the final chapter of the book? What aspects of the novel are hidden if we isolate the quotation in this way? What does it make more visible?"
+            },
+            {
+               "name": "Activity",
+               "text": "1. For students: Using the [collage of newspaper clippings about Marcus Garvey](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1613) as an example, ask students to create a collage of newspaper clippings from today\u2019s newspapers related to a particular scene or theme from *Invisible Man*. Students should choose clippings that show how the issues from Ellison\u2019s scene or theme are still relevant in today\u2019s society. Students should then present their collages to the class with an oral report about how the clippings show the persistence of issues from Ellison\u2019s work.\r\n2. For students: Read the [*Negro Motorist Green Book*](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1611) and watch the [excerpt from \u201cMain Street, Wyoming\u201d](https://dp.la/primary-source-sets/invisible-man-by-ralph-ellison/sources/1619) on the hidden history of African Americans in the Western states. Write a new scene for Ellison\u2019s novel in which the narrator travels to the American West. What lesson(s) might he learn about black history from that imagined journey?"
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/invisible-man-by-ralph-ellison",
+            "@type": "CreativeWork",
+            "name": "*Invisible Man* by Ralph Ellison"
+         },
+         "name": "Teaching Guide: Exploring *Invisible Man* by Ralph Ellison"
+      },
+      {
+         "name": "Resources",
+         "text": "1. \u201c[Ralph Ellison: No Longer The 'Invisible Man' 100 Years After His Birth](http://www.npr.org/sections/codeswitch/2014/05/30/317056807/ralph-ellison-no-longer-the-invisible-man-100-years-after-his-birth),\u201d National Public Radio. \r\n2. \u201c[Justice for Ralph Ellison](http://www.newyorker.com/books/page-turner/justice-for-ralph-ellison),\u201d *The New Yorker*. \r\n3. \u201c[A 'Forgotten History' Of How The U.S. Government Segregated America](http://www.npr.org/2017/05/03/526655831/a-forgotten-history-of-how-the-u-s-government-segregated-america),\u201d National Public Radio. \r\n4. \u201c[Fatal Force](https://www.washingtonpost.com/graphics/national/police-shootings-2017/),\u201d *The Washington Post*. "
+      },
+      {
+         "name": "Overview",
+         "text": "Ralph Waldo Ellison (1913-1994) was born and raised in Oklahoma City. After twice applying to the Tuskegee Institute, the university founded by Booker T. Washington, he was admitted in 1933 to play trumpet in the orchestra. At Tuskegee he studied classical music, but quickly cultivated a love of modernist literature. In 1936, before completing his degree, he left to move to New York City. There he met Langston Hughes, who introduced him to black literary Harlem and communism. During World War II, after writing and editing for communist publications, he grew disaffected with the Communist Party leadership, as did his friend Richard Wright. Ellison began writing *Invisible Man* shortly thereafter. \r\n\r\nPublished in 1952, *Invisible Man* was identified as a masterpiece and quickly became a best-seller. It is consistently lauded as one of the greatest novels of the twentieth century. The Modern Library ranked *Invisible Man* nineteenth on its list of the one hundred best English-language novels of the twentieth century. Arguably no other book has been as influential on contemporary American literature. \r\n\r\n*Invisible Man* follows its unnamed narrator as he journeys from the rural South to bustling Harlem, experiencing the barriers created by the color line in twentieth-century American life. The novel borrows heavily from jazz and blues forms as its narrator encounters fictionalized versions of major African American leaders like Booker T. Washington and Marcus Garvey. Alternately comic and tragic, the novel explores the psychological effects of racism across U.S. social institutions, geographies, and social classes. \r\n\r\nDespite the critical and popular success of the novel, by the 1960s and 1970s Ellison was criticized by student activists for his approach to social change. He never published another novel in his lifetime, although two versions of his two-thousand-page unfinished manuscript were published posthumously as *Juneteenth* (1999) and *Three Days Before the Shooting...* (2010). "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/a-raisin-in-the-sun-by-lorraine-hansberry",
+         "name": "*A Raisin in the Sun* by Lorraine Hansberry",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/raisin-in-the-sun-lorraine-hansberry_00_c5af48a5ee0e487f40ff8dbe2547fd4c.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-watsons-go-to-birmingham-1963-by-christopher-paul-curtis",
+         "name": "*The Watsons Go To Birmingham\u20141963* by Christopher Paul Curtis",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/watsons-go-to-birmingham-1963-christopher-paul-curtis_02_9dfea9c7abdaceb190aae483118f67a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fire-next-time-by-james-baldwin",
+         "name": "*The Fire Next Time* by James Baldwin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fire-next-time-james-baldwin_04_7934a66e3d40ea9d4ac65e8dc3d4f4e1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/busing-beyond-school-desegregation-in-boston",
+         "name": "Busing & Beyond: School Desegregation in Boston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/busing-beyond-school-desegregation-boston_08_d46e88d8d83b1e43abcb572bd5c5bd44_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-poetry-of-maya-angelou",
+         "name": "The Poetry of Maya Angelou",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/poetry-maya-angelou_03_ec4e2208d83340f4969f8b48679249ab_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-crucible-by-arthur-miller",
+         "name": "*The Crucible* by Arthur Miller",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/crucible-arthur-miller_07_f4d6eb6fe0b3b269a62f1711827d4d6b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/crucible-arthur-miller_07_f4d6eb6fe0b3b269a62f1711827d4d6b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beloved-by-toni-morrison",
+         "name": "*Beloved* by Toni Morrison",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/beloved-toni-morrison_08_60e29a1c3983f2b1a077750352d7ad30_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/to-kill-a-mockingbird-by-harper-lee",
+         "name": "*To Kill a Mockingbird* by Harper Lee",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/to-kill-a-mockingbird-harper-lee_09_91c5fdf7c118506c61c103d889bdedb6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/their-eyes-were-watching-god-by-zora-neale-hurston",
+         "name": "*Their Eyes Were Watching God* by Zora Neale Hurston",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/their-eyes-were-watching-god-zora-neale-hurston_08\u2026484c2de0049_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-black-power-movement",
+         "name": "The Black Power Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/black-power-movement_00b_7e5474eb2bc11f18e1d2f5eb31f47ef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/elie-wiesel-s-night-and-the-holocaust",
+         "name": "Elie Wiesel's *Night* and the Holocaust",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/elie-wiesel-night-holocaust_11_758168a4cf4c679dad15ae7f031885ce_sm.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "*Invisible Man* by Ralph Ellison",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/invisible-man_11_1a81a0541845bdbb07be7ffdc29639f2_sm.jpg",
+   "typicalAgeRange": "11-18"
+}

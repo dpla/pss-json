@@ -1,0 +1,2449 @@
+{
+   "@context": {
+      "@vocab": "http://schema.org/",
+      "ccss": "http://www.corestandards.org/",
+      "dcmitype": "http://purl.org/dc/dcmitype/",
+      "dct": "http://purl.org/dc/terms/",
+      "edm": "http://www.europeana.eu/schemas/edm",
+      "name": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      },
+      "ore": "http://www.openarchives.org/ore/terms/",
+      "text": {
+         "@id": "http://schema.org/text",
+         "@type": "http://ns.ontowiki.net/SysOnt/Markdown"
+      }
+   },
+   "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+   "@type": "CreativeWork",
+   "about": [
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "US History"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Time Period",
+         "name": "The Emergence of Modern America (1890-1930)",
+         "sameAs": "http://www.nchs.ucla.edu/history-standards/us-history-content-standards/united-states-era-7"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Women"
+      },
+      {
+         "@type": "Thing",
+         "disambiguatingDescription": "Subject",
+         "name": "Law and Government"
+      }
+   ],
+   "accessbilityFeature": [
+      "captions",
+      "structuralNavigation",
+      "audioControl",
+      "videoControl"
+   ],
+   "accessibilityControl": [
+      "fullMouseControl"
+   ],
+   "accessibilityHazard": [
+      "noFlashingHazard",
+      "motionSimulation",
+      "noSoundHazard"
+   ],
+   "author": [
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Franky Abbott"
+      },
+      {
+         "@type": "Person",
+         "affiliation": {
+            "@type": "Organization",
+            "name": "Digital Public Library of America"
+         },
+         "name": "Hillary Brady"
+      }
+   ],
+   "dateCreated": "2015-10-14",
+   "dateModified": "2017-09-14",
+   "dct:created": "2015-10-14",
+   "dct:modified": "2017-09-14",
+   "dct:type": "dcmitype:InteractiveResource",
+   "description": "This collection uses primary sources to explore the campaign for women&#39;s suffrage through the passage of the Nineteenth Amendment. ",
+   "educationalAlignment": [
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.6-8.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/6-8/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.9-10.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/9-10/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.7",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.RH.11-12.9",
+         "targetUrl": "ccss:ELA-Literacy/RH/11-12/9/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.R.7",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/R/7/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.CCRA.W.8",
+         "targetUrl": "ccss:ELA-Literacy/CCRA/W/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.6-8.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/6-8/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.9-10.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/9-10/8/"
+      },
+      {
+         "@type": "AlignmentObject",
+         "alignmentType": "requires",
+         "educationalFramework": "Common Core State Standards",
+         "targetName": "CCSS.ELA-Literacy.WHST.11-12.8",
+         "targetUrl": "ccss:ELA-Literacy/WHST/11-12/8/"
+      }
+   ],
+   "hasPart": [
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/355",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_01_1847d71e7f95e296350b3a503e150c80.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the University of Virginia Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "National American Woman Suffrage Association, \u201cVotes for women,\u201d Digital Public Library of America, https://dp.la/item/1847d71e7f95e296350b3a503e150c80."
+                  }
+               ]
+            }
+         ],
+         "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/356",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Fleming, Thomas, \u201cThe home or street corner for woman? Vote no on woman suffrage,\u201d Digital Public Library of America, https://dp.la/item/aa18b8140fc073152c3d8a455d67b60e."
+                  }
+               ]
+            }
+         ],
+         "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/357",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Excerpt from \u201cAnti-Suffrage Postcards from Wallace Ellis to the Honorable Homer P. Snyder,\u201d Digital Public Library of America, https://dp.la/item/379ae7a077efa6ef5841b2c4c6141c5b."
+                  }
+               ]
+            }
+         ],
+         "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+         "text": "Transcription:\r\n\r\n*[front]*\r\n \r\nHon. Herman[?] P. Snyder  \r\n37 Ann St.  \r\nLittle Falls  \r\nN.Y.  \r\n \r\n*[back]*\r\n \r\nWe have sent you many hundreds like this  \r\nAnti-suffrage Association  \r\n \r\n[...]\r\n \r\nSIGNATURE Wallace Ellis  \r\nNew Hartford, N.Y.  ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/358",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_04_48b4d49dbde37f6360f366f655484944.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cMen! Give women votes to protect the children,\u201d Digital Public Library of America, https://dp.la/item/48b4d49dbde37f6360f366f655484944."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/359",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_05_56844a2497fc6a14d70a25d117da7449.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Missouri History Museum via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cFlyer titled \u2018Do it now. Support the Federal Suffrage Amendment\u2019 printed by the National American Woman Suffrage Association, New York, July 1918,\u201d Digital Public Library of America, https://dp.la/item/56844a2497fc6a14d70a25d117da7449."
+                  }
+               ]
+            }
+         ],
+         "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/360",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "MediaObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e.pdf",
+                     "fileFormat": "pdf"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cHouse Joint Resolution 1 Regarding the 19th Amendment,\u201d Digital Public Library of America, https://dp.la/item/43b6d1b04584882b6830beea45a37e7e."
+                  }
+               ]
+            }
+         ],
+         "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/361",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Missouri History Museum via Missouri Hub."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPostcard of Kewpies titled \u2018Votes for Women: The Spirit of \u201976,\u2019 1915,\u201d Digital Public Library of America, https://dp.la/item/3c41c7265f7ae47edbcf8245b219f542."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/362",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the Postal History Foundation via Mountain West Digital Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Colby, Clara Dorothy Bewick, \u201c1912 Suffrage postcard,\u201d Digital Public Library of America, https://dp.la/item/62a52d372aff12514c83c96cc6a7fa9b."
+                  }
+               ]
+            }
+         ],
+         "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+         "text": "Transcription:\r\n\r\n619 7 NW Washington DC. Dec. 22 '12. Dear Friend - I congratulate you in winning success in Arizona so easily. I worked 6 mos in the campaigns of Oregon, Kansas & Wis [Wisconsin]. My home is Portland, Ore. but I am at above address for the season. Secy of the Federal Women's Equality Assn. I am working for a Bill to enable women in all the states to vote for members of the H of R [House of Representatives]. Have been getting Hon. Vice Pres from the States where women vote & your member & senator Ashurst responded most heartily. Their names will be on our letter-heads. I wish you would join me soon & help us. The fee is $1.00 a year. I saw Laura Gregg at the Convention in Philadelphia with best wishes Sincerely yours, Clara Bewick Colby. \r\n",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/363",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of Cornell University via ArtStor."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cNurses March in Suffrage Parade,\u201d Digital Public Library of America, https://dp.la/item/daa5f2a30ef92b58ed61bdf44a7d2103."
+                  }
+               ]
+            }
+         ],
+         "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/364",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_10_8b758f2f403528f7933e36fb891197df.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cElizabeth Gurley Flynn speaking at I.W.W. Strike Headquarters on Water Street in Paterson, New Jersey,\u201d Digital Public Library of America, https://dp.la/item/8b758f2f403528f7933e36fb891197df."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/365",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_11_7f51495ccafcdd311981455379ada77d.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cTo a suffragette valentine,\u201d Digital Public Library of America, https://dp.la/item/7f51495ccafcdd311981455379ada77d."
+                  }
+               ]
+            }
+         ],
+         "name": "A card \u201cto a suffragette valentine.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/366",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Museum of American History, Kenneth E. Behring Center via the Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWoman Suffrage Answer Banner,\u201d Digital Public Library of America, https://dp.la/item/1ef4a5d10ee94f4c43617cdd0ac6627c."
+                  }
+               ]
+            }
+         ],
+         "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/367",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Archives and Records Administration."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cPhotograph of Suffrage Parade,\u201d Digital Public Library of America, https://dp.la/item/eb3649f93120b0a11ea043f45534d059."
+                  }
+               ]
+            }
+         ],
+         "name": "A photograph of a suffrage parade, 1913.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/368",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/369",
+               "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of the National Museum of American History, Kenneth E. Behring Center via the Smithsonian Institution."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "\u201cWoman Suffrage Banner, 1914-1917,\u201d Digital Public Library of America, https://dp.la/item/745fd384dfa6b4b7c31c6c33754ce8b6."
+                  }
+               ]
+            }
+         ],
+         "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+         "text": "Suffragists from the National Woman\u2019s Party made smaller versions of the banner used on the 1913 parade\u2019s first float. These \"Great Demand\" banners were used in demonstrations and rallies and at suffrage headquarters. ",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+      },
+      {
+         "@id": "https://api.dp.la/primary-source-sets/sources/369",
+         "@type": "CreativeWork",
+         "dateCreated": "2015-10-16",
+         "dateModified": "2015-10-16",
+         "dct:created": "2015-10-16",
+         "dct:modified": "2015-10-16",
+         "disambiguatingDescription": "source",
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "isRelatedTo": [
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/355",
+               "name": "\u201cVotes for women,\u201d a 1912 suffrage map showing the status of women\u2019s suffrage in each state.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_01_1847d71e7f95e296350b3a503e150c80_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/356",
+               "name": "An anti-suffrage lithograph illustration. It reads: \u201cThe home or street corner for woman? Vote no on woman suffrage.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_02_aa18b8140fc073152c3d8a455d67b60e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/357",
+               "name": "An anti-suffrage postcard from a campaign to reach government officials, 1916.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_03_379ae7a077efa6ef5841b2c4c6141c5b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/358",
+               "name": "A 1914 poster for the International Woman Suffrage Alliance. It reads, \u201cMen! Give women votes to protect the children!\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_04_48b4d49dbde37f6360f366f655484944_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/359",
+               "name": "A flyer listing reasons for a constitutional amendment, printed by the National American Woman Suffrage Association, July 1918.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_05_56844a2497fc6a14d70a25d117da7449_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/360",
+               "name": "The House of Representatives\u2019 joint resolution on the Nineteenth Amendment.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_06_43b6d1b04584882b6830beea45a37e7e_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/361",
+               "name": "A 1915 postcard of Kewpie dolls titled \u201cVotes for Women: The Spirit of \u201976.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_07_3c41c7265f7ae47edbcf8245b219f542_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/362",
+               "name": "A 1912 postcard from a suffragette discussing her work on state suffrage campaigns.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_08_62a52d372aff12514c83c96cc6a7fa9b_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/363",
+               "name": "A postcard of nurses marching in a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_09_daa5f2a30ef92b58ed61bdf44a7d2103_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/364",
+               "name": "A photo of a suffragette appealing to striking workers in Paterson, New Jersey in 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_10_8b758f2f403528f7933e36fb891197df_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/365",
+               "name": "A card \u201cto a suffragette valentine.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_11_7f51495ccafcdd311981455379ada77d_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/366",
+               "name": "Part of a set of banners ridiculing objections to women\u2019s suffrage; this one says, \u201cIt would make women less attractive to men.\u201d",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_12_1ef4a5d10ee94f4c43617cdd0ac6627c_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/367",
+               "name": "A photograph of a suffrage parade, 1913.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_13_ eb3649f93120b0a11ea043f45534d059_thumb.jpg"
+            },
+            {
+               "@id": "https://api.dp.la/primary-source-sets/sources/368",
+               "name": "A National Woman\u2019s Party woman suffrage banner, 1914-1917.",
+               "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_rep.jpg",
+               "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_14_745fd384dfa6b4b7c31c6c33754ce8b6_thumb.jpg"
+            }
+         ],
+         "mainEntity": [
+            {
+               "@type": "ImageObject",
+               "associatedMedia": [
+                  {
+                     "contentUrl": "womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1.jpg",
+                     "fileFormat": "jpg"
+                  }
+               ],
+               "citation": [
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "credits",
+                     "text": "Courtesy of The New York Public Library."
+                  },
+                  {
+                     "@type": "CreativeWork",
+                     "disabmiguationDescription": "citation",
+                     "text": "Willis, Oscar B., \u201cIda B. Wells-Barnett, journalist and civil rights activist,\u201d Digital Public Library of America, https://dp.la/item/2bb191f14a5b2b170139141adeef12e1."
+                  }
+               ]
+            }
+         ],
+         "name": "A photo portrait of Ida B. Wells, a social reformer who campaigned for the inclusion of black women in the national suffrage movement.",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_15_2bb191f14a5b2b170139141adeef12e1_thumb.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/guides/teaching-guide-exploring-the-campaign-for-the-nineteenth-amendment",
+         "@type": "CreativeWork",
+         "author": [
+            {
+               "@type": "Person",
+               "affiliation": {
+                  "@type": "Organization",
+                  "name": "Digital Public Library of America"
+               },
+               "name": "Hillary Brady"
+            }
+         ],
+         "dateCreated": "2015-10-14",
+         "dateModified": "2015-11-19",
+         "dct:created": "2015-10-14",
+         "dct:modified": "2015-11-19",
+         "disambiguatingDescription": "guide",
+         "hasPart": [
+            {
+               "name": "Questions",
+               "text": "1. Examine the [postcard of nurses](http://dp.la/primary-source-sets/sources/363) and the [photo of a suffragette appealing to striking workers](http://dp.la/primary-source-sets/sources/364). Why do you think the suffrage movement aligned itself with professionals in fields like teaching, nursing, and other striking labor groups? What common causes did these different groups of people share? \r\n\r\n2. Compare and contrast the [anti-suffrage lithograph illustration](http://dp.la/primary-source-sets/sources/356), the [1914 poster for the International Woman Suffrage Alliance](http://dp.la/primary-source-sets/sources/358), and the [flyer listing reasons for a constitutional amendment](http://dp.la/primary-source-sets/sources/359). How does each address women\u2019s roles in the family? \r\n\r\n3. Using the items in this collection, explain the specific arguments made by those who advocated for women\u2019s suffrage and those who opposed it.\r\n\r\n4. Many of the items in this set are postcards. Why was the postcard such a popular method of communication for both suffragists and anti-suffragists? What are its advantages? With the [1915 postcard of Kewpie dolls](http://dp.la/primary-source-sets/sources/361), which strategies was the National Woman\u2019s Party using to appeal to readers?\r\n"
+            },
+            {
+               "name": "Activity",
+               "text": "As this set shows, postcards were an important way that both suffragists and anti-suffragists recruited followers to their causes. Design a pro-suffrage postcard that uses symbols and illustrations to encourage readers to join this side of the debate. For a more modern twist, craft a pro-suffrage argument in the form of a 140-character tweet. "
+            }
+         ],
+         "isPartOf": {
+            "@id": "https://dp.la/primary-source-sets/sets/women-s-suffrage-the-campaign-for-the-nineteenth-amendment",
+            "@type": "CreativeWork",
+            "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment"
+         },
+         "name": "Teaching Guide: Exploring the Campaign for the Nineteenth Amendment"
+      },
+      {
+         "name": "Resources",
+         "text": "1. [Woman Suffrage Postcard collection](http://dp.la/search?partner%5B%5D=Smithsonian+Institution&q=suffrage+postcard&utf8=%E2%9C%93), National Museum of American History, Kenneth E. Behring Center, Smithsonian Institution, Digital Public Library of America. \r\n\r\n2. [*History of Woman Suffrage*](http://dp.la/item/c20072262cc89421d1325ef5fabb432d), edited by Elizabeth Cady Stanton, Susan B. Anthony, and Matilda Josyln Gage, Internet Archive, Digital Public Library of America. \r\n\r\n3. [Activism in the US: Women\u2019s Activism](http://dp.la/exhibitions/exhibits/show/activism/women---s-activism), DPLA. \r\n\r\n4. [Women\u2019s Suffrage](http://www.loc.gov/teachers/classroommaterials/primarysourcesets/womens-suffrage/), The Library of Congress.\r\n\r\n5. [The Fight for Women\u2019s Suffrage](http://www.history.com/topics/womens-history/the-fight-for-womens-suffrage), History.com. \r\n"
+      },
+      {
+         "name": "Overview",
+         "text": "On August 18, 1920, Congress ratified the Nineteenth Amendment, giving women across the country the right to vote. This historic moment was largely the result of the work of activists and organizations advocating for universal voting rights. While these efforts started earlier, work for the amendment was the culmination of a twentieth-century women\u2019s suffrage movement. This movement faced formidable political and social opposition and delay in moments of national concern like World War I. This set of primary sources\u2014photos, advertisements, maps, and other documents\u2014sheds light on that struggle toward the Nineteenth Amendment. "
+      }
+   ],
+   "inLanguage": [
+      {
+         "@id": "http://lexvo.org/id/term/eng/English",
+         "@type": "Language",
+         "name": "English"
+      }
+   ],
+   "isRelatedTo": [
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-scopes-trial",
+         "name": "The Scopes Trial",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/scopes-trial_00_09a768e12d4017ce17a46aa5c25c4ecd.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/treaty-of-versailles-and-the-end-of-world-war-i",
+         "name": "Treaty of Versailles and the End of World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/treaty-versailles_06_4c448d4d0ef6a95fbf6fd460ba295aec_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-woman",
+         "name": "The New Woman",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-woman_10a_3ea9a4f89a9fb44e83c99359b6d2ae35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/beginnings-of-the-american-red-cross",
+         "name": "Beginnings of the American Red Cross",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-red-cross_06_de3f23d5b7764fb8ebd57c837277b687_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-i-america-heads-to-war",
+         "name": "World War I: America Heads to War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_rep.png",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-i-america-heads-war_14_fc9892bb69f74c4fa9fe268c4e7f93c4_sm.png"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/ida-b-wells-and-anti-lynching-activism",
+         "name": "Ida B. Wells and Anti-Lynching Activism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ida-b-wells-anti-lynching-activism_04_6ca2d0601d7960e03d25724ceeabd441_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/reservations-resistance-and-the-indian-reorganization-act-1900-1940",
+         "name": "Reservations, Resistance, and the Indian Reorganization Act, 1900-1940",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/reservations-resistance_03_9341c1fa9698b843f90312949e427b04_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/settlement-houses-in-the-progressive-era",
+         "name": "Settlement Houses in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/settlement-houses-progressive-era_08_067015ab707b76c39a3e459d0656de35_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-equal-rights-amendment",
+         "name": "The Equal Rights Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/equal-rights-amendment_09_d601783a14fd40e52eb82450d1a7ef89_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/when-miners-strike-west-virginia-coal-mining-and-labor-history",
+         "name": "When Miners Strike: West Virginia Coal Mining and Labor History",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/when-miners-strike-west-virginia-coal-mining-labor-history_11_bb6b934fcd4c2b72b87263d30f832847_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/eugenics-movement-in-the-united-states",
+         "name": "Eugenics Movement in the United States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/eugenics-movement_07_98d5269ca48d28016373414a5c1b4882_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/lyndon-johnson-s-great-society",
+         "name": "Lyndon Johnson's Great Society",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-society_02_16eef617f37d1b765b4b5ec21e07e0b1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-awakening-by-kate-chopin",
+         "name": "*The Awakening* by Kate Chopin",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/awakening_08_e87247d15d04b3516095c8177f34b650_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/blackface-minstrelsy-in-modern-america",
+         "name": "Blackface Minstrelsy in Modern America",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/blackface-minstrelsy_02a_6b319b219a0d09312025c5ada0bc4321_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/voting-rights-act-of-1965",
+         "name": "Voting Rights Act of 1965",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/voting-rights-act_07_0a3041caaac9d5210e8c241326f2c6c0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-rise-of-italian-fascism-and-its-influence-on-europe",
+         "name": "The Rise of Italian Fascism and Its Influence on Europe",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-italian-fascism_08_4071338bee159998b00acbee0e0c462e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/japanese-american-internment-during-world-war-ii",
+         "name": "Japanese American Internment During World War II",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/japanese-american-internment-world-war-ii_11_e9af17b6a114f62c04cca2c9b3c5a075_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-fifteenth-amendment",
+         "name": "The Fifteenth Amendment",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fifteenth-amendment_01_e303ab9c19a13d03a091b5a2b50e7822_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frank-lloyd-wright-and-modern-american-architecture",
+         "name": "Frank Lloyd Wright and Modern American Architecture",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frank-lloyd-wright_06_f98fbc91b80b04b85e9d034652703148_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-boston-tea-party",
+         "name": "The Boston Tea Party",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boston-tea-party_06_b27235d9aeb6919088f3d5ab39221666_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/texas-revolution",
+         "name": "Texas Revolution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/texas-revolution_14_f7deadb49786cc32b33cd8d361db08a0_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/second-ku-klux-klan-and-the-birth-of-a-nation",
+         "name": "Second Ku Klux Klan and *The Birth of a Nation*",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/ku-klux-klan_14_ca2d381eaea590d04a66de6bfc19e223_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/incidents-in-the-life-of-a-slave-girl-by-harriet-jacobs",
+         "name": "*Incidents in the Life of a Slave Girl* by Harriet Jacobs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/incidents-life-slave-girl-harriet-jacobs_06_f472749a56642ccb944c04d857d2f185_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fake-news-in-the-1890s-yellow-journalism",
+         "name": "Fake News in the 1890s: Yellow Journalism",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/yellow-journalism_01_b02b9d55be33971f27dc8aed39802f7d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-temperance-movement",
+         "name": "Women and the Temperance Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-temperance-movement_12_07abad6b48324cea8b4d650ac1a3a2fb_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-of-the-antebellum-reform-movement",
+         "name": "Women of the Antebellum Reform Movement",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-antebellum-reform-movement_10a_a6ce8f23167d6512215adef9b3f0dcd5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-underground-railroad-and-the-fugitive-slave-act-of-1850",
+         "name": "The Underground Railroad and the Fugitive Slave Act of 1850",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/underground-railroad-fugitive-slave-act-1850_10_9b645c59000e3fe652ab9def4bc5a138_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/theodore-dreiser-s-sister-carrie-and-the-urbanization-of-chicago",
+         "name": "Theodore Dreiser\u2019s *Sister Carrie* and the Urbanization of Chicago",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/theodore-dreiser_05_397147adf0d4238d3c7d7f9d7d15e3fe_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/patronage-and-populism-the-politics-of-the-gilded-age",
+         "name": "Patronage and Populism: The Politics of the Gilded Age",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/patronage-populism-politics-gilded-age_03a_7f1ec4fd8b805005399b7715629560c5_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/feeding-the-hungry-with-food-stamp-programs",
+         "name": "Feeding the Hungry with Food Stamp Programs",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/feeding-hungry-food-stamp-programs_04a_9ae61de8d08ae9a9ead76546acca689d_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-and-americanization-1880-1930",
+         "name": "Immigration and Americanization, 1880-1930",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-americanization_12a_cb00e13651fb6e7bb691d39cc41c854e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/environmental-preservation-in-the-progressive-era",
+         "name": "Environmental Preservation in the Progressive Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/environmental-preservation-progressive-era_03_8a12a5727d92cfc7d75f60c45ddf17d7_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/boomtimes-again-twentieth-century-mining-in-the-mojave-desert",
+         "name": "Boomtimes Again: Twentieth-Century Mining in the Mojave Desert",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/boomtimes-again-twentieth-century-mining-mojave-desert_05_f4aec0b720c95d04f214484e4c8f9218_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/fannie-lou-hamer-and-the-civil-rights-movement-in-rural-mississippi",
+         "name": "Fannie Lou Hamer and the Civil Rights Movement in Rural Mississippi",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/fannie-lou-hamer-civil-rights-movement-rural-mississippi_08_34f340f27814f55833c885a8258fea88_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/african-american-soldiers-in-world-war-i",
+         "name": "African American Soldiers in World War I",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/african-american-soldiers-world-war-i_02_12644b8fe2703442e25d537e8cfa8c7c_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-in-the-civil-war",
+         "name": "Women in the Civil War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-civil-war_01_693c02bc190917b1304fa7ac1921a03e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/immigration-through-angel-island",
+         "name": "Immigration through Angel Island",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/immigration-angel-island_07_bf55992da67c0773d5ab7ab2a8c2dae6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/rise-of-conservatism-in-the-1980s",
+         "name": "Rise of Conservatism in the 1980s",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/rise-of-conservatism-1980s_08_cc1f4cc50ba0f4e9652d\u20260fc51d5cb1_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/women-and-the-blues",
+         "name": "Women and the Blues",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-and-the-blues_04_a0e2019640b28b0f46c5d0c1a3ff12b4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/women-and-the-blues_04_a0e2019640b28b0f46c5d0c1a3ff12b4_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-great-migration",
+         "name": "The Great Migration",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/great-migration_11_301a3b1ef3135e75f77478cccb7da403_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/creating-the-us-constitution",
+         "name": "Creating the US Constitution",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/creating-us-constitution_10_a65f6d0b6210c18d17c596908ebcf270_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/secession-of-the-southern-states",
+         "name": "Secession of the Southern States",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/secession-of-southern-states_13_16e66ed896e93f911a1adabf6c2fcb1b_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-new-deal",
+         "name": "The New Deal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/new-deal_01_acdffb5db47bf4b83601836dd1c756f6_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/henry-clay-the-great-compromiser",
+         "name": "Henry Clay: The Great Compromiser",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/henry-clay-great-compromiser_07_8caba62b34f3acfb24f7a49c85656d0e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/shays-rebellion",
+         "name": "Shays' Rebellion",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/shays-rebellion_06_b3aa47a3284b8fe7cfe6d9b95a10401e_sm.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/american-imperialism-the-spanish-american-war",
+         "name": "American Imperialism: The Spanish-American War",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/american-imperialism-spanish-american-war_00_c9356ad06bbfece0368bcfb2a59a73d3.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/negro-league-baseball",
+         "name": "Negro League Baseball",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/negro-league-baseball_00_277e1483f83ff20f2f21489758daa8d4.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/road-to-revolution-1763-1776",
+         "name": "Road to Revolution: 1763-1776",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/road-to-revolution-1763-1776_00_af55ff897cf75c777cc0118b39d1b43e.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/world-war-ii-women-on-the-home-front",
+         "name": "World War II: Women on the Home Front",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/world-war-two-women-homefront_00_99fbf337af37f98cfb8ffcb0aab7833d.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-homestead-acts",
+         "name": "The Homestead Acts",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/homestead-act_00_e7c658f733ec08aa5c90fe75866ad895.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/aviation",
+         "name": "Shrinking the World: Pan American Airways in the Postwar Era",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/aviation_1c549571e42e1f4202a950a3abea8d22_hero.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-panama-canal",
+         "name": "The Panama Canal",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/panama-canal_00_52019b6dc4e90a6a20ffd40ad7920bef.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/the-freedmen-s-bureau",
+         "name": "The Freedmen's Bureau",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/freedmens-bureau_00_7884d752c1dd9fd94b8368d2e0178f90.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/jacksonian-democracy",
+         "name": "Jacksonian Democracy?",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/jacksonian-democracy_00_6ec5f86f585a556cb557ec25a3d7c755.jpg"
+      },
+      {
+         "@id": "https://dp.la/primary-source-sets/sets/frederick-douglass-and-abraham-lincoln",
+         "name": "Frederick Douglass and Abraham Lincoln",
+         "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354_rep.jpg",
+         "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/frederick-douglass-abraham-lincoln_00_87b8f01ec2ce02426d5bc895f331c354.jpg"
+      }
+   ],
+   "learningResourceType": "Source Set",
+   "license": "http://dp.la/info/terms/",
+   "name": "Women\u2019s Suffrage: Campaign for the Nineteenth Amendment",
+   "publisher": {
+      "@id": "//dp.la/",
+      "@type": "Organization",
+      "email": "info@dp.la",
+      "name": "Digital Public Library of America"
+   },
+   "repImageUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103_rep.jpg",
+   "thumbnailUrl": "https://d2jf00asb0fe6y.cloudfront.net/womens-suffrage_00_daa5f2a30ef92b58ed61bdf44a7d2103.jpg",
+   "typicalAgeRange": "11-18"
+}
