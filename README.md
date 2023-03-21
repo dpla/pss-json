@@ -3,7 +3,7 @@ script to rebuild the pss json
 
 Reindexing PSS documents to Elasticsearch
 
-Run the `pss-json-export.py` script against all sets (contents of s3://dpla-pss-json/)
+Run the `pss-json-export.py` script against all sets (contents of ./data/)
 
 Create a new index with filterable fields for keyword and time period values
 ```
@@ -47,7 +47,7 @@ curl -XPUT http://[ES_NODE]:9200/[INDEX]\?pretty -H "Content-Type: application/j
 }'
 ```
 
-Index documents from the ./sets/ directory 
+Index updated documents from the ./sets/ directory (updated+[set name].json) 
 ```
 find . -name "*updated_*.json" -type f | xargs -I{} sh -c 'echo "$1" "./$(basename ${1%.*}).${1##*.}"' -- {} | xargs -n 2 -P 8 sh -c 'curl -XPOST http://ES_NODE:9200/[INDEX]/doc -H "Content-Type: application/json" -d @"$0"'
 ```
