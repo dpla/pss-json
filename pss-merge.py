@@ -29,6 +29,7 @@ for dirs in os.listdir(base_path):
     # items 
     for s in [a for a in j['hasPart'] if 'disambiguatingDescription' in a and a['disambiguatingDescription']=='source']: 
         full_id = s['@id']
+        
         id = full_id.split('/')[-1]
         item_file = f"{pss_dir}/items/{id}.json"
         item_f = open(item_file)
@@ -36,6 +37,10 @@ for dirs in os.listdir(base_path):
 
         item_j.pop('@context', None)
         s.update(item_j)
+
+        
+        s_str = json.dumps(s).replace('https://dp.la/primary-source-sets/sources/', f'https://api.dp.la/primary-source-sets/sources/')
+        s = json.loads(s_str)
 
         replacement_items.append(s)
         item_f.close
@@ -46,6 +51,13 @@ for dirs in os.listdir(base_path):
         guide_f = open(guide_file)
         guide_j = json.load(guide_f)
 
+        # Fix links 
+        #   Find https://dp.la/primary-source-sets/sources/1734 (produces 404 w/o nginx redirects included in Beanstalk)
+        #   Inject `second-ku-klux-klan-and-the-birth-of-a-nation` set name
+        #   Result https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1734/ (returns 200)
+        s = json.dumps(guide_j).replace('https://dp.la/primary-source-sets/sources/', f'https://dp.la/primary-source-sets/{pss_set}/sources/')
+        
+        guide_j = json.loads(s)
         guide_j.pop('@context', None)
         g.update(guide_j)
 
@@ -59,13 +71,6 @@ for dirs in os.listdir(base_path):
     replacement = {'hasPart': replacement_items}
     j.update(replacement)
     f.close
-
-    # Fix links 
-    #   Find https://dp.la/primary-source-sets/sources/1734 (produces 404 w/o nginx redirects included in Beanstalk)
-    #   Inject `second-ku-klux-klan-and-the-birth-of-a-nation` set name
-    #   Result https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1734/ (returns 200)
-    s = json.dumps(j).replace('https://dp.la/primary-source-sets/sources/', f'https://dp.la/primary-source-sets/{pss_set}/sources/')
-    j = json.loads(s)
 
     with open(f"{pss_dir}/updated_{pss_set}.json", "w") as o:
         json.dump(j, o, indent=3, sort_keys=True)
