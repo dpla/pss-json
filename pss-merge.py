@@ -55,8 +55,10 @@ for dirs in os.listdir(base_path):
         #   Find https://dp.la/primary-source-sets/sources/1734 (produces 404 w/o nginx redirects included in Beanstalk)
         #   Inject `second-ku-klux-klan-and-the-birth-of-a-nation` set name
         #   Result https://dp.la/primary-source-sets/second-ku-klux-klan-and-the-birth-of-a-nation/sources/1734/ (returns 200)
-        s = json.dumps(guide_j).replace('https://dp.la/primary-source-sets/sources/', f'https://dp.la/primary-source-sets/{pss_set}/sources/')
+        s = json.dumps(guide_j).replace('://dp.la/primary-source-sets/sources/', f'://dp.la/primary-source-sets/{pss_set}/sources/')
         
+        print(s)
+
         guide_j = json.loads(s)
         guide_j.pop('@context', None)
         g.update(guide_j)
