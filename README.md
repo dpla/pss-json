@@ -1,11 +1,13 @@
 # pss-json
+
 script to rebuild the pss json
 
 Reindexing PSS documents to Elasticsearch
 
-Run the `pss-json-export.py` script against all sets (contents of ./data/)
+Run the `pss-merge.py` script against all sets (contents of ./data/)
 
 Create a new index with filterable fields for keyword and time period values
+
 ```
 curl -XPUT http://[ES_NODE]:9200/[INDEX]\?pretty -H "Content-Type: application/json" -d '
 {
@@ -47,17 +49,20 @@ curl -XPUT http://[ES_NODE]:9200/[INDEX]\?pretty -H "Content-Type: application/j
 }'
 ```
 
-Index updated documents from the ./sets/ directory (updated+[set name].json) 
+Index updated documents from the ./sets/ directory (updated+[set name].json)
+
 ```
 find . -name "*updated_*.json" -type f | xargs -I{} sh -c 'echo "$1" "./$(basename ${1%.*}).${1##*.}"' -- {} | xargs -n 2 -P 8 sh -c 'curl -XPOST http://ES_NODE:9200/[INDEX]/doc -H "Content-Type: application/json" -d @"$0"'
 ```
 
 Flop the alias to the new index
+
 ```
 curl -XPOST http://[ES_NODE]:9200/_aliases -H 'Content-Type: application/json' -d '{"actions":[{"remove" : {"index" : "*", "alias" : "dpla_pss"}},{"add" : { "index" : "[INDEX]", "alias" : "dpla_pss" }}]}'
 ```
 
-Test the indexing by getting the facet values for Time Period and Subject filters/facets/dropdowns 
+Test the indexing by getting the facet values for Time Period and Subject filters/facets/dropdowns
+
 ```
 curl -XGET http://[NODE]:9200/dpla_pss/_search\?pretty -H "Content-Type: application/json" \
 -d '{
@@ -97,6 +102,7 @@ curl -XGET http://[NODE]:9200/dpla_pss/_search\?pretty -H "Content-Type: applica
 ```
 
 Test sorting by dateCreated chronologically
+
 ```
 curl -XGET http://[NODE]:9200/dpla_pss/_search\?pretty -H "Content-Type: application/json" \
 -d '{
