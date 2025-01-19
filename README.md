@@ -9,7 +9,7 @@ Run the `pss-merge.py` script against all sets (contents of ./data/)
 Create a new index with filterable fields for keyword and time period values
 
 ```
-curl -XPUT http://[ES_NODE]:9200/[INDEX]\?pretty -H "Content-Type: application/json" -d '
+curl -XPUT http://[ES_NODE]:9200/[INDEX] -H "Content-Type: application/json" -d '
 {
     "mappings":
     {
@@ -52,7 +52,7 @@ curl -XPUT http://[ES_NODE]:9200/[INDEX]\?pretty -H "Content-Type: application/j
 Index updated documents from the ./sets/ directory (updated+[set name].json)
 
 ```
-find . -name "*updated_*.json" -type f | xargs -I{} sh -c 'echo "$1" "./$(basename ${1%.*}).${1##*.}"' -- {} | xargs -n 2 -P 8 sh -c 'curl -XPOST http://ES_NODE:9200/[INDEX]/doc -H "Content-Type: application/json" -d @"$0"'
+find . -name "*updated_*.json" -type f | xargs -I{} sh -c 'echo "$1" "./$(basename ${1%.*}).${1##*.}"' -- {} | xargs -n 2 -P 8 sh -c 'curl -XPOST http://ES_NODE:9200/[INDEX]/_doc -H "Content-Type: application/json" -d @"$0"'
 ```
 
 Flop the alias to the new index
